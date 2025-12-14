@@ -1,0 +1,372 @@
+Video ID: P05-20240423-172243
+================================================================================
+
+Object: phone (ID: 3e0c7e54ce563cbb)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 340.77
+    Drop time: 340.98737
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: lid of pan (ID: 782dcaf9c04a49ed)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 263.551
+    Drop time: 270.87733
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: measuring spoon (ID: 6a9ffef6eb2ca7e0)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 167.139
+    Drop time: 239.14825
+    Action descriptions:
+      - [168.27 - 174.55]: measure-out-one-tablespoon-of-mango-chutney|put-one-tablespoon-of-mango-chutney
+      - [174.14 - 176.32]: shake-spoon|get-mango-chutney
+      - [176.42000000000002 - 179.43]: measure-out-half-tablespoon-of-mango-chutney
+      - [179.53 - 179.93]: drop-mango-chutney
+      - [180.03 - 184.71]: stir-remaining-mango-chutney|put-pot-of-mango-chutney
+      - [184.81 - 187.82]: tap-tablespoon|get-excess-mango-chutney|waste-any
+      - [187.92 - 188.8]: transfer-tablespoon
+      - [188.9 - 196.63]: pick-up-wooden-spoon|stir-curry
+      - [196.73 - 211.36]: break-up-plum-tomatoes
+      - [211.36 - 212.5]: tap-spoon|shake-off-any-excess-curry
+      - [212.6 - 214.78]: taste-wooden-spoon
+      - [215.51 - 218.35]: stir-curry
+      - [220.0 - 224.36]: hold-measuring-spoon
+      - [224.08 - 225.75]: pick-up-pot-of-mango-chutney
+      - [225.96 - 227.53]: measure-out-half-tablespoon-of-mango-chutney
+      - [228.37 - 230.26]: get-bit-more-mango-chutney|get-enough
+      - [230.54 - 231.78]: pour-remaining-mango-chutney
+      - [232.12 - 236.17]: stir-curry|get-mango-chutney
+      - [236.33 - 238.04]: shake-measuring-spoon|get-mixture
+
+
+Object: lid of mango chutney (ID: 18aa6765c3138e86)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 166.002
+    Drop time: 166.80948
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 239.997
+    Drop time: 242.0796
+    Action descriptions:
+      - [240.82 - 241.73]: screw-on-lid
+
+
+Object: pot of mango chutney (ID: 8b3738e9a560ae30)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 161.282
+    Drop time: 182.64825
+    Action descriptions:
+      - [162.28 - 163.28]: close-door-of-fridge
+      - [162.91 - 166.14]: hold-pot-of-mango-chutney|unscrew-lid
+      - [166.19 - 167.11]: put-lid-of-mango-chutney
+      - [166.93 - 168.18]: pick-up-measuring-spoons
+      - [168.27 - 174.55]: measure-out-one-tablespoon-of-mango-chutney|put-one-tablespoon-of-mango-chutney
+      - [174.14 - 176.32]: shake-spoon|get-mango-chutney
+      - [176.42000000000002 - 179.43]: measure-out-half-tablespoon-of-mango-chutney
+      - [179.53 - 179.93]: drop-mango-chutney
+
+
+  Touch 2:
+    Pick time: 225.521
+    Drop time: 235.96075
+    Action descriptions:
+      - [225.96 - 227.53]: measure-out-half-tablespoon-of-mango-chutney
+      - [228.37 - 230.26]: get-bit-more-mango-chutney|get-enough
+      - [230.54 - 231.78]: pour-remaining-mango-chutney
+
+
+  Touch 3:
+    Pick time: 320.066
+    Drop time: 321.91136
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 327.584
+    Drop time: 331.02655
+    Action descriptions:
+      - [327.62 - 328.7]: transfer-mango-chutney
+      - [328.91 - 329.8]: open-fridge-door|hold-mango-chutney
+      - [329.9 - 330.97]: put-mango-chutney
+
+
+  User return touch (blue):
+    Pick time: 239.99626
+    Drop time: 242.32811
+    Action descriptions:
+      - [240.82 - 241.73]: screw-on-lid
+
+
+Object: kettle (ID: 2cacde035718b68e)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 111.978
+    Drop time: 117.92409
+    Action descriptions:
+      - [112.59 - 116.62]: pour-water|hold-that|waste-last-bits-of-tomato-juice
+
+
+Object: top of can2 (ID: 98242a3326c1c25c)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 102.593
+    Drop time: 103.65572
+    Action descriptions:
+      - [102.87 - 103.51]: put-lid
+
+
+  User return touch (blue):
+    Pick time: 290.015
+    Drop time: 291.14061
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: tin of tomatoes2 (ID: 8eb03077a10f6199)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 96.585
+    Drop time: 124.53101
+    Action descriptions:
+      - [96.66 - 96.9]: put-empty-can|pick-up-unopened-can
+      - [96.94 - 97.73]: shake-can-of-tomatoes|transfer-to-both-hands
+      - [98.09 - 102.58]: pull-ring|open-can-of-tomatoes
+      - [102.87 - 103.51]: put-lid
+      - [103.84 - 105.68]: transfer-can|pour-tomatoes
+      - [105.55 - 108.79]: shake-can|get-rid-of-last-bits
+      - [111.66 - 112.49]: pick-up-kettle
+      - [112.59 - 116.62]: pour-water|hold-that|waste-last-bits-of-tomato-juice
+      - [117.07 - 118.12]: put-kettle
+      - [118.57 - 118.84]: hold-can
+      - [119.17 - 119.62]: transfer-can|get-off-tomato-juice
+      - [121.77 - 124.07]: pick-up-other-empty-can|pour-tomato-water
+      - [123.99 - 124.39]: put-down-can
+
+
+  User return touch (blue):
+    Pick time: 312.537
+    Drop time: 314.8686
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: top of can (ID: 3ed24c0444fcdfff)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 89.389
+    Drop time: 90.40988
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 286.082
+    Drop time: 288.29845
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 303.734
+    Drop time: 305.81822
+    Action descriptions:
+      - [303.75 - 304.74]: pick-up-lid
+
+
+Object: tin of tomatoes (ID: 5df4a9a0e1699495)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 83.927
+    Drop time: 96.77858
+    Action descriptions:
+      - [83.99 - 85.27]: shake-tin-of-tomatoes
+      - [85.02 - 89.56]: pass-tin-of-tomatoes|pull-ring-pull
+      - [89.83 - 90.47]: put-top-of-can|hold-can
+      - [91.01 - 92.45]: pour-chopped-tomatoes
+      - [92.5 - 95.8]: transfer-tin-of-tomatoes|get-out-last-bits
+
+
+  Touch 2:
+    Pick time: 121.974
+    Drop time: 154.03101
+    Action descriptions:
+      - [123.99 - 124.39]: put-down-can
+      - [124.7 - 125.2]: transfer-can-of-water
+      - [125.3 - 128.67]: transfer-can|pour-into-pan|stir-with-wooden-spoon
+      - [134.0 - 145.54]: break-up-whole-plum-tomatoes
+      - [145.15 - 153.07]: stir-curry
+
+
+  Touch 3:
+    Pick time: 289.048
+    Drop time: 289.48686
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 292.074
+    Drop time: 295.31174
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 298.048
+    Drop time: 303.23507
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 310.33
+    Drop time: 314.9186
+    Action descriptions:
+      - [310.72 - 312.15]: squeeze-can
+      - [311.79 - 312.87]: hold-squeezed-can|pick-up-other-squeezed-can
+
+
+Object: bowl (ID: 6c7e11ef5294c3b3)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 48.474
+    Drop time: 64.76034
+    Action descriptions:
+      - [48.77 - 49.21]: pick-up-bowl-of-spices|measure-out-that|add-spices
+      - [49.27 - 50.58]: transfer-bowl
+      - [50.68 - 52.72]: pour-bowl-of-spices|hold-wooden-spoon
+      - [52.67 - 63.51]: stir-spices
+
+
+  User return touch (blue):
+    Pick time: 319.43
+    Drop time: 325.81831
+    Action descriptions:
+      - [319.95 - 320.43]: pick-up-mango-chutney
+      - [322.01 - 322.5]: put-mango-chutney|hold-dirty-spice-bowl
+      - [323.0 - 323.51]: open-dishwasher|hold-dirty-spice-bowl
+      - [323.77 - 325.69]: pull-out-middle-drawer-of-dishwasher|add-bowl
+
+
+Object: wooden spoon (ID: 019b03326f3e107f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 18.968
+    Drop time: 46.2655
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 51.411
+    Drop time: 83.177
+    Action descriptions:
+      - [52.67 - 63.51]: stir-spices
+      - [63.46 - 65.14]: put-bowl|stir-pan
+      - [64.7 - 83.14]: scrape-stuck-bits
+
+
+  Touch 3:
+    Pick time: 126.952
+    Drop time: 152.86434
+    Action descriptions:
+      - [134.0 - 145.54]: break-up-whole-plum-tomatoes
+
+
+  Time between last use and return (red):
+    Pick time: 189.18
+    Drop time: 218.39825
+    Action descriptions:
+      - [196.73 - 211.36]: break-up-plum-tomatoes
+      - [211.36 - 212.5]: tap-spoon|shake-off-any-excess-curry
+      - [212.6 - 214.78]: taste-wooden-spoon
+      - [215.51 - 218.35]: stir-curry
+
+
+  User return touch (blue):
+    Pick time: 242.487
+    Drop time: 257.20307
+    Action descriptions:
+      - [251.63 - 253.04]: tap-wooden-spoon
+      - [254.11 - 255.43]: taste-curry
+      - [256.78 - 257.2]: put-down-wooden-spoon
+
+
+Object: pan (ID: faba13013c5fcebf)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 12.514
+    Drop time: 15.8905
+    Action descriptions:
+      - [13.78 - 14.96]: open-left-hand-side-of-cooker
+      - [14.9 - 15.81]: put-pan|wear-oven-glove
+
+
+  User return touch (blue):
+    Pick time: 274.576
+    Drop time: 277.78983
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: oven glove (ID: 75f3c147808c6871)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 7.96
+    Drop time: 48.47384
+    Action descriptions:
+      - [8.42 - 9.53]: pull-oven-glove
+      - [9.89 - 11.32]: open-oven-door
+      - [11.72 - 13.39]: grab-pan|wear-oven-glove|pull-pan
+      - [13.78 - 14.96]: open-left-hand-side-of-cooker
+      - [14.9 - 15.81]: put-pan|wear-oven-glove
+      - [16.39 - 17.91]: close-oven-door|wear-oven-glove
+      - [18.01 - 18.65]: take-oven-glove
+      - [18.7 - 19.52]: pick-up-wooden-spoon
+      - [19.61 - 46.54]: stir-curry
+      - [46.16 - 46.41]: put-down-wooden-spoon
+      - [46.92 - 48.18]: put-oven-glove
+
+
+  User return touch (blue):
+    Pick time: 257.567
+    Drop time: 284.87043
+    Action descriptions:
+      - [257.64 - 258.11]: pick-up-oven-glove
+      - [258.47 - 259.5]: put-on-oven-glove
+      - [262.93 - 265.35]: pick-up-bottom-lid|wear-oven-glove|move-lid
+      - [268.29 - 271.07]: put-lid|wear-oven-glove
+      - [272.28 - 273.67]: open-bottom-oven-door
+      - [274.18 - 275.73]: pick-up-curry-pan|wear-oven-gloves
+      - [276.25 - 278.95]: place-curry|wear-oven-glove
+      - [279.89 - 281.41]: close-oven-door|wear-oven-glove
+      - [281.91 - 283.59000000000003]: close-oven-lid|wear-oven-glove
+
+

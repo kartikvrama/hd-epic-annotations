@@ -1,0 +1,953 @@
+Video ID: P01-20240202-161948
+================================================================================
+
+Object: saucepan2 (ID: d0b77bb6544b2bba)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 681.083
+    Drop time: 699.54246
+    Action descriptions:
+      - [684.24 - 684.92]: position-pan|position-strainer|pour-water
+      - [684.8 - 690.51]: pour-content-of-pan|get-rid-of-water|drain-pasta
+      - [690.63 - 692.33]: shake-strainer|remove-any-excess-liquid
+      - [692.37 - 693.59]: position-strainer|move-strainer|drop-any-liquid
+      - [694.0 - 695.55]: pour-content-of-strainer|tilt-strainer|hold-other-pan
+      - [696.13 - 697.1]: place-strainer
+
+
+Object: strainer (ID: ebfe9ba1357add70)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 679.687
+    Drop time: 696.75798
+    Action descriptions:
+      - [680.69 - 683.04]: pick-up-pan|hold-handle
+      - [684.24 - 684.92]: position-pan|position-strainer|pour-water
+      - [684.8 - 690.51]: pour-content-of-pan|get-rid-of-water|drain-pasta
+      - [690.63 - 692.33]: shake-strainer|remove-any-excess-liquid
+      - [692.37 - 693.59]: position-strainer|move-strainer|drop-any-liquid
+      - [694.0 - 695.55]: pour-content-of-strainer|tilt-strainer|hold-other-pan
+
+
+Object: cupboard door3 (ID: 576b342829111817)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 601.668
+    Drop time: 607.69199
+    Action descriptions:
+      - [602.98 - 605.75]: place-juicer-bowl|place-cone
+
+
+Object: cone of juicer (ID: a776f493443b8c93)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 599.361
+    Drop time: 600.1583
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: juicer bowl (ID: 54c35f4ae46be41a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 598.604
+    Drop time: 604.685
+    Action descriptions:
+      - [599.14 - 599.86]: pick-up-cone-of-juicer
+      - [599.85 - 601.27]: place-cone
+      - [601.42 - 602.88]: open-cupboard|slide-cupboard
+
+
+Object: cupboard door2 (ID: fb6f5d66a6817614)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 566.63
+    Drop time: 572.23564
+    Action descriptions:
+      - [566.64 - 567.42]: open-top-cupboard|hold-handle
+      - [567.41 - 567.73]: return-salt-bottle
+      - [569.88 - 570.19]: pick-up-black-pepper-jar
+      - [570.51 - 571.08]: return-jar
+      - [571.36 - 572.06]: close-cupboard
+
+
+Object: bowl2 (ID: 83db2469d2d7bd18)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 558.545
+    Drop time: 560.39259
+    Action descriptions:
+      - [559.11 - 559.92]: release-two-other-bowls|keep-two-other-bowls
+      - [559.47 - 560.13]: remove-one-plate
+
+
+Object: bowl (ID: 8bc47fe0860915f0)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 556.874
+    Drop time: 562.27214
+    Action descriptions:
+      - [557.95 - 559.13]: pick-up-two-top-bowls|slide-pile|release-right-hand|take-right-hand
+      - [559.11 - 559.92]: release-two-other-bowls|keep-two-other-bowls
+      - [559.47 - 560.13]: remove-one-plate
+
+
+  Time between last use and return (red):
+    Pick time: 745.737
+    Drop time: 746.93876
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 765.126
+    Drop time: 769.58559
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: lid of cheese grater (ID: 59907c8c4dfbb77c)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 539.198
+    Drop time: 541.46114
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: third drawer (ID: 99db157ae90cd81a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 474.048
+    Drop time: 476.06765
+    Action descriptions:
+      - [475.03 - 475.78]: place-pasta-package
+
+
+Object: pasta package (ID: 773eaeb446455039)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 471.689
+    Drop time: 475.70375
+    Action descriptions:
+      - [471.69 - 472.14]: pick-up-pasta-package-box
+      - [473.85 - 474.7]: open-third-drawer
+
+
+Object: fridge door (ID: e29958e100cf5c1b)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 465.149
+    Drop time: 470.06687
+    Action descriptions:
+      - [466.3 - 467.25]: place-cheese-package
+      - [467.54 - 467.93]: place-butter
+
+
+Object: cheese package (ID: 9c76b0563f793a55)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 457.174
+    Drop time: 467.28705
+    Action descriptions:
+      - [457.23 - 458.79]: pick-up-cheese-package
+      - [458.95 - 462.08]: close-cheese-package|fold-cheese-package
+      - [462.2 - 463.5]: pick-up-butter
+      - [465.1 - 466.17]: open-fridge
+      - [466.3 - 467.25]: place-cheese-package
+
+
+Object: second slice of butter (ID: d1a8b2db02ba7d50)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 436.462
+    Drop time: 437.82621
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: one slice of butter (ID: 8c41128675cf475f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 402.355
+    Drop time: 403.466
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: rest of cheese (ID: 5194ca35a5b103f5)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 382.873
+    Drop time: 384.38862
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: handful of cheese (ID: 24a3c683c389b867)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 350.541
+    Drop time: 351.85754
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: ladle (ID: 3893e2a831626941)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 339.645
+    Drop time: 348.66608
+    Action descriptions:
+      - [340.31 - 341.17]: close-drawer|slide-drawer
+      - [341.41 - 343.45]: dip-ladle|get-some-of-starch-liquid|cook-sauce|add-any-of-pasta-pieces
+      - [344.15 - 345.67]: pour-water|add-water
+
+
+  Time between last use and return (red):
+    Pick time: 506.928
+    Drop time: 512.04055
+    Action descriptions:
+      - [507.81 - 509.14]: dip-ladle|get-some-of-liquid
+      - [509.31 - 511.2]: pour-water|tilt-pan
+
+
+  User return touch (blue):
+    Pick time: 653.128
+    Drop time: 655.1095
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: drawer2 (ID: e94e2a0455aaf512)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 338.306
+    Drop time: 340.79571
+    Action descriptions:
+      - [339.52 - 340.4]: pick-up-ladle
+
+
+Object: plate2 (ID: 34185b3bbba4e1db)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 279.203
+    Drop time: 282.40637
+    Action descriptions:
+      - [279.98 - 280.69]: close-cupboard
+      - [280.51 - 281.61]: place-second-plate
+      - [281.38 - 281.94]: remove-first-plate|hold-it
+
+
+  Time between last use and return (red):
+    Pick time: 302.817
+    Drop time: 304.04234
+    Action descriptions:
+      - [303.18 - 303.53]: press-button|switch-on-scale
+
+
+  User return touch (blue):
+    Pick time: 743.408
+    Drop time: 744.35338
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: cupboard (ID: 75467a6c947c4da1)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 277.75
+    Drop time: 280.66342
+    Action descriptions:
+      - [278.7 - 279.64]: pick-up-plate
+
+
+  User return touch (blue):
+    Pick time: 554.652
+    Drop time: 557.21701
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: fork (ID: af53942bba314e4c)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 108.291
+    Drop time: 117.53174
+    Action descriptions:
+      - [108.87 - 109.54]: close-drawer
+      - [109.64 - 114.91]: move-pasta
+      - [114.84 - 116.59]: shake-fork|remove-excess-liquid
+
+
+  Touch 2:
+    Pick time: 331.243
+    Drop time: 336.94671
+    Action descriptions:
+      - [332.34000000000003 - 335.9]: move-pasta|release-any-stuck-pasta-pieces|move-fork
+      - [335.66 - 336.17]: hit-fork|remove-any-excess-liquid
+
+
+  Touch 3:
+    Pick time: 655.552
+    Drop time: 664.04629
+    Action descriptions:
+      - [655.63 - 655.96]: pick-up-fork
+      - [656.31 - 661.93]: stir-content-of-second-pan|move-pasta-pieces|release-any
+      - [661.95 - 663.28]: shake-fork|remove-any-excess-liquid
+
+
+  Time between last use and return (red):
+    Pick time: 747.327
+    Drop time: 747.87391
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 764.544
+    Drop time: 765.34646
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: spatula (ID: f4a201fecc6f8ce8)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 101.738
+    Drop time: 121.12145
+    Action descriptions:
+      - [103.14 - 104.18]: close-drawer
+      - [104.04 - 104.49]: put-black-pepper-jar
+      - [105.19 - 105.99]: adjust-heat|lower-heat|turn-second-dial
+      - [106.86 - 107.84]: open-drawer|hold-spatula
+      - [108.24 - 108.84]: pick-up-fork
+      - [108.87 - 109.54]: close-drawer
+      - [109.64 - 114.91]: move-pasta
+      - [114.84 - 116.59]: shake-fork|remove-excess-liquid
+      - [116.98 - 117.89]: put-down-fork
+      - [117.99 - 118.28]: move-spatula
+      - [118.77 - 119.91]: move-butter-pieces
+
+
+  Touch 2:
+    Pick time: 167.947
+    Drop time: 174.12196
+    Action descriptions:
+      - [168.6 - 172.01]: stir-content-of-pan
+      - [172.2 - 173.32]: hit-spatula|remove-excess-oil
+      - [173.44 - 173.98]: put-down-spatula
+
+
+  Touch 3:
+    Pick time: 232.016
+    Drop time: 236.4929
+    Action descriptions:
+      - [232.7 - 236.36]: stir-content-of-pan|stir-in-circular-motions
+      - [235.45 - 235.85]: shake-spatula|remove-any-excess-oil
+
+
+  Touch 4:
+    Pick time: 264.163
+    Drop time: 276.18978
+    Action descriptions:
+      - [266.29 - 274.03]: mix-content-of-pan|move-content-of-pan
+      - [274.08 - 274.85]: hit-spatula|remove-excess-oil
+
+
+  Touch 5:
+    Pick time: 320.099
+    Drop time: 328.2851
+    Action descriptions:
+      - [320.77 - 326.76]: stir-content-of-pan|move-content-of-pan|hold-pan's-handle
+      - [327.04 - 327.62]: hit-spatula|remove-any-excess-oil
+
+
+  Touch 6:
+    Pick time: 352.888
+    Drop time: 359.83109
+    Action descriptions:
+      - [353.46 - 358.76]: stir-added-cheese
+      - [358.88 - 359.28]: hit-spatula|remove-excess-liquid
+
+
+  Touch 7:
+    Pick time: 363.031
+    Drop time: 368.65878
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 8:
+    Pick time: 369.94
+    Drop time: 381.87639
+    Action descriptions:
+      - [370.12 - 381.47]: stir-pasta-sauce|move-in-circular-clockwise-motions
+
+
+  Touch 9:
+    Pick time: 390.08
+    Drop time: 421.54055
+    Action descriptions:
+      - [390.35 - 393.4]: stir-content-of-pan|move-spatula|mix-added-cheese|dissolve-added-cheese
+      - [393.41 - 394.61]: hit-spatula|remove-excess-liquid
+      - [394.83 - 401.53]: stir-content-of-pan|mix-sauce|move-spatula
+      - [402.09 - 402.94]: pick-up-one-slice-of-butter
+      - [403.26 - 403.53]: throw-slice-of-butter
+      - [404.1 - 420.17]: stir-content-of-pan|mix-butter|move-spatula
+      - [420.12 - 421.04]: hit-spatula|remove-excess-liquid
+
+
+  Touch 10:
+    Pick time: 425.582
+    Drop time: 435.88511
+    Action descriptions:
+      - [426.66 - 434.01]: stir-content-of-pan|move-content-of-pan
+
+
+  Touch 11:
+    Pick time: 438.116
+    Drop time: 455.88627
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 12:
+    Pick time: 477.754
+    Drop time: 537.79055
+    Action descriptions:
+      - [482.24 - 483.16]: adjust-heat|move-dial|turn-dial
+      - [496.02 - 496.99]: adjust-heat|move-dial
+      - [499.27 - 499.83]: adjust-heat|move-dial
+      - [501.33 - 503.46]: shake-spatula|remove-excess-liquid
+      - [503.7 - 505.96]: stir-content-of-fan
+      - [506.49 - 507.54]: pick-up-ladle
+      - [507.81 - 509.14]: dip-ladle|get-some-of-liquid
+      - [509.31 - 511.2]: pour-water|tilt-pan
+      - [511.25 - 512.36]: put-down-ladle
+      - [512.7 - 515.05]: stir-content-of-pan
+      - [515.05 - 516.23]: adjust-heat|turn-knob
+      - [522.11 - 523.67]: adjust-heat
+      - [531.71 - 533.03]: shake-spatula|remove-excess-liquid
+      - [532.78 - 536.54]: stir-content-of-pan
+      - [536.58 - 537.51]: hit-spatula|remove-excess-liquid
+
+
+  Touch 13:
+    Pick time: 547.051
+    Drop time: 553.47187
+    Action descriptions:
+      - [547.88 - 551.82]: stir-content-of-pan
+      - [551.64 - 552.86]: hit-spatula|remove-excess-liquid
+
+
+  Touch 14:
+    Pick time: 573.69
+    Drop time: 592.22556
+    Action descriptions:
+      - [574.46 - 582.47]: stir-contents-of-pan|move-spatula
+      - [582.7 - 583.89]: shake-spatula|remove-any-excess-liquid
+      - [584.45 - 585.51]: stir-content-of-pan
+      - [585.63 - 586.78]: adjust-heat|turn-knob
+      - [586.86 - 589.42]: stir-pasta-sauce
+      - [589.75 - 591.63]: hit-spatula|remove-excess-liquid
+
+
+  Touch 15:
+    Pick time: 610.416
+    Drop time: 619.82407
+    Action descriptions:
+      - [610.62 - 611.36]: pick-up-spatula
+      - [611.17 - 617.92]: stir-contents-of-sauce|move-sauce
+      - [617.78 - 619.1]: hit-spatula|remove-excess-liquid
+
+
+  Touch 16:
+    Pick time: 637.641
+    Drop time: 646.20181
+    Action descriptions:
+      - [638.22 - 644.07]: stir-content-of-pan
+      - [644.01 - 645.38]: hit-spatula|remove-excess-liquid
+
+
+  Touch 17:
+    Pick time: 664.716
+    Drop time: 674.28495
+    Action descriptions:
+      - [664.72 - 665.19]: pick-up-spatula
+      - [665.51 - 672.13]: stir-content-of-pasta-saucepan
+      - [672.16 - 673.53]: hit-spatula|remove-excess-liquid
+
+
+  Time between last use and return (red):
+    Pick time: 701.62
+    Drop time: 742.55273
+    Action descriptions:
+      - [702.13 - 738.09]: hold-pan|stir-content-of-pan|mix-pasta|turn-content
+      - [738.49 - 739.94]: turn-off-second-hob|rotate-rightmost-knob|switch-off-second-hob
+      - [740.18 - 741.39]: hit-spatula|remove-any-excess-liquid
+      - [740.33 - 742.13]: pick-up-pan
+      - [741.7 - 742.34]: put-down-spatula
+
+
+  User return touch (blue):
+    Pick time: 751.229
+    Drop time: 758.57872
+    Action descriptions:
+      - [751.67 - 757.64]: position-pan|tilt-pan|pour-pasta|slide-any-remaining-pasta-pieces
+
+
+Object: black pepper jar (ID: 25f6de5b6eb63905)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 98.87726
+    Drop time: 104.58684
+    Action descriptions:
+      - [98.99 - 99.29]: pick-up-black-pepper-jar
+      - [100.34 - 101.05]: open-drawer|slide-drawer|hold-drawer
+      - [101.64 - 102.99]: pick-up-wooden-spatula
+      - [103.14 - 104.18]: close-drawer
+      - [104.04 - 104.49]: put-black-pepper-jar
+
+
+  Time between last use and return (red):
+    Pick time: 120.881
+    Drop time: 184.00017
+    Action descriptions:
+      - [121.07 - 121.48]: pick-up-black-pepper-jar
+      - [121.07 - 121.39]: put-down-spatula
+      - [121.53 - 124.34]: open-lid-of-black-pepper-jar|hold-lid-of-black-pepper-jar
+      - [124.44 - 126.8]: hold-jar|open-jar|remove-lid
+      - [126.95 - 127.29]: place-lid
+      - [127.36 - 127.89]: rotate-jar|position-jar
+      - [127.92 - 161.02]: pour-pepper|hold-jar|hold-top-cylinder|rotate-these|grind-pepper
+      - [160.95 - 161.85]: shake-jar|remove-any-excess-ground-pepper
+      - [162.12 - 166.41]: grind-pepper|pour-pepper|hold-top-cylinder|hold-jar|move-top-cylinder|move-jar|rotate-these
+      - [166.44 - 166.96]: shake-jar|remove-any-excess-pepper
+      - [167.69 - 168.27]: pick-up-spatula
+      - [168.6 - 172.01]: stir-content-of-pan
+      - [172.2 - 173.32]: hit-spatula|remove-excess-oil
+      - [173.44 - 173.98]: put-down-spatula
+      - [174.32999999999998 - 175.15]: move-black-pepper-jar|rotate-black-pepper-jar|position-black-pepper-jar
+      - [175.05 - 179.23]: grind-more-pepper|hold-base|hold-top-cylinder|rotate-base|rotate-top-cylinder
+      - [179.23 - 179.7]: shake-black-pepper-jar|remove-excess-pepper
+      - [180.39 - 180.61]: pick-up-plastic-lid-of-jar
+      - [180.64 - 182.91]: close-jar|place-lid
+      - [183.11 - 183.97]: place-black-pepper-jar
+
+
+  User return touch (blue):
+    Pick time: 568.39
+    Drop time: 570.91111
+    Action descriptions:
+      - [569.88 - 570.19]: pick-up-black-pepper-jar
+
+
+Object: cheese block (ID: 75fa7d416006e42b)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 63.387
+    Drop time: 98.32734
+    Action descriptions:
+      - [64.64 - 66.41]: remove-cheese
+      - [66.4 - 66.95]: throw-package-of-cheese
+      - [67.47 - 91.4]: grate-cheese|pass-grated-cheese
+
+
+  User return touch (blue):
+    Pick time: 185.655
+    Drop time: 259.83626
+    Action descriptions:
+      - [185.82 - 186.12]: pick-up-cheese-grater|hold-cheese-grater
+      - [186.16 - 187.82]: grate-more-cheese|position-grater|place-cheese|move-grater
+      - [188.23 - 189.26]: press-button|switch-on-scale
+      - [190.06 - 190.84]: lift-plate|read-measure
+      - [191.86 - 193.43]: return-plate|read-scale-weight
+      - [193.39 - 194.33]: move-cheese|move-grater
+      - [194.76 - 195.05]: pick-up-pen
+      - [196.57 - 196.94]: press-button|read-scale-weight
+      - [197.11 - 201.2]: write-down-rate-of-scale|write-current-weight
+      - [201.24 - 201.58]: put-down-pen
+      - [201.92 - 202.29]: move-cheese-block|keep-grater
+      - [202.35 - 231.0]: position-grater|grate-more-cheese|move-cheese-block
+      - [231.86 - 232.18]: pick-up-spatula|hold-grated-cheese
+      - [232.7 - 236.36]: stir-content-of-pan|stir-in-circular-motions
+      - [235.45 - 235.85]: shake-spatula|remove-any-excess-oil
+      - [236.2 - 236.56]: put-down-spatula
+      - [236.7 - 237.15]: position-grater|grate-more-cheese
+      - [237.19 - 246.05]: grate-more-cheese|hold-grater|move-cheese-block
+      - [237.3 - 257.97]: hit-cheese-block|drop-any-cheese
+      - [258.35 - 258.85]: put-down-grater
+      - [259.32 - 259.53]: open-cover-of-packet-of-cheese
+
+
+Object: cheese grater (ID: d2f447fb1751d8c4)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 60.256
+    Drop time: 98.04893
+    Action descriptions:
+      - [61.95 - 62.56]: remove-plastic-cover-of-cheese-grater|hold-grater|hold-plastic-cover|slide-plastic-cover
+      - [62.69 - 62.91]: put-down-plastic-cover
+      - [63.16 - 64.49]: pick-up-parmesan|hold-cheese-grater
+      - [64.64 - 66.41]: remove-cheese
+      - [66.4 - 66.95]: throw-package-of-cheese
+      - [67.47 - 91.4]: grate-cheese|pass-grated-cheese
+
+
+  Time between last use and return (red):
+    Pick time: 185.895
+    Drop time: 258.76207
+    Action descriptions:
+      - [186.16 - 187.82]: grate-more-cheese|position-grater|place-cheese|move-grater
+      - [188.23 - 189.26]: press-button|switch-on-scale
+      - [190.06 - 190.84]: lift-plate|read-measure
+      - [191.86 - 193.43]: return-plate|read-scale-weight
+      - [193.39 - 194.33]: move-cheese|move-grater
+      - [194.76 - 195.05]: pick-up-pen
+      - [196.57 - 196.94]: press-button|read-scale-weight
+      - [197.11 - 201.2]: write-down-rate-of-scale|write-current-weight
+      - [201.24 - 201.58]: put-down-pen
+      - [201.92 - 202.29]: move-cheese-block|keep-grater
+      - [202.35 - 231.0]: position-grater|grate-more-cheese|move-cheese-block
+      - [231.86 - 232.18]: pick-up-spatula|hold-grated-cheese
+      - [232.7 - 236.36]: stir-content-of-pan|stir-in-circular-motions
+      - [235.45 - 235.85]: shake-spatula|remove-any-excess-oil
+      - [236.2 - 236.56]: put-down-spatula
+      - [236.7 - 237.15]: position-grater|grate-more-cheese
+      - [237.19 - 246.05]: grate-more-cheese|hold-grater|move-cheese-block
+      - [237.3 - 257.97]: hit-cheese-block|drop-any-cheese
+
+
+  User return touch (blue):
+    Pick time: 538.618
+    Drop time: 543.64586
+    Action descriptions:
+      - [538.98 - 539.81]: pick-up-cheese-grater's-plastic-cover
+      - [539.8 - 541.89]: slide-plastic-cover|hold-plastic-cover
+
+
+Object: scale (ID: 4f3cf7402f66f83e)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 56.785
+    Drop time: 57.32907
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plate (ID: 8b1b3dfc4a2a7b22)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 55.59
+    Drop time: 57.78619
+    Action descriptions:
+      - [56.61 - 57.24]: move-scale
+
+
+  Time between last use and return (red):
+    Pick time: 190.354
+    Drop time: 193.3503
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 281.503
+    Drop time: 297.24531
+    Action descriptions:
+      - [281.87 - 282.68]: place-second-plate
+      - [282.63 - 283.47]: press-button|reset-counter
+      - [283.58 - 286.82]: pour-cheese|drop-cheese|slide-it
+      - [286.43 - 291.74]: move-right-hand
+      - [291.69 - 292.52]: pick-up-pen
+      - [292.52 - 294.33]: write-updated-weight|reweighe-grinded-cheese
+      - [294.53 - 297.22]: put-down-plate
+
+
+Object: salt bottle (ID: 20321a8dcbf55b59)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 53.888
+    Drop time: 54.90416
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 564.4
+    Drop time: 567.60869
+    Action descriptions:
+      - [566.64 - 567.42]: open-top-cupboard|hold-handle
+
+
+Object: knife (ID: 5896f57aaefbc467)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 26.061
+    Drop time: 40.57966
+    Action descriptions:
+      - [26.7 - 28.01]: close-drawer|push-drawer
+      - [27.33 - 29.78]: unpack-butter-packet|remove-some-of-butter
+      - [30.18 - 32.93]: slice-butter
+      - [33.08 - 33.7]: take-sliced-slice
+      - [33.78 - 34.12]: drop-sliced-butter
+      - [35.57 - 38.59]: slice-another-slice-of-butter
+      - [38.6 - 38.83]: pick-up-slice
+      - [38.98 - 39.82]: put-slice|slide-knife
+
+
+  User return touch (blue):
+    Pick time: 301.718
+    Drop time: 314.86787
+    Action descriptions:
+      - [303.18 - 303.53]: press-button|switch-on-scale
+      - [303.8 - 304.21]: place-empty-plate|measure-additional-butter
+      - [305.01 - 308.98]: slice-one-slice
+      - [309.23 - 309.84]: pick-up-cut-slice|hold-knife
+      - [310.23 - 310.53]: place-butter-slice|measure-butter-slice
+      - [310.84 - 313.52]: slice-another-slice-of-butter
+      - [313.4 - 314.34]: pick-up-cut-slice
+      - [314.29 - 314.67]: place-second-slice-of-butter
+
+
+Object: top drawer (ID: 7225fd5c18aa5010)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 22.957
+    Drop time: 23.87121
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 100.273
+    Drop time: 100.83449
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 106.962
+    Drop time: 108.96731
+    Action descriptions:
+      - [108.24 - 108.84]: pick-up-fork
+
+
+Object: packet of butter (ID: a1219e6aa5769241)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 16.845
+    Drop time: 45.09298
+    Action descriptions:
+      - [17.67 - 21.44]: open-paper-pack|uncrumble-paper-pack
+      - [22.77 - 23.96]: open-top-drawer
+      - [24.41 - 26.4]: pick-up-knife
+      - [26.7 - 28.01]: close-drawer|push-drawer
+      - [27.33 - 29.78]: unpack-butter-packet|remove-some-of-butter
+      - [30.18 - 32.93]: slice-butter
+      - [33.08 - 33.7]: take-sliced-slice
+      - [33.78 - 34.12]: drop-sliced-butter
+      - [35.57 - 38.59]: slice-another-slice-of-butter
+      - [38.6 - 38.83]: pick-up-slice
+      - [38.98 - 39.82]: put-slice|slide-knife
+      - [40.06 - 40.71]: put-down-knife
+      - [41.6 - 42.02]: pick-up-pen
+      - [42.33 - 43.64]: write-ingredient|write-weight
+      - [43.8 - 44.0]: put-down-pen
+      - [44.4 - 45.0]: put-down-butter
+
+
+  Time between last use and return (red):
+    Pick time: 297.809
+    Drop time: 316.45422
+    Action descriptions:
+      - [298.67 - 300.87]: pick-up-plate|place-plate
+      - [300.79 - 301.34]: open-packet-of-butter|hold-packet
+      - [301.65 - 302.8]: pick-up-knife
+      - [303.18 - 303.53]: press-button|switch-on-scale
+      - [303.8 - 304.21]: place-empty-plate|measure-additional-butter
+      - [305.01 - 308.98]: slice-one-slice
+      - [309.23 - 309.84]: pick-up-cut-slice|hold-knife
+      - [310.23 - 310.53]: place-butter-slice|measure-butter-slice
+      - [310.84 - 313.52]: slice-another-slice-of-butter
+      - [313.4 - 314.34]: pick-up-cut-slice
+      - [314.29 - 314.67]: place-second-slice-of-butter
+      - [314.74 - 315.03]: put-down-knife
+      - [315.17 - 316.02]: close-butter-package|crumble-butter-package
+
+
+  User return touch (blue):
+    Pick time: 461.828
+    Drop time: 467.61665
+    Action descriptions:
+      - [462.2 - 463.5]: pick-up-butter
+      - [465.1 - 466.17]: open-fridge
+      - [466.3 - 467.25]: place-cheese-package
+
+
+Object: saucepan (ID: 0e817d8e029ec20a)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 14.074
+    Drop time: 15.7023
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 45.184
+    Drop time: 47.23473
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 741.49
+    Drop time: 759.6283
+    Action descriptions:
+      - [741.7 - 742.34]: put-down-spatula
+      - [743.49 - 744.41]: remove-plate|place-plate
+      - [744.63 - 745.08]: press-button|switch-on-scale
+      - [745.71 - 746.08]: pick-up-second-plate
+      - [746.17 - 747.18]: place-plate
+      - [747.23 - 748.33]: move-fork
+      - [748.35 - 748.8]: press-button|reset-weight
+      - [750.97 - 751.57]: pick-up-spatula
+      - [751.67 - 757.64]: position-pan|tilt-pan|pour-pasta|slide-any-remaining-pasta-pieces
+      - [758.21 - 758.96]: put-spatula
+
+
+Object: notepad (ID: 250fd6c1df977def)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2.313
+    Drop time: 6.20955
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: pen (ID: 0a8eb18592b5f93d)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 2.308
+    Drop time: 12.91582
+    Action descriptions:
+      - [5.82 - 6.88]: put-down-notes
+
+
+  Touch 2:
+    Pick time: 41.459
+    Drop time: 43.8586
+    Action descriptions:
+      - [41.6 - 42.02]: pick-up-pen
+      - [42.33 - 43.64]: write-ingredient|write-weight
+
+
+  Touch 3:
+    Pick time: 194.786
+    Drop time: 201.50921
+    Action descriptions:
+      - [196.57 - 196.94]: press-button|read-scale-weight
+      - [197.11 - 201.2]: write-down-rate-of-scale|write-current-weight
+
+
+  Touch 4:
+    Pick time: 260.898
+    Drop time: 262.41876
+    Action descriptions:
+      - [261.31 - 262.24]: write-added-cheese-weight
+
+
+  Touch 5:
+    Pick time: 292.001
+    Drop time: 294.43721
+    Action descriptions:
+      - [292.52 - 294.33]: write-updated-weight|reweighe-grinded-cheese
+
+
+  Time between last use and return (red):
+    Pick time: 316.283
+    Drop time: 317.93889
+    Action descriptions:
+      - [316.39 - 316.64]: put-butter-packet
+      - [316.32 - 316.72]: pick-up-pen
+      - [316.88 - 317.73]: write-down-added-weight-of-butter
+
+
+  User return touch (blue):
+    Pick time: 760.528
+    Drop time: 763.69061
+    Action descriptions:
+      - [761.13 - 763.62]: write-weight-of-overall-pasta-dish|copy-notepad
+
+
+Object: new bowl with cheese (ID: dd24dad5d22e4afe)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 298.569
+    Drop time: 300.25561
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 348.717
+    Drop time: 389.66158
+    Action descriptions:
+      - [349.02 - 350.05]: pick-up-plate|add-cheese
+      - [350.35 - 351.35]: hold-plate|take-handful-of-cheese
+      - [351.45 - 352.1]: throw-handful-of-cheese
+      - [352.76 - 353.36]: pick-up-spatula
+      - [353.46 - 358.76]: stir-added-cheese
+      - [358.88 - 359.28]: hit-spatula|remove-excess-liquid
+      - [359.38 - 359.98]: put-spatula
+      - [360.08 - 361.22]: pick-up-another-handful-of-cheese
+      - [361.26 - 362.58]: throw-second-handful-of-grated-cheese
+      - [362.92 - 363.57]: pick-up-spatula
+      - [363.67 - 375.45]: stir-second-handful-of-cheese|move-spatula|add-cheese|mix-with-pasta-sauce
+      - [368.4 - 368.72]: leave-spatula
+      - [368.85 - 369.54]: adjust-heat-of-pan|move-dial
+      - [369.8 - 370.1]: hold-spatula
+      - [370.12 - 381.47]: stir-pasta-sauce|move-in-circular-clockwise-motions
+      - [381.55 - 382.1]: leave-spatula|lean-it
+      - [382.18 - 382.45]: position-plate|tilt-plate|pour-remaining-grated-cheese
+      - [382.55 - 387.86]: move-right-hand|clear-cheese
+
+

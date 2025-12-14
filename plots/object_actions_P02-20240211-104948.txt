@@ -1,0 +1,737 @@
+Video ID: P02-20240211-104948
+================================================================================
+
+Object: multivitamin pill (ID: 3d89ede390d4b237)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 313.18
+    Drop time: 319.95226
+    Action descriptions:
+      - [313.25 - 313.95]: close-lid-of-multivitamin-bottle|hold-bottle
+      - [313.69 - 314.66]: transfer-multivitamin-bottle
+      - [314.76 - 315.68]: place-multivitamin-bottle
+      - [315.85 - 317.33]: close-kitchen-cupboard-door
+      - [318.58 - 319.38]: pick-up-multivitamin
+
+
+Object: multivitamin bottle (ID: deeb23d95841fad6)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 310.229
+    Drop time: 315.57069
+    Action descriptions:
+      - [310.54 - 311.14]: hold-bottle-of-multivitamins|squeeze-childproof-lock-cap|open-childproof-lock-cap
+      - [311.24 - 313.15]: pour-out-multivitamins
+      - [313.25 - 313.95]: close-lid-of-multivitamin-bottle|hold-bottle
+      - [313.69 - 314.66]: transfer-multivitamin-bottle
+
+
+Object: milk bottle (ID: d1cedd5f79885778)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 290.475
+    Drop time: 306.51805
+    Action descriptions:
+      - [290.85 - 291.72]: close-fridge-door
+      - [291.09000000000003 - 291.69]: transfer-milk|open-left-hand
+      - [291.78 - 292.68]: twist-off-lid-of-milk-bottle
+      - [290.63 - 293.57]: lift-up-milk-bottle|sniff-milk-bottle
+      - [293.94 - 299.11]: pour-milk
+      - [299.38 - 299.85]: twist-on-cap-of-milk-bottle|hold-cap-of-milk-bottle
+      - [300.35 - 301.1]: be-in-cereal|twist-off-cap
+      - [301.48 - 302.73]: pour-some-more-milk|hold-milk-bottle
+      - [302.66 - 304.44]: twist-on-cap-of-milk-bottle|hold-milk-bottle
+      - [304.54 - 305.04]: transfer-milk-bottle
+      - [304.9 - 305.93]: open-fridge-door
+
+
+Object: wheat bixie (ID: bbb2d07b2328c798)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 275.084
+    Drop time: 276.22456
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 278.09302
+    Drop time: 278.99019
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: serrated knife (ID: c615c55478a0cd65)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 262.725
+    Drop time: 273.06831
+    Action descriptions:
+      - [262.87 - 263.23]: pick-up-serrated-knife
+      - [263.38 - 263.7]: transfer-serrated-knife
+      - [264.37 - 272.42]: open-stack-of-wheat-bixies|place-stack|peel-off-stack|hold-stack
+      - [272.78 - 273.06]: place-serrated-knife
+
+
+Object: rightmost stack of wheat bixies (ID: efda54b5a290c087)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 255.859
+    Drop time: 260.53706
+    Action descriptions:
+      - [256.22 - 257.69]: place-stack-of-wheat-bixies
+      - [257.35 - 260.53]: try-stack-of-wheat-bixies|open-stack-of-wheat-bixies
+
+
+  User return touch (blue):
+    Pick time: 264.334
+    Drop time: 281.52144
+    Action descriptions:
+      - [264.37 - 272.42]: open-stack-of-wheat-bixies|place-stack|peel-off-stack|hold-stack
+      - [272.78 - 273.06]: place-serrated-knife
+      - [273.29 - 273.65]: grab-stack-of-wheat-bixies
+      - [273.96 - 274.67]: push-out-wheat-bixies
+      - [275.02 - 275.71]: grab-wheat-bixie
+      - [275.89 - 276.29]: place-wheat-bixie
+      - [276.53 - 277.71]: push-next-wheat-bixie
+      - [277.75 - 278.6]: hold-stack|take-out-wheat-bixie
+      - [276.03 - 279.64]: place-wheat-bixie
+
+
+Object: box of wheat bixies (ID: 854ff77cb87576bc)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 234.662
+    Drop time: 254.44331
+    Action descriptions:
+      - [235.75 - 236.34]: grab-hold-of-wheat-bixies-box
+      - [236.44 - 237.04]: place-wheat-bixies-box
+      - [237.0 - 241.63]: try-wheat-bixies-box|open-wheat-bixies-box
+      - [241.73 - 248.65]: peel-at-one-side-of-flap|pull-left-hand|open-box
+      - [245.0 - 248.63]: pull-flap|slide-finger
+      - [248.73 - 251.39]: slide-finger|open-wheat-bixies-box
+      - [251.24 - 252.2]: peel-flap
+      - [252.08 - 253.02]: peel-other-flap-of-wheat-bixies-box
+      - [253.05 - 254.07]: peel-right-hand-flap
+
+
+  User return touch (blue):
+    Pick time: 280.365
+    Drop time: 287.64644
+    Action descriptions:
+      - [281.95 - 284.48]: close-flaps-of-wheat-bixies|keep-wheat-bixies
+      - [284.99 - 285.46]: lift-up-box-of-wheat-bixies
+
+
+Object: towel (ID: eab548cdee23cd03)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 229.959
+    Drop time: 232.63081
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bowl2 (ID: 0a2d843cb6b4ab1e)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 218.74
+    Drop time: 221.24019
+    Action descriptions:
+      - [219.46 - 220.25]: close-cupboard-door
+      - [220.27 - 220.61]: transfer-bowl
+
+
+Object: bowl (ID: 4032c0d45fabcd05)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 182.211
+    Drop time: 183.22606
+    Action descriptions:
+      - [182.48 - 183.06]: close-cupboard-door
+      - [182.39 - 183.06]: transfer-bowl
+
+
+  User return touch (blue):
+    Pick time: 212.247
+    Drop time: 216.84956
+    Action descriptions:
+      - [213.98 - 214.3]: pick-up-bowl
+      - [215.66 - 216.08]: hold-bowl|look-at-bowl
+
+
+Object: garage door key (ID: 4cd3842da5e8fe96)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 178.182
+    Drop time: 186.93194
+    Action descriptions:
+      - [178.93 - 179.41]: close-utensils-drawer
+      - [180.16 - 180.72]: open-cupboard-door
+      - [181.41 - 182.34]: pick-up-topmost-bowl
+      - [182.48 - 183.06]: close-cupboard-door
+      - [182.39 - 183.06]: transfer-bowl
+      - [183.16 - 183.91]: place-bowl
+      - [184.2 - 184.58]: transfer-garage-door-key
+
+
+Object: spoon (ID: 6f80a71a3bb48afe)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 174.373
+    Drop time: 176.85841
+    Action descriptions:
+      - [174.82999999999998 - 175.51]: close-kitchen-drawer
+      - [175.28 - 175.68]: transfer-spoon
+
+
+Object: fifth bag (ID: 1239c880d162fd85)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 137.913
+    Drop time: 140.16332
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: crisps bag (ID: 7e4dcb8a5694e8d3)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 95.118
+    Drop time: 95.78811
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: scales (ID: 35da3bed55898c36)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 94.34367
+    Drop time: 101.25517
+    Action descriptions:
+      - [94.79 - 95.79]: pick-up-weighing-scales|push-off-bag-of-tortilla-chips
+      - [95.99 - 97.47]: place-can-of-pineapples
+      - [97.57 - 98.8]: adjust-position-of-cans-of-pineapple
+      - [99.58 - 99.93]: transfer-box
+
+
+Object: can of pineapples6 (ID: d78d809c291423ad)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 78.141
+    Drop time: 93.98256
+    Action descriptions:
+      - [78.85 - 80.39]: stack-cans-of-pineapples|hold-of-them
+      - [80.52 - 81.38]: open-cupboard-door
+      - [82.65 - 83.43]: transfer-can-of-pineapples
+      - [83.18 - 84.42]: store-can-of-pineapples
+      - [84.38 - 85.78]: check-size-of-can-of-pineapples
+      - [85.61 - 86.35]: open-green-drawer
+      - [85.99 - 87.03999999999999]: place-can-of-pineapples
+      - [87.01 - 89.87]: close-green-drawer
+      - [89.88 - 90.85]: open-drawer|grab-can-of-pineapples
+      - [91.03 - 91.75]: close-drawer
+
+
+  User return touch (blue):
+    Pick time: 98.088
+    Drop time: 98.56072
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: can of pineapples5 (ID: 70c725e63a38d8eb)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 76.066
+    Drop time: 86.677
+    Action descriptions:
+      - [76.42 - 78.22]: reach-into-bag|grab-pineapple-can
+      - [78.85 - 80.39]: stack-cans-of-pineapples|hold-of-them
+      - [80.52 - 81.38]: open-cupboard-door
+      - [82.65 - 83.43]: transfer-can-of-pineapples
+      - [83.18 - 84.42]: store-can-of-pineapples
+      - [84.38 - 85.78]: check-size-of-can-of-pineapples
+      - [85.61 - 86.35]: open-green-drawer
+
+
+  Time between last use and return (red):
+    Pick time: 89.89922
+    Drop time: 97.45478
+    Action descriptions:
+      - [91.03 - 91.75]: close-drawer
+      - [93.01 - 94.24]: place-can-of-pineapples
+      - [94.79 - 95.79]: pick-up-weighing-scales|push-off-bag-of-tortilla-chips
+
+
+  User return touch (blue):
+    Pick time: 97.899
+    Drop time: 98.53811
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: fourth bag (ID: 92c8e381f75e6e0a)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 72.51
+    Drop time: 75.39922
+    Action descriptions:
+      - [73.41 - 73.96000000000001]: pick-up-roll-of-puff-pastry
+      - [74.03999999999999 - 74.34]: place-puff-pastry
+      - [74.34 - 74.74]: grab-hold-of-remaining-bag
+
+
+  User return touch (blue):
+    Pick time: 125.803
+    Drop time: 138.78118
+    Action descriptions:
+      - [126.53 - 128.44]: grab-bottom-corners-of-bag
+      - [127.0 - 128.58]: pull-bag
+      - [128.66 - 130.72]: grab-bag|fold-bag
+      - [132.46 - 133.18]: hold-bag|flatten-bag|flatten-chest
+      - [133.19 - 133.95]: grab-bag
+      - [133.98 - 134.4]: fold-bag
+      - [134.42 - 135.11]: rotate-bag|grab-bag
+      - [135.46 - 136.48]: rotate-bag|hold-bag
+      - [136.55 - 137.19]: fold-bag
+      - [137.24 - 137.55]: transfer-bag
+      - [137.65 - 138.32999999999998]: unhook-carrier-bag
+
+
+Object: carton of yogurt (ID: 505589367156c32a)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 70.149
+    Drop time: 70.87145
+    Action descriptions:
+      - [70.21000000000001 - 70.56]: pass-carton-of-yogurt
+
+
+  User return touch (blue):
+    Pick time: 143.903
+    Drop time: 148.81072
+    Action descriptions:
+      - [144.4 - 144.85]: transfer-roll-of-puff-pastry|transfer-yoghurt-carton
+      - [144.95 - 145.78]: open-fridge
+      - [145.78 - 146.85]: transfer-carton-of-yogurt
+      - [146.74 - 148.49]: place-roll-of-puff-pastry
+
+
+Object: can of pineapples4 (ID: 6a9383c4c87b3fe0)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 67.371
+    Drop time: 69.89922
+    Action descriptions:
+      - [67.6 - 67.94]: transfer-can-of-pineapples
+      - [68.03999999999999 - 68.7]: reach-into-bag
+      - [69.55 - 69.84]: place-can-of-pineapples
+
+
+  User return touch (blue):
+    Pick time: 109.47456
+    Drop time: 111.59956
+    Action descriptions:
+      - [109.77 - 110.37]: pick-up-empty-plastic-bags
+
+
+Object: can of pineapples3 (ID: 3f2b3a9321b99236)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 65.131
+    Drop time: 66.28953
+    Action descriptions:
+      - [65.35 - 65.68]: reach-into-bag
+
+
+  Time between last use and return (red):
+    Pick time: 71.121
+    Drop time: 71.53811
+    Action descriptions:
+      - [71.15 - 71.4]: pick-up-can-of-pineapples
+
+
+  User return touch (blue):
+    Pick time: 101.922
+    Drop time: 107.64406
+    Action descriptions:
+      - [101.97 - 102.41]: pick-up-can-of-pineapples|transfer-can-of-pineapples
+      - [102.46 - 102.77]: pick-up-can-of-pineapples
+      - [102.81 - 103.47]: stack-can-of-pineapples
+      - [103.78 - 104.17]: pick-up-can-of-pineapple
+      - [105.55 - 106.21]: place-can-of-pineapples
+      - [106.49 - 106.91]: grab-cans-of-pineapples
+      - [107.01 - 107.36]: place-can-of-pineapples
+
+
+Object: third bag (ID: 64b6237fac95cdc6)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 110.068
+    Drop time: 138.91755
+    Action descriptions:
+      - [111.27 - 111.91]: place-last-can-of-pineapples
+      - [112.5 - 113.9]: rotate-bag
+      - [113.64 - 115.47]: pull-bottom-corners-of-bag
+      - [115.24 - 115.71]: rotate-bag|grab-bottom-corner
+      - [115.81 - 117.76]: pull-corners
+      - [116.05 - 118.46]: rotate-bag|slide-right-hand
+      - [119.18 - 120.22]: grab-middle-of-bottom-of-bag|grab-handle|fold-bag
+      - [120.84 - 121.59]: flatten-bag|flatten-chest|hold-bag
+      - [121.69 - 122.52]: grab-bag|fold-it
+      - [122.89 - 123.45]: rotate-bag|hold-bag
+      - [123.4 - 123.79]: fold-bag
+      - [123.64 - 124.38]: rotate-bag|grab-bag
+      - [124.48 - 124.89]: fold-bag
+      - [125.67 - 126.43]: pick-up-remaining-bag
+      - [126.53 - 128.44]: grab-bottom-corners-of-bag
+      - [127.0 - 128.58]: pull-bag
+      - [128.66 - 130.72]: grab-bag|fold-bag
+      - [132.46 - 133.18]: hold-bag|flatten-bag|flatten-chest
+      - [133.19 - 133.95]: grab-bag
+      - [133.98 - 134.4]: fold-bag
+      - [134.42 - 135.11]: rotate-bag|grab-bag
+      - [135.46 - 136.48]: rotate-bag|hold-bag
+      - [136.55 - 137.19]: fold-bag
+      - [137.24 - 137.55]: transfer-bag
+      - [137.65 - 138.32999999999998]: unhook-carrier-bag
+
+
+Object: can of pineapples2 (ID: ca9fe51af34643e4)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 33.623
+    Drop time: 34.34371
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 103.644
+    Drop time: 106.49128
+    Action descriptions:
+      - [103.78 - 104.17]: pick-up-can-of-pineapple
+      - [105.55 - 106.21]: place-can-of-pineapples
+
+
+Object: can of pineapples (ID: 780fa17dc5400ad6)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 30.903
+    Drop time: 32.579
+    Action descriptions:
+      - [31.36 - 32.13]: reach-into-bag|grab-other-can-of-pineapples
+
+
+  User return touch (blue):
+    Pick time: 102.45
+    Drop time: 107.36628
+    Action descriptions:
+      - [102.46 - 102.77]: pick-up-can-of-pineapples
+      - [102.81 - 103.47]: stack-can-of-pineapples
+      - [103.78 - 104.17]: pick-up-can-of-pineapple
+      - [105.55 - 106.21]: place-can-of-pineapples
+      - [106.49 - 106.91]: grab-cans-of-pineapples
+      - [107.01 - 107.36]: place-can-of-pineapples
+
+
+Object: roll of puff pastry (ID: 0cda4e2edf3105b3)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 28.917
+    Drop time: 29.97606
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 73.531
+    Drop time: 74.31589
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 143.903
+    Drop time: 148.28295
+    Action descriptions:
+      - [144.4 - 144.85]: transfer-roll-of-puff-pastry|transfer-yoghurt-carton
+      - [144.95 - 145.78]: open-fridge
+      - [145.78 - 146.85]: transfer-carton-of-yogurt
+
+
+Object: pizza slice (ID: a8a05eb362ca3ec2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 25.55
+    Drop time: 27.54959
+    Action descriptions:
+      - [26.03 - 26.63]: pass-pizza-slice
+
+
+Object: leftmost carrier bag (ID: fa25752cfec8ad6f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 23.689
+    Drop time: 25.68194
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 32.917
+    Drop time: 33.72606
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 35.359
+    Drop time: 47.3093
+    Action descriptions:
+      - [35.77 - 37.53]: grab-either-side-of-base-of-bag|pull-either-side-of-base-of-bag
+      - [38.49 - 39.6]: grab-bottom-corners|pull-bottom-corners
+      - [39.87 - 40.99]: slide-right-hand|hold-bag|flatten-bag
+      - [40.55 - 42.07]: grab-bag|fold-bag
+      - [42.38 - 43.42]: flatten-fold|hold-bag|flatten-bag
+      - [43.52 - 44.02]: hold-bag|fold-bag
+      - [44.12 - 45.68]: rotate-bag|grab-bag
+      - [45.78 - 46.11]: fold-bag
+      - [46.16 - 46.45]: rotate-bag
+      - [46.55 - 46.86]: fold-bag
+
+
+Object: quorn packet2 (ID: 5eadb26b12a4f457)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 19.726
+    Drop time: 22.53488
+    Action descriptions:
+      - [20.97 - 21.43]: pass-packets-of-quorn-pieces
+
+
+  User return touch (blue):
+    Pick time: 187.471
+    Drop time: 198.56831
+    Action descriptions:
+      - [188.24 - 189.54]: open-up-door
+      - [192.61 - 193.87]: open-freezer-door
+      - [194.61 - 196.01]: open-up-second-to-last-drawer
+      - [196.99 - 198.55]: reorganize-food
+
+
+Object: quorn packets (ID: cf7f23bceaafa8eb)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 19.623
+    Drop time: 22.54959
+    Action descriptions:
+      - [20.97 - 21.43]: pass-packets-of-quorn-pieces
+
+
+  User return touch (blue):
+    Pick time: 187.471
+    Drop time: 197.59956
+    Action descriptions:
+      - [188.24 - 189.54]: open-up-door
+      - [192.61 - 193.87]: open-freezer-door
+      - [194.61 - 196.01]: open-up-second-to-last-drawer
+
+
+Object: packet of apple danish pastries (ID: 99bdab3a838a194b)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 17.491
+    Drop time: 18.40253
+    Action descriptions:
+      - [17.54 - 18.03]: pass-packet-of-apple-danish-pastries
+
+
+  User return touch (blue):
+    Pick time: 150.477
+    Drop time: 154.35239
+    Action descriptions:
+      - [150.96 - 151.49]: stack-apple-danish-pastries
+      - [151.59 - 151.94]: pick-up-frangipane|pick-up-apple-danish-pastries
+      - [152.23 - 153.55]: open-up-central-drawer
+      - [153.81 - 154.21]: place-frangipane
+
+
+Object: swiss roll cake (ID: 2230fbc143c96017)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 15.005
+    Drop time: 16.43194
+    Action descriptions:
+      - [15.05 - 15.73]: pick-up-swiss-roll-cake
+      - [15.73 - 16.18]: transfer-swiss-roll-cake
+
+
+  User return touch (blue):
+    Pick time: 154.783
+    Drop time: 155.56072
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: can of pringles2 (ID: f67789528aff7ce5)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 13.228
+    Drop time: 14.88782
+    Action descriptions:
+      - [13.6 - 14.09]: transfer-pringles-can
+
+
+  User return touch (blue):
+    Pick time: 157.378
+    Drop time: 168.76906
+    Action descriptions:
+      - [160.61 - 161.44]: open-up-door-of-kitchen-cupboard
+      - [161.52 - 164.38]: store-cans-of-pringles|be-none
+      - [164.48 - 165.5]: close-door-of-kitchen-cupboard
+      - [166.52 - 167.32]: open-up-kitchen-cupboard
+      - [167.62 - 168.27]: grab-hold
+
+
+Object: can of pringles (ID: d3635d3dc1b5531b)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 10.858
+    Drop time: 12.90253
+    Action descriptions:
+      - [11.1 - 11.55]: pick-up-can-of-pringles
+      - [11.65 - 12.16]: rotate-can-of-pringles|pass-it
+      - [12.26 - 12.78]: place-down-pringles-can
+
+
+  User return touch (blue):
+    Pick time: 157.311
+    Drop time: 170.81072
+    Action descriptions:
+      - [160.61 - 161.44]: open-up-door-of-kitchen-cupboard
+      - [161.52 - 164.38]: store-cans-of-pringles|be-none
+      - [164.48 - 165.5]: close-door-of-kitchen-cupboard
+      - [166.52 - 167.32]: open-up-kitchen-cupboard
+      - [167.62 - 168.27]: grab-hold
+      - [168.26 - 169.09]: place-can-of-pringles
+      - [169.19 - 169.66]: transfer-pringles-can
+      - [170.01 - 170.8]: place-pringles-can
+
+
+Object: frangipane2 (ID: 5580c512cda07492)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 10.167
+    Drop time: 11.079
+    Action descriptions:
+      - [10.24 - 10.56]: pass-frangipane
+      - [10.66 - 11.01]: place-down-frangipane
+
+
+  User return touch (blue):
+    Pick time: 151.283
+    Drop time: 153.97739
+    Action descriptions:
+      - [151.59 - 151.94]: pick-up-frangipane|pick-up-apple-danish-pastries
+      - [152.23 - 153.55]: open-up-central-drawer
+
+
+Object: frangipane (ID: 8b43365d1b09c985)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 8.726
+    Drop time: 9.63782
+    Action descriptions:
+      - [9.22 - 9.63]: place-frangipane
+
+
+  User return touch (blue):
+    Pick time: 151.531
+    Drop time: 154.35239
+    Action descriptions:
+      - [151.59 - 151.94]: pick-up-frangipane|pick-up-apple-danish-pastries
+      - [152.23 - 153.55]: open-up-central-drawer
+      - [153.81 - 154.21]: place-frangipane
+
+
+Object: rightmost carrier bag (ID: 682cb18b5ed5f5c4)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 6.653
+    Drop time: 9.09371
+    Action descriptions:
+      - [6.71 - 7.21]: open-up-rightmost-carrier-bag
+
+
+  Time between last use and return (red):
+    Pick time: 18.926
+    Drop time: 20.579
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 49.183
+    Drop time: 61.6593
+    Action descriptions:
+      - [49.21 - 49.68]: pick-up-other-empty-bag
+      - [49.98 - 51.45]: hold-bag|pull-bottom-two-corners
+      - [51.85 - 52.38]: grab-bag|pull-top-corners
+      - [53.02 - 53.46]: grab-bag|pull-these
+      - [53.56 - 54.0]: grab-bag|fold-bag
+      - [57.71 - 58.09]: press-bag|hold-bag|flatten-bag
+      - [58.63 - 59.09]: fold-bag|grip-bag
+      - [59.48 - 60.22]: rotate-bag|grip-bag
+      - [59.79 - 60.36]: fold-bag
+      - [60.46 - 60.78]: rotate-bag|grip-bag
+      - [60.75 - 61.63]: fold-bag
+
+
+Object: all carrier bags (ID: d54376ea92cf1af7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1.167
+    Drop time: 6.43194
+    Action descriptions:
+      - [3.75 - 5.96]: place-four-carrier-bags
+
+

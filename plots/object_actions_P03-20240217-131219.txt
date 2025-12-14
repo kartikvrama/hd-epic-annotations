@@ -1,0 +1,3906 @@
+Video ID: P03-20240217-131219
+================================================================================
+
+Object: third spoon (ID: cf952ecf5957cc4f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 3264.6
+    Drop time: 3277.4333334
+    Action descriptions:
+      - [3266.57 - 3267.45]: turn-off-light|flick-switch
+      - [3268.16 - 3269.06]: pick-up-bowl
+      - [3269.16 - 3270.65]: pick-up-other-bowl
+      - [3274.04 - 3275.43]: put-two-bowls|put-down-two-bowls
+      - [3275.53 - 3276.74]: put-one-spoon
+
+
+Object: one fork (ID: a08bbd8820f753a6)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 3260.1
+    Drop time: 3262.0666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: other spoon (ID: 9c25ab6fcf4127d4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 3260.1
+    Drop time: 3277.0666668
+    Action descriptions:
+      - [3260.4 - 3263.28]: pick-up-fork|put-fork
+      - [3262.54 - 3264.87]: pick-up-second-spoon
+      - [3266.57 - 3267.45]: turn-off-light|flick-switch
+      - [3268.16 - 3269.06]: pick-up-bowl
+      - [3269.16 - 3270.65]: pick-up-other-bowl
+      - [3274.04 - 3275.43]: put-two-bowls|put-down-two-bowls
+      - [3275.53 - 3276.74]: put-one-spoon
+
+
+Object: ladle (ID: 968795cabd8dc591)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 3159.2666668
+    Drop time: 3200.3
+    Action descriptions:
+      - [3161.37 - 3166.53]: scoop-large-spoonful-of-red-lentil-curry|scoop-food|hold-that|hold-pan
+      - [3166.63 - 3167.64]: pick-up-bowl
+      - [3167.71 - 3170.58]: pour-red-lentil-curry|tilt-ladle
+      - [3170.36 - 3171.74]: tap-ladle|shake-off-food-residue
+      - [3173.28 - 3174.44]: push-chopping-board
+      - [3174.46 - 3175.31]: turn-frying-pan|grab-frying-pan|put-down-bowl
+      - [3175.32 - 3176.91]: put-bowl
+      - [3176.7 - 3179.77]: scoop-more-red-lentil-curry|hold-that|hold-pan
+      - [3179.61 - 3181.64]: lift-frying-pan|move-frying-pan|pour-curry
+      - [3181.05 - 3185.57]: pour-another-spoonful-of-red-lentil-curry|tilt-ladle
+      - [3186.44 - 3188.44]: scoop-more-red-lentil-curry|tilt-pan|scoop-food|hold-that
+      - [3188.5 - 3190.31]: pour-more-red-lentil-curry|tilt-ladle
+      - [3190.12 - 3193.18]: scoop-another-small-amount-of-red-lentil-curry|hold-in-right-hand|hold-frying-pan
+      - [3192.98 - 3195.0]: pour-more-red-lentil-curry|tilt-ladle
+      - [3194.8 - 3197.39]: scoop-another-small-amount-of-red-lentil-curry|hold-that|hold-pan
+      - [3197.04 - 3198.62]: pour-last-spoonful-of-red-lentil-curry|tilt-ladle
+      - [3198.71 - 3199.47]: move-back-of-ladle|redistribute-curry
+
+
+  User return touch (blue):
+    Pick time: 3203.3
+    Drop time: 3254.7
+    Action descriptions:
+      - [3203.68 - 3206.72]: scoop-large-amount-of-red-lentil-curry|hold-that|hold-pan|tilt-pan|scoop-food
+      - [3206.82 - 3208.93]: pour-curry|tilt-ladle|shake-ladle
+      - [3209.03 - 3212.58]: scoop-more-red-lentil-curry|hold-that|hold-pan
+      - [3212.68 - 3214.65]: pour-more-red-lentil-curry|tilt-ladle
+      - [3214.96 - 3218.15]: scoop-more-red-lentil-curry|hold-in-right-hand|hold-pan|tilt-pan|scoop-food
+      - [3218.25 - 3220.01]: pour-more-red-lentil-curry|tilt-ladle
+      - [3220.03 - 3224.58]: scoop-more-red-lentil-curry|hold-that|hold-pan|tilt-pan|scoop-food
+      - [3224.68 - 3228.1]: pour-more-red-lentil-curry|tilt-ladle|shake-ladle
+      - [3228.2 - 3230.32]: be-little-curry|scoop-little-curry|pour-more-curry|tilt-pan
+      - [3232.12 - 3238.44]: be-little-curry|scoop-little-curry|pour-more-curry|tilt-pan
+      - [3238.46 - 3252.08]: scoop-last-bit-of-red-lentil-curry|push-curry|hold-which
+      - [3252.09 - 3253.04]: put-ladle|rest-ladle-handle
+
+
+Object: bread wrapping (ID: 4079edb10a4a41be)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 3100.8333334
+    Drop time: 3106.3
+    Action descriptions:
+      - [3101.32 - 3103.03]: grab-bread-wrapping
+      - [3103.27 - 3104.53]: crumple-plastic-wrapping-of-bread-loaf|compact-plastic-wrapping
+      - [3105.05 - 3106.24]: open-general-waste-bin|lift-general-waste-bin-lid|hold-bread-plastic-wrapping
+
+
+Object: larger part of bread loaf (ID: 658ce2fc8929474d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 3097.7
+    Drop time: 3098.6666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bread (ID: 923d61d123f0e8ec)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 3085.7666668
+    Drop time: 3087.7666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 3087.7333334
+    Drop time: 3099.0666668
+    Action descriptions:
+      - [3088.25 - 3089.29]: pick-up-bread-knife
+      - [3089.14 - 3096.2]: cut-slice-of-bread|hold-loaf|move-bread-knife|cut-bread
+      - [3096.15 - 3096.89]: put-down-bread-knife
+      - [3096.84 - 3097.53]: put-down-slice-of-bread|cut-off-loaf
+      - [3097.63 - 3098.76]: pick-up-larger-part-of-bread-loaf
+
+
+Object: other bowl (ID: 77ee35879fe06a66)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 3073.8333334
+    Drop time: 3074.1666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 3167.2666668
+    Drop time: 3176.7
+    Action descriptions:
+      - [3167.71 - 3170.58]: pour-red-lentil-curry|tilt-ladle
+      - [3170.36 - 3171.74]: tap-ladle|shake-off-food-residue
+      - [3173.28 - 3174.44]: push-chopping-board
+      - [3174.46 - 3175.31]: turn-frying-pan|grab-frying-pan|put-down-bowl
+
+
+  User return touch (blue):
+    Pick time: 3268.8
+    Drop time: 3275.1666668
+    Action descriptions:
+      - [3269.16 - 3270.65]: pick-up-other-bowl
+
+
+Object: long leaf plant (ID: dc0cd2596d8d5c98)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2958.7666668
+    Drop time: 2963.8333334
+    Action descriptions:
+      - [2959.37 - 2960.53]: push-window-handle|close-window
+      - [2960.6 - 2963.7]: pull-orange|pull-green-plant
+
+
+Object: rice box (ID: 89d873889fbc8de0)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2830.7666668
+    Drop time: 2831.7666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: sink strainer (ID: b4180c4533ecd01a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2683.5
+    Drop time: 2719.2666668
+    Action descriptions:
+      - [2686.62 - 2690.4]: gather-more-lentils|gather-other-food-bits
+      - [2691.93 - 2692.75]: pull-cupboard|open-cupboard
+      - [2693.1 - 2694.22]: grab-food-waste-bin|turn-food-waste-bin
+      - [2694.32 - 2694.54]: lift-lid-of-food-waste-bin|open-bin
+      - [2694.48 - 2700.01]: throw-food-bits|tap-strainer|shake-off-lentils|shake-off-other-food-bits
+      - [2700.11 - 2700.74]: close-food-waste-bin
+      - [2701.21 - 2702.18]: close-cupboard
+      - [2702.66 - 2703.62]: turn-on-tap
+      - [2702.64 - 2705.46]: rinse-sink-strainer|move-strainer|turn-strainer|remove-food-residue
+      - [2705.56 - 2708.18]: slide-back-of-right-hand|wipe-sink|push-any-other-small-bits-of-food
+      - [2709.94 - 2710.55]: pick-up-sponge
+      - [2711.48 - 2714.69]: lower-sink-strainer|lift-strainer|put-strainer
+      - [2713.39 - 2718.04]: wipe-sink|redirect-running-tap-water|pick-up-small-bits-of-food
+
+
+Object: cutlery stand (ID: c4b5cf177f57dd97)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2672.6333334
+    Drop time: 2674.1
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bit of plastic (ID: e574dbaf80217f33)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2620.5333334
+    Drop time: 2638.4333334
+    Action descriptions:
+      - [2621.18 - 2623.64]: shake-orange-cloth|remove-more-water
+      - [2623.58 - 2631.82]: wipe-jeans|rub-cloth
+      - [2631.71 - 2634.26]: hang-orange-cloth
+
+
+Object: orange cloth (ID: 9550ea1395d8b999)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 2613.1
+    Drop time: 2633.9333334
+    Action descriptions:
+      - [2613.6 - 2615.33]: turn-on-tap|hold-orange-cloth
+      - [2614.69 - 2617.04]: rinse-cloth|squeeze-cloth
+      - [2617.03 - 2617.84]: turn-off-tap
+      - [2617.84 - 2620.01]: squeeze-orange-cloth|remove-excess-water
+      - [2620.11 - 2621.16]: pick-up-bit-of-plastic
+      - [2621.18 - 2623.64]: shake-orange-cloth|remove-more-water
+      - [2623.58 - 2631.82]: wipe-jeans|rub-cloth
+
+
+  Time between last use and return (red):
+    Pick time: 2828.7333334
+    Drop time: 2844.1666668
+    Action descriptions:
+      - [2829.39 - 2831.57]: wipe-kitchen-top|move-orange-cloth|gather-vegetable-peels|gather-other-food-residue|rub-surface|push-peels|push-other-food-residue|hold-in-right-hand
+      - [2830.6 - 2831.64]: lift-rice-box
+      - [2831.59 - 2832.39]: put-down-rice-box
+      - [2836.87 - 2839.4]: toss-vegetable-peels|toss-other-food-residue|gather-that
+      - [2839.5 - 2843.14]: wipe-kitchen-top|rub-counter-top
+      - [2840.92 - 2842.11]: pick-up-cloth
+      - [2842.11 - 2844.0]: hang-orange-cloth
+
+
+  User return touch (blue):
+    Pick time: 2996.5666668
+    Drop time: 3009.6666668
+    Action descriptions:
+      - [2997.22 - 3006.19]: wipe-dishwasher-door|rub-orange-cloth|cut-vegetables
+      - [3006.29 - 3007.75]: pick-up-food-bits
+      - [3007.77 - 3008.58]: put-food-bit
+
+
+Object: red plate (ID: 9a0a9378ec1991a1)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2483.5333334
+    Drop time: 2495.2333334
+    Action descriptions:
+      - [2483.94 - 2484.33]: pick-up-plate
+      - [2484.4 - 2485.57]: pick-up-other-fork|walk-at-same-time
+      - [2485.67 - 2487.36]: place-two-forks
+      - [2488.22 - 2488.73]: pick-up-dishwasher-brush
+      - [2488.83 - 2489.96]: scrub-plate|swipe-brush
+      - [2490.05 - 2491.89]: place-dishwasher-brush
+      - [2492.62 - 2493.89]: pull-dishwasher-top-rack
+
+
+Object: black coffee spoon (ID: 33f368ccebba8f3d)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 2442.1333334
+    Drop time: 2443.5333334
+    Action descriptions:
+      - [2442.54 - 2442.93]: pick-up-red-knife
+
+
+  User return touch (blue):
+    Pick time: 2446.7666668
+    Drop time: 2455.4
+    Action descriptions:
+      - [2447.77 - 2449.65]: dry-black-coffee-spoon|rub-cloth
+      - [2451.79 - 2453.69]: open-top-cupboard
+      - [2453.39 - 2454.86]: put-bread-knife
+
+
+Object: bread knife (ID: 13cf2382a2dcefbb)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 2442.1
+    Drop time: 2454.7333334
+    Action descriptions:
+      - [2442.54 - 2442.93]: pick-up-red-knife
+      - [2442.66 - 2443.76]: place-black-coffee-spoon
+      - [2443.86 - 2444.11]: pick-up-cloth
+      - [2444.21 - 2445.95]: dry-red-knife|wipe-blade
+      - [2445.85 - 2447.92]: pick-up-black-coffee-spoon|hold-cloth|wrap-coffee-spoon|pick-up-coffee-spoon
+      - [2447.77 - 2449.65]: dry-black-coffee-spoon|rub-cloth
+      - [2451.79 - 2453.69]: open-top-cupboard
+
+
+  Touch 2:
+    Pick time: 3081.6666668
+    Drop time: 3085.0666668
+    Action descriptions:
+      - [3081.84 - 3083.08]: close-top-cupboard
+
+
+  Touch 3:
+    Pick time: 3088.5333334
+    Drop time: 3097.2
+    Action descriptions:
+      - [3089.14 - 3096.2]: cut-slice-of-bread|hold-loaf|move-bread-knife|cut-bread
+      - [3096.15 - 3096.89]: put-down-bread-knife
+
+
+  Time between last use and return (red):
+    Pick time: 3099.2
+    Drop time: 3100.4333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 3108.5
+    Drop time: 3120.2666668
+    Action descriptions:
+      - [3111.75 - 3113.26]: turn-on-tap
+      - [3113.69 - 3114.98]: rinse-knife|wipe-blade|remove-breadcrumbs|do-this|cut-myself
+      - [3117.86 - 3118.54]: turn-off-tap
+      - [3118.38 - 3119.05]: shake-knife|remove-excess-water
+      - [3119.48 - 3120.23]: put-bread-knife
+
+
+Object: plastic food bag (ID: 710840db9ad365ed)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2438.0333334
+    Drop time: 2440.0
+    Action descriptions:
+      - [2438.09 - 2439.02]: pick-up-plastic-food-bag
+
+
+Object: coffee jug (ID: 99955b3e64ae51c0)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2420.1666668
+    Drop time: 2421.7666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: v60 metal filter (ID: 6bb6a298e601a4c7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2417.4
+    Drop time: 2418.9666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: v60 stand (ID: ce24c492374d4d73)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2415.1666668
+    Drop time: 2416.7333334
+    Action descriptions:
+      - [2415.66 - 2416.72]: put-v60-stand
+
+
+Object: dishwasher brush (ID: fef6398cb4354466)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 2349.4666668
+    Drop time: 2390.6333334
+    Action descriptions:
+      - [2350.08 - 2354.31]: scrub-outer-part-of-plastic-colander|rub-dishwasher-brush|remove-lentils|remove-other-food-residue
+      - [2354.66 - 2355.18]: put-down-outer-part-of-plastic-colander
+      - [2355.06 - 2356.0]: pick-up-inside-part-of-colander
+      - [2355.86 - 2385.8]: scrub-inner-part-of-plastic-colander|rub-dishwasher-brush
+
+
+  Touch 2:
+    Pick time: 2488.5
+    Drop time: 2491.7333334
+    Action descriptions:
+      - [2488.83 - 2489.96]: scrub-plate|swipe-brush
+
+
+  Time between last use and return (red):
+    Pick time: 2535.4666668
+    Drop time: 2540.6333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2548.8333334
+    Drop time: 2552.5666668
+    Action descriptions:
+      - [2548.88 - 2549.29]: pick-up-dishwasher-brush
+      - [2549.38 - 2552.06]: scrub-teaspoon|brush-teaspoon|remove-food-residue|put-teaspoon
+
+
+Object: three plastic tubs (ID: 1941ddf33f716a85)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2276.3
+    Drop time: 2281.7
+    Action descriptions:
+      - [2279.39 - 2279.92]: lift-cloth|reveal-recycling-bins
+      - [2280.72 - 2281.37]: lift-lid-of-middle-recycling-bin|open-bin
+
+
+Object: large glass lid (ID: ef5d507a0d964784)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 2149.0333334
+    Drop time: 2158.8333334
+    Action descriptions:
+      - [2154.51 - 2157.9]: put-down-large-glass-lid
+      - [2157.94 - 2158.74]: move-can-opener|slide-can-opener
+
+
+  Touch 2:
+    Pick time: 2168.8666668
+    Drop time: 2170.9333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 2228.0
+    Drop time: 2230.1333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 2325.3
+    Drop time: 2336.6666668
+    Action descriptions:
+      - [2326.43 - 2329.22]: stir-food|turn-spatula|do-this|spill-any-food
+      - [2333.77 - 2335.54]: tap-spatula|shake-off-any-food-residue
+
+
+  Touch 5:
+    Pick time: 2461.7333334
+    Drop time: 2473.6333334
+    Action descriptions:
+      - [2462.29 - 2470.89]: stir-food|move-spatula
+      - [2470.65 - 2472.26]: tap-spatula|shake-off-any-food-residue|drop-any-food-residue
+
+
+  Touch 6:
+    Pick time: 2562.3333334
+    Drop time: 2580.1333334
+    Action descriptions:
+      - [2563.2 - 2577.43]: stir-food|move-spatula|spill-food
+      - [2577.4 - 2578.57]: tap-spatula|shake-off-any-food-residue|drop-any-food-residue
+
+
+  Touch 7:
+    Pick time: 2754.7
+    Drop time: 2762.7666668
+    Action descriptions:
+      - [2755.18 - 2761.28]: stir-food|hold-that|move-spatula|spill-over-food
+
+
+  Touch 8:
+    Pick time: 2800.8333334
+    Drop time: 2803.8
+    Action descriptions:
+      - [2801.19 - 2802.65]: tap-spatula|drop-food-residue
+
+
+  Touch 9:
+    Pick time: 2897.2333334
+    Drop time: 2930.4
+    Action descriptions:
+      - [2897.91 - 2912.67]: stir-food|pour-which|tilt-content-of-pan|move-spatula
+      - [2926.65 - 2929.14]: tap-spatula|shake-off-food-residue|drop-food-residue
+
+
+  Time between last use and return (red):
+    Pick time: 3022.6666668
+    Drop time: 3049.6
+    Action descriptions:
+      - [3023.11 - 3045.69]: stir-food|put-which|tilt-food|move-spatula
+      - [3045.23 - 3048.17]: tap-spatula|shake-off-food-residue|drop-food-residue
+
+
+  User return touch (blue):
+    Pick time: 3130.6666668
+    Drop time: 3134.0
+    Action descriptions:
+      - [3131.18 - 3132.84]: hold-glass-lid|simmer-food|shake-lid
+      - [3132.91 - 3133.58]: put-down-glass-lid
+
+
+Object: glass (ID: 7019e116a8c3433f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2129.5666668
+    Drop time: 2140.2333334
+    Action descriptions:
+      - [2129.69 - 2130.75]: close-cupboard
+      - [2130.77 - 2132.51]: turn-on-tap|hold-glass
+      - [2132.6 - 2134.11]: fill-glass|dilute-coconut-milk
+      - [2133.96 - 2134.65]: turn-off-tap
+      - [2134.75 - 2137.47]: pour-water|tilt-glass|do-this|dilute-coconut-milk
+      - [2137.31 - 2138.63]: shake-glass
+      - [2138.45 - 2139.39]: put-glass
+
+
+Object: last green plastic tub (ID: 131c5e91f81ba466)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 2034.0666668
+    Drop time: 2080.5333334
+    Action descriptions:
+      - [2035.18 - 2037.77]: open-green-plastic-tub|pull-plastic-sleeve|open-tub
+      - [2037.8 - 2038.67]: pick-up-knife
+      - [2039.02 - 2040.79]: pull-plastic-sleeve|open-plastic-tub
+      - [2040.85 - 2041.33]: put-down-knife
+      - [2042.14 - 2045.19]: turn-down-extractor-fan-speed|adjust-switch|fry-food
+      - [2046.39 - 2047.04]: pick-up-knife
+      - [2046.68 - 2047.25]: put-down-green-tub
+      - [2047.55 - 2050.13]: hold-that|peel-plastic-sleeve
+      - [2050.13 - 2050.93]: put-down-knife
+      - [2051.03 - 2054.22]: pull-plastic-sleeve|hold-tub
+      - [2053.0 - 2056.04]: tilt-plastic-tub|pour-ginger-lentil-stock
+      - [2056.14 - 2057.86]: pick-up-teaspoon
+      - [2057.86 - 2060.43]: scoop-ginger-lentil-stock|hold-that|hold-tub
+      - [2060.44 - 2063.03]: tap-teaspoon
+      - [2063.09 - 2068.17]: scoop-more-ginger-lentil-stock|move-teaspoon|scoop-more-contents
+      - [2068.1 - 2070.21]: tap-teaspoon
+      - [2070.21 - 2078.49]: scoop-more-ginger-lentil-stock
+      - [2078.59 - 2079.21]: tap-teaspoon|shake-off-ginger|shake-off-lentil-stock
+
+
+  User return touch (blue):
+    Pick time: 2236.9
+    Drop time: 2282.0
+    Action descriptions:
+      - [2237.54 - 2238.11]: pick-up-green-plastic-tub
+      - [2238.0 - 2238.93]: pick-up-pink-plastic-tub
+      - [2239.38 - 2240.02]: put-pink-plastic-tubs
+      - [2240.44 - 2241.39]: turn-on-tap
+      - [2242.04 - 2243.33]: pick-up-sponge
+      - [2241.25 - 2255.05]: wash-recipe-tub|turn-tub|absorb-remaining-bits-of-paste|do-this
+      - [2255.03 - 2256.19]: pick-up-yellow-tub
+      - [2255.94 - 2261.7]: wash-yellow-tub|rub-sponge|turn-tub|wash-tub
+      - [2261.75 - 2263.04]: pick-up-pink-tub
+      - [2262.86 - 2264.59]: wash-pink-tub|rub-sponge|turn-tub|pick-up-food-residue
+      - [2264.59 - 2265.55]: squeeze-sponge|remove-excess-water|drop-excess-water
+      - [2265.57 - 2266.18]: turn-off-tap
+      - [2266.24 - 2272.4]: stack-three-plastic-tubs
+      - [2272.39 - 2274.3]: shake-stack-of-three-plastic-tubs|remove-water
+      - [2276.01 - 2276.71]: pick-a
+      - [2279.39 - 2279.92]: lift-cloth|reveal-recycling-bins
+      - [2280.72 - 2281.37]: lift-lid-of-middle-recycling-bin|open-bin
+
+
+Object: can opener (ID: 6798748b46b4bf7b)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1986.0666668
+    Drop time: 2006.8333334
+    Action descriptions:
+      - [1986.5 - 1987.4]: push-middle-drawer|close-middle-drawer
+      - [1988.99 - 1990.18]: turn-coconut-milk-can
+      - [1990.07 - 1990.78]: push-recipe-kit-box
+      - [1990.88 - 2005.6]: open-coconut-milk-can|press-two-sharp-wheels|press-two-wheels|hold-in-left-hand|turn-other-handle-of-can-opener|hold-that|spin-sharp-wheels|turn-can
+      - [2006.2 - 2006.82]: put-down-can-opener
+
+
+  Time between last use and return (red):
+    Pick time: 2141.5666668
+    Drop time: 2145.9666668
+    Action descriptions:
+      - [2142.04 - 2145.62]: point-finger|read-recipe
+      - [2143.05 - 2145.85]: put-down-can-opener
+
+
+  User return touch (blue):
+    Pick time: 2313.1333334
+    Drop time: 2319.0333334
+    Action descriptions:
+      - [2314.46 - 2315.93]: pull-two-handles-of-can-opener|turn-can-opener
+      - [2316.46 - 2317.32]: pull-middle-drawer|open-middle-drawer
+      - [2317.79 - 2319.02]: put-can-opener
+
+
+Object: pink tub (ID: 62da6e3ddb49e8a4)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1904.9
+    Drop time: 1913.9666668
+    Action descriptions:
+      - [1904.97 - 1905.48]: pick-up-pink-tub
+      - [1906.11 - 1908.26]: open-pink-tub|pull-plastic-sleeve|hold-tub
+      - [1908.36 - 1910.29]: tilt-pink-tub|pour-dahl-spice-mix
+      - [1910.39 - 1913.09]: tap-right-hand
+
+
+  Time between last use and return (red):
+    Pick time: 2237.9
+    Drop time: 2238.2333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2255.4333334
+    Drop time: 2282.0
+    Action descriptions:
+      - [2255.94 - 2261.7]: wash-yellow-tub|rub-sponge|turn-tub|wash-tub
+      - [2261.75 - 2263.04]: pick-up-pink-tub
+      - [2262.86 - 2264.59]: wash-pink-tub|rub-sponge|turn-tub|pick-up-food-residue
+      - [2264.59 - 2265.55]: squeeze-sponge|remove-excess-water|drop-excess-water
+      - [2265.57 - 2266.18]: turn-off-tap
+      - [2266.24 - 2272.4]: stack-three-plastic-tubs
+      - [2272.39 - 2274.3]: shake-stack-of-three-plastic-tubs|remove-water
+      - [2276.01 - 2276.71]: pick-a
+      - [2279.39 - 2279.92]: lift-cloth|reveal-recycling-bins
+      - [2280.72 - 2281.37]: lift-lid-of-middle-recycling-bin|open-bin
+
+
+Object: outer part of plastic colander (ID: ae784b59e34414f5)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1884.2666668
+    Drop time: 1892.9333334
+    Action descriptions:
+      - [1884.91 - 1891.63]: scoop-lentils|hold-plastic-colander|wipe-right-hand|transfer-lentils
+
+
+  Time between last use and return (red):
+    Pick time: 2343.0
+    Drop time: 2355.3
+    Action descriptions:
+      - [2343.36 - 2344.67]: tilt-outer-part-of-plastic-colander|remove-water
+      - [2344.77 - 2345.92]: pull-dishwasher-door|open-dishwasher
+      - [2347.13 - 2347.75]: pull-dishwasher-bottom-rack
+      - [2347.85 - 2350.0]: pick-up-dishwasher-brush
+      - [2350.08 - 2354.31]: scrub-outer-part-of-plastic-colander|rub-dishwasher-brush|remove-lentils|remove-other-food-residue
+      - [2354.66 - 2355.18]: put-down-outer-part-of-plastic-colander
+
+
+  User return touch (blue):
+    Pick time: 2423.0333334
+    Drop time: 2433.6666668
+    Action descriptions:
+      - [2423.75 - 2424.48]: turn-on-tap
+      - [2424.5 - 2430.12]: rinse-outer-part-of-plastic-colander|rub-hands|be-no-lentils
+      - [2430.28 - 2431.07]: turn-off-tap
+      - [2431.14 - 2432.93]: shake-outer-part-of-plastic-colander|remove-water
+
+
+Object: inner part of plastic colander (ID: 62700200aa5bcb6d)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1861.0333334
+    Drop time: 1883.1
+    Action descriptions:
+      - [1862.52 - 1872.32]: scoop-lentils|hold-inner-part-of-colander|rub-fingers|pour-as-many-lentils
+
+
+  User return touch (blue):
+    Pick time: 2354.7
+    Drop time: 2419.8666668
+    Action descriptions:
+      - [2355.06 - 2356.0]: pick-up-inside-part-of-colander
+      - [2355.86 - 2385.8]: scrub-inner-part-of-plastic-colander|rub-dishwasher-brush
+      - [2385.31 - 2390.67]: wipe-hands|remove-lentils
+      - [2390.02 - 2390.88]: drop-dishwasher-brush
+      - [2390.85 - 2391.86]: turn-on-tap|hold-colander
+      - [2391.89 - 2407.34]: remove-lentils|rinse-off-inner-part-of-plastic-colander|rub-hands
+      - [2407.3 - 2408.3]: pick-up-sponge
+      - [2408.31 - 2408.52]: rinse-sponge|squeeze-sponge
+      - [2408.62 - 2409.03]: drop-sponge
+      - [2408.85 - 2409.11]: rinse-inner-part-of-plastic-colander|rotate-colander
+      - [2409.21 - 2410.52]: rub-hand|be-no-lentils
+      - [2411.41 - 2412.21]: turn-off-tap
+      - [2412.26 - 2413.56]: shake-inner-part-of-plastic-colander|shake-off-excess-water
+      - [2414.5 - 2415.56]: pick-up-v60-stand|hold-which
+      - [2415.66 - 2416.72]: put-v60-stand
+      - [2417.22 - 2418.26]: pick-up-v60-metal-filter
+      - [2418.32 - 2419.07]: put-v60-metal-filter
+
+
+Object: yellow plastic tub (ID: 85234776d45178d0)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1748.6
+    Drop time: 1785.3
+    Action descriptions:
+      - [1749.09 - 1756.71]: open-recipe-kit-yellow-tub|pull-tub-sleeve|open-tub
+      - [1757.15 - 1757.71]: pick-up-knife
+      - [1756.9 - 1757.96]: put-down-recipe-kit-yellow-tub
+      - [1758.06 - 1760.24]: cut-small-opening|press-knife|open-plastic-tub|pull-sleeve
+      - [1760.25 - 1760.95]: put-down-knife
+      - [1761.03 - 1761.7]: pick-up-recipe-kit
+      - [1761.13 - 1763.12]: pull-plastic-sleeve|open-recipe-kit-tub
+      - [1763.58 - 1764.75]: pick-up-teaspoon
+      - [1764.85 - 1769.6]: scoop-garlic|scoop-coconut-paste|hold-that
+      - [1769.7 - 1772.11]: tap-teaspoon
+      - [1772.2 - 1776.6]: scoop-more-garlic|scoop-coconut-paste|move-teaspoon|scoop-off-paste
+      - [1776.7 - 1781.12]: tap-teaspoon
+      - [1782.58 - 1783.94]: scoop-remaining-paste|hold-that
+      - [1784.32 - 1784.79]: tap-teaspoon
+
+
+  User return touch (blue):
+    Pick time: 2237.0
+    Drop time: 2237.4666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: teaspoon (ID: 3002a5fee10cab1f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1747.7
+    Drop time: 1749.1666668
+    Action descriptions:
+      - [1748.32 - 1749.16]: pick-up-yellow-tub
+      - [1748.42 - 1748.99]: put-down-teaspoon
+
+
+  Touch 2:
+    Pick time: 1764.2
+    Drop time: 1795.6
+    Action descriptions:
+      - [1764.85 - 1769.6]: scoop-garlic|scoop-coconut-paste|hold-that
+      - [1769.7 - 1772.11]: tap-teaspoon
+      - [1772.2 - 1776.6]: scoop-more-garlic|scoop-coconut-paste|move-teaspoon|scoop-off-paste
+      - [1776.7 - 1781.12]: tap-teaspoon
+      - [1782.58 - 1783.94]: scoop-remaining-paste|hold-that
+      - [1784.32 - 1784.79]: tap-teaspoon
+      - [1784.53 - 1785.43]: put-down-now-empty-plastic-tub
+      - [1786.3 - 1787.17]: pick-up-spatula|scoop-paste|hold-that
+      - [1787.27 - 1794.72]: scoop-paste|wipe-teaspoon
+
+
+  Touch 3:
+    Pick time: 1959.1333334
+    Drop time: 1959.2
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 2057.3666668
+    Drop time: 2090.8
+    Action descriptions:
+      - [2057.86 - 2060.43]: scoop-ginger-lentil-stock|hold-that|hold-tub
+      - [2060.44 - 2063.03]: tap-teaspoon
+      - [2063.09 - 2068.17]: scoop-more-ginger-lentil-stock|move-teaspoon|scoop-more-contents
+      - [2068.1 - 2070.21]: tap-teaspoon
+      - [2070.21 - 2078.49]: scoop-more-ginger-lentil-stock
+      - [2078.59 - 2079.21]: tap-teaspoon|shake-off-ginger|shake-off-lentil-stock
+      - [2079.03 - 2080.66]: put-down-now-empty-green-plastic-tub
+      - [2082.55 - 2083.42]: pick-up-spatula
+      - [2082.46 - 2090.06]: wipe-teaspoon|pour-some-coconut-milk
+
+
+  User return touch (blue):
+    Pick time: 2547.2666668
+    Drop time: 2554.4333334
+    Action descriptions:
+      - [2548.88 - 2549.29]: pick-up-dishwasher-brush
+      - [2549.38 - 2552.06]: scrub-teaspoon|brush-teaspoon|remove-food-residue|put-teaspoon
+      - [2552.16 - 2552.65]: place-dishwasher-brush
+
+
+Object: recipe kit box (ID: c17f989efac06973)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1675.1
+    Drop time: 1687.4666668
+    Action descriptions:
+      - [1676.65 - 1679.2]: put-recipe-kit
+      - [1678.93 - 1682.73]: put-recipe-kit
+      - [1682.57 - 1685.93]: put-recipe-cards
+
+
+  Touch 2:
+    Pick time: 1736.0666668
+    Drop time: 1745.1
+    Action descriptions:
+      - [1736.47 - 1743.88]: open-recipe-kit-box|pull-box
+
+
+  Touch 3:
+    Pick time: 1831.0666668
+    Drop time: 1833.0333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 1904.1333334
+    Drop time: 1905.5333334
+    Action descriptions:
+      - [1904.97 - 1905.48]: pick-up-pink-tub
+
+
+  Touch 5:
+    Pick time: 1972.3333334
+    Drop time: 1972.4666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 1990.2666668
+    Drop time: 1990.6666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 2032.5
+    Drop time: 2034.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2172.2
+    Drop time: 2187.7
+    Action descriptions:
+      - [2172.83 - 2180.65]: flatten-recipe-kit-box|compress-corners-of-box|fold-box
+      - [2180.75 - 2182.53]: pick-up-recipe-card|read-recipe
+      - [2182.63 - 2183.41]: put-down-recipe-card
+      - [2186.35 - 2187.34]: lift-cloth|reveal-recycling-bin
+
+
+Object: recipe kit 3 (ID: 1b5b09077ccd79b1)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1672.2
+    Drop time: 1673.2
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: recipe kit 2 (ID: 0cf8da91d218cc58)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1670.6
+    Drop time: 1679.0666668
+    Action descriptions:
+      - [1671.52 - 1673.87]: push-recipe-kit|look-for-right-kit|cook-that
+      - [1673.56 - 1676.62]: grab-right-recipe-kit
+
+
+Object: recipe kit (ID: 84ae2ca3af7bf898)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1667.5
+    Drop time: 1668.5
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: new recipe card (ID: 2b32f55b2b537f5c)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1664.2333334
+    Drop time: 1685.7
+    Action descriptions:
+      - [1666.77 - 1668.21]: lift-recipe-kit
+      - [1668.31 - 1671.08]: move-recipe-kit|lift-that
+      - [1668.89 - 1669.46]: push-recipe-kit|look-for-right-kit|cook-that
+      - [1669.56 - 1671.79]: pick-up-recipe-kit|pick-up-it|put-it|look-for-right-kit
+      - [1671.52 - 1673.87]: push-recipe-kit|look-for-right-kit|cook-that
+      - [1673.56 - 1676.62]: grab-right-recipe-kit
+      - [1676.65 - 1679.2]: put-recipe-kit
+      - [1678.93 - 1682.73]: put-recipe-kit
+
+
+Object: other vegetable peels (ID: 87e445b5e4a2b889)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1598.4
+    Drop time: 1605.2666668000002
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: peels (ID: 1ec6b4ae40d55983)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1495.1333334
+    Drop time: 1495.7333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1497.1333334
+    Drop time: 1500.9
+    Action descriptions:
+      - [1497.18 - 1499.11]: grab-bunch-of-vegetable-peels
+
+
+Object: food waste bin (ID: e04a4431ef2ec134)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1491.9333334
+    Drop time: 1494.2
+    Action descriptions:
+      - [1492.7 - 1493.61]: put-down-food-waste-bin
+      - [1493.7 - 1494.2]: open-food-waste-bin|lift-up-lid
+
+
+  Time between last use and return (red):
+    Pick time: 1612.9666668
+    Drop time: 1615.2
+    Action descriptions:
+      - [1613.0 - 1614.46]: open-cupboard
+
+
+  User return touch (blue):
+    Pick time: 2693.4
+    Drop time: 2700.5
+    Action descriptions:
+      - [2694.32 - 2694.54]: lift-lid-of-food-waste-bin|open-bin
+      - [2694.48 - 2700.01]: throw-food-bits|tap-strainer|shake-off-lentils|shake-off-other-food-bits
+
+
+Object: plastic spatula (ID: 3b5bc3812ee99ade)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1391.8666668
+    Drop time: 1485.2
+    Action descriptions:
+      - [1392.28 - 1393.64]: close-top-cupboard
+      - [1393.74 - 1396.23]: stir-onion|move-onion|split-large-chunks-of-onion|stir-large-chunks-of-onion
+      - [1396.33 - 1397.69]: turn-on-extractor-fan|flick-switch
+      - [1397.79 - 1401.64]: split-large-chunks-of-onion|press-down-top-part-of-spatula|stir-onion
+      - [1453.43 - 1455.32]: adjust-hob-heat|press-buttons
+      - [1455.42 - 1483.04]: stir-onion|split-large-chunks-of-onion|press-top-part-of-spatula
+      - [1482.53 - 1484.18]: tap-spatula|shake-off-bits-of-onion
+      - [1484.25 - 1485.15]: put-spatula
+
+
+  Touch 2:
+    Pick time: 1535.5666668
+    Drop time: 1555.6
+    Action descriptions:
+      - [1536.39 - 1544.56]: stir-onions|hold-that|fry-onion
+      - [1544.33 - 1545.54]: slide-frying-pan|align-frying-pan
+      - [1545.64 - 1546.76]: adjust-hob-heat|press-button
+      - [1546.86 - 1553.62]: stir-onions|hold-that|hold-pan
+      - [1553.66 - 1554.57]: tap-spatula|shake-off-bits-of-onion|drop-bits-of-onion
+
+
+  Touch 3:
+    Pick time: 1564.1666668
+    Drop time: 1582.8333334
+    Action descriptions:
+      - [1564.79 - 1578.89]: stir-onion|stir-chunks-of-squash|hold-that|hold-pan|stir-stir|distribute-oil|pour-that
+      - [1578.58 - 1580.23]: slide-frying-pan
+
+
+  Touch 4:
+    Pick time: 1590.7333334
+    Drop time: 1594.3
+    Action descriptions:
+      - [1591.41 - 1593.78]: slide-knife|push-onion-bits
+      - [1593.53 - 1593.86]: put-down-spatula
+
+
+  Touch 5:
+    Pick time: 1633.4666668
+    Drop time: 1661.8
+    Action descriptions:
+      - [1634.27 - 1637.27]: stir-squash|stir-onion|move-squash|move-onion|hold-that|hold-pan
+      - [1637.16 - 1639.09]: adjust-hob-heat|press-buttons
+      - [1638.83 - 1642.8]: stir-onions|stir-squash|hold-that
+      - [1644.0 - 1648.25]: slide-frying-pan
+      - [1652.52 - 1656.2]: tap-spatula|shake-off-bits-of-onion
+      - [1656.3 - 1657.52]: lower-spatula|put-down-spatula
+      - [1657.62 - 1658.17]: pick-up-knife
+      - [1658.27 - 1660.89]: slide-knife|drop-bits-of-onion
+
+
+  Touch 6:
+    Pick time: 1688.2
+    Drop time: 1723.5
+    Action descriptions:
+      - [1688.45 - 1693.62]: stir-squash|stir-onion|move-food|hold-that
+      - [1713.4 - 1717.65]: tap-spatula|shake-off-bits-of-onion|drop-them
+      - [1718.37 - 1720.15]: wipe-oil
+      - [1718.37 - 1722.3]: slide-knife|wipe-onion|drop-onion
+      - [1721.98 - 1722.76]: tap-spatula|shake-off-any-oil
+      - [1722.79 - 1723.01]: put-knife
+
+
+  Touch 7:
+    Pick time: 1786.6
+    Drop time: 1830.0333334
+    Action descriptions:
+      - [1787.27 - 1794.72]: scoop-paste|wipe-teaspoon
+      - [1794.82 - 1795.72]: put-teaspoon
+      - [1795.82 - 1815.61]: stir-contents-of-frying-pan|hold-that|hold-pan
+      - [1815.53 - 1816.1]: slide-pan
+      - [1824.06 - 1825.45]: tap-spatula
+      - [1825.55 - 1826.19]: pick-up-knife
+      - [1826.29 - 1828.79]: wipe-food-residue|slide-knife
+      - [1829.1 - 1829.66]: put-down-knife
+
+
+  Touch 8:
+    Pick time: 1893.7666668
+    Drop time: 1900.5666668
+    Action descriptions:
+      - [1893.81 - 1894.07]: pick-up-spatula
+      - [1894.71 - 1900.25]: stir-frying-pan|hold-that|stir-food|hold-pan
+
+
+  Touch 9:
+    Pick time: 1914.0
+    Drop time: 1967.2333334
+    Action descriptions:
+      - [1914.11 - 1914.53]: pick-up-spatula
+      - [1914.29 - 1920.87]: stir-contents-of-frying-pan|mix-dahl-spice-mix|hold-that|mix-food|hold-pan
+      - [1920.51 - 1921.81]: slide-frying-pan
+      - [1958.56 - 1959.13]: grab-tea-spoon|pick-up-tea-spoon|wipe-food
+      - [1959.23 - 1959.72]: tap-spatula|shake-off-food-residue
+      - [1959.82 - 1960.34]: pick-up-knife
+      - [1960.61 - 1963.88]: wipe-food-residue|slide-knife
+      - [1963.9 - 1965.8]: wipe-blade-of-knife|drop-any-food-residue
+      - [1965.6 - 1966.43]: tap-spatula|shake-off-more-food-residue|drop-more-food-residue
+      - [1966.42 - 1966.86]: put-knife
+
+
+  Touch 10:
+    Pick time: 2016.9666668
+    Drop time: 2031.9
+    Action descriptions:
+      - [2017.68 - 2018.14]: hold-that|stir-contents-of-frying-pan
+      - [2018.24 - 2029.77]: slide-frying-pan
+      - [2029.66 - 2031.42]: tap-spatula|shake-off-food-residue|drop-food-residue
+
+
+  Touch 11:
+    Pick time: 2083.1
+    Drop time: 2117.5666668
+    Action descriptions:
+      - [2090.16 - 2090.94]: put-down-teaspoon
+      - [2091.04 - 2106.32]: stir-frying-pan|hold-that|move-spatula|splash-coconut-milk
+      - [2106.02 - 2111.96]: tap-spatula|shake-any-food-residue|drop-any-food-residue
+
+
+  Touch 12:
+    Pick time: 2159.6666668
+    Drop time: 2168.0333334
+    Action descriptions:
+      - [2160.23 - 2165.61]: stir-contents-of-frying-pan|hold-that|hold-pan|stir-stir|mix-water|pour-that
+      - [2165.37 - 2166.6]: tap-spatula|shake-off-any-food-residue|drop-any-food-residue
+
+
+  Touch 13:
+    Pick time: 2323.8333334
+    Drop time: 2338.7
+    Action descriptions:
+      - [2324.93 - 2325.83]: lift-glass-lid
+      - [2326.43 - 2329.22]: stir-food|turn-spatula|do-this|spill-any-food
+      - [2333.77 - 2335.54]: tap-spatula|shake-off-any-food-residue
+      - [2335.31 - 2337.24]: put-glass-lid
+      - [2337.23 - 2338.16]: put-down-spatula
+
+
+  Touch 14:
+    Pick time: 2460.3
+    Drop time: 2476.0333334
+    Action descriptions:
+      - [2460.84 - 2462.2]: lift-glass-lid
+      - [2462.29 - 2470.89]: stir-food|move-spatula
+      - [2470.65 - 2472.26]: tap-spatula|shake-off-any-food-residue|drop-any-food-residue
+      - [2472.24 - 2474.07]: put-glass-lid
+      - [2474.13 - 2474.77]: put-spatula
+
+
+  Touch 15:
+    Pick time: 2558.3
+    Drop time: 2581.6666668
+    Action descriptions:
+      - [2561.66 - 2562.79]: lift-glass-lid
+      - [2563.2 - 2577.43]: stir-food|move-spatula|spill-food
+      - [2577.4 - 2578.57]: tap-spatula|shake-off-any-food-residue|drop-any-food-residue
+      - [2578.58 - 2580.23]: place-glass-lid
+      - [2580.33 - 2581.6]: place-spatula
+
+
+  Touch 16:
+    Pick time: 2753.4666668
+    Drop time: 2766.3666668
+    Action descriptions:
+      - [2754.02 - 2755.18]: lift-glass-lid
+      - [2755.18 - 2761.28]: stir-food|hold-that|move-spatula|spill-over-food
+      - [2761.28 - 2763.68]: put-down-glass-lid
+      - [2763.73 - 2765.45]: tap-spatula|shake-off-food-residue|drop-food-residue
+      - [2765.56 - 2766.35]: put-down-spatula|rest-top-part-of-spatula
+
+
+  Touch 17:
+    Pick time: 2778.8666668
+    Drop time: 2805.0666668
+    Action descriptions:
+      - [2779.36 - 2799.82]: stir-food|stir-spring-greens|pour-that|move-food|hold-that
+      - [2799.9 - 2801.21]: pick-up-glass-lid
+      - [2801.19 - 2802.65]: tap-spatula|drop-food-residue
+      - [2800.27 - 2803.95]: place-glass-lid
+      - [2804.05 - 2804.84]: put-down-spatula
+
+
+  Touch 18:
+    Pick time: 2896.0
+    Drop time: 2932.0333334
+    Action descriptions:
+      - [2896.84 - 2897.81]: lift-glass-lid
+      - [2897.91 - 2912.67]: stir-food|pour-which|tilt-content-of-pan|move-spatula
+      - [2926.65 - 2929.14]: tap-spatula|shake-off-food-residue|drop-food-residue
+      - [2929.01 - 2930.6]: place-glass-lid
+
+
+  Time between last use and return (red):
+    Pick time: 3021.3666668
+    Drop time: 3051.3333334
+    Action descriptions:
+      - [3021.82 - 3023.01]: lift-lid
+      - [3023.11 - 3045.69]: stir-food|put-which|tilt-food|move-spatula
+      - [3045.23 - 3048.17]: tap-spatula|shake-off-food-residue|drop-food-residue
+      - [3048.3 - 3049.65]: place-glass-lid
+
+
+  User return touch (blue):
+    Pick time: 3129.5
+    Drop time: 3156.1
+    Action descriptions:
+      - [3130.38 - 3131.08]: lift-glass-lid
+      - [3131.18 - 3132.84]: hold-glass-lid|simmer-food|shake-lid
+      - [3132.91 - 3133.58]: put-down-glass-lid
+      - [3134.74 - 3153.11]: stir-food|tilt-food
+      - [3153.09 - 3154.92]: tap-spatula|shake-off-food-residue|drop-food-residue
+
+
+Object: partly chopped onion first half (ID: bc0ddf57c5d4d86e)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1370.0666668
+    Drop time: 1370.3
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: sunflower oil bottle (ID: 4141adf1f5c3e0ea)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1337.1
+    Drop time: 1347.3333334
+    Action descriptions:
+      - [1337.69 - 1338.09]: push-bottom-drawer|close-bottom-drawer
+      - [1338.43 - 1340.2]: open-bottle-of-sunflower-oil|twist-cap
+      - [1340.24 - 1343.02]: tilt-bottle-of-sunflower-oil|pour-medium-amount-of-oil
+      - [1343.12 - 1344.59]: close-bottle-of-sunflower-oil|twist-cap
+      - [1344.69 - 1345.14]: put-sunflower-oil-bottle
+
+
+  User return touch (blue):
+    Pick time: 1357.4333334
+    Drop time: 1361.2
+    Action descriptions:
+      - [1359.05 - 1359.87]: pull-bottom-drawer|open-bottom-drawer
+      - [1360.02 - 1361.18]: put-sunflower-oil-bottle
+
+
+Object: pan padding (ID: 4e551b32f278fe2f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1321.2666668000002
+    Drop time: 1321.8666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: frying pan grey (ID: cacd8936c048acfb)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1317.9666668
+    Drop time: 1320.9
+    Action descriptions:
+      - [1318.79 - 1319.6]: pick-up-larger-frying-pan
+
+
+  Touch 2:
+    Pick time: 1318.6333334
+    Drop time: 1323.9666668
+    Action descriptions:
+      - [1318.79 - 1319.6]: pick-up-larger-frying-pan
+      - [1319.61 - 1321.0]: put-down-stack-of-small-frying-pan|put-down-saucepan
+      - [1321.22 - 1321.53]: grab-plastic-padding
+      - [1321.63 - 1322.14]: toss-pan-padding
+
+
+  Touch 3:
+    Pick time: 1355.6
+    Drop time: 1357.2666668000002
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 1394.3
+    Drop time: 1396.2333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 1398.4666668
+    Drop time: 1452.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 1456.1333334
+    Drop time: 1483.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 7:
+    Pick time: 1536.9
+    Drop time: 1542.9333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 8:
+    Pick time: 1544.3666668
+    Drop time: 1545.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 9:
+    Pick time: 1575.9333334
+    Drop time: 1580.8333334
+    Action descriptions:
+      - [1578.58 - 1580.23]: slide-frying-pan
+
+
+  Touch 10:
+    Pick time: 1634.5666668
+    Drop time: 1636.9666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 11:
+    Pick time: 1639.2
+    Drop time: 1656.0
+    Action descriptions:
+      - [1644.0 - 1648.25]: slide-frying-pan
+
+
+  Touch 12:
+    Pick time: 1689.5333334000002
+    Drop time: 1705.6666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 13:
+    Pick time: 1707.7333334
+    Drop time: 1715.7333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 14:
+    Pick time: 1795.7666668000002
+    Drop time: 1796.7666668000002
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 15:
+    Pick time: 1895.1333334
+    Drop time: 1899.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 16:
+    Pick time: 1914.6
+    Drop time: 1958.4
+    Action descriptions:
+      - [1920.51 - 1921.81]: slide-frying-pan
+
+
+  Touch 17:
+    Pick time: 2018.2666668
+    Drop time: 2031.7
+    Action descriptions:
+      - [2029.66 - 2031.42]: tap-spatula|shake-off-food-residue|drop-food-residue
+
+
+  Touch 18:
+    Pick time: 2094.3
+    Drop time: 2107.2333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 19:
+    Pick time: 2779.8666668
+    Drop time: 2799.7
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 20:
+    Pick time: 3134.9
+    Drop time: 3154.6666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 21:
+    Pick time: 3162.6333334
+    Drop time: 3166.4666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 3174.6333334
+    Drop time: 3175.6333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 3177.4
+    Drop time: 3255.1
+    Action descriptions:
+      - [3179.61 - 3181.64]: lift-frying-pan|move-frying-pan|pour-curry
+      - [3181.05 - 3185.57]: pour-another-spoonful-of-red-lentil-curry|tilt-ladle
+      - [3186.44 - 3188.44]: scoop-more-red-lentil-curry|tilt-pan|scoop-food|hold-that
+      - [3188.5 - 3190.31]: pour-more-red-lentil-curry|tilt-ladle
+      - [3190.12 - 3193.18]: scoop-another-small-amount-of-red-lentil-curry|hold-in-right-hand|hold-frying-pan
+      - [3192.98 - 3195.0]: pour-more-red-lentil-curry|tilt-ladle
+      - [3194.8 - 3197.39]: scoop-another-small-amount-of-red-lentil-curry|hold-that|hold-pan
+      - [3197.04 - 3198.62]: pour-last-spoonful-of-red-lentil-curry|tilt-ladle
+      - [3198.71 - 3199.47]: move-back-of-ladle|redistribute-curry
+      - [3199.57 - 3200.46]: put-down-ladle|rest-ladle-handle
+      - [3200.56 - 3201.14]: grab-empty-bowl|pick-up-empty-bowl
+      - [3201.24 - 3201.93]: switch-off-extractor-fan|flick-switch
+      - [3202.28 - 3202.95]: slide-empty-bowl
+      - [3203.68 - 3206.72]: scoop-large-amount-of-red-lentil-curry|hold-that|hold-pan|tilt-pan|scoop-food
+      - [3206.82 - 3208.93]: pour-curry|tilt-ladle|shake-ladle
+      - [3209.03 - 3212.58]: scoop-more-red-lentil-curry|hold-that|hold-pan
+      - [3212.68 - 3214.65]: pour-more-red-lentil-curry|tilt-ladle
+      - [3214.96 - 3218.15]: scoop-more-red-lentil-curry|hold-in-right-hand|hold-pan|tilt-pan|scoop-food
+      - [3218.25 - 3220.01]: pour-more-red-lentil-curry|tilt-ladle
+      - [3220.03 - 3224.58]: scoop-more-red-lentil-curry|hold-that|hold-pan|tilt-pan|scoop-food
+      - [3224.68 - 3228.1]: pour-more-red-lentil-curry|tilt-ladle|shake-ladle
+      - [3228.2 - 3230.32]: be-little-curry|scoop-little-curry|pour-more-curry|tilt-pan
+      - [3232.12 - 3238.44]: be-little-curry|scoop-little-curry|pour-more-curry|tilt-pan
+      - [3238.46 - 3252.08]: scoop-last-bit-of-red-lentil-curry|push-curry|hold-which
+      - [3252.09 - 3253.04]: put-ladle|rest-ladle-handle
+      - [3253.14 - 3255.07]: put-down-frying-pan|hold-ladle|put-down-ladle
+
+
+Object: stack of small frying pan (ID: 543c1020a503d69a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1317.9666668
+    Drop time: 1320.9
+    Action descriptions:
+      - [1318.79 - 1319.6]: pick-up-larger-frying-pan
+
+
+Object: second half of peeled onion (ID: a2e290d4d04c1bbb)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1199.0666668
+    Drop time: 1217.7
+    Action descriptions:
+      - [1199.6 - 1209.01]: peel-second-half-of-onion|pull-outer-skin-layer-of-onion|hold-onion
+      - [1209.61 - 1210.97]: remove-bit-of-onion-skin|wipe-fingers|brush-off-skin
+      - [1211.07 - 1216.93]: peel-little-bit-of-remaining-skin|hold-onion
+
+
+  User return touch (blue):
+    Pick time: 1252.7
+    Drop time: 1265.8666668
+    Action descriptions:
+      - [1253.63 - 1257.63]: slice-onion|hold-knife|hold-onion
+      - [1257.64 - 1258.08]: turn-sliced-onion
+      - [1258.33 - 1259.29]: move-bit-of-onion
+      - [1259.77 - 1264.43]: slice-onion|cut-in-opposite-direction|obtain-chunks-of-onion-of-roughly-same-size|hold-that|hold-onion
+      - [1264.53 - 1265.59]: pick-up-onion-root
+
+
+Object: peeled half of onion (ID: 54aaecb23e7b5487)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1176.3
+    Drop time: 1197.8333334
+    Action descriptions:
+      - [1176.31 - 1176.92]: put-down-knife
+      - [1176.82 - 1197.25]: peel-first-onion-half|pull-outer-layer-of-skin|hold-onion-half
+
+
+  Touch 2:
+    Pick time: 1233.2333334
+    Drop time: 1233.7
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 1234.0666668
+    Drop time: 1239.0
+    Action descriptions:
+      - [1234.26 - 1235.01]: pick-up-onion
+      - [1235.11 - 1237.95]: peel-onion|pull-onion-skin|pull-skin
+      - [1238.03 - 1238.65]: drop-onion-skin
+
+
+  User return touch (blue):
+    Pick time: 1239.2666668000002
+    Drop time: 1252.4
+    Action descriptions:
+      - [1239.5 - 1245.49]: slice-onion|hold-in-right-hand|hold-knife
+      - [1245.49 - 1245.89]: turn-sliced-onion
+      - [1245.83 - 1246.15]: push-onion|push-it
+      - [1246.54 - 1251.63]: slice-onion|slice-that|cut-parallel-strips|cut-chunks-of-onion-of-same-size
+      - [1251.93 - 1252.19]: pick-up-root-of-onion
+
+
+Object: onion (ID: 6d70efcb6a560beb)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1166.7666668000002
+    Drop time: 1176.1666668
+    Action descriptions:
+      - [1167.66 - 1168.26]: tuck-plastic-bag-of-onions
+      - [1169.73 - 1170.6]: pick-knife
+      - [1170.68 - 1171.15]: put-down-onion
+      - [1171.17 - 1173.2]: chop-off-top-part-of-onion|hold-that|hold-onion
+
+
+Object: plastic bag of onions (ID: 5e6cdb503c76d4e3)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1163.1333334
+    Drop time: 1167.9666668
+    Action descriptions:
+      - [1163.4 - 1167.59]: get-onion|pull-bag|move-onion
+
+
+Object: cling film (ID: 32dc53be2190afc1)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1137.9333334
+    Drop time: 1151.8333334
+    Action descriptions:
+      - [1138.54 - 1139.01]: put-box-of-cling-film
+      - [1140.15 - 1146.64]: wrap-squash|compact-cling-film
+      - [1148.7 - 1149.99]: pull-fridge-top-door|open-fridge
+      - [1150.58 - 1151.32]: hold-squash|pull-fridge-bottom-drawer|open-fridge-drawer
+
+
+Object: partly wrapped squash (ID: a01241c053751ad6)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1130.8666668
+    Drop time: 1135.7333334
+    Action descriptions:
+      - [1131.01 - 1133.6]: pick-up-squash|pull-cling-film|get-cling-film
+
+
+  User return touch (blue):
+    Pick time: 1141.8
+    Drop time: 1151.8333334
+    Action descriptions:
+      - [1148.7 - 1149.99]: pull-fridge-top-door|open-fridge
+      - [1150.58 - 1151.32]: hold-squash|pull-fridge-bottom-drawer|open-fridge-drawer
+
+
+Object: box of cling film (ID: 40089125571e5dcf)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1122.9
+    Drop time: 1138.8666668
+    Action descriptions:
+      - [1123.38 - 1124.25]: push-top-drawer|close-drawer
+      - [1124.35 - 1128.78]: pull-cling-film|get-sheet-of-cling-film|wrap-squash
+      - [1129.14 - 1130.91]: lay-cling-film
+      - [1131.01 - 1133.6]: pick-up-squash|pull-cling-film|get-cling-film
+      - [1135.36 - 1135.79]: put-down-partly-wrapped-squash|put-down-cling-film-box
+      - [1136.1 - 1138.21]: cut-cling-film|pull-left-side-of-cling|pull-cling-film|hold-box
+
+
+  User return touch (blue):
+    Pick time: 2293.5
+    Drop time: 2296.3666668
+    Action descriptions:
+      - [2293.61 - 2294.58]: pick-up-cling-film-box
+      - [2294.97 - 2295.65]: pull-top-drawer|open-top-drawer
+      - [2295.38 - 2296.26]: place-cling-film-box
+
+
+Object: can of coconut milk (ID: 16f046dadbc13f81)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1110.6333334
+    Drop time: 1119.3
+    Action descriptions:
+      - [1111.89 - 1115.04]: turn-can-of-coconut-milk|read-sides-of-can-label
+      - [1116.29 - 1117.88]: push-large-bottom-drawer|close-large-bottom-drawer
+
+
+  Touch 2:
+    Pick time: 1980.2666668
+    Drop time: 1982.6
+    Action descriptions:
+      - [1981.89 - 1982.31]: put-coconut-milk-can
+
+
+  Touch 3:
+    Pick time: 1988.9666668
+    Drop time: 1990.0666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 2006.6333334
+    Drop time: 2017.0
+    Action descriptions:
+      - [2006.96 - 2008.84]: pull-top-of-coconut-milk-can|cut-myself|detach-top-part-of-coconut-milk-can|dispose-of-can
+      - [2008.94 - 2011.92]: pour-entirety-of-coconut-milk|tilt-can
+      - [2011.75 - 2015.08]: tap-right-hand|shake-can|drop-coconut-milk
+      - [2014.66 - 2016.67]: put-down-coconut-milk-can
+
+
+  User return touch (blue):
+    Pick time: 2192.3
+    Drop time: 2220.7666668
+    Action descriptions:
+      - [2192.98 - 2195.45]: start-stop-watch|wear-which|press-button
+      - [2196.01 - 2197.09]: turn-on-tap
+      - [2196.24 - 2203.15]: rinse-coconut-milk-can|move-can|turn-coconut-milk-can|shake-coconut-milk-can|do-this
+      - [2202.84 - 2207.88]: wipe-top-inside-part-of-can|remove-clump-of-coconut-milk|do-this|cut-myself
+      - [2207.71 - 2209.02]: tilt-can|drain-can|remove-water
+      - [2209.12 - 2209.49]: turn-off-tap
+      - [2209.47 - 2210.6]: push-top-part-of-coconut-milk-can|dispose-of-can
+      - [2210.63 - 2211.37]: shake-can|remove-more-water
+      - [2211.18 - 2214.43]: turn-can|read-sides-of-label
+      - [2214.47 - 2215.62]: shake-can|remove-more-water
+
+
+Object: second large bowl (ID: ea9b6dc08e9a7257)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 1095.6333334
+    Drop time: 1099.3333334
+    Action descriptions:
+      - [1096.92 - 1097.53]: close-cupboard
+      - [1098.52 - 1099.27]: put-down-bowl
+
+
+  Touch 2:
+    Pick time: 1596.0
+    Drop time: 1597.2
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 2767.9666668
+    Drop time: 2777.3666668
+    Action descriptions:
+      - [2770.79 - 2774.12]: tilt-bowl|transfer-spring-greens|cook-greens
+      - [2774.22 - 2775.98]: pull-bit-of-spring-green
+      - [2776.08 - 2777.22]: put-down-now-empty-bowl
+
+
+  Touch 4:
+    Pick time: 2805.0666668
+    Drop time: 2827.2
+    Action descriptions:
+      - [2805.63 - 2806.89]: turn-on-tap|hold-empty-bowl
+      - [2806.94 - 2808.26]: rinse-bowl|rotate-bowl|turn-bowl|distribute-water
+      - [2807.14 - 2808.04]: turn-off-tap
+      - [2808.14 - 2808.54]: tilt-bowl|remove-water
+      - [2808.64 - 2809.55]: shake-bowl|remove-more-water
+      - [2809.65 - 2809.96]: pick-up-cloth
+      - [2810.05 - 2812.14]: dry-bowl|wipe-inside|wipe-outside-of-bowl
+      - [2816.0 - 2817.62]: pick-up-cloth|drop-cloth|dry-bowl
+      - [2817.72 - 2826.05]: dry-bowl|wipe-bowl
+
+
+  Touch 5:
+    Pick time: 3071.3666668
+    Drop time: 3074.0
+    Action descriptions:
+      - [3073.01 - 3073.76]: put-down-bowl|put-bowls|serve-food
+
+
+  Time between last use and return (red):
+    Pick time: 3200.7666668
+    Drop time: 3201.1
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 3202.4666668
+    Drop time: 3202.8333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: strips of spring green leaves (ID: efc517aed4e95109)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 1073.0333334000002
+    Drop time: 1089.2666668000002
+    Action descriptions:
+      - [1074.45 - 1074.84]: grab-bunch-of-spring-greens-leaves
+      - [1074.87 - 1087.9]: slice-spring-greens-leaves|hold-that|hold-spring-greens|slice-spring-greens|stack-leaves|slice-multiple-leaves
+
+
+  User return touch (blue):
+    Pick time: 1099.8666668
+    Drop time: 1102.4333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: sixth leaf of spring green (ID: 308f01ab292133ad)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1004.4666668
+    Drop time: 1005.6666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: spring green leaves (ID: 8ba878ac39101f61)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 998.7333334
+    Drop time: 1001.8333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 1007.1333334
+    Drop time: 1008.5666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1035.8333334
+    Drop time: 1069.4333334
+    Action descriptions:
+      - [1037.28 - 1038.45]: turn-on-tap|hold-spring-green-leaves
+      - [1038.5 - 1043.75]: wash-spring-green-leaves|turn-leaves|flip-leaves|rub-leaves|remove-any-possible-dirt
+      - [1060.09 - 1060.43]: turn-off-tap
+      - [1060.76 - 1068.26]: squeeze-bunch-of-spring-leaves|apply-pressure|release-water
+
+
+Object: fifth leaf of spring greens (ID: 6458b0ab9d019f25)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 996.3666668
+    Drop time: 997.0
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: fourth leaf of spring greens (ID: ce46765de085652e)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 991.5333334
+    Drop time: 992.1333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: third leaf of spring green (ID: a32cc06c7c69ec31)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 980.1
+    Drop time: 981.1333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 987.9333334
+    Drop time: 988.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: second leaf of spring green (ID: 6157b96202ddc216)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 976.8666668
+    Drop time: 977.6
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 981.7333334
+    Drop time: 984.0
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1014.0333334
+    Drop time: 1016.6666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: leaf of spring greens (ID: 82c25823cb6df600)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 973.9666668
+    Drop time: 975.0
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 985.4
+    Drop time: 987.6333334
+    Action descriptions:
+      - [985.49 - 985.84]: pick-up-leaf-of-spring-greens|put-down-that
+
+
+  Time between last use and return (red):
+    Pick time: 989.0
+    Drop time: 989.7333334
+    Action descriptions:
+      - [989.09 - 989.34]: pick-up-leaf-of-spring-greens
+
+
+  User return touch (blue):
+    Pick time: 1018.0666668
+    Drop time: 1019.4333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bunch of spring greens (ID: 6ef90806487cc132)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 961.5333334
+    Drop time: 965.5666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 968.1666668
+    Drop time: 1013.3
+    Action descriptions:
+      - [968.19 - 968.99]: pick-up-bunch-of-spring-greens
+      - [972.74 - 974.14]: pluck-leaf|pull-leaf
+      - [974.19 - 975.05]: put-down-leaf-of-spring-greens
+      - [975.79 - 977.08]: pluck-leaf|pull-leaf
+      - [977.3 - 977.69]: put-leaf-of-spring-green
+      - [978.24 - 980.39]: pluck-leaf|pull-leaf
+      - [980.64 - 981.23]: put-down-leaf-of-spring-green
+      - [981.34 - 982.59]: pick-leaf-of-spring-greens|put-that
+      - [982.57 - 984.36]: be-too-many-brown-spots|discard-leaf|put-leaf
+      - [985.49 - 985.84]: pick-up-leaf-of-spring-greens|put-down-that
+      - [989.09 - 989.34]: pick-up-leaf-of-spring-greens
+      - [989.03 - 990.15]: discard-leaf-of-spring-greens|put-it
+      - [990.15 - 991.83]: pluck-leaf|pull-leaf
+      - [991.66 - 992.4]: put-down-leaf-of-spring-greens|stand-on-chopping-board
+      - [993.19 - 996.57]: pluck-leaf|pull-leaf
+      - [996.67 - 997.32]: put-down-leaf|stand-on-chopping-board
+      - [997.42 - 998.57]: turn-on-scale|press-button
+      - [998.67 - 999.7]: pick-up-leaves-of-spring-greens
+      - [999.7 - 1002.01]: place-spring-green-leaves|weigh-spring-green-leaves
+      - [1003.09 - 1004.76]: read-measurement|pluck-another-leaf|pull-leaf
+      - [1004.7 - 1006.33]: place-leaf
+      - [1006.59 - 1007.92]: have-enough-spring-greens|pick-up-leaves-of-spring-greens
+      - [1007.88 - 1008.68]: put-down-leaves-of-spring-greens
+      - [1008.74 - 1009.75]: turn-off-scale|press-button
+      - [1010.47 - 1011.7]: pick-up-bag
+
+
+Object: bag of lettuce (ID: 481dd3dd502eb163)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 946.1
+    Drop time: 956.0666668
+    Action descriptions:
+      - [946.24 - 947.29]: pick-up-bag
+      - [947.39 - 948.39]: push-fridge-bottom-drawer
+      - [949.71 - 952.3]: pull-fridge-door|close-fridge
+
+
+  Time between last use and return (red):
+    Pick time: 956.6333334
+    Drop time: 967.8
+    Action descriptions:
+      - [964.84 - 965.74]: put-bunch-of-spring-greens|pull-that
+
+
+  User return touch (blue):
+    Pick time: 1010.9333334
+    Drop time: 1029.4
+    Action descriptions:
+      - [1011.56 - 1013.53]: place-bunch-of-spring-greens|hold-that
+      - [1013.63 - 1014.82]: pick-up-leaves-of-spring-greens|discard-that
+      - [1014.64 - 1017.46]: put-back-leaf-of-spring-greens
+      - [1017.41 - 1018.51]: pick-up-other-leaf-of-spring-greens|discard-that
+      - [1018.46 - 1019.52]: put-leaf-of-spring-greens
+      - [1019.57 - 1020.65]: pick-up-bit-of-spring-greens-leaf
+      - [1019.55 - 1020.66]: throw-bit-of-spring-greens
+      - [1020.76 - 1023.26]: close-bag-of-spring-greens|run-top-side-of-bag|walk-towards-fridge
+      - [1023.36 - 1025.04]: pull-fridge-door|open-fridge
+      - [1025.75 - 1026.79]: pull-fridge-bottom-drawer
+      - [1026.89 - 1029.28]: place-bag-of-spring-greens|press-bag-of-spring-greens|close-drawer
+
+
+Object: last bits of squash (ID: cc7d20b0488f5bb9)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 930.7333334
+    Drop time: 931.8
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: more peeled squash chunks (ID: 2e21fe2f58a3c7dd)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 927.7333334
+    Drop time: 928.3333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: few more peeled squash chunks 2 (ID: 6a0922ed69a6eff0)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 924.3
+    Drop time: 926.3333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: few more peeled squash chunks (ID: e58bcdce444d7de4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 924.2666668
+    Drop time: 926.0333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: peeled chunks of squash 2 (ID: 57ae00949b9234a7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 920.9666668
+    Drop time: 923.0
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: peeled chunk of squash (ID: b9123a6432d32df4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 915.8666668
+    Drop time: 916.1
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash twenty-eighth piece (ID: a8d23b7f67f87c4c)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 902.5333334
+    Drop time: 912.4333334
+    Action descriptions:
+      - [902.55 - 903.06]: pick-up-last-chunk-of-squash
+      - [902.88 - 911.01]: peel-last-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [911.03 - 911.73]: put-down-squash-skin
+      - [911.17 - 911.61]: put-down-last-peeled-chunk-of-squash
+      - [911.88 - 912.13]: put-down-knife|rest-blade
+
+
+Object: squash twenty-seventh piece (ID: b5bd69b93489bdeb)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 891.7
+    Drop time: 902.2333334
+    Action descriptions:
+      - [892.38 - 901.57]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [901.64 - 902.05]: put-down-peeled-chunk-of-squash
+
+
+Object: squash twenty-sixth piece (ID: 0219dd2912f3f647)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 882.5666668
+    Drop time: 890.6
+    Action descriptions:
+      - [883.13 - 885.63]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [885.72 - 886.22]: put-down-small-part-of-skin
+      - [886.45 - 889.88]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [889.93 - 890.39]: put-down-squash-skin
+
+
+Object: squash twenty-fifth piece (ID: 1e571e990857ed6f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 871.4333333999999
+    Drop time: 882.2333334
+    Action descriptions:
+      - [871.95 - 881.86]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [881.77 - 882.05]: put-down-peeled-chunk-of-squash
+
+
+Object: squash twenty-fourth piece (ID: 74e443355339d754)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 863.8333334
+    Drop time: 871.1
+    Action descriptions:
+      - [863.97 - 870.71]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [870.71 - 870.93]: put-down-peeled-chunk-of-squash
+
+
+Object: squash twenth-third piece (ID: 65cc8582de3dd261)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 852.8
+    Drop time: 863.4
+    Action descriptions:
+      - [853.18 - 853.76]: pick-up-smaller-knife
+      - [854.06 - 863.01]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [862.96 - 863.37]: put-down-peeled-chunk-of-squash
+
+
+Object: squash twenty-second piece (ID: d7fdafa680deb28a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 850.8666668
+    Drop time: 852.2
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash label (ID: b275e3e17336d694)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 842.6333334
+    Drop time: 843.9333333999999
+    Action descriptions:
+      - [842.79 - 843.32]: put-down-squash
+
+
+Object: squash last piece (ID: 0fbdf69f3bb5121c)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 840.6333334
+    Drop time: 843.2333334
+    Action descriptions:
+      - [840.74 - 841.16]: put-down-knife
+      - [841.2 - 842.89]: remove-label|pull-label|hold-squash
+
+
+  Touch 2:
+    Pick time: 845.9666668
+    Drop time: 846.6
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 847.1
+    Drop time: 849.8333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 850.1
+    Drop time: 850.6
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: remaining squash (ID: 8ba189bfb842a210)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 839.5
+    Drop time: 840.2333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: last chunks of squash (ID: 6d0adf45129486b8)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 824.3333334
+    Drop time: 825.5666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: more chunks of squash (ID: b55258824c020135)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 821.1333334
+    Drop time: 822.3333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: few chunks of squash (ID: 2a980da60ae1f48d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 817.6666667999999
+    Drop time: 819.2
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash twenty-first piece (ID: a80dc0c5c7692223)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 534.7
+    Drop time: 539.4333333999999
+    Action descriptions:
+      - [538.41 - 539.22]: pick-up-last-chopped-chunk-of-squash
+
+
+  User return touch (blue):
+    Pick time: 540.0333334
+    Drop time: 545.4333333999999
+    Action descriptions:
+      - [540.98 - 544.99]: remove-seeds|slide-knife|hold-that
+
+
+Object: squash twentieth piece (ID: e1937bf0abd1b8a4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 531.5333334
+    Drop time: 532.8
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash nineteenth piece (ID: 7a55f7263deb348b)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 530.5
+    Drop time: 531.0
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash eighteenth piece (ID: 23a69ab374b090a5)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 522.7333334
+    Drop time: 530.2333334
+    Action descriptions:
+      - [523.67 - 524.91]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+      - [524.86 - 526.44]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+
+
+  Touch 2:
+    Pick time: 558.8
+    Drop time: 566.6666667999999
+    Action descriptions:
+      - [560.0 - 565.46]: remove-seeds|slide-knife|hold-that|hold-squash
+      - [565.56 - 566.02]: put-chunk-of-squash
+
+
+  Touch 3:
+    Pick time: 727.5
+    Drop time: 740.4333333999999
+    Action descriptions:
+      - [727.94 - 737.91]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [738.01 - 738.46]: put-down-squash-skin
+      - [739.88 - 740.18]: drop-small-bit-of-skin
+
+
+  Time between last use and return (red):
+    Pick time: 765.8
+    Drop time: 766.9333333999999
+    Action descriptions:
+      - [766.3 - 766.72]: put-chunk-of-squash
+
+
+  User return touch (blue):
+    Pick time: 807.4
+    Drop time: 808.2333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash seventeenth piece (ID: 652bae6e1c3273f7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 517.7333334
+    Drop time: 521.4333333999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash sixteenth piece (ID: e078956436211ba8)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 515.6666667999999
+    Drop time: 516.8
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 566.9
+    Drop time: 575.7
+    Action descriptions:
+      - [567.47 - 575.1]: remove-seeds|slide-knife|hold-in-right-hand|hold-squash
+      - [575.11 - 575.65]: put-down-chunk-of-squash
+
+
+  User return touch (blue):
+    Pick time: 667.7666667999999
+    Drop time: 679.9
+    Action descriptions:
+      - [668.34 - 679.33]: peel-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [679.22 - 679.75]: put-down-squash-skin
+
+
+Object: squash fifteenth piece (ID: c17b673e6cc5358f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 513.5666668
+    Drop time: 515.0333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 533.4666668
+    Drop time: 533.9333333999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 546.8333334
+    Drop time: 551.8
+    Action descriptions:
+      - [548.39 - 551.22]: remove-seeds|slide-knife|hold-that|hold-squash
+
+
+  User return touch (blue):
+    Pick time: 742.4333333999999
+    Drop time: 752.9
+    Action descriptions:
+      - [742.74 - 743.09]: pick-up-that|put-peeled-chunk-of-squash
+      - [743.19 - 743.85]: pick-up-chunk-of-squash
+      - [743.95 - 752.7]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+
+
+Object: squash fourteenth piece (ID: 72a65f7315e1e6b8)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 496.8666668
+    Drop time: 503.9333334
+    Action descriptions:
+      - [497.71 - 501.36]: slide-smaller-chunk-of-squash
+      - [497.39 - 500.0]: remove-seeds|slide-knife|hold-that|hold-chunk-of-squash
+      - [500.5 - 503.65]: pull-seeds|detach-seeds|drop-seeds
+
+
+  Touch 2:
+    Pick time: 552.6
+    Drop time: 557.9333333999999
+    Action descriptions:
+      - [553.23 - 557.42]: remove-seeds|slide-knife|hold-knife|hold-chunk-of-squash
+
+
+  Time between last use and return (red):
+    Pick time: 710.2666667999999
+    Drop time: 726.6666667999999
+    Action descriptions:
+      - [710.37 - 711.22]: pick-up-chunk-of-squash
+      - [710.48 - 711.69]: pick-up-another-chunk-of-squash
+      - [712.14 - 715.64]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [715.1 - 716.49]: drop-bit-of-squash-skin|peel-chunk|hold-that|drop-bit-of-skin
+      - [716.29 - 726.19]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [726.16 - 726.43]: put-down-squash-skin
+
+
+  User return touch (blue):
+    Pick time: 753.5
+    Drop time: 765.0333334
+    Action descriptions:
+      - [753.9 - 764.49]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [764.59 - 764.9]: put-down-squash-skin|stand-on-kitchen-top
+
+
+Object: squash thirteenth piece (ID: 649c7f35a92ab614)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 474.2333334000001
+    Drop time: 474.9333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 494.2333334000001
+    Drop time: 496.4
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 512.8
+    Drop time: 513.1
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 740.6666667999999
+    Drop time: 741.8
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 742.2
+    Drop time: 742.9666668
+    Action descriptions:
+      - [742.2 - 742.72]: pick-up-another-chunk-of-squash
+
+
+  User return touch (blue):
+    Pick time: 766.6666667999999
+    Drop time: 778.2
+    Action descriptions:
+      - [766.82 - 767.17]: pick-up-another-chunk-of-squash
+      - [767.27 - 777.58]: peel-chunk-of-squash|slide-underneath-squash-skin|wiggle-knife|facilitate-peeling
+      - [777.65 - 778.05]: put-down-squash-skin
+
+
+Object: squash twelfth piece (ID: 6a525c58c3f1cd55)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 456.8666668
+    Drop time: 473.5333334
+    Action descriptions:
+      - [457.16 - 470.11]: remove-seeds|slide-knife|hold-in-right-hand|hold-squash
+      - [470.21 - 472.4]: slice-squash-containing-seeds|cut-smaller-chunk|remove-seeds
+
+
+  Touch 2:
+    Pick time: 476.6666668
+    Drop time: 490.5
+    Action descriptions:
+      - [477.0 - 484.75]: remove-seeds|slide-knife|hold-that|hold-chunk-of-squash
+      - [484.58 - 485.49]: drop-seeds|cut-off-that
+      - [485.59 - 489.21]: slice-top-part-of-chunk-of-squash|hold-top-part-of-chunk|remove-part-of-squash-flesh
+
+
+  Touch 3:
+    Pick time: 576.3333334
+    Drop time: 581.0
+    Action descriptions:
+      - [577.15 - 579.98]: remove-seeds|slide-knife|hold-squash
+
+
+  Touch 4:
+    Pick time: 655.8
+    Drop time: 667.4666668
+    Action descriptions:
+      - [655.91 - 656.46]: pick-up-another-chunk-of-squash
+      - [656.54 - 667.05]: peel-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [666.72 - 667.45]: put-down-squash-skin
+
+
+  Touch 5:
+    Pick time: 710.2333334
+    Drop time: 710.9333333999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 808.2333334
+    Drop time: 809.6
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 810.0
+    Drop time: 810.4333333999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash eleventh piece (ID: f8d483d24adc468d)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 447.5333334
+    Drop time: 456.1333334
+    Action descriptions:
+      - [448.2 - 448.98]: put-down-large-chunk-of-squash-containing-seeds
+      - [449.06 - 449.57]: pick-up-small-knife
+      - [449.67 - 450.76]: put-down-small-knife|pick-up-small-knife|chop-more-chunks|chop-squash
+      - [450.61 - 451.62]: move-large-chunk-of-squash
+      - [451.72 - 452.31]: pick-up-larger-knife
+      - [452.41 - 454.97]: slice-large-chunk-of-squash-containing-seeds|hold-that|hold-large-chunk-of-squash|weigh-peeled-chunks-of-squash|chop-more-chunks
+
+
+  Touch 2:
+    Pick time: 475.3666668
+    Drop time: 475.9333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 504.4666668
+    Drop time: 510.3
+    Action descriptions:
+      - [505.31 - 507.89]: remove-seeds|hold-chunk-of-squash|slide-part-of-squash|hold-that
+      - [507.63 - 510.0]: push-squash-peels|push-seeds
+
+
+  Touch 4:
+    Pick time: 511.7333334000001
+    Drop time: 512.1
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 694.4
+    Drop time: 709.9333333999999
+    Action descriptions:
+      - [694.71 - 706.19]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [706.29 - 707.24]: put-down-squash-skin
+      - [707.04 - 708.92]: remove-another-bit-of-skin|slide-knife
+      - [708.94 - 709.17]: put-down-little-bit-of-skin|remove-from-chunk-of-squash
+
+
+  User return touch (blue):
+    Pick time: 806.2333334
+    Drop time: 807.1666667999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: peeled chunks of squash (ID: f8f5e0a8c2fca8e8)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 436.0666668
+    Drop time: 437.6
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: large bowl (ID: d4a9d64b9a7935bd)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 429.2
+    Drop time: 433.5333334
+    Action descriptions:
+      - [431.43 - 432.11]: close-cupboard|push-cupboard
+
+
+  Touch 2:
+    Pick time: 440.7
+    Drop time: 448.2333334000001
+    Action descriptions:
+      - [441.51 - 442.09]: pick-up-bowl
+      - [442.19 - 443.0]: put-bowl
+      - [442.98 - 444.94]: turn-off-scale|push-button
+      - [444.72 - 444.97]: tilt-bowl
+      - [445.07 - 446.24]: place-right-hand|tilt-bowl
+      - [446.2 - 447.44]: place-bowl
+      - [447.49 - 448.12]: pick-up-large-chunk-of-squash
+
+
+  Touch 3:
+    Pick time: 814.0333334
+    Drop time: 815.0333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 831.4666668
+    Drop time: 833.3666668
+    Action descriptions:
+      - [832.13 - 833.1]: put-bowl
+
+
+  Touch 5:
+    Pick time: 844.4
+    Drop time: 845.9666668
+    Action descriptions:
+      - [844.9 - 845.64]: put-bowl
+
+
+  Touch 6:
+    Pick time: 912.8666668
+    Drop time: 917.1666668
+    Action descriptions:
+      - [913.33 - 915.23]: tilt-bowl|hold-right-hand|do-this|weigh-squash
+      - [915.67 - 916.24]: pick-up-peeled-chunk-of-squash
+      - [915.85 - 916.27]: put-peeled-chunk-of-squash
+      - [916.69 - 917.08]: place-bowl
+
+
+  Touch 7:
+    Pick time: 935.1666668
+    Drop time: 935.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 8:
+    Pick time: 1560.0333334000002
+    Drop time: 1564.4
+    Action descriptions:
+      - [1560.67 - 1562.59]: tilt-bowl|cook-chunks-of-squash
+      - [1562.69 - 1564.2]: put-down-now-empty-bowl
+
+
+  Touch 9:
+    Pick time: 2508.2
+    Drop time: 2528.1333334
+    Action descriptions:
+      - [2509.28 - 2510.25]: turn-on-tap|hold-bowl
+      - [2510.29 - 2511.33]: rinse-bowl|move-bowl|wash-bowl
+      - [2510.79 - 2511.24]: turn-off-tap
+      - [2511.3 - 2511.95]: tilt-bowl
+      - [2512.33 - 2512.8]: shake-bowl|remove-excess-water
+      - [2512.9 - 2514.15]: pick-up-cloth
+      - [2514.4 - 2526.85]: wipe-bowl|rub-cloth
+
+
+  Time between last use and return (red):
+    Pick time: 3067.7333334
+    Drop time: 3069.7666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 3270.0333334
+    Drop time: 3275.1333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: quash tenth piece (ID: 5d5d80e1cc678ffc)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 345.3
+    Drop time: 348.4
+    Action descriptions:
+      - [347.76 - 348.32]: put-down-large-green-knife
+
+
+  Touch 2:
+    Pick time: 349.3333334
+    Drop time: 358.0
+    Action descriptions:
+      - [349.82 - 356.27]: peel-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [356.31 - 357.13]: put-down-squash-skin
+      - [357.09000000000003 - 357.63]: put-down-peeled-squash
+
+
+  Touch 3:
+    Pick time: 358.1333334
+    Drop time: 358.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 594.9666668
+    Drop time: 595.6666667999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 640.7333334
+    Drop time: 641.6
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 680.2
+    Drop time: 692.1666667999999
+    Action descriptions:
+      - [680.29 - 680.9]: pick-up-another-chunk-of-squash
+      - [680.97 - 691.47]: peel-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [691.41 - 692.03]: drop-squash-skin
+
+
+Object: squash ninth piece (ID: 37e42be4b32e5985)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 343.2666668
+    Drop time: 344.96666680000004
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 358.8333334
+    Drop time: 366.9666668
+    Action descriptions:
+      - [358.88 - 359.38]: pick-up-another-chunk-of-squash
+      - [359.32 - 365.73]: peel-squash|slide-in-knife|wiggle-knife|facilitate-peeling
+      - [365.55 - 366.92]: put-down-squash-skin
+
+
+  User return touch (blue):
+    Pick time: 641.9333333999999
+    Drop time: 655.4
+    Action descriptions:
+      - [642.52 - 654.58]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [654.65 - 655.34]: drop-squash-skin
+
+
+Object: squash eighth piece (ID: 8de19e02846c4548)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 341.1333334
+    Drop time: 342.7666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 394.8666668
+    Drop time: 402.2333334000001
+    Action descriptions:
+      - [395.21 - 401.58]: peel-chunk-of-squash|slide-knife|hold-knife|wiggle-knife|facilitate-peeling
+
+
+  Touch 3:
+    Pick time: 416.7
+    Drop time: 424.5666668
+    Action descriptions:
+      - [417.76 - 423.76]: peel-chunk-of-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [423.73 - 424.29]: put-down-squash-skin
+
+
+  Touch 4:
+    Pick time: 693.3333334
+    Drop time: 694.5
+    Action descriptions:
+      - [693.82 - 694.3]: put-down-chunk-of-squash
+
+
+  Time between last use and return (red):
+    Pick time: 778.7666667999999
+    Drop time: 789.5
+    Action descriptions:
+      - [778.93 - 779.3]: pick-up-another-chunk-of-squash
+      - [779.4 - 779.91]: put-chunk-of-squash
+      - [779.68 - 788.83]: peel-chunk-of-squash|hold-that|slide-underneath-squash-skin|wiggle-knife|facilitate-peeling
+      - [788.83 - 789.28]: 
+
+
+  User return touch (blue):
+    Pick time: 789.7
+    Drop time: 805.6666667999999
+    Action descriptions:
+      - [790.23 - 804.46]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [804.43 - 805.44]: put-squash-skin
+
+
+Object: squash seventh piece (ID: 3d117a5ad3b43588)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 336.3333334
+    Drop time: 340.5666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 367.4
+    Drop time: 373.1
+    Action descriptions:
+      - [367.92 - 372.54]: peel-chunk-of-squash|slide-knife|hold-knife|wiggle-knife|facilitate-peeling
+      - [372.52 - 373.08]: put-down-peeled-chunk-of-squash
+
+
+  Touch 3:
+    Pick time: 373.5333334
+    Drop time: 381.6
+    Action descriptions:
+      - [374.04 - 381.07]: peel-chunk-of-squash|slide-in-knife|hold-that|wiggle-knife|facilitate-peeling
+
+
+  Touch 4:
+    Pick time: 596.0666668
+    Drop time: 596.9666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 600.8
+    Drop time: 613.1
+    Action descriptions:
+      - [602.0 - 612.0]: pick-up-another-bit-of-food
+
+
+  User return touch (blue):
+    Pick time: 627.3333334
+    Drop time: 640.2666667999999
+    Action descriptions:
+      - [627.79 - 628.46]: turn-on-tap
+      - [628.56 - 630.79]: rinse-chunk-of-squash|rub-fingers|remove-any-dirt
+      - [630.81 - 631.47]: turn-off-tap
+      - [631.38 - 632.61]: shake-chunk-of-squash|rinse-that|remove-excess-water
+      - [632.68 - 633.92]: pick-up-knife
+      - [633.92 - 639.12]: peel-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [639.05 - 639.83]: put-down-squash-skin
+
+
+Object: squash sixth piece (ID: c2371a92b3413242)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 333.73333340000005
+    Drop time: 335.6333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 384.4333334
+    Drop time: 394.4
+    Action descriptions:
+      - [384.5 - 384.98]: pick-up-chunk-of-squash
+      - [384.77 - 393.91]: peel-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [393.96 - 394.31]: put-down-squash-skin
+
+
+  Time between last use and return (red):
+    Pick time: 402.6333334
+    Drop time: 416.3666668
+    Action descriptions:
+      - [403.39 - 415.47]: peel-chunk-of-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [415.56 - 416.18]: put-down-squash-skin
+
+
+  User return touch (blue):
+    Pick time: 810.5
+    Drop time: 810.8666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: squash fifth piece (ID: f24765fb6495a8a2)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 305.23333340000005
+    Drop time: 329.1
+    Action descriptions:
+      - [305.42 - 307.69]: peel-squash|slide-knife|hold-knife|hold-squash
+      - [307.74 - 308.33]: put-piece-of-squash-skin
+      - [308.98 - 314.54]: peel-squash|slide-knife|hold-that|hold-squash
+      - [314.64 - 315.15]: pick-up-piece-of-squash-skin
+      - [315.16 - 315.55]: put-down-piece-of-squash-skin
+      - [315.65 - 318.49]: peel-squash|slide-knife|hold-that|wiggle-squash|facilitate-peeling
+      - [318.5 - 319.13]: put-bit-of-squash-skin
+      - [320.97 - 321.69]: put-down-squash
+      - [321.6 - 326.03]: cut-squash|change-knife
+      - [325.93 - 326.49]: put-down-small-knife
+      - [326.59 - 327.71]: pick-up-larger-knife
+
+
+  User return touch (blue):
+    Pick time: 330.3
+    Drop time: 333.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: sponge (ID: 1e546335a9c90260)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 295.16666680000003
+    Drop time: 298.46666680000004
+    Action descriptions:
+      - [295.45 - 298.21]: rinse-knife|wipe-knife
+
+
+  Touch 2:
+    Pick time: 2242.0666668
+    Drop time: 2265.5
+    Action descriptions:
+      - [2255.03 - 2256.19]: pick-up-yellow-tub
+      - [2255.94 - 2261.7]: wash-yellow-tub|rub-sponge|turn-tub|wash-tub
+      - [2261.75 - 2263.04]: pick-up-pink-tub
+      - [2262.86 - 2264.59]: wash-pink-tub|rub-sponge|turn-tub|pick-up-food-residue
+
+
+  Touch 3:
+    Pick time: 2654.7
+    Drop time: 2674.0333334
+    Action descriptions:
+      - [2654.85 - 2671.83]: wipe-sink|hold-that|gather-food-bits|push-them
+      - [2671.81 - 2673.03]: pick-up-cutlery-stand
+
+
+  Time between last use and return (red):
+    Pick time: 2677.5333334
+    Drop time: 2682.4333334
+    Action descriptions:
+      - [2678.01 - 2681.87]: wipe-sponge|collect-more-bits-of-food
+
+
+  User return touch (blue):
+    Pick time: 2710.1666668
+    Drop time: 2721.5333334
+    Action descriptions:
+      - [2711.48 - 2714.69]: lower-sink-strainer|lift-strainer|put-strainer
+      - [2713.39 - 2718.04]: wipe-sink|redirect-running-tap-water|pick-up-small-bits-of-food
+      - [2718.01 - 2719.35]: place-sink-strainer
+      - [2719.42 - 2720.48]: squeeze-sponge|remove-excess-water
+      - [2720.4 - 2721.07]: turn-off-tap
+
+
+Object: squash fourth piece (ID: 5d7f073b3c81689d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 288.66666680000003
+    Drop time: 290.5
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: right side squash (ID: b9022d18f19c8310)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 277.6
+    Drop time: 279.3333334
+    Action descriptions:
+      - [277.86 - 279.23]: move-one-half-of-squash|cut-other-half
+
+
+  Time between last use and return (red):
+    Pick time: 383.4
+    Drop time: 383.9333334
+    Action descriptions:
+      - [383.54 - 383.79]: slide-squash-half
+
+
+  User return touch (blue):
+    Pick time: 835.1666667999999
+    Drop time: 839.1666667999999
+    Action descriptions:
+      - [835.6 - 836.86]: pick-up-knife
+      - [836.72 - 839.11]: put-down-squash-half
+
+
+Object: one fourth left side squash (ID: ce98c9ca9f000394)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 265.73333340000005
+    Drop time: 291.43333340000004
+    Action descriptions:
+      - [268.02 - 269.52]: chop-top-end-of-squash|hold-that|hold-squash
+      - [269.62 - 269.96]: pick-up-top-end-of-squash|cut-off-that
+      - [270.06 - 270.49]: toss-top-part-of-squash|cut-squash
+      - [270.59 - 277.91]: slice-squash|hold-squash|press-down-knife|cut-squash
+      - [276.56 - 277.09000000000003]: put-down-knife
+      - [277.14 - 277.82]: let-with-left-hand|let-go-of-split-squash
+      - [277.86 - 279.23]: move-one-half-of-squash|cut-other-half
+      - [279.33 - 281.59000000000003]: push-bit-of-squash-skin|slide-right-hand|push-out-bit-of-skin|slice-squash
+      - [281.66 - 282.24]: pick-up-knife
+      - [282.34000000000003 - 282.67]: place-squash
+      - [282.62 - 285.38]: slice-squash|separate-part-of-squash
+      - [285.48 - 287.82]: put-down-knife
+      - [287.92 - 288.81]: pick-up-part-of-squash
+      - [288.91 - 291.21]: put-part-of-squash|cut-other-part-of-squash
+
+
+Object: big knife (ID: d2a0f8a627e9277f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 261.1
+    Drop time: 277.0666668
+    Action descriptions:
+      - [262.01 - 263.28]: close-cupboard
+      - [265.63 - 266.69]: move-squash
+      - [268.02 - 269.52]: chop-top-end-of-squash|hold-that|hold-squash
+      - [269.62 - 269.96]: pick-up-top-end-of-squash|cut-off-that
+      - [270.06 - 270.49]: toss-top-part-of-squash|cut-squash
+
+
+  Touch 2:
+    Pick time: 281.6
+    Drop time: 287.66666680000003
+    Action descriptions:
+      - [281.66 - 282.24]: pick-up-knife
+      - [282.34000000000003 - 282.67]: place-squash
+      - [282.62 - 285.38]: slice-squash|separate-part-of-squash
+
+
+  Touch 3:
+    Pick time: 326.8333334
+    Drop time: 348.5333334
+    Action descriptions:
+      - [327.81 - 330.07]: slice-squash|chop-squash|peel-squash
+      - [331.8 - 333.45]: slice-squash|chop-squash|peel-squash
+      - [333.55 - 335.68]: slice-squash|chop-squash|peel-squash
+      - [335.76 - 340.88]: slice-squash|chop-squash|peel-squash
+      - [340.83 - 342.78]: slice-squash|chop-squash|peel-squash
+      - [342.88 - 343.86]: push-two-chunks-of-squash|chop-squash
+      - [343.96 - 345.1]: slice-squash|chop-squash|peel-squash
+      - [344.31 - 347.66]: slice-squash|chop-squash|peel-squash
+      - [347.76 - 348.32]: put-down-large-green-knife
+
+
+  Touch 4:
+    Pick time: 451.4333334
+    Drop time: 581.3666668
+    Action descriptions:
+      - [451.72 - 452.31]: pick-up-larger-knife
+      - [452.41 - 454.97]: slice-large-chunk-of-squash-containing-seeds|hold-that|hold-large-chunk-of-squash|weigh-peeled-chunks-of-squash|chop-more-chunks
+      - [457.16 - 470.11]: remove-seeds|slide-knife|hold-in-right-hand|hold-squash
+      - [470.21 - 472.4]: slice-squash-containing-seeds|cut-smaller-chunk|remove-seeds
+      - [477.0 - 484.75]: remove-seeds|slide-knife|hold-that|hold-chunk-of-squash
+      - [484.58 - 485.49]: drop-seeds|cut-off-that
+      - [485.59 - 489.21]: slice-top-part-of-chunk-of-squash|hold-top-part-of-chunk|remove-part-of-squash-flesh
+      - [490.17 - 490.64]: put-chunk-of-squash
+      - [491.29 - 493.17]: pick-up-squash-seed|struggle-at-beginning
+      - [493.22 - 493.94]: toss-squash-seed
+      - [495.35 - 496.61]: chop-chunk-of-squash|hold-that|hold-squash|remove-seeds
+      - [497.71 - 501.36]: slide-smaller-chunk-of-squash
+      - [497.39 - 500.0]: remove-seeds|slide-knife|hold-that|hold-chunk-of-squash
+      - [500.5 - 503.65]: pull-seeds|detach-seeds|drop-seeds
+      - [503.75 - 503.97]: put-down-chunk-of-squash
+      - [504.25 - 505.21]: pick-up-last-chunk-of-squash
+      - [505.31 - 507.89]: remove-seeds|hold-chunk-of-squash|slide-part-of-squash|hold-that
+      - [507.63 - 510.0]: push-squash-peels|push-seeds
+      - [509.77 - 510.39]: put-down-chunk-of-squash
+      - [510.7 - 511.58]: remove-squash-flesh
+      - [511.64 - 512.09]: grab-chunk-of-squash
+      - [512.66 - 513.18]: grab-another-chunk-of-squash|slide-another-chunk-of-squash
+      - [513.54 - 515.4]: cut-chunk-of-squash|split-large-chunk|hold-that|hold-chunk-of-squash
+      - [515.34 - 516.93]: cut-chunk-of-squash|split-large-chunk|hold-that|hold-chunk-of-squash
+      - [517.03 - 521.91]: split-chunk-of-squash|hold-that|hold-squash
+      - [521.96 - 523.68]: pick-up-larger-chunk-of-squash
+      - [523.67 - 524.91]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+      - [524.86 - 526.44]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+      - [526.48 - 530.27]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+      - [530.32 - 532.78]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+      - [533.92 - 536.61]: chop-large-chunk-of-squash|hold-that|hold-squash|remove-seeds|cut-that
+      - [538.41 - 539.22]: pick-up-last-chopped-chunk-of-squash
+      - [539.7 - 541.04]: pick-up-chunk-of-squash
+      - [540.98 - 544.99]: remove-seeds|slide-knife|hold-that
+      - [544.93 - 545.63]: put-down-chunk-of-squash
+      - [545.73 - 548.32]: pick-up-another-chunk-of-squash
+      - [548.39 - 551.22]: remove-seeds|slide-knife|hold-that|hold-squash
+      - [551.25 - 551.95]: put-chunk-of-squash
+      - [551.97 - 553.37]: pick-up-another-chunk-of-squash
+      - [553.23 - 557.42]: remove-seeds|slide-knife|hold-knife|hold-chunk-of-squash
+      - [557.52 - 558.16]: put-down-chunk-of-squash
+      - [558.22 - 559.62]: pick-up-another-chunk-of-squash
+      - [560.0 - 565.46]: remove-seeds|slide-knife|hold-that|hold-squash
+      - [565.56 - 566.02]: put-chunk-of-squash
+      - [566.12 - 567.37]: pick-up-another-chunk-of-squash
+      - [567.47 - 575.1]: remove-seeds|slide-knife|hold-in-right-hand|hold-squash
+      - [575.11 - 575.65]: put-down-chunk-of-squash
+      - [575.75 - 577.05]: pick-up-last-chunk-of-squash
+      - [577.15 - 579.98]: remove-seeds|slide-knife|hold-squash
+      - [580.08 - 581.07]: put-down-last-chunk-of-squash
+
+
+  Touch 5:
+    Pick time: 592.2
+    Drop time: 594.0666668
+    Action descriptions:
+      - [592.63 - 593.45]: move-smaller-knife|hold-that
+      - [593.39 - 593.81]: put-down-larger-knife
+
+
+  Touch 6:
+    Pick time: 836.1
+    Drop time: 841.0666668
+    Action descriptions:
+      - [836.72 - 839.11]: put-down-squash-half
+      - [836.9 - 839.19]: slice-squash|press-down-knife|hold-that|hold-squash
+      - [839.26 - 839.73]: pick-up-part-of-squash|slice-that
+      - [839.79 - 840.34]: place-part-of-squash|pick-up-that
+      - [840.44 - 840.69]: pick-up-large-chunk-of-squash
+
+
+  Touch 7:
+    Pick time: 846.4666668
+    Drop time: 853.1333334
+    Action descriptions:
+      - [846.54 - 846.75]: pick-up-knife
+      - [847.04 - 852.1]: slice-large-chunk-of-squash|cut-squash|hold-that|hold-squash
+      - [852.28 - 852.59]: pick-up-chunk-of-squash
+      - [852.69 - 853.08]: put-down-large-knife
+
+
+  Touch 8:
+    Pick time: 1073.3333334
+    Drop time: 1091.6666668
+    Action descriptions:
+      - [1074.45 - 1074.84]: grab-bunch-of-spring-greens-leaves
+      - [1074.87 - 1087.9]: slice-spring-greens-leaves|hold-that|hold-spring-greens|slice-spring-greens|stack-leaves|slice-multiple-leaves
+      - [1088.35 - 1089.47]: turn-strips-of-spring-green-leaves
+
+
+  Touch 9:
+    Pick time: 1170.3
+    Drop time: 1176.9333334
+    Action descriptions:
+      - [1170.68 - 1171.15]: put-down-onion
+      - [1171.17 - 1173.2]: chop-off-top-part-of-onion|hold-that|hold-onion
+      - [1173.27 - 1176.4]: cut-onion|hold-that|hold-onion
+      - [1176.31 - 1176.92]: put-down-knife
+
+
+  Touch 10:
+    Pick time: 1219.4333334
+    Drop time: 1266.2333334
+    Action descriptions:
+      - [1219.83 - 1221.91]: turn-on-tap|hold-knife
+      - [1221.67 - 1223.31]: rinse-knife|wipe-blade|remove-onion-skin
+      - [1223.1 - 1224.25]: rinse-right-hand|move-right-hand
+      - [1225.05 - 1225.57]: turn-off-tap
+      - [1225.67 - 1226.77]: shake-knife|remove-water
+      - [1227.04 - 1227.49]: pick-up-cloth
+      - [1227.72 - 1230.85]: wipe-knife|rub-knife
+      - [1230.92 - 1231.67]: put-cloth
+      - [1232.47 - 1234.58]: turn-chopping-board|hold-that
+      - [1234.26 - 1235.01]: pick-up-onion
+      - [1235.11 - 1237.95]: peel-onion|pull-onion-skin|pull-skin
+      - [1238.03 - 1238.65]: drop-onion-skin
+      - [1238.5 - 1239.88]: put-onion-half|turn-chopping-board
+      - [1239.5 - 1245.49]: slice-onion|hold-in-right-hand|hold-knife
+      - [1245.49 - 1245.89]: turn-sliced-onion
+      - [1245.83 - 1246.15]: push-onion|push-it
+      - [1246.54 - 1251.63]: slice-onion|slice-that|cut-parallel-strips|cut-chunks-of-onion-of-same-size
+      - [1251.93 - 1252.19]: pick-up-root-of-onion
+      - [1252.26 - 1252.52]: toss-root-of-onion
+      - [1252.68 - 1253.53]: turn-other-onion-half|hold-that
+      - [1253.63 - 1257.63]: slice-onion|hold-knife|hold-onion
+      - [1257.64 - 1258.08]: turn-sliced-onion
+      - [1258.33 - 1259.29]: move-bit-of-onion
+      - [1259.77 - 1264.43]: slice-onion|cut-in-opposite-direction|obtain-chunks-of-onion-of-roughly-same-size|hold-that|hold-onion
+      - [1264.53 - 1265.59]: pick-up-onion-root
+      - [1265.24 - 1265.92]: toss-onion-root
+
+
+  Touch 11:
+    Pick time: 1369.9333334
+    Drop time: 1388.4333334
+    Action descriptions:
+      - [1369.95 - 1370.4]: pick-up-partly-chopped-onion|turn-partly-chopped-onion
+      - [1370.88 - 1373.22]: slice-onion|hold-that|hold-onion
+      - [1373.71 - 1374.61]: pick-up-chopping-board
+      - [1374.22 - 1380.21]: tap-knife|shake-off-bits-of-onion|walk-towards-hob|pour-onion
+      - [1375.93 - 1384.97]: push-chopped-onion|push-onion
+      - [1385.07 - 1387.11]: slide-knife
+      - [1387.21 - 1387.78]: put-down-chopping-board
+
+
+  Touch 12:
+    Pick time: 1589.9666668
+    Drop time: 1594.1333334
+    Action descriptions:
+      - [1590.53 - 1591.33]: pick-up-spatula
+      - [1591.41 - 1593.78]: slide-knife|push-onion-bits
+      - [1593.53 - 1593.86]: put-down-spatula
+
+
+  Touch 13:
+    Pick time: 1657.7666668000002
+    Drop time: 1661.8
+    Action descriptions:
+      - [1658.27 - 1660.89]: slide-knife|drop-bits-of-onion
+
+
+  Touch 14:
+    Pick time: 1717.4666668
+    Drop time: 1723.5
+    Action descriptions:
+      - [1718.37 - 1720.15]: wipe-oil
+      - [1718.37 - 1722.3]: slide-knife|wipe-onion|drop-onion
+      - [1721.98 - 1722.76]: tap-spatula|shake-off-any-oil
+      - [1722.79 - 1723.01]: put-knife
+
+
+  Touch 15:
+    Pick time: 1757.4
+    Drop time: 1760.8333334
+    Action descriptions:
+      - [1758.06 - 1760.24]: cut-small-opening|press-knife|open-plastic-tub|pull-sleeve
+
+
+  Touch 16:
+    Pick time: 1959.8666668
+    Drop time: 1966.8666668
+    Action descriptions:
+      - [1960.61 - 1963.88]: wipe-food-residue|slide-knife
+      - [1963.9 - 1965.8]: wipe-blade-of-knife|drop-any-food-residue
+      - [1965.6 - 1966.43]: tap-spatula|shake-off-more-food-residue|drop-more-food-residue
+      - [1966.42 - 1966.86]: put-knife
+
+
+  Touch 17:
+    Pick time: 2038.3333334
+    Drop time: 2041.4333334
+    Action descriptions:
+      - [2039.02 - 2040.79]: pull-plastic-sleeve|open-plastic-tub
+      - [2040.85 - 2041.33]: put-down-knife
+
+
+  Time between last use and return (red):
+    Pick time: 2046.8666668
+    Drop time: 2050.8
+    Action descriptions:
+      - [2047.55 - 2050.13]: hold-that|peel-plastic-sleeve
+
+
+  User return touch (blue):
+    Pick time: 2533.3333334
+    Drop time: 2543.5333334
+    Action descriptions:
+      - [2535.12 - 2535.9]: pick-up-dishwasher-brush
+      - [2536.05 - 2541.15]: scrub-knife|brush-blade|remove-food-residue|put-knife
+      - [2540.09 - 2540.76]: drop-dishwasher-brush
+      - [2541.57 - 2542.32]: pull-down-dishwasher-door|open-dishwasher
+
+
+Object: squash (ID: 6982230d527110b3)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 252.6666668
+    Drop time: 256.9
+    Action descriptions:
+      - [255.62 - 256.86]: put-down-squash
+
+
+Object: chopping board (ID: cb59981e62d4365d)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 238.4333334
+    Drop time: 243.4333334
+    Action descriptions:
+      - [239.15 - 241.57]: move-scale
+      - [241.64 - 242.13]: move-recipe-card|slide-recipe-card
+      - [242.23 - 243.28]: put-down-chopping-board
+
+
+  Touch 2:
+    Pick time: 1070.2333334
+    Drop time: 1070.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 1373.5
+    Drop time: 1388.2666668000002
+    Action descriptions:
+      - [1373.71 - 1374.61]: pick-up-chopping-board
+      - [1374.22 - 1380.21]: tap-knife|shake-off-bits-of-onion|walk-towards-hob|pour-onion
+      - [1375.93 - 1384.97]: push-chopped-onion|push-onion
+      - [1385.07 - 1387.11]: slide-knife
+      - [1387.21 - 1387.78]: put-down-chopping-board
+
+
+  User return touch (blue):
+    Pick time: 3173.4666668
+    Drop time: 3174.4333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: cloth (ID: 7882b5a9a2352ec9)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 226.9666668
+    Drop time: 236.4333334
+    Action descriptions:
+      - [226.98 - 235.73]: dry-hand
+
+
+  Touch 2:
+    Pick time: 301.5333334
+    Drop time: 304.2
+    Action descriptions:
+      - [302.12 - 303.71]: dry-knife|wipe-knife
+      - [303.31 - 303.8]: let-go-of-cloth
+
+
+  Touch 3:
+    Pick time: 623.9333333999999
+    Drop time: 626.7
+    Action descriptions:
+      - [624.34 - 626.43]: dry-hands|rub-hands
+
+
+  Touch 4:
+    Pick time: 1227.0333334000002
+    Drop time: 1231.4666668
+    Action descriptions:
+      - [1227.04 - 1227.49]: pick-up-cloth
+      - [1227.72 - 1230.85]: wipe-knife|rub-knife
+
+
+  Touch 5:
+    Pick time: 1629.9
+    Drop time: 1630.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 1724.6333334
+    Drop time: 1733.2
+    Action descriptions:
+      - [1725.45 - 1727.08]: wipe-hands|rub-hands
+
+
+  Touch 7:
+    Pick time: 2120.1666668
+    Drop time: 2122.2
+    Action descriptions:
+      - [2120.64 - 2122.13]: dry-hand
+
+
+  Touch 8:
+    Pick time: 2286.9666668
+    Drop time: 2291.8333334
+    Action descriptions:
+      - [2287.47 - 2291.56]: dry-hand
+
+
+  Touch 9:
+    Pick time: 2306.3
+    Drop time: 2308.4333334
+    Action descriptions:
+      - [2306.48 - 2306.7]: pick-up-cloth
+      - [2306.8 - 2308.36]: wipe-scale|rub-cloth
+
+
+  Touch 10:
+    Pick time: 2434.6666668
+    Drop time: 2438.3
+    Action descriptions:
+      - [2434.7 - 2435.16]: pick-up-cloth
+      - [2435.25 - 2437.89]: dry-hand
+
+
+  Touch 11:
+    Pick time: 2443.8333334
+    Drop time: 2450.1
+    Action descriptions:
+      - [2443.86 - 2444.11]: pick-up-cloth
+      - [2444.21 - 2445.95]: dry-red-knife|wipe-blade
+      - [2445.85 - 2447.92]: pick-up-black-coffee-spoon|hold-cloth|wrap-coffee-spoon|pick-up-coffee-spoon
+      - [2447.77 - 2449.65]: dry-black-coffee-spoon|rub-cloth
+
+
+  Touch 12:
+    Pick time: 2512.5
+    Drop time: 2531.0666668
+    Action descriptions:
+      - [2512.9 - 2514.15]: pick-up-cloth
+      - [2514.4 - 2526.85]: wipe-bowl|rub-cloth
+      - [2527.39 - 2528.26]: put-down-bowl
+
+
+  Touch 13:
+    Pick time: 2723.0666668
+    Drop time: 2727.1
+    Action descriptions:
+      - [2723.52 - 2726.66]: dry-hand
+      - [2726.7 - 2727.01]: put-down-cloth
+
+
+  Touch 14:
+    Pick time: 2741.0666668
+    Drop time: 2748.2666668
+    Action descriptions:
+      - [2741.65 - 2744.08]: dry-hand
+      - [2743.78 - 2747.82]: check-time|turn-left-wrist|lift-left-wrist|check-stopwatch|count-time|cook-food
+
+
+  Time between last use and return (red):
+    Pick time: 2809.4666668
+    Drop time: 2828.3666668
+    Action descriptions:
+      - [2809.65 - 2809.96]: pick-up-cloth
+      - [2810.05 - 2812.14]: dry-bowl|wipe-inside|wipe-outside-of-bowl
+      - [2816.0 - 2817.62]: pick-up-cloth|drop-cloth|dry-bowl
+      - [2817.72 - 2826.05]: dry-bowl|wipe-bowl
+      - [2826.15 - 2827.98]: put-down-bowl
+
+
+  User return touch (blue):
+    Pick time: 2841.4666668
+    Drop time: 2861.4
+    Action descriptions:
+      - [2842.11 - 2844.0]: hang-orange-cloth
+      - [2843.99 - 2852.13]: rub-hands
+      - [2851.47 - 2859.11]: find-hook-of-cloth
+      - [2858.94 - 2861.1]: hang-cloth
+
+
+Object: cup (ID: b560db3403d371bb)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 207.5666668
+    Drop time: 212.4
+    Action descriptions:
+      - [207.59 - 209.41]: pick-up-cup
+      - [208.63 - 211.69]: wipe-hand|scoop-lentils|rinse-lentils
+
+
+  User return touch (blue):
+    Pick time: 2496.8666668
+    Drop time: 2500.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: seal tap (ID: bc05cc4f3c7fb8c9)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 94.5333334
+    Drop time: 95.7333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 94.6333334
+    Drop time: 99.9333334
+    Action descriptions:
+      - [95.75 - 99.51]: open-pack-of-lentils|cut-top-part-of-pack|hold-that|hold-top-part-of-pack
+      - [98.98 - 99.82]: put-piece-of-plastic|cut-off-that
+
+
+Object: scissors (ID: 7b21ea63ea07beb1)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 79.9
+    Drop time: 100.3
+    Action descriptions:
+      - [80.16 - 81.72]: put-down-pack-of-lentils
+      - [81.53 - 83.37]: turn-on-tap|hold-scissors
+      - [83.45 - 84.71000000000001]: rinse-scissors|move-scissors|flip-scissors
+      - [84.8 - 85.39]: turn-off-tap
+      - [85.49 - 87.43]: shake-scissors|shake-off-water
+      - [87.38 - 88.52]: grab-cloth
+      - [88.62 - 92.42]: dry-scissors|wipe-cloth
+      - [93.93 - 96.72]: pull-seal-tap|cut-seal-tap
+      - [95.75 - 99.51]: open-pack-of-lentils|cut-top-part-of-pack|hold-that|hold-top-part-of-pack
+      - [98.98 - 99.82]: put-piece-of-plastic|cut-off-that
+
+
+  Time between last use and return (red):
+    Pick time: 1313.6666668
+    Drop time: 1314.4
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2727.3
+    Drop time: 2739.2
+    Action descriptions:
+      - [2727.7 - 2728.11]: open-scissors|pull-two-handles
+      - [2728.21 - 2730.19]: turn-on-tap
+      - [2730.14 - 2735.55]: rinse-scissors|wipe-hands|remove-food-residue|cut-myself
+      - [2735.65 - 2736.47]: turn-off-tap
+
+
+Object: plastic colander (ID: 789c0c8f1379eed4)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 57.9333334
+    Drop time: 65.7666668
+    Action descriptions:
+      - [59.17 - 60.76]: hold-plastic-bowl|hold-metal-colander|pull-plastic-colander|hold-other-items
+      - [60.86 - 61.14]: close-cupboard
+      - [60.0 - 64.08]: put-scale|turn-scale
+      - [64.18 - 64.7]: put-plastic-colander
+
+
+  Touch 2:
+    Pick time: 146.8
+    Drop time: 207.6
+    Action descriptions:
+      - [147.42000000000002 - 149.48]: turn-on-tap|hold-plastic-colander
+      - [149.5 - 169.24]: rinse-lentils|scrub-lentils|tilt-over-lentils
+      - [168.82 - 169.94]: turn-off-tap
+      - [170.04 - 174.51]: drain-plastic-colander|remove-water|pull-outer-part-of-plastic-colander|hold-inner-part-of-colander
+      - [174.41 - 175.86]: turn-on-tap|hold-plastic-colander
+      - [175.93 - 187.49]: rinse-lentils|scrub-lentils|tilt-over-lentils
+      - [187.52 - 188.79]: turn-off-tap
+      - [188.63 - 195.38]: drain-plastic-colander|remove-water|drain-by-drain|pull-up-outer-part-of-colander|hold-inner-part-of-colander|keep-lentils
+      - [206.11 - 207.49]: put-down-plastic-colander
+
+
+  Touch 3:
+    Pick time: 582.3333334
+    Drop time: 591.6
+    Action descriptions:
+      - [583.97 - 589.91]: fill-plastic-colander|move-plastic-colander|distribute-water
+
+
+  Touch 4:
+    Pick time: 1288.1666668
+    Drop time: 1314.4333334
+    Action descriptions:
+      - [1290.14 - 1313.43]: drain-lentils|pull-up-outer-part-of-plastic-colander|hold-inner-part-of-plastic-colander
+      - [1313.02 - 1314.21]: put-plastic-colander
+
+
+  Time between last use and return (red):
+    Pick time: 1288.3666668
+    Drop time: 1314.4333334
+    Action descriptions:
+      - [1290.14 - 1313.43]: drain-lentils|pull-up-outer-part-of-plastic-colander|hold-inner-part-of-plastic-colander
+      - [1313.02 - 1314.21]: put-plastic-colander
+
+
+  User return touch (blue):
+    Pick time: 1834.9666668
+    Drop time: 1851.6
+    Action descriptions:
+      - [1837.75 - 1847.68]: pour-lentils|tilt-colander|scoop-lentils|rub-hands|collect-as-many-lentils
+      - [1848.85 - 1851.3]: put-down-plastic-colander
+
+
+Object: scale (ID: 40685c5361cef4b5)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 56.5333334
+    Drop time: 63.9666668
+    Action descriptions:
+      - [57.08 - 59.07]: pick-up-plastic-colander
+      - [59.17 - 60.76]: hold-plastic-bowl|hold-metal-colander|pull-plastic-colander|hold-other-items
+      - [60.86 - 61.14]: close-cupboard
+
+
+  Time between last use and return (red):
+    Pick time: 240.4
+    Drop time: 241.2333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2305.9333334
+    Drop time: 2311.2333334
+    Action descriptions:
+      - [2306.48 - 2306.7]: pick-up-cloth
+      - [2306.8 - 2308.36]: wipe-scale|rub-cloth
+      - [2308.29 - 2308.95]: drop-cloth
+      - [2309.05 - 2310.67]: pull-bottom-cupboard|open-bottom-cupboard
+
+
+Object: small knife (ID: 2ef4cd3b6b62247a)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 26.8666668
+    Drop time: 27.5666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 291.3333334
+    Drop time: 326.43333340000004
+    Action descriptions:
+      - [292.57 - 293.36]: turn-on-tap
+      - [293.46 - 294.9]: rinse-knife|slide-fingers|remove-food-residue
+      - [294.98 - 295.6]: pick-up-sponge
+      - [295.45 - 298.21]: rinse-knife|wipe-knife
+      - [298.25 - 298.78]: put-sponge
+      - [299.3 - 299.77]: turn-off-tap
+      - [300.17 - 301.3]: shake-knife|remove-water
+      - [301.4 - 302.11]: pick-up-cloth
+      - [302.12 - 303.71]: dry-knife|wipe-knife
+      - [303.31 - 303.8]: let-go-of-cloth
+      - [304.72 - 305.43]: pick-up-squash
+      - [305.42 - 307.69]: peel-squash|slide-knife|hold-knife|hold-squash
+      - [307.74 - 308.33]: put-piece-of-squash-skin
+      - [308.98 - 314.54]: peel-squash|slide-knife|hold-that|hold-squash
+      - [314.64 - 315.15]: pick-up-piece-of-squash-skin
+      - [315.16 - 315.55]: put-down-piece-of-squash-skin
+      - [315.65 - 318.49]: peel-squash|slide-knife|hold-that|wiggle-squash|facilitate-peeling
+      - [318.5 - 319.13]: put-bit-of-squash-skin
+      - [320.97 - 321.69]: put-down-squash
+      - [321.6 - 326.03]: cut-squash|change-knife
+
+
+  Touch 3:
+    Pick time: 349.1333334
+    Drop time: 425.4
+    Action descriptions:
+      - [349.19 - 349.73]: pick-up-chunk-of-squash
+      - [349.82 - 356.27]: peel-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [356.31 - 357.13]: put-down-squash-skin
+      - [357.09000000000003 - 357.63]: put-down-peeled-squash
+      - [358.88 - 359.38]: pick-up-another-chunk-of-squash
+      - [359.32 - 365.73]: peel-squash|slide-in-knife|wiggle-knife|facilitate-peeling
+      - [365.55 - 366.92]: put-down-squash-skin
+      - [365.75 - 367.2]: put-down-peeled-chunk-of-squash
+      - [367.3 - 367.82]: pick-up-chunk-of-squash
+      - [367.92 - 372.54]: peel-chunk-of-squash|slide-knife|hold-knife|wiggle-knife|facilitate-peeling
+      - [372.52 - 373.08]: put-down-peeled-chunk-of-squash
+      - [373.11 - 373.39]: put-squash-skin
+      - [373.49 - 373.94]: pick-up-chunk-of-squash
+      - [374.04 - 381.07]: peel-chunk-of-squash|slide-in-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [381.17 - 381.82]: put-down-peeled-chunk-of-squash
+      - [381.92 - 382.53]: pick-up-squash-skin
+      - [382.63 - 382.88]: pick-up-squash-skin
+      - [382.74 - 383.23]: drop-two-bits-of-squash-skin|peel-squash
+      - [383.54 - 383.79]: slide-squash-half
+      - [383.89 - 384.4]: put-down-squash-skin
+      - [384.5 - 384.98]: pick-up-chunk-of-squash
+      - [384.77 - 393.91]: peel-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [393.96 - 394.31]: put-down-squash-skin
+      - [394.36 - 394.76]: put-down-peeled-chunk-of-squash
+      - [394.86 - 395.31]: pick-up-another-chunk-of-squash
+      - [395.21 - 401.58]: peel-chunk-of-squash|slide-knife|hold-knife|wiggle-knife|facilitate-peeling
+      - [401.6 - 402.33]: put-down-squash-skin
+      - [401.69 - 402.46]: put-down-peeled-chunk-of-squash
+      - [402.47 - 403.05]: pick-up-another-chunk-of-squash
+      - [403.39 - 415.47]: peel-chunk-of-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [415.56 - 416.18]: put-down-squash-skin
+      - [416.28 - 416.58]: put-down-peeled-chunk-of-squash
+      - [416.61 - 417.07]: pick-up-last-chunk-of-squash
+      - [417.76 - 423.76]: peel-chunk-of-squash|slide-knife|hold-that|wiggle-knife|facilitate-peeling
+      - [423.73 - 424.29]: put-down-squash-skin
+      - [424.3 - 424.68]: put-down-last-peeled-chunk-of-squash
+
+
+  Touch 4:
+    Pick time: 449.1
+    Drop time: 451.2
+    Action descriptions:
+      - [449.67 - 450.76]: put-down-small-knife|pick-up-small-knife|chop-more-chunks|chop-squash
+
+
+  Touch 5:
+    Pick time: 593.0666668
+    Drop time: 593.4
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 595.0
+    Drop time: 613.8666668
+    Action descriptions:
+      - [596.03 - 596.93]: pick-up-another-chunk-of-squash|fall-on-floor
+      - [600.21 - 601.14]: pick-up-chunk-of-squash
+      - [602.0 - 612.0]: pick-up-another-bit-of-food
+      - [612.54 - 613.24]: put-down-bit-of-food
+      - [612.89 - 613.24]: put-chunk-of-squash|pick-up-that
+
+
+  Touch 7:
+    Pick time: 633.4333333999999
+    Drop time: 637.1666667999999
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 8:
+    Pick time: 853.3666668
+    Drop time: 912.3333334
+    Action descriptions:
+      - [854.06 - 863.01]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [862.96 - 863.37]: put-down-peeled-chunk-of-squash
+      - [863.35 - 863.59]: put-down-squash-skin
+      - [863.67 - 864.4]: pick-up-chunk-of-squash
+      - [863.97 - 870.71]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [870.71 - 870.93]: put-down-peeled-chunk-of-squash
+      - [870.97 - 871.35]: put-down-squash-skin
+      - [871.42 - 871.94]: pick-up-chunk-of-squash
+      - [871.95 - 881.86]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [881.77 - 882.05]: put-down-peeled-chunk-of-squash
+      - [882.15 - 882.42]: put-down-squash-skin
+      - [882.52 - 883.03]: pick-up-chunk-of-squash
+      - [883.13 - 885.63]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [885.72 - 886.22]: put-down-small-part-of-skin
+      - [886.45 - 889.88]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [889.93 - 890.39]: put-down-squash-skin
+      - [890.39 - 890.71]: put-down-peeled-chunk-of-squash
+      - [890.79 - 892.28]: pick-up-another-chunk-of-squash
+      - [892.38 - 901.57]: peel-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [901.64 - 902.05]: put-down-peeled-chunk-of-squash
+      - [902.0 - 902.32]: put-down-squash-skin
+      - [902.55 - 903.06]: pick-up-last-chunk-of-squash
+      - [902.88 - 911.01]: peel-last-chunk-of-squash|slide-knife|wiggle-knife|facilitate-peeling
+      - [911.03 - 911.73]: put-down-squash-skin
+      - [911.17 - 911.61]: put-down-last-peeled-chunk-of-squash
+      - [911.88 - 912.13]: put-down-knife|rest-blade
+
+
+  Touch 9:
+    Pick time: 918.2333334
+    Drop time: 918.9
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 1603.4666668
+    Drop time: 1603.6333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2502.5
+    Drop time: 2503.9333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: pack of lentils (ID: f62cf03618da91cd)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 22.2666668
+    Drop time: 52.8
+    Action descriptions:
+      - [23.91 - 25.57]: push-cupboard|close-cupboard
+      - [26.56 - 27.53]: move-knife
+      - [27.63 - 31.08]: pull-sealing-tab-of-lentils-pack|open-pack-of-lentils
+      - [37.95 - 47.93]: lift-pack-of-lentils|move-pack-of-lentils
+
+
+  Time between last use and return (red):
+    Pick time: 69.0666668
+    Drop time: 81.73333339999999
+    Action descriptions:
+      - [69.65 - 73.1]: open-pack-of-lentils|pull-top-side-of-bag
+      - [73.2 - 73.75]: pick-up-pack-of-lentils
+      - [73.85 - 76.18]: pull-middle-drawer|open-middle-drawer
+      - [76.28 - 76.82]: push-middle-drawer|pull-drawer|close-drawer
+      - [76.83 - 77.34]: pull-top-drawer|open-top-drawer
+      - [77.43 - 78.34]: push-drawer|close-drawer
+      - [79.12 - 80.18]: pick-up-scissors
+      - [80.16 - 81.72]: put-down-pack-of-lentils
+
+
+  User return touch (blue):
+    Pick time: 100.5333334
+    Drop time: 144.7666668
+    Action descriptions:
+      - [100.54 - 101.65]: pick-up-pack-of-lentils
+      - [101.75 - 130.31]: tilt-pack-of-lentils|pour-lentils|do-this|pour-right-amount|measure-which
+      - [130.18 - 131.24]: put-down-pack-of-lentils
+      - [131.29 - 137.5]: close-pack-of-lentils|fold-top-part-of-pack|press-sealing-tap|keep-pack|close-pack
+      - [137.6 - 140.62]: pick-up-lentil|press-finger|grab-lentil
+      - [140.72 - 141.55]: rub-fingers|drop-lentil|pick-up-that
+      - [141.65 - 143.1]: open-cupboard
+
+
+Object: folded white cloth (ID: 6456acd187f9a628)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 10.6666668
+    Drop time: 14.0
+    Action descriptions:
+      - [11.07 - 13.18]: fold-white-cloth|fold-cloth
+      - [13.22 - 13.94]: put-folded-white-cloth
+
+
+  User return touch (blue):
+    Pick time: 1266.8666668
+    Drop time: 1276.9666668
+    Action descriptions:
+      - [1267.54 - 1275.59]: wipe-hands|rub-hands
+
+
+Object: recipe card (ID: 9d6cea18cbad9538)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 7.666666800000001
+    Drop time: 11.0333334
+    Action descriptions:
+      - [10.31 - 10.97]: put-down-recipe-card
+
+
+  Touch 2:
+    Pick time: 14.1333334
+    Drop time: 18.3333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 67.3
+    Drop time: 67.7666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 241.5666668
+    Drop time: 242.0333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 245.5333334
+    Drop time: 250.0333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 1277.7
+    Drop time: 1287.2
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 7:
+    Pick time: 1487.7
+    Drop time: 1490.2666668000002
+    Action descriptions:
+      - [1489.64 - 1490.07]: put-down-recipe-card
+
+
+  Touch 8:
+    Pick time: 1733.8
+    Drop time: 1735.7
+    Action descriptions:
+      - [1733.9 - 1735.67]: put-down-recipe-card
+
+
+  Touch 9:
+    Pick time: 1968.5333334
+    Drop time: 1971.1
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 10:
+    Pick time: 1971.7333334
+    Drop time: 1971.8333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 11:
+    Pick time: 2181.1666668
+    Drop time: 2183.4
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 12:
+    Pick time: 2320.3666668
+    Drop time: 2321.3666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 2582.5666668
+    Drop time: 2602.7
+    Action descriptions:
+      - [2585.29 - 2588.23]: lift-left-arm|turn-left-wrist|check-time
+      - [2600.83 - 2602.6]: flip-recipe-card|put-down-recipe-card
+
+
+  User return touch (blue):
+    Pick time: 2940.7333334
+    Drop time: 2947.0666668
+    Action descriptions:
+      - [2945.97 - 2947.06]: put-down-recipe-card
+
+
+Object: left fork (ID: 787a051fdb7b62b0)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 2.7666668
+    Drop time: 4.7
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2484.7333334
+    Drop time: 2487.1666668
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: right fork (ID: 9e719de8129aabab)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 2.7333334
+    Drop time: 4.666666800000001
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 2483.4666668
+    Drop time: 2487.1333334
+    Action descriptions:
+      - [2483.94 - 2484.33]: pick-up-plate
+      - [2484.4 - 2485.57]: pick-up-other-fork|walk-at-same-time
+
+
+Object: more peeled squash chunks 3 (ID: fef2c998c96d623c)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 927.7666668
+    Drop time: 928.3333334
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: new track 2 (ID: d9cdd18e54fae096)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 2262.4333334
+    Drop time: 2282.0
+    Action descriptions:
+      - [2262.86 - 2264.59]: wash-pink-tub|rub-sponge|turn-tub|pick-up-food-residue
+      - [2264.59 - 2265.55]: squeeze-sponge|remove-excess-water|drop-excess-water
+      - [2265.57 - 2266.18]: turn-off-tap
+      - [2266.24 - 2272.4]: stack-three-plastic-tubs
+      - [2272.39 - 2274.3]: shake-stack-of-three-plastic-tubs|remove-water
+      - [2276.01 - 2276.71]: pick-a
+      - [2279.39 - 2279.92]: lift-cloth|reveal-recycling-bins
+      - [2280.72 - 2281.37]: lift-lid-of-middle-recycling-bin|open-bin
+
+

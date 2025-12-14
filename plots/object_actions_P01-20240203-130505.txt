@@ -1,0 +1,1330 @@
+Video ID: P01-20240203-130505
+================================================================================
+
+Object: piece of food trash (ID: cace8c61882e519f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 809.63663
+    Drop time: 814.59973
+    Action descriptions:
+      - [813.97 - 814.44]: open-lid-of-food-waste-bin
+
+
+Object: heat diffuser (ID: fb83bcba1cf521cf)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 749.73435
+    Drop time: 756.42151
+    Action descriptions:
+      - [754.48 - 755.14]: move-mug|pick-up-mug
+
+
+Object: one piece carrot (ID: b66af41184d5fc79)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 657.84302
+    Drop time: 658.1562
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot10 (ID: 8ab3e5095f3db85b)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 585.63448
+    Drop time: 593.54752
+    Action descriptions:
+      - [585.7 - 586.62]: pick-up-another-peeled-carrot|hand-another-peeled-carrot
+      - [586.63 - 586.88]: put-carrot|hold-carrot
+      - [586.97 - 588.13]: chop-wide-end-of-carrot
+      - [588.15 - 588.56]: turn-carrot
+      - [588.76 - 589.17]: chop-narrow-end-of-carrot
+      - [589.35 - 593.22]: chop-carrot|support-carrot
+      - [593.12 - 593.51]: turn-largest-slice
+
+
+  User return touch (blue):
+    Pick time: 594.558
+    Drop time: 597.32089
+    Action descriptions:
+      - [596.54 - 597.32]: put-cut-pieces
+
+
+Object: cut pieces (ID: 75346e01f8a00393)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 581.67595
+    Drop time: 583.79651
+    Action descriptions:
+      - [581.9 - 583.32]: gather-cut-pieces
+      - [582.57 - 583.55]: put-some-of-carrot-pieces
+
+
+  User return touch (blue):
+    Pick time: 582.422
+    Drop time: 583.53121
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot9 (ID: a4b952ba505a6063)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 572.845
+    Drop time: 581.49317
+    Action descriptions:
+      - [573.12 - 573.95]: pick-up-another-carrot|give-another-carrot
+      - [573.98 - 574.85]: put-down-carrot
+      - [574.53 - 575.24]: chop-narrow-end-of-carrot
+      - [575.0 - 575.79]: turn-carrot
+      - [575.91 - 576.85]: chop-wide-end-of-carrot
+      - [576.88 - 577.61]: turn-carrot
+      - [577.09 - 577.75]: move-two-ends|slide-two-ends
+
+
+Object: remaining carrot pieces (ID: d99c94c45604b7d9)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 568.109
+    Drop time: 571.37361
+    Action descriptions:
+      - [569.39 - 569.68]: put-down-knife
+      - [569.98 - 570.97]: pick-up-remaining-two-pieces
+
+
+  User return touch (blue):
+    Pick time: 570.026
+    Drop time: 571.091
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: third slice (ID: 1670dc6bb2f51d1b)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 556.16013
+    Drop time: 556.76429
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 623.657
+    Drop time: 625.35935
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: piece carrot (ID: 7b4d177b947664e1)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 533.80165
+    Drop time: 534.34012
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 535.19589
+    Drop time: 537.38819
+    Action descriptions:
+      - [536.12 - 536.78]: pick-up-four-pieces
+
+
+Object: piece2 (ID: cb8a8d30faf33e5b)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 526.31926
+    Drop time: 526.67151
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 527.4497
+    Drop time: 527.87858
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 528.007
+    Drop time: 529.54204
+    Action descriptions:
+      - [528.35 - 529.34]: pick-up-four-pieces-of-cut-carrot
+
+
+Object: one piece of carrot (ID: 7ae77b8c164897d4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 526.30596
+    Drop time: 527.14535
+    Action descriptions:
+      - [526.44 - 526.99]: pick-up-one-piece-of-carrot|put-it
+
+
+Object: wide end of carrot (ID: 18990f1f17184913)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 522.94767
+    Drop time: 523.43572
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 621.4815
+    Drop time: 622.42665
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot8 (ID: eee06e5e4d9fd9b5)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 518.72287
+    Drop time: 526.00547
+    Action descriptions:
+      - [519.49 - 519.73]: put-carrot
+      - [520.02 - 520.41]: cut-narrow-end-of-carrot
+      - [520.45 - 521.02]: turn-carrot
+      - [521.6 - 522.9]: cut-wide-end-of-carrot
+      - [523.02 - 523.52]: slide-ends
+      - [523.97 - 525.88]: cut-two-slices-of-carrot
+
+
+  Touch 2:
+    Pick time: 530.76319
+    Drop time: 533.55165
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 552.71221
+    Drop time: 554.70372
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 554.994
+    Drop time: 555.81372
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 556.014
+    Drop time: 558.05119
+    Action descriptions:
+      - [556.3 - 557.12]: pick-up-third-slice|put-it
+
+
+  User return touch (blue):
+    Pick time: 558.295
+    Drop time: 559.42054
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot7 (ID: 003c1b56f42eb5ac)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 486.59804
+    Drop time: 503.38953
+    Action descriptions:
+      - [488.37 - 491.81]: rest-chopping-board|slide-carrot-pieces
+      - [491.84 - 493.64]: slide-remaining-pieces
+      - [494.16 - 494.7]: put-down-chopping-board
+      - [494.74 - 495.01]: place-carrot|hold-carrot
+
+
+Object: thick end of carrot (ID: ec18bea503e4bb24)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 480.91977
+    Drop time: 481.71715
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot6 (ID: 6b8cac98b6dacc40)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 473.46143
+    Drop time: 481.07409
+    Action descriptions:
+      - [475.62 - 476.81]: move-one-piece|place-it
+      - [476.04 - 476.81]: put-carrot
+      - [476.5 - 477.65]: slice-other-end-of-carrot
+      - [477.62 - 478.3]: turn-carrot
+      - [478.28 - 480.22]: slice-thick-end-of-carrot|move-knife
+
+
+Object: kettle (ID: 8103652c62bad9fd)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 452.78643
+    Drop time: 470.71715
+    Action descriptions:
+      - [453.9 - 454.7]: position-kettle|fill-kettle
+      - [454.08 - 455.0]: open-tap
+      - [455.03 - 466.61]: fill-kettle
+      - [466.6 - 467.41]: close-tap
+      - [468.41 - 469.25]: close-lid-of-kettle|flip-lid-of-kettle
+
+
+Object: piece (ID: b8ce871f9215aa14)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 411.093
+    Drop time: 412.19477
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: one piece (ID: c71f07fca443333f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 403.413
+    Drop time: 403.83797
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: ends of carrot (ID: 70249129f7ed5d86)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 401.04477
+    Drop time: 402.09371
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot5 (ID: d2fd857a4b991683)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 396.1281
+    Drop time: 400.63643
+    Action descriptions:
+      - [396.16 - 396.85]: pick-up-another-carrot
+      - [396.77 - 397.56]: position-carrot|hold-carrot
+      - [397.96 - 398.79]: chop-thick-end-of-carrot
+      - [398.86 - 399.71]: turn-carrot|chop-narrow-end
+      - [399.65 - 400.52]: chop-narrow-end-of-carrot
+
+
+  User return touch (blue):
+    Pick time: 403.923
+    Drop time: 410.53643
+    Action descriptions:
+      - [404.63 - 410.38]: start-from-narrow-end-of-carrot|hold-carrot|slice-carrot|go-across-carrot's-length|move-left-hand
+
+
+Object: wooden spatula (ID: 5f6443a50bfdbd1a)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 390.96143
+    Drop time: 393.30717
+    Action descriptions:
+      - [391.02 - 391.78]: pick-up-wooden-spatula
+
+
+  Touch 2:
+    Pick time: 416.39477
+    Drop time: 451.86434
+    Action descriptions:
+      - [416.4 - 416.9]: pick-up-spatula
+      - [417.35 - 421.12]: move-butter-pieces|melt-butter-pieces
+      - [422.95 - 423.81]: pick-up-plate
+      - [424.92 - 427.33]: hold-plate|divide-some-of-pieces|split-them
+      - [428.09 - 436.67]: slide-onion-pieces|position-plate|slide-pieces|tilt-plate|slide-on-top-of-plate
+      - [437.03 - 438.24]: stir-onion-pieces
+      - [438.87 - 440.05]: put-down-plate|measure-further-ingredients
+      - [440.66 - 449.68]: stir-onion-pieces|hold-pan's-handle
+      - [449.96 - 450.99]: hit-spatula|drop-any-pieces
+      - [451.31 - 451.82]: place-spatula
+
+
+  Touch 3:
+    Pick time: 539.20372
+    Drop time: 549.28832
+    Action descriptions:
+      - [539.94 - 547.28]: stir-onion|hold-pot's-handle
+      - [547.2 - 548.81]: hit-spatula|drop-any-onion-pieces
+
+
+  Touch 4:
+    Pick time: 636.41704
+    Drop time: 643.60935
+    Action descriptions:
+      - [636.63 - 637.06]: pick-up-spatula
+      - [636.87 - 637.38]: hold-handle-of-pot|rotate-handle-of-pot
+      - [637.4 - 642.48]: stir-onions|move-in-directions
+      - [642.68 - 643.51]: hit-spatula|drop-any-onion-pieces
+
+
+  Touch 5:
+    Pick time: 647.57287
+    Drop time: 655.28953
+    Action descriptions:
+      - [647.63 - 647.92]: pick-up-spatula
+      - [647.98 - 653.64]: position-plate|slide-carrot-pieces
+
+
+  Touch 6:
+    Pick time: 660.077
+    Drop time: 725.34012
+    Action descriptions:
+      - [661.27 - 661.74]: reset-scale|press-button
+      - [662.5 - 663.5]: put-plate
+      - [664.72 - 699.64]: hold-handle-of-pot|stir-content-of-pan|mix-onions|bring-onion|turn-onion|put-carrots
+      - [699.05 - 699.94]: hit-spatula|drop-any-pieces-of-onion
+      - [700.28 - 705.66]: mix-content-of-pot
+      - [705.76 - 720.83]: rotate-pan
+      - [720.9 - 722.85]: hit-spatula|drop-any-stuck-onion
+      - [724.2 - 724.96]: put-spatula
+      - [724.81 - 725.25]: pick-up-wooden-spoon
+
+
+  Time between last use and return (red):
+    Pick time: 773.759
+    Drop time: 803.57089
+    Action descriptions:
+      - [775.05 - 799.86]: turn-content-of-pot|mix-carrots|mix-onions|hold-pot's-handle
+      - [800.03 - 802.67]: hit-spatula|drop-any-of-stuck-onion
+
+
+  User return touch (blue):
+    Pick time: 816.959
+    Drop time: 826.50358
+    Action descriptions:
+      - [817.94 - 823.74]: mix-content-of-pot|turn-carrots|turn-onions|get-carrots|turn-things|hold-handle-of-pot
+      - [823.89 - 825.45]: hit-spatula|drop-any-onion
+
+
+Object: pan2 (ID: 0a64c5d983b676c4)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 376.509
+    Drop time: 377.799
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 749.73435
+    Drop time: 756.54651
+    Action descriptions:
+      - [754.48 - 755.14]: move-mug|pick-up-mug
+
+
+Object: carrot ends (ID: e0e14167414d8aea)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 354.11143
+    Drop time: 355.34937
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: other end (ID: 158f9f1bff89c8cf)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 340.33615
+    Drop time: 341.14676
+    Action descriptions:
+      - [340.48 - 340.75]: pick-up-other-end
+
+
+Object: carrot end (ID: 70fcd976b385ebc5)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 338.636
+    Drop time: 341.13929
+    Action descriptions:
+      - [340.48 - 340.75]: pick-up-other-end
+
+
+Object: plate3 (ID: f62815714e2bdd6c)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 296.67054
+    Drop time: 297.05205
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plate2 (ID: cef1ca396fd6593c)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 295.154
+    Drop time: 301.67054
+    Action descriptions:
+      - [299.32 - 299.9]: remove-pan|hold-handle|put-handle
+
+
+  Touch 2:
+    Pick time: 422.779
+    Drop time: 440.02325
+    Action descriptions:
+      - [422.95 - 423.81]: pick-up-plate
+      - [424.92 - 427.33]: hold-plate|divide-some-of-pieces|split-them
+      - [428.09 - 436.67]: slide-onion-pieces|position-plate|slide-pieces|tilt-plate|slide-on-top-of-plate
+      - [437.03 - 438.24]: stir-onion-pieces
+
+
+  Time between last use and return (red):
+    Pick time: 484.191
+    Drop time: 484.51715
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 644.90742
+    Drop time: 663.23435
+    Action descriptions:
+      - [644.93 - 645.94]: pick-up-plate
+      - [647.63 - 647.92]: pick-up-spatula
+      - [647.98 - 653.64]: position-plate|slide-carrot-pieces
+      - [655.0 - 655.35]: put-spatula
+      - [655.81 - 658.3]: reach-to-one-piece-carrot|pick-up-it|put-it
+      - [661.27 - 661.74]: reset-scale|press-button
+
+
+Object: pan (ID: c7434ea99ddb699e)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 243.121
+    Drop time: 265.37287
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 265.99
+    Drop time: 271.46977
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 378.09012
+    Drop time: 379.5805
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 383.33
+    Drop time: 384.43627
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 763.02281
+    Drop time: 764.42287
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: wooden spoon (ID: ccc33c29aa996e72)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 220.23869
+    Drop time: 230.74346
+    Action descriptions:
+      - [220.92 - 229.18]: stir-content-of-pan
+      - [229.21 - 230.16]: hit-wooden-spoon|remove-any-meat
+
+
+  Time between last use and return (red):
+    Pick time: 242.30814
+    Drop time: 272.41013
+    Action descriptions:
+      - [243.05 - 269.29]: stir-content-of-pan|mix-spice|move-meat|move-spices|mix-in-directions
+      - [268.8 - 271.86]: hit-wooden-spoon|drop-any-meat|rotate-pan
+      - [272.1 - 272.4]: put-wooden-spoon
+
+
+  User return touch (blue):
+    Pick time: 724.72
+    Drop time: 744.09973
+    Action descriptions:
+      - [724.81 - 725.25]: pick-up-wooden-spoon
+      - [725.39 - 725.83]: pass-wooden-spoon
+      - [726.49 - 727.44]: pick-up-lid-of-pan
+      - [727.44 - 728.79]: put-lid
+      - [729.07 - 740.84]: stir-content-of-pan|hold-pan's-handle|move-meat
+      - [740.96 - 742.16]: hit-wooden-spoon|drop-any-meat
+      - [741.16 - 742.44]: pick-up-lid-of-pan
+      - [742.52 - 743.64]: cover-pan
+
+
+Object: lid (ID: 63af0e9f411d7011)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 218.07203
+    Drop time: 219.83592
+    Action descriptions:
+      - [218.39 - 219.18]: pick-up-lid
+      - [219.37 - 219.72]: place-lid
+
+
+  Touch 2:
+    Pick time: 271.92054
+    Drop time: 273.96221
+    Action descriptions:
+      - [272.1 - 272.4]: put-wooden-spoon
+      - [272.3 - 272.55]: pick-up-lid
+
+
+  Touch 3:
+    Pick time: 385.166
+    Drop time: 385.61896
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 726.78242
+    Drop time: 728.73435
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 740.9555
+    Drop time: 743.52281
+    Action descriptions:
+      - [740.96 - 742.16]: hit-wooden-spoon|drop-any-meat
+      - [741.16 - 742.44]: pick-up-lid-of-pan
+
+
+Object: jar of spices (ID: 1e904f38ff4ac9b8)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 214.524
+    Drop time: 217.98493
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 230.909
+    Drop time: 241.34286
+    Action descriptions:
+      - [231.56 - 231.95]: open-jar-of-spices|hold-jar|hold-lid|rotate-lid
+      - [231.8 - 232.52]: hold-lid|put-jar
+      - [232.81 - 233.42]: insert-right-hand|take-pinch-of-spice
+      - [233.56 - 235.23]: sprinkle-spices|move-hand
+      - [235.33 - 236.2]: insert-hand|take-another-pinch-of-spices
+      - [236.3 - 237.45]: sprinkle-spices
+      - [237.2 - 238.35]: rub-fingers|drop-any-spice
+      - [238.41 - 238.82]: hold-jar
+      - [238.85 - 239.69]: turn-lid|place-lid|close-jar|rotate-lid
+      - [240.0 - 240.86]: open-cupboard
+
+
+Object: empty chopping board (ID: 6716d492a199b2d1)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 199.161
+    Drop time: 210.18372
+    Action descriptions:
+      - [201.2 - 201.89]: open-lid-of-food-waste-bin
+      - [201.9 - 207.75]: slide-onion-peel
+      - [208.05 - 208.88]: close-lid-of-food-waste-bin
+      - [209.63 - 210.16]: put-down-empty-chopping-board
+
+
+Object: third half of onion (ID: efc90f22dc7bb2b0)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 175.661
+    Drop time: 176.96372
+    Action descriptions:
+      - [175.88 - 176.14]: pick-up-third-half-of-onion
+
+
+  User return touch (blue):
+    Pick time: 177.36372
+    Drop time: 191.90372
+    Action descriptions:
+      - [177.9 - 182.4]: slice-third-half-onion
+      - [182.6 - 183.28]: hold-cut-slices|rotate-cut-slices
+      - [183.25 - 191.75]: slice-third-onion
+
+
+Object: another half onion (ID: da05fda3d6cabc3c)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 159.314
+    Drop time: 162.46372
+    Action descriptions:
+      - [160.37 - 161.18]: remove-one-onion-skin|drop-it
+      - [161.98 - 162.42000000000002]: move-already-cut-onion-pieces
+
+
+  User return touch (blue):
+    Pick time: 162.80372
+    Drop time: 174.8062
+    Action descriptions:
+      - [167.53 - 168.43]: hold-cut-onion|rotate-cut-onion|slice-cut-onion
+
+
+Object: onion (ID: 14005e5f764bb354)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 112.53513
+    Drop time: 113.56638
+    Action descriptions:
+      - [112.58 - 113.46]: pick-up-half-onion
+
+
+  User return touch (blue):
+    Pick time: 113.94138
+    Drop time: 156.64372
+    Action descriptions:
+      - [114.31 - 133.29]: slice-onion|hold-onion|slice-with-knife|move-hand
+      - [133.57 - 135.83]: reassemble-slices|rotate-onion
+      - [136.78 - 156.28]: slice-onion
+
+
+Object: chopping board (ID: f4d8aec5c9d69cc1)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 104.307
+    Drop time: 112.29332
+    Action descriptions:
+      - [104.72 - 105.42]: pick-up-chopping-board
+      - [107.07 - 107.55]: open-lid-of-food-trash-bin
+      - [108.0 - 109.34]: slide-peel-of-garlic|brush-knife
+      - [109.71 - 110.42]: close-lid-of-food-trash-bin
+      - [111.23 - 112.24]: put-down-chopping-board
+
+
+  Touch 2:
+    Pick time: 304.56638
+    Drop time: 321.44221
+    Action descriptions:
+      - [307.83 - 315.48]: slide-chopped-onion|push-onion-pieces
+      - [315.37 - 316.33]: remove-onion-pieces|discard-onion-pieces
+      - [316.92 - 318.54]: pick-up-onion-piece|add-skin
+      - [318.64 - 319.37]: pick-up-another-onion-piece|add-another-onion-piece
+      - [320.05 - 320.55]: read-measurement-of-scale
+      - [320.43 - 320.92]: put-down-chopping-board
+
+
+  Touch 3:
+    Pick time: 474.503
+    Drop time: 475.13643
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 486.42562
+    Drop time: 494.42151
+    Action descriptions:
+      - [486.55 - 487.7]: pick-up-chopping-board|drop-any-of-pieces
+      - [488.37 - 491.81]: rest-chopping-board|slide-carrot-pieces
+      - [491.84 - 493.64]: slide-remaining-pieces
+
+
+  Time between last use and return (red):
+    Pick time: 503.99317
+    Drop time: 509.77824
+    Action descriptions:
+      - [505.91 - 507.67]: slide-cut-pieces|measure-carrots|slide-carrot-pieces
+      - [507.51 - 508.84]: slide-remaining-pieces
+      - [509.19 - 509.69]: put-down-chopping-board
+
+
+  User return touch (blue):
+    Pick time: 625.89781
+    Drop time: 634.59973
+    Action descriptions:
+      - [628.26 - 628.77]: open-lid-of-food-waste-bin
+      - [628.99 - 632.61]: position-chopping-board|slide-carrot-ends|pass-knife
+      - [632.91 - 633.68]: close-lid-of-food-waste-bin
+
+
+Object: knife2 (ID: eeb5e99455195978)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 104.084
+    Drop time: 193.09367
+    Action descriptions:
+      - [104.24 - 104.74]: pick-up-knife
+      - [104.72 - 105.42]: pick-up-chopping-board
+      - [107.07 - 107.55]: open-lid-of-food-trash-bin
+      - [108.0 - 109.34]: slide-peel-of-garlic|brush-knife
+      - [109.71 - 110.42]: close-lid-of-food-trash-bin
+      - [111.23 - 112.24]: put-down-chopping-board
+      - [112.58 - 113.46]: pick-up-half-onion
+      - [113.35 - 113.63]: move-one-carrot
+      - [114.31 - 133.29]: slice-onion|hold-onion|slice-with-knife|move-hand
+      - [133.57 - 135.83]: reassemble-slices|rotate-onion
+      - [136.78 - 156.28]: slice-onion
+      - [156.98 - 158.22]: slide-onion|empty-space|chop-other-half-onion
+      - [159.15 - 160.1]: pick-up-another-half-onion
+      - [160.37 - 161.18]: remove-one-onion-skin|drop-it
+      - [161.98 - 162.42000000000002]: move-already-cut-onion-pieces
+      - [162.79 - 167.35]: slice-onion|hold-onion|slice-with-right-hand
+      - [167.53 - 168.43]: hold-cut-onion|rotate-cut-onion|slice-cut-onion
+      - [168.7 - 174.89]: slice-onion
+      - [175.21 - 175.57999999999998]: slide-onion-pieces|empty-space
+      - [175.88 - 176.14]: pick-up-third-half-of-onion
+      - [176.72 - 177.0]: put-third-half-of-onion
+      - [177.17000000000002 - 177.73]: pick-up-one-onion-piece|return-it
+      - [177.9 - 182.4]: slice-third-half-onion
+      - [182.6 - 183.28]: hold-cut-slices|rotate-cut-slices
+      - [183.25 - 191.75]: slice-third-onion
+
+
+  Touch 2:
+    Pick time: 303.754
+    Drop time: 321.5186
+    Action descriptions:
+      - [303.76 - 304.0]: pick-up-knife
+      - [307.83 - 315.48]: slide-chopped-onion|push-onion-pieces
+      - [315.37 - 316.33]: remove-onion-pieces|discard-onion-pieces
+      - [316.92 - 318.54]: pick-up-onion-piece|add-skin
+      - [318.64 - 319.37]: pick-up-another-onion-piece|add-another-onion-piece
+      - [320.05 - 320.55]: read-measurement-of-scale
+      - [320.43 - 320.92]: put-down-chopping-board
+
+
+  Touch 3:
+    Pick time: 332.07858
+    Drop time: 367.799
+    Action descriptions:
+      - [332.43 - 332.91]: take-one-carrot
+      - [333.01 - 333.44]: place-carrot|hold-carrot
+      - [333.49 - 334.6]: cut-one-end-of-carrot
+      - [334.7 - 335.74]: turn-carrot|cut-other-end
+      - [335.56 - 337.08]: cut-other-end-of-carrot|roll-onto-floor-of-kitchen
+      - [337.05 - 338.18]: follow-rolling-piece
+      - [338.07 - 339.27]: pick-up-carrot-end
+      - [340.48 - 340.75]: pick-up-other-end
+      - [340.96 - 341.24]: place-ends
+      - [341.58 - 348.29]: cut-carrot|start-from-one-end|move-left-hand
+      - [348.08 - 349.78]: move-cut-carrot-pieces|cut-further-carrots
+      - [349.85 - 351.03]: pick-up-second-carrot|place-second-carrot|hold-second-carrot
+      - [350.93 - 351.58]: cut-narrow-end-of-carrot
+      - [351.68 - 352.18]: turn-carrot|cut-other-end
+      - [352.03 - 353.7]: cut-other-end-of-carrot
+      - [354.03 - 354.98]: pick-up-ends-of-carrot
+      - [355.07 - 355.53]: place-carrot-ends
+      - [355.63 - 365.65]: start-from-thick-end-of-carrot|slice-carrot|move-knife|slide-left-hand|support-carrot
+
+
+  Touch 4:
+    Pick time: 395.566
+    Drop time: 413.78643
+    Action descriptions:
+      - [396.16 - 396.85]: pick-up-another-carrot
+      - [396.77 - 397.56]: position-carrot|hold-carrot
+      - [397.96 - 398.79]: chop-thick-end-of-carrot
+      - [398.86 - 399.71]: turn-carrot|chop-narrow-end
+      - [399.65 - 400.52]: chop-narrow-end-of-carrot
+      - [400.8 - 401.8]: pick-up-ends-of-carrot
+      - [401.9 - 402.31]: place-ends
+      - [403.35 - 403.9]: move-one-piece|place-it
+      - [404.63 - 410.38]: start-from-narrow-end-of-carrot|hold-carrot|slice-carrot|go-across-carrot's-length|move-left-hand
+      - [410.25 - 412.15]: turn-piece|slice-piece|keep-piece
+
+
+  Touch 5:
+    Pick time: 473.34477
+    Drop time: 536.799
+    Action descriptions:
+      - [475.62 - 476.81]: move-one-piece|place-it
+      - [476.04 - 476.81]: put-carrot
+      - [476.5 - 477.65]: slice-other-end-of-carrot
+      - [477.62 - 478.3]: turn-carrot
+      - [478.28 - 480.22]: slice-thick-end-of-carrot|move-knife
+      - [480.54 - 481.08]: put-down-carrot
+      - [480.62 - 481.24]: pick-up-thick-end-of-carrot
+      - [481.34 - 481.74]: place-thick-end-of-carrot
+      - [481.8 - 482.13]: pick-up-narrow-end-of-carrot
+      - [482.17 - 482.63]: place-narrow-end
+      - [483.03 - 483.8]: press-button|switch-on-scale|measure-carrot-pieces
+      - [483.9 - 484.65]: move-plate|see-scale's-reading
+      - [486.55 - 487.7]: pick-up-chopping-board|drop-any-of-pieces
+      - [488.37 - 491.81]: rest-chopping-board|slide-carrot-pieces
+      - [491.84 - 493.64]: slide-remaining-pieces
+      - [494.16 - 494.7]: put-down-chopping-board
+      - [494.74 - 495.01]: place-carrot|hold-carrot
+      - [495.21 - 503.87]: cut-carrot|move-across-length-of-carrot|slide-left-hand
+      - [503.85 - 505.17]: pick-up-chopping-board
+      - [505.91 - 507.67]: slide-cut-pieces|measure-carrots|slide-carrot-pieces
+      - [507.51 - 508.84]: slide-remaining-pieces
+      - [509.19 - 509.69]: put-down-chopping-board
+      - [509.56 - 509.98]: pick-out-another-cut
+      - [510.08 - 510.66]: place-carrot|hold-carrot
+      - [510.76 - 512.09]: chop-thick-end-of-carrot
+      - [512.0 - 512.67]: turn-carrot
+      - [512.77 - 513.46]: chop-narrow-end-of-carrot
+      - [513.51 - 514.33]: slide-ends-of-chopping-board
+      - [514.36 - 516.5]: cut-carrot|start-from-narrow-end|go-across-length-of-carrot|slide-left-hand|support-carrot
+      - [516.36 - 517.12]: pick-up-four-pieces-of-carrot
+      - [517.22 - 518.19]: put-pieces|measure-pieces
+      - [518.29 - 519.47]: pick-up-another-carrot
+      - [519.49 - 519.73]: put-carrot
+      - [520.02 - 520.41]: cut-narrow-end-of-carrot
+      - [520.45 - 521.02]: turn-carrot
+      - [521.6 - 522.9]: cut-wide-end-of-carrot
+      - [523.02 - 523.52]: slide-ends
+      - [523.97 - 525.88]: cut-two-slices-of-carrot
+      - [526.44 - 526.99]: pick-up-one-piece-of-carrot|put-it
+      - [527.44 - 527.97]: cut-two-already-cut-slices
+      - [528.35 - 529.34]: pick-up-four-pieces-of-cut-carrot
+      - [529.59 - 529.96]: put-four-pieces
+      - [531.02 - 533.74]: cut-two-more-slices-of-carrot
+      - [534.09 - 536.27]: pile-two-slices|cut-two-slices
+      - [536.12 - 536.78]: pick-up-four-pieces
+
+
+  Touch 6:
+    Pick time: 552.585
+    Drop time: 569.55717
+    Action descriptions:
+      - [553.21 - 555.9]: cut-three-more-slices-of-carrot|support-carrot
+      - [556.3 - 557.12]: pick-up-third-slice|put-it
+      - [557.11 - 559.84]: cut-carrot|move-across-carrot-length|support-carrot
+      - [559.74 - 561.83]: pile-larger-slices|cut-larger-slices
+      - [562.75 - 563.91]: cut-another-slice|hold-another-slice|slice-another-slice
+      - [564.13 - 564.69]: cut-another-slice|support-knife
+      - [565.02 - 566.51]: pick-up-handful-of-cut-carrot-pieces
+      - [566.64 - 567.61]: put-handful-of-carrot-pieces
+      - [567.96 - 569.07]: gather-remaining-carrot-pieces|pick-up-remaining-carrot-pieces
+
+
+  Time between last use and return (red):
+    Pick time: 573.841
+    Drop time: 615.94767
+    Action descriptions:
+      - [573.98 - 574.85]: put-down-carrot
+      - [574.53 - 575.24]: chop-narrow-end-of-carrot
+      - [575.0 - 575.79]: turn-carrot
+      - [575.91 - 576.85]: chop-wide-end-of-carrot
+      - [576.88 - 577.61]: turn-carrot
+      - [577.09 - 577.75]: move-two-ends|slide-two-ends
+      - [578.0 - 581.86]: cut-carrot|start-from-narrow-end|move-across-length-of-carrot
+      - [581.9 - 583.32]: gather-cut-pieces
+      - [582.57 - 583.55]: put-some-of-carrot-pieces
+      - [583.65 - 584.53]: put-remaining-handful-of-carrot-pieces
+      - [585.7 - 586.62]: pick-up-another-peeled-carrot|hand-another-peeled-carrot
+      - [586.63 - 586.88]: put-carrot|hold-carrot
+      - [586.97 - 588.13]: chop-wide-end-of-carrot
+      - [588.15 - 588.56]: turn-carrot
+      - [588.76 - 589.17]: chop-narrow-end-of-carrot
+      - [589.35 - 593.22]: chop-carrot|support-carrot
+      - [593.12 - 593.51]: turn-largest-slice
+      - [593.66 - 594.46]: cut-big-slice
+      - [594.54 - 596.24]: gather-cut-pieces
+      - [596.54 - 597.32]: put-cut-pieces
+      - [598.44 - 598.77]: pick-up-another-peeled-carrot
+      - [598.84 - 599.24]: put-carrot
+      - [599.36 - 599.99]: chop-narrow-end-of-carrot
+      - [600.01 - 600.5]: turn-carrot
+      - [600.81 - 601.5]: chop-wide-end-of-carrot
+      - [601.82 - 604.21]: chop-carrot
+      - [604.34 - 606.27]: gather-cut-slices|move-ends
+      - [606.85 - 607.54]: put-handful-of-cut-carrots
+      - [608.44 - 609.11]: pick-up-last-peeled-carrot
+      - [608.9 - 609.31]: put-carrot
+      - [609.65 - 610.46]: chop-wide-end-of-carrot
+      - [610.28 - 611.04]: turn-carrot
+      - [610.98 - 611.65]: chop-narrow-end-of-carrot
+      - [611.57 - 614.92]: cut-carrot
+      - [614.96 - 615.85]: gather-cut-pieces
+
+
+  User return touch (blue):
+    Pick time: 621.364
+    Drop time: 634.80689
+    Action descriptions:
+      - [621.38 - 622.04]: move-knife
+      - [622.19 - 622.68]: pick-up-knife
+      - [622.52 - 625.69]: move-cut-ends-of-carrots|put-them|throw-carrots
+      - [625.82 - 627.73]: pick-up-chopping-board|hold-knife
+      - [628.26 - 628.77]: open-lid-of-food-waste-bin
+      - [628.99 - 632.61]: position-chopping-board|slide-carrot-ends|pass-knife
+      - [632.91 - 633.68]: close-lid-of-food-waste-bin
+
+
+Object: carrot4 (ID: 69dc4051fefc14ba)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 102.48372
+    Drop time: 103.17372
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 349.8031
+    Drop time: 365.64059
+    Action descriptions:
+      - [349.85 - 351.03]: pick-up-second-carrot|place-second-carrot|hold-second-carrot
+      - [350.93 - 351.58]: cut-narrow-end-of-carrot
+      - [351.68 - 352.18]: turn-carrot|cut-other-end
+      - [352.03 - 353.7]: cut-other-end-of-carrot
+      - [354.03 - 354.98]: pick-up-ends-of-carrot
+      - [355.07 - 355.53]: place-carrot-ends
+
+
+Object: another carrot (ID: ec25a3583ff5f347)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 99.58372
+    Drop time: 101.38929
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carrot (ID: 8e4f15fdb9559f85)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 99.488
+    Drop time: 100.14372
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 332.209
+    Drop time: 333.23767
+    Action descriptions:
+      - [332.43 - 332.91]: take-one-carrot
+
+
+  Time between last use and return (red):
+    Pick time: 333.33615
+    Drop time: 336.40196
+    Action descriptions:
+      - [333.49 - 334.6]: cut-one-end-of-carrot
+      - [334.7 - 335.74]: turn-carrot|cut-other-end
+
+
+  User return touch (blue):
+    Pick time: 341.41949
+    Drop time: 348.75716
+    Action descriptions:
+      - [341.58 - 348.29]: cut-carrot|start-from-one-end|move-left-hand
+
+
+Object: pile of peeled carrots (ID: 2e2d5e54b5c80099)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 98.144
+    Drop time: 99.16372
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: butter slice (ID: bb198deacbf02eb2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 88.81891
+    Drop time: 89.52182
+    Action descriptions:
+      - [88.95 - 89.2]: separate-slice
+
+
+Object: knife (ID: aa73b8da0b34f746)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 73.00274
+    Drop time: 90.49174
+    Action descriptions:
+      - [75.3 - 85.39]: unpack-second-butter|hold-packaging|unfold-edges
+      - [85.6 - 86.32]: put-down-butter
+      - [86.42 - 87.66]: slice-into-butter|cut-from-one-end-of-butter's-rectangle
+      - [88.01 - 88.39]: push-cut-part|separate-slice
+      - [88.65 - 88.94]: pick-up-butter
+      - [88.95 - 89.2]: separate-slice
+      - [89.43 - 89.78999999999999]: drop-additional-slice|check-weight
+
+
+Object: remaining butter (ID: e276473a0c04ee48)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 64.80421
+    Drop time: 65.24538
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 65.45862
+    Drop time: 66.50274
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: jar of chocolate (ID: 3fd25f21fdafffcb)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 54.47166
+    Drop time: 55.75517
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: butter (ID: 68ff481c410340c3)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 52.49286
+    Drop time: 69.5593
+    Action descriptions:
+      - [52.64 - 53.24]: pick-up-butter
+      - [54.44 - 55.95]: move-jar-of-chocolate|access-behind-jar-of-chocolate
+      - [57.43 - 57.86]: get-another-packet-of-butter|weigh-needed-butter
+      - [58.35 - 59.33]: close-fridge
+      - [60.24 - 60.58]: put-down-second-complete-package
+      - [60.88 - 65.37]: open-first-package|uncrumble-packaging|access-butter
+      - [64.83 - 66.95]: slide-remaining-butter
+      - [67.09 - 68.53999999999999]: crumble-empty-packaging-of-butter
+      - [69.2 - 69.45]: open-trash-bin's-lid
+
+
+Object: bottle of vegetable oil (ID: 82c75e65f3154079)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 44.98728
+    Drop time: 47.55372
+    Action descriptions:
+      - [47.17 - 47.37]: put-down-bottle
+
+
+Object: peeler (ID: ef9e62530f7609ee)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 31.88017
+    Drop time: 32.61143
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: empty plastic bag (ID: 0033b563cdeec2e0)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 31.20349
+    Drop time: 37.1781
+    Action descriptions:
+      - [31.29 - 31.64]: pick-up-empty-bag-of-plastic
+      - [31.87 - 32.61]: move-peeler|empty-space
+      - [33.4 - 33.9]: put-down-scale
+      - [34.15 - 34.86]: put-pan
+      - [36.73 - 37.12]: open-trash-bin's-lid
+
+
+Object: scale (ID: 7fc001161508cf9a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 28.852
+    Drop time: 33.76039
+    Action descriptions:
+      - [30.06 - 31.01]: move-scale
+      - [31.29 - 31.64]: pick-up-empty-bag-of-plastic
+      - [31.87 - 32.61]: move-peeler|empty-space
+
+
+Object: pot (ID: a4a3fc0088ddd2d2)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 25.16546
+    Drop time: 34.8031
+    Action descriptions:
+      - [28.78 - 29.97]: pick-up-scale
+      - [30.06 - 31.01]: move-scale
+      - [31.29 - 31.64]: pick-up-empty-bag-of-plastic
+      - [31.87 - 32.61]: move-peeler|empty-space
+      - [33.4 - 33.9]: put-down-scale
+
+
+  Touch 2:
+    Pick time: 299.28513
+    Drop time: 302.21221
+    Action descriptions:
+      - [299.32 - 299.9]: remove-pan|hold-handle|put-handle
+      - [300.52 - 302.2]: put-plate|fit-space
+
+
+  Touch 3:
+    Pick time: 369.13819
+    Drop time: 381.22473
+    Action descriptions:
+      - [371.5 - 376.01]: turn-on-top-right-burner-of-hob|hold-second-knob|press-second-knob|ignite-burner|rotate-burner|switch-on-burner
+      - [376.41 - 377.89]: move-pan
+      - [378.24 - 379.85]: move-pan|get-it|cook-on-far-burner
+
+
+  Touch 4:
+    Pick time: 382.942
+    Drop time: 384.7055
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 441.59477
+    Drop time: 451.08643
+    Action descriptions:
+      - [449.96 - 450.99]: hit-spatula|drop-any-pieces
+
+
+  Touch 6:
+    Pick time: 636.77281
+    Drop time: 642.42665
+    Action descriptions:
+      - [636.87 - 637.38]: hold-handle-of-pot|rotate-handle-of-pot
+
+
+  Time between last use and return (red):
+    Pick time: 664.61434
+    Drop time: 722.37858
+    Action descriptions:
+      - [664.72 - 699.64]: hold-handle-of-pot|stir-content-of-pan|mix-onions|bring-onion|turn-onion|put-carrots
+      - [699.05 - 699.94]: hit-spatula|drop-any-pieces-of-onion
+      - [700.28 - 705.66]: mix-content-of-pot
+      - [705.76 - 720.83]: rotate-pan
+
+
+  User return touch (blue):
+    Pick time: 770.84302
+    Drop time: 772.10935
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plate (ID: 09a17ecfafbf94fe)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 23.67619
+    Drop time: 24.14147
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: pen (ID: d5077b84cad60f3e)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 2.618
+    Drop time: 18.71608
+    Action descriptions:
+      - [4.41 - 5.0]: put-down-paper-notepad
+      - [5.15 - 18.65]: write-something
+
+
+  Touch 2:
+    Pick time: 92.72388
+    Drop time: 97.45266
+    Action descriptions:
+      - [92.84 - 93.24]: pick-up-pen
+      - [93.34 - 96.26]: write-down-measurement-of-butter
+      - [96.24 - 97.24]: move-notepad
+
+
+  Time between last use and return (red):
+    Pick time: 321.85888
+    Drop time: 324.58372
+    Action descriptions:
+      - [322.0 - 322.37]: pick-up-pen
+
+
+  User return touch (blue):
+    Pick time: 618.158
+    Drop time: 620.89059
+    Action descriptions:
+      - [618.68 - 620.53]: write-down-weight-of-carrots
+
+
+Object: paper notepad (ID: a23f777966ac67d7)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 2.025
+    Drop time: 4.99128
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 93.23068
+    Drop time: 97.04685
+    Action descriptions:
+      - [93.34 - 96.26]: write-down-measurement-of-butter
+
+
+Object: new mug (ID: b627a506ba8d6312)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 754.54651
+    Drop time: 759.79651
+    Action descriptions:
+      (No action descriptions found)
+
+

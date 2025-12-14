@@ -1,0 +1,1605 @@
+Video ID: P08-20240614-085000
+================================================================================
+
+Object: kitchen towels (ID: 847b3ed68cfdd6ce)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1079.971
+    Drop time: 1080.91709
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bowl of vegetables (ID: 05f704459ca84ded)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1070.765
+    Drop time: 1072.02578
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: set of knives (ID: dda6a8f4e769ebfb)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1058.994
+    Drop time: 1059.94789
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: steel scrubber (ID: e580cc55a651b8b0)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1036.73
+    Drop time: 1049.66788
+    Action descriptions:
+      - [1037.18 - 1037.68]: change-temperature-of-tap|pull-handle|hold-sponge
+      - [1040.78 - 1048.18]: clean-sponge
+      - [1047.92 - 1048.71]: turn-off-tap|put-sponge
+
+
+Object: cutlery (ID: 4d077c65db7d5cef)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 992.331
+    Drop time: 1002.63164
+    Action descriptions:
+      - [994.54 - 995.85]: turn-on-kitchen-tap
+      - [996.37 - 997.81]: hold-clean-cutlery
+      - [999.26 - 1002.03]: put-cutlery
+
+
+Object: second sponge (ID: 8b70c6acf6cda2da)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 901.378
+    Drop time: 913.44946
+    Action descriptions:
+      - [902.53 - 903.3]: adjust-temperature-of-kitchen-sink|hold-sponge
+      - [905.3 - 906.33]: squeeze-dish-soap-bottle|pour-dish-soap
+
+
+  Touch 2:
+    Pick time: 920.686
+    Drop time: 923.93572
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 936.526
+    Drop time: 938.59956
+    Action descriptions:
+      - [936.73 - 938.48]: clean-spatula
+
+
+  Touch 4:
+    Pick time: 943.519
+    Drop time: 947.0186
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 969.585
+    Drop time: 976.13663
+    Action descriptions:
+      - [973.57 - 973.87]: pick-up-knife
+      - [973.71 - 976.06]: clean-knife
+
+
+  Touch 6:
+    Pick time: 985.995
+    Drop time: 988.10538
+    Action descriptions:
+      - [986.15 - 987.82]: rub-knife
+
+
+  Touch 7:
+    Pick time: 996.143
+    Drop time: 999.3186
+    Action descriptions:
+      - [996.37 - 997.81]: hold-clean-cutlery
+
+
+  Time between last use and return (red):
+    Pick time: 1005.778
+    Drop time: 1011.95226
+    Action descriptions:
+      - [1006.09 - 1011.1]: scrub-pan|hold-pan
+
+
+  User return touch (blue):
+    Pick time: 1015.99
+    Drop time: 1020.70478
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: dish soap (ID: b588bf5326d065c7)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 900.046
+    Drop time: 900.85331
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 904.796
+    Drop time: 906.83408
+    Action descriptions:
+      - [905.3 - 906.33]: squeeze-dish-soap-bottle|pour-dish-soap
+
+
+Object: sponge (ID: 005a6818405d5faf)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 898.405
+    Drop time: 901.08408
+    Action descriptions:
+      - [900.22 - 900.94]: grab-dish-soap
+
+
+  Time between last use and return (red):
+    Pick time: 951.169
+    Drop time: 952.62209
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 960.355
+    Drop time: 961.33953
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: wide glass (ID: 478b41989e0cb25e)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 850.822
+    Drop time: 852.4843
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 893.491
+    Drop time: 895.10331
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: spice container (ID: d00f4dea11f43d04)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 857.109
+    Drop time: 861.1593
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 890.814
+    Drop time: 892.329
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: salt container (ID: c2f26d875c760b7d)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 852.919
+    Drop time: 856.8343
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 890.713
+    Drop time: 892.43194
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: olive oil bottle cap (ID: bf8e0237ebfaa030)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 605.418
+    Drop time: 606.21075
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: olive oil (ID: 6c8e698760dcbf37)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 603.874
+    Drop time: 660.9686
+    Action descriptions:
+      - [621.74 - 623.28]: pick-up-cap|close-olive-oil|hold-bottle
+      - [623.34 - 623.76]: put-olive-oil
+      - [623.84 - 624.92]: put-olive-oil
+      - [626.34 - 626.79]: pick-up-phone
+      - [628.47 - 636.73]: hold-bottle-of-olive-oil|point-phone-camera|log-nutritional-value-of-olive-oil
+      - [636.87 - 637.22]: move-olive-oil|readjust-phone-app
+      - [637.89 - 660.08]: record-nutritional-values-of-olive-oil
+
+
+  User return touch (blue):
+    Pick time: 765.546
+    Drop time: 767.62209
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: spoon (ID: c231bb45b9eba87c)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 602.994
+    Drop time: 620.57413
+    Action descriptions:
+      - [603.83 - 604.44]: grab-olive-oil|hold-spoon
+
+
+Object: small plate 2 (ID: 6786f79551369dc8)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 537.131
+    Drop time: 539.23692
+    Action descriptions:
+      - [538.51 - 539.23]: place-small-plate
+
+
+  Touch 2:
+    Pick time: 563.489
+    Drop time: 571.88275
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 587.68
+    Drop time: 589.85465
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 958.98
+    Drop time: 965.2562
+    Action descriptions:
+      - [959.99 - 961.4]: clean-small-plate|hold-small-plate
+      - [961.5 - 963.17]: put-small-plate
+      - [963.56 - 963.96]: turn-off-kitchen-sink
+      - [964.45 - 964.98]: put-small-dish
+
+
+Object: small plate 1 (ID: 7d6cbfe6e2ca03d1)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 536.654
+    Drop time: 536.88275
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: top of cottage cheese tub (ID: 24330c3b20ad2bf7)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 533.668
+    Drop time: 534.44913
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 594.759
+    Drop time: 596.1093
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: grey plate (ID: b4b38dfc25baecbd)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 494.923
+    Drop time: 497.64177
+    Action descriptions:
+      - [496.41 - 496.85]: place-down-small-plate
+
+
+  Touch 2:
+    Pick time: 820.413
+    Drop time: 821.29683
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 1055.199
+    Drop time: 1056.83408
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1083.009
+    Drop time: 1084.99317
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: grey bowl (ID: f6620b0886e36eea)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 494.355
+    Drop time: 495.44913
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: eggshells (ID: ae798305e2485513)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 462.037
+    Drop time: 465.79014
+    Action descriptions:
+      - [462.7 - 464.98]: scoop-with-left-hand|drip-onto-floor
+
+
+Object: second fork (ID: 3f70b18ac231034f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 442.206
+    Drop time: 461.38275
+    Action descriptions:
+      - [442.77 - 445.75]: shake-pan|mix-ingredients
+
+
+  Touch 2:
+    Pick time: 585.73
+    Drop time: 587.72965
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 696.913
+    Drop time: 713.7745
+    Action descriptions:
+      - [707.32 - 711.38]: scrape-eggs|hold-bowl
+
+
+  User return touch (blue):
+    Pick time: 991.702
+    Drop time: 1004.04236
+    Action descriptions:
+      - [992.01 - 992.49]: lift-cutlery
+      - [994.54 - 995.85]: turn-on-kitchen-tap
+      - [996.37 - 997.81]: hold-clean-cutlery
+      - [999.26 - 1002.03]: put-cutlery
+
+
+Object: fork (ID: 0a72cae135bf2eba)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 439.84
+    Drop time: 442.42287
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 544.007
+    Drop time: 554.93023
+    Action descriptions:
+      - [544.49 - 545.99]: pick-up-tub-of-cottage-cheese|stir-cottage-cheese
+      - [546.53 - 546.97]: scoop-cottage-cheese|hold-cottage-cheese
+      - [547.73 - 548.45]: pour-cottage-cheese|hold-pots-of-cottage-cheese
+      - [550.76 - 552.14]: pour-cottage-cheese|hold-pots-of-cottage-cheese
+      - [553.16 - 553.37]: put-down-pot-of-cottage-cheese
+
+
+  Touch 3:
+    Pick time: 563.584
+    Drop time: 571.32025
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 592.534
+    Drop time: 594.2843
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 758.182
+    Drop time: 763.80391
+    Action descriptions:
+      - [758.2 - 759.13]: pick-up-fork|move-plate
+      - [759.13 - 760.99]: pick-up-knives|place-on-cutting-board
+
+
+  Time between last use and return (red):
+    Pick time: 820.193
+    Drop time: 820.37287
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1054.449
+    Drop time: 1055.31485
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: second spatula (ID: f54d097b337b5baa)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 382.584
+    Drop time: 392.58472
+    Action descriptions:
+      - [383.48 - 387.6]: hold-pan|mix-ingredients
+      - [387.48 - 390.56]: pick-onion|hold-spatula
+
+
+  Touch 2:
+    Pick time: 410.763
+    Drop time: 419.87043
+    Action descriptions:
+      - [411.35 - 416.86]: mix-ingredients|hold-pan
+      - [416.94 - 419.85]: tap-spatula|move-onion
+
+
+  Touch 3:
+    Pick time: 468.49
+    Drop time: 480.19525
+    Action descriptions:
+      - [468.92 - 474.43]: mix-ingredients
+      - [478.92 - 479.86]: shake-pan|mix-ingredients|hold-spatula
+
+
+  Touch 4:
+    Pick time: 573.753
+    Drop time: 584.17287
+    Action descriptions:
+      - [581.89 - 582.59]: tap-side-of-pan|remove-ingredients|hold-pan
+      - [582.64 - 583.37]: shake-pan|hold-spatula
+
+
+  Touch 5:
+    Pick time: 689.087
+    Drop time: 696.40615
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 718.616
+    Drop time: 755.62209
+    Action descriptions:
+      - [724.0 - 724.55]: adjust-stove-temperature|hold-spatula
+      - [724.65 - 736.14]: mix-eggs|hold-pan
+      - [734.04 - 747.77]: mix-eggs|hold-pan
+      - [748.51 - 752.9]: mix-eggs|hold-pan
+      - [753.0 - 754.42]: tap-spatula
+
+
+  Touch 7:
+    Pick time: 768.031
+    Drop time: 797.12043
+    Action descriptions:
+      - [768.04 - 786.3]: pick-up-spatula|mix-eggs|hold-pan
+      - [786.53 - 788.03]: scrape-patch-spatula
+      - [788.71 - 796.01]: mix-eggs|hold-pan
+
+
+  Touch 8:
+    Pick time: 803.969
+    Drop time: 833.78488
+    Action descriptions:
+      - [815.45 - 816.75]: scrape-spatula|clean-food
+      - [817.61 - 818.2]: turn-off-stove|turn-dial
+      - [819.02 - 819.42]: pick-up-pan|hold-spatula
+      - [820.63 - 821.58]: move-plate|hold-pan
+      - [821.82 - 830.73]: hold-pan|scrape-eggs
+
+
+  Time between last use and return (red):
+    Pick time: 907.248
+    Drop time: 913.00716
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 913.623
+    Drop time: 917.93023
+    Action descriptions:
+      - [913.85 - 914.54]: turn-on-kitchen-sink|clean-spatula
+      - [915.35 - 916.22]: wash-spatula
+      - [916.49 - 917.93]: turn-off-kitchen-sink|put-spatula
+
+
+Object: spatula (ID: 6c9052df67058bdf)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 373.984
+    Drop time: 378.9843
+    Action descriptions:
+      - [374.43 - 375.72]: check-spatula
+      - [375.82 - 378.27]: turn-on-kitchen-tap|run-spatula
+
+
+  User return touch (blue):
+    Pick time: 934.678
+    Drop time: 941.24019
+    Action descriptions:
+      - [935.56 - 936.68]: turn-on-kitchen-sink|hold-spatula
+      - [936.73 - 938.48]: clean-spatula
+      - [938.59 - 940.24]: wash-spatula
+      - [940.64 - 941.24]: place-spatula
+
+
+Object: tea towel (ID: cb179dea3d39f7d5)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 331.682
+    Drop time: 333.94525
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 380.309
+    Drop time: 382.1093
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 1051.9
+    Drop time: 1054.66788
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 1057.68
+    Drop time: 1057.96869
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1068.054
+    Drop time: 1079.93883
+    Action descriptions:
+      - [1068.74 - 1070.58]: wipe-down-kitchen-counter
+      - [1070.38 - 1072.32]: move-clear-bowl|clean-with-right-hand
+      - [1073.62 - 1075.66]: gather-crumbs|swipe-onto-left-hand
+      - [1076.13 - 1076.87]: empty-crumbs
+      - [1077.85 - 1079.69]: fold-tea-towel|hang-on-side-of-kitchen-sink
+
+
+Object: second egg (ID: ff85c39f26558a8b)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 324.424
+    Drop time: 330.07025
+    Action descriptions:
+      - [324.77 - 326.06]: hold-bowl|crack-egg
+      - [326.16 - 327.74]: poke-eggshell|crack-egg|release-egg
+      - [327.84 - 329.56]: pull-eggshells|drip-egg
+
+
+Object: first egg (ID: 70403ff6fa78d64d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 313.209
+    Drop time: 324.25517
+    Action descriptions:
+      - [313.72 - 314.76]: hold-bowl|crack-egg
+      - [314.69 - 315.03]: poke-eggshell|release-egg
+      - [315.13 - 316.76]: pull-eggshell|drop-egg-yolk
+      - [316.86 - 321.92]: place-eggshell
+      - [322.02 - 324.17]: put-down-eggshells
+
+
+Object: white bowl (ID: 8a825276b568e15d)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 305.538
+    Drop time: 308.09514
+    Action descriptions:
+      - [307.2 - 307.7]: move-phone
+
+
+  Touch 2:
+    Pick time: 449.803
+    Drop time: 461.44469
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 585.656
+    Drop time: 586.91715
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 696.984
+    Drop time: 713.54236
+    Action descriptions:
+      - [707.32 - 711.38]: scrape-eggs|hold-bowl
+
+
+  User return touch (blue):
+    Pick time: 919.481
+    Drop time: 933.59956
+    Action descriptions:
+      - [919.55 - 920.15]: turn-on-kitchen-sink
+      - [920.32 - 923.82]: grab-sponge|clean-bowl
+      - [923.76 - 931.41]: put-bowl|clean-with-water
+      - [931.47 - 931.79]: turn-off-kitchen-sink|put-bowl
+
+
+Object: gray bowl (ID: 0e4002cb88aeaee7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 305.191
+    Drop time: 305.90615
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: olive oil spray (ID: 7d35a1020309e24a)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 210.538
+    Drop time: 213.00358
+    Action descriptions:
+      - [211.85 - 212.93]: hold-olive-oil-spray|pick-up-phone
+
+
+  Touch 2:
+    Pick time: 216.432
+    Drop time: 243.98038
+    Action descriptions:
+      - [216.89 - 218.12]: pick-up-olive-oil-spray|bring-to-phone
+      - [218.56 - 219.76]: rotate-spray-bottle
+      - [219.53 - 229.18]: scan-barcode|log-nutritional-values-of-olive-oil
+
+
+  Touch 3:
+    Pick time: 247.887
+    Drop time: 256.3905
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 274.455
+    Drop time: 278.927
+    Action descriptions:
+      - [275.06 - 276.8]: pull-off-cap-of-olive-oil-spray
+      - [276.9 - 278.39]: press-with-right-hand|spray-olive-oil
+      - [278.49 - 278.79]: put-cap
+
+
+  Time between last use and return (red):
+    Pick time: 392.87
+    Drop time: 393.87
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 755.932
+    Drop time: 756.68217
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: layers of onion (ID: d6f48a6dfff95858)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 110.841
+    Drop time: 115.8093
+    Action descriptions:
+      - [111.77 - 113.53]: pinch-red-onion
+
+
+Object: right half of the onion (ID: 74bfbe726dbea0ed)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 79.587
+    Drop time: 80.18863
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 109.758
+    Drop time: 112.15358
+    Action descriptions:
+      - [110.18 - 111.0]: pick-red-onion|place-on-chopping-board
+
+
+  Touch 3:
+    Pick time: 113.07
+    Drop time: 114.73879
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 115.959
+    Drop time: 129.76329
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 129.801
+    Drop time: 141.411
+    Action descriptions:
+      - [130.08 - 132.32]: place-onion|pinch-onion
+      - [132.39 - 139.32999999999998]: begin-with-knife|slice-red-onion
+
+
+  User return touch (blue):
+    Pick time: 142.462
+    Drop time: 153.4186
+    Action descriptions:
+      - [148.64 - 152.1]: pinch-onion|slice-onion
+      - [152.01 - 152.66]: swipe-blade-of-knife|remove-onion-pieces|put-on-chopping-board
+
+
+Object: left half of the onion (ID: e5db8e6e7130388f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 74.469
+    Drop time: 74.95681
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 207.298
+    Drop time: 207.59973
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 310.343
+    Drop time: 310.86939
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: big knife (ID: bd25e124e25fd56e)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 68.796
+    Drop time: 75.07586
+    Action descriptions:
+      - [69.01 - 72.99]: pinch-onion|steady-onion|slice-onion
+      - [73.18 - 73.88]: put-pressure
+
+
+  Touch 2:
+    Pick time: 129.909
+    Drop time: 131.47287
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 131.623
+    Drop time: 155.7186
+    Action descriptions:
+      - [132.39 - 139.32999999999998]: begin-with-knife|slice-red-onion
+      - [139.38 - 148.7]: rotate-onion|slice-onion
+      - [148.64 - 152.1]: pinch-onion|slice-onion
+      - [152.01 - 152.66]: swipe-blade-of-knife|remove-onion-pieces|put-on-chopping-board
+      - [152.89 - 155.3]: scoop-onion-pieces|move-to-center-of-chopping-board
+
+
+  Touch 4:
+    Pick time: 197.854
+    Drop time: 207.25517
+    Action descriptions:
+      - [198.41 - 199.89]: cut-stem-of-chili-pepper
+      - [200.03 - 206.56]: pinch-chili-pepper|hold-on-cutting-board|slice-chili-pepper
+
+
+  Touch 5:
+    Pick time: 297.816
+    Drop time: 298.39922
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 308.47654
+    Drop time: 308.78904
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 7:
+    Pick time: 335.281
+    Drop time: 342.5245
+    Action descriptions:
+      - [336.6 - 339.32]: hold-cutting-board|scrape-vegetables
+
+
+  Touch 8:
+    Pick time: 421.049
+    Drop time: 422.38275
+    Action descriptions:
+      - [421.06 - 421.68]: pick-up-knife
+
+
+  Touch 9:
+    Pick time: 436.846
+    Drop time: 437.48953
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 10:
+    Pick time: 759.87
+    Drop time: 760.83472
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 966.87
+    Drop time: 972.87043
+    Action descriptions:
+      - [967.11 - 968.85]: grab-knife|turn-on-kitchen-sink
+      - [968.95 - 969.35]: turn-off-kitchen-sink
+      - [969.26 - 972.65]: clean-knife
+
+
+  User return touch (blue):
+    Pick time: 978.172
+    Drop time: 985.38663
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: medium knife (ID: 19cede612034dbf3)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 67.65
+    Drop time: 68.36846
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: weighing scale (ID: 0293338bb74fd4ee)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 60.227
+    Drop time: 62.00517
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 64.439
+    Drop time: 65.67595
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 490.284
+    Drop time: 491.23038
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 499.603
+    Drop time: 501.85331
+    Action descriptions:
+      - [500.2 - 501.79]: turn-on-kitchen-scale
+
+
+  User return touch (blue):
+    Pick time: 1058.031
+    Drop time: 1059.86456
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: red onion (ID: 82a5e12bacbcac20)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 55.657
+    Drop time: 57.75664
+    Action descriptions:
+      - [56.36 - 57.22]: put-down-potato|place-red-onion
+
+
+  Time between last use and return (red):
+    Pick time: 66.321
+    Drop time: 66.70226
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 68.577
+    Drop time: 73.08776
+    Action descriptions:
+      - [69.01 - 72.99]: pinch-onion|steady-onion|slice-onion
+
+
+Object: potato (ID: e04555138e7758e7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 54.453
+    Drop time: 56.54236
+    Action descriptions:
+      - [55.06 - 56.22]: grab-red-onion|hold-potato
+
+
+Object: knife (ID: 5792048276490863)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 53.846
+    Drop time: 54.93522
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 67.089
+    Drop time: 67.26429
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 973.387
+    Drop time: 991.41788
+    Action descriptions:
+      - [973.57 - 973.87]: pick-up-knife
+      - [973.71 - 976.06]: clean-knife
+      - [976.5 - 977.52]: turn-on-kitchen-sink
+      - [977.29 - 984.23]: put-knives
+      - [986.15 - 987.82]: rub-knife
+      - [988.85 - 989.64]: put-knife|clean-with-water
+
+
+Object: carton of eggs and tub of cottage cheese (ID: 0ad1fa13e2bca0d7)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 26.365
+    Drop time: 29.33408
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 49.705
+    Drop time: 50.64922
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: white chopping board (ID: 8bcfa5bd1bb0cbee)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 48.609
+    Drop time: 49.54942
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 50.844
+    Drop time: 51.48256
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 57.078
+    Drop time: 57.5245
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 59.047
+    Drop time: 59.19961
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 66.15
+    Drop time: 66.42595
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 75.505
+    Drop time: 75.7549
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 7:
+    Pick time: 206.659
+    Drop time: 206.85239
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 8:
+    Pick time: 334.132
+    Drop time: 341.3995
+    Action descriptions:
+      - [334.28 - 335.27]: pick-up-cutting-board
+      - [335.08 - 335.84000000000003]: place-cutting-board|pick-up-knife
+      - [336.6 - 339.32]: hold-cutting-board|scrape-vegetables
+
+
+  Touch 9:
+    Pick time: 341.86
+    Drop time: 342.41736
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 10:
+    Pick time: 421.702
+    Drop time: 422.51329
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 11:
+    Pick time: 489.431
+    Drop time: 491.41788
+    Action descriptions:
+      - [489.44 - 489.98]: move-cutting-board
+
+
+  Time between last use and return (red):
+    Pick time: 496.887
+    Drop time: 499.02639
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 942.381
+    Drop time: 958.14482
+    Action descriptions:
+      - [943.74 - 947.06]: hold-cutting-board
+      - [947.16 - 949.4]: turn-on-kitchen-sink
+      - [949.5 - 951.04]: run-cutting-board
+      - [951.14 - 952.47]: clean-other-side-of-cutting-board|hold-cutting-board
+      - [952.34 - 954.55]: put-cutting-board
+      - [954.65 - 955.59]: turn-off-kitchen-sink
+
+
+Object: small pan (ID: 3a286c4233af61b7)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 45.716
+    Drop time: 46.96608
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 268.622
+    Drop time: 274.14922
+    Action descriptions:
+      - [268.86 - 272.83]: pick-small-pan|turn-on-stove|turn-dial
+      - [272.97 - 273.92]: put-pan
+
+
+  Touch 3:
+    Pick time: 385.12
+    Drop time: 387.19186
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 443.04
+    Drop time: 445.41206
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 468.607
+    Drop time: 480.54942
+    Action descriptions:
+      - [468.92 - 474.43]: mix-ingredients
+      - [478.92 - 479.86]: shake-pan|mix-ingredients|hold-spatula
+      - [479.96 - 480.39]: put-spatula
+
+
+  Touch 6:
+    Pick time: 572.943
+    Drop time: 584.98953
+    Action descriptions:
+      - [581.89 - 582.59]: tap-side-of-pan|remove-ingredients|hold-pan
+      - [582.64 - 583.37]: shake-pan|hold-spatula
+
+
+  Touch 7:
+    Pick time: 693.728
+    Drop time: 696.47757
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 8:
+    Pick time: 723.23
+    Drop time: 723.30753
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 9:
+    Pick time: 739.39
+    Drop time: 754.78118
+    Action descriptions:
+      - [748.51 - 752.9]: mix-eggs|hold-pan
+      - [753.0 - 754.42]: tap-spatula
+
+
+  Touch 10:
+    Pick time: 768.827
+    Drop time: 795.58472
+    Action descriptions:
+      - [786.53 - 788.03]: scrape-patch-spatula
+
+
+  Touch 11:
+    Pick time: 809.419
+    Drop time: 817.1186
+    Action descriptions:
+      - [815.45 - 816.75]: scrape-spatula|clean-food
+
+
+  Touch 12:
+    Pick time: 818.992
+    Drop time: 835.38782
+    Action descriptions:
+      - [819.02 - 819.42]: pick-up-pan|hold-spatula
+      - [820.63 - 821.58]: move-plate|hold-pan
+      - [821.82 - 830.73]: hold-pan|scrape-eggs
+      - [832.55 - 833.79]: put-pan|put-spatula
+
+
+  Touch 13:
+    Pick time: 918.026
+    Drop time: 918.50517
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 965.513
+    Drop time: 966.72757
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1004.114
+    Drop time: 1035.799
+    Action descriptions:
+      - [1004.89 - 1005.43]: turn-with-right-hand
+      - [1006.09 - 1011.1]: scrub-pan|hold-pan
+      - [1011.77 - 1013.07]: put-sponge|turn-on-kitchen-tap
+      - [1012.7 - 1014.45]: hold-pan
+      - [1014.95 - 1015.78]: turn-off-tap
+      - [1015.8 - 1021.17]: hold-pan
+      - [1022.02 - 1022.77]: turn-with-right-hand
+      - [1022.87 - 1033.34]: put-pan|clean-with-both-hands
+      - [1033.44 - 1033.69]: turn-off-tap
+      - [1034.28 - 1035.39]: place-pan
+
+
+Object: back of lettuce (ID: e129240b53be9003)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 33.695
+    Drop time: 39.71608
+    Action descriptions:
+      - [34.06 - 35.02]: close-refrigerator-drawer
+      - [35.12 - 37.75]: close-door-of-refrigerator
+
+
+  Touch 2:
+    Pick time: 51.739
+    Drop time: 53.32807
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 62.144
+    Drop time: 63.39406
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1060.288
+    Drop time: 1064.25664
+    Action descriptions:
+      - [1061.73 - 1062.59]: open-refrigerator
+
+
+Object: plastic box with green chillies (ID: 598f2394ec50c47b)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 23.957
+    Drop time: 24.957
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 162.698
+    Drop time: 164.72384
+    Action descriptions:
+      - [164.18 - 164.61]: put-down-dish|hold-chili-pepper
+
+
+  Touch 3:
+    Pick time: 309.28
+    Drop time: 310.75332
+    Action descriptions:
+      - [309.32 - 310.37]: pick-up-dish-of-chili-peppers
+
+
+  Time between last use and return (red):
+    Pick time: 425.737
+    Drop time: 425.80367
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 482.456
+    Drop time: 486.41788
+    Action descriptions:
+      - [484.82 - 485.58]: open-refrigerator-door
+
+
+Object: tray of vegetables (ID: a8d031902952ec58)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 21.428
+    Drop time: 23.55269
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bag of coriander (ID: e3f7e72ac7151ef5)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 18.256
+    Drop time: 28.93023
+    Action descriptions:
+      - [19.48 - 20.2]: close-refrigerator-drawer
+      - [20.15 - 24.22]: grab-ingredients
+      - [24.88 - 28.77]: pick-up-ingredients|take-ingredients
+
+
+Object: tub of cottage cheese (ID: c745fbd9b1d70f77)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 13.586
+    Drop time: 15.80269
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 311.28
+    Drop time: 311.81582
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 503.824
+    Drop time: 504.60538
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 509.624
+    Drop time: 525.51163
+    Action descriptions:
+      - [510.07 - 514.81]: scan-barcode|log-nutritional-values-of-cottage-cheese
+      - [523.69 - 524.84]: put-down-phone|hold-tub
+      - [524.94 - 525.34]: put-tub-of-cottage-cheese|pick-up-phone
+
+
+  Time between last use and return (red):
+    Pick time: 544.454
+    Drop time: 553.37254
+    Action descriptions:
+      - [544.49 - 545.99]: pick-up-tub-of-cottage-cheese|stir-cottage-cheese
+      - [546.53 - 546.97]: scoop-cottage-cheese|hold-cottage-cheese
+      - [547.73 - 548.45]: pour-cottage-cheese|hold-pots-of-cottage-cheese
+      - [550.76 - 552.14]: pour-cottage-cheese|hold-pots-of-cottage-cheese
+      - [553.16 - 553.37]: put-down-pot-of-cottage-cheese
+
+
+  User return touch (blue):
+    Pick time: 593.384
+    Drop time: 599.1593
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: carton of eggs (ID: 9e8bcce2d31af231)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 12.193
+    Drop time: 15.80269
+    Action descriptions:
+      - [13.57 - 14.48]: pick-up-tub-of-cottage-cheese|place-in-left-hand
+
+
+  Touch 2:
+    Pick time: 311.646
+    Drop time: 312.46761
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 342.873
+    Drop time: 343.41279
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 348.136
+    Drop time: 367.35331
+    Action descriptions:
+      - [351.51 - 352.31]: log-nutritional-values-of-eggs
+      - [353.12 - 353.76]: adjust-holding-of-egg-carton
+      - [354.81 - 366.56]: scan-barcode
+
+
+  User return touch (blue):
+    Pick time: 839.587
+    Drop time: 843.07413
+    Action descriptions:
+      - [841.59 - 842.52]: put-away-eggs
+
+
+Object: small white packet (ID: 6000e1e21a78231f)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 10.818
+    Drop time: 11.66206
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: phone (ID: 4ee5418723871673)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 0.0
+    Drop time: 7.00581
+    Action descriptions:
+      - [6.06 - 6.46]: put-down-phone
+
+
+  Touch 2:
+    Pick time: 81.531
+    Drop time: 109.48692
+    Action descriptions:
+      - [83.74 - 91.37]: tap-phone|log-nutritional-value-of-onion
+      - [91.24 - 108.61]: log-nutritional-value-of-red-onion
+
+
+  Touch 3:
+    Pick time: 165.723
+    Drop time: 197.5155
+    Action descriptions:
+      - [166.59 - 178.05]: tap-phone-keyboard|log-nutritional-value-of-green-chili-pepper
+      - [178.5 - 179.4]: pick-up-chili-pepper|place-on-scale|hold-phone
+      - [180.71 - 182.48]: pick-up-chili-pepper
+      - [183.17 - 189.7]: tap-phone-screen|log-nutritional-value|log-weight-of-green-chili-pepper
+      - [189.8 - 191.62]: pick-up-green-chili-pepper|hold-phone
+      - [195.52 - 197.47]: put-chili-pepper|pick-up-green-chili-pepper|put-on-kitchen-counter
+
+
+  Touch 4:
+    Pick time: 212.407
+    Drop time: 268.22384
+    Action descriptions:
+      - [213.19 - 214.42]: pick-up-phone|place-in-left-hand
+      - [214.89 - 216.39]: tap-phone-screen|log-nutritional-value-of-olive-oil-spray
+      - [216.89 - 218.12]: pick-up-olive-oil-spray|bring-to-phone
+      - [218.56 - 219.76]: rotate-spray-bottle
+      - [219.53 - 229.18]: scan-barcode|log-nutritional-values-of-olive-oil
+      - [228.13 - 244.84]: scan-barcode|log-nutritional-value-of-olive-oil
+      - [244.44 - 255.82]: hold-phone
+      - [256.35 - 262.26]: tap-phone-screen|log-nutritional-value-of-olive-oil-spray
+      - [267.46 - 267.99]: put-down-phone
+
+
+  Touch 5:
+    Pick time: 307.261
+    Drop time: 307.77696
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 347.991
+    Drop time: 374.17442
+    Action descriptions:
+      - [351.51 - 352.31]: log-nutritional-values-of-eggs
+      - [353.12 - 353.76]: adjust-holding-of-egg-carton
+      - [354.81 - 366.56]: scan-barcode
+      - [365.75 - 367.36]: put-carton-of-eggs|hold-phone
+      - [367.44 - 372.3]: tap-phone-screen|log-nutritional-value-of-eggs
+      - [372.31 - 373.18]: put-down-phone
+
+
+  Touch 7:
+    Pick time: 397.844
+    Drop time: 410.51329
+    Action descriptions:
+      - [397.91 - 398.26]: pick-up-phone
+      - [398.5 - 408.48]: tap-with-right-hand|update-nutritional-values-of-olive-oil-spray
+      - [408.54 - 410.36]: put-down-phone
+
+
+  Touch 8:
+    Pick time: 505.793
+    Drop time: 534.04288
+    Action descriptions:
+      - [506.58 - 509.32]: tap-screen-of-phone|log-nutritional-value-of-tub-of-cottage-cheese
+      - [509.11 - 510.12]: pick-up-tub-of-cottage-cheese
+      - [510.07 - 514.81]: scan-barcode|log-nutritional-values-of-cottage-cheese
+      - [523.69 - 524.84]: put-down-phone|hold-tub
+      - [524.94 - 525.34]: put-tub-of-cottage-cheese|pick-up-phone
+      - [525.44 - 532.76]: tap-phone|update-nutritional-values
+      - [532.86 - 533.57]: put-down-phone
+
+
+  Touch 9:
+    Pick time: 555.334
+    Drop time: 562.83408
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 10:
+    Pick time: 626.074
+    Drop time: 688.02325
+    Action descriptions:
+      - [626.34 - 626.79]: pick-up-phone
+      - [628.47 - 636.73]: hold-bottle-of-olive-oil|point-phone-camera|log-nutritional-value-of-olive-oil
+      - [636.87 - 637.22]: move-olive-oil|readjust-phone-app
+      - [637.89 - 660.08]: record-nutritional-values-of-olive-oil
+      - [660.18 - 661.12]: put-olive-oil
+      - [661.39 - 686.64]: tap-phone-screen|find-measurements-of-olive-oil|record-nutritional-value
+
+
+  Time between last use and return (red):
+    Pick time: 866.388
+    Drop time: 890.4186
+    Action descriptions:
+      - [866.48 - 867.89]: pick-up-phone|record-nutritional-value-of-salt
+      - [870.61 - 874.54]: type-with-right-hand|record-nutritional-value-of-salt
+      - [880.65 - 890.36]: type-with-right-hand|record-measurements
+
+
+  User return touch (blue):
+    Pick time: 1068.18
+    Drop time: 1068.50716
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: pepper shaker (ID: afd555a3d2affb9d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 847.681
+    Drop time: 849.82372
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: bag of rocket salad (ID: f7ee935423187fa4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1060.346
+    Drop time: 1064.34593
+    Action descriptions:
+      - [1061.73 - 1062.59]: open-refrigerator
+
+

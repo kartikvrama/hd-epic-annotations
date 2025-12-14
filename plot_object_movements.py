@@ -103,13 +103,16 @@ def main():
 
     for video_id in random_videos:
         data_assoc_video = data_assoc[video_id]
-        fig = plt.figure(figsize=(25, 20))
+        fig = plt.figure(figsize=(15, 10))
+        fig.tight_layout()
         ax = fig.add_subplot(111)
         
         # Collect all action descriptions for text file
         all_object_actions = []
         
         for object_id, data_object in data_assoc_video.items():
+            if data_object['name'].startswith("Track"):
+                continue
             print(f"Object name: {data_object['name']}")
             print(f"Number of tracks: {len(data_object['tracks'])}")
             touch_action_details = plot_object_movement(
@@ -135,8 +138,17 @@ def main():
                 f.write(f"Object: {obj_data['object_name']} (ID: {obj_data['object_id']})\n")
                 f.write("-" * 80 + "\n")
                 
+                total_touches = len(obj_data['touches'])
                 for idx, touch in enumerate(obj_data['touches'], 1):
-                    f.write(f"\n  Touch {idx}:\n")
+                    # Label touches based on position
+                    if idx == total_touches:
+                        touch_label = "User return touch (blue)"
+                    elif idx == total_touches - 1:
+                        touch_label = "Time between last use and return (red)"
+                    else:
+                        touch_label = f"Touch {idx}"
+                    
+                    f.write(f"\n  {touch_label}:\n")
                     f.write(f"    Pick time: {touch['pick']}\n")
                     f.write(f"    Drop time: {touch['drop']}\n")
                     f.write(f"    Action descriptions:\n")

@@ -1,0 +1,1518 @@
+Video ID: P09-20240621-153208
+================================================================================
+
+Object: spoon3 (ID: 4d0a1a0ff0b581d3)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 1018.84
+    Drop time: 1019.84
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: glass bowl (ID: 2ace6e6e60343d1e)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 927.0343
+    Drop time: 927.769
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 928.311
+    Drop time: 942.17151
+    Action descriptions:
+      - [929.96 - 932.78]: hold-pyrex-bowl|inspect-pyrex-bowl-cleanliness
+      - [932.6 - 934.01]: close-cabinet
+      - [933.89 - 935.05]: turn-on-tap|hold-pyrex-bowl
+      - [935.14 - 941.36]: rinse-pyrex-bowl
+
+
+  Time between last use and return (red):
+    Pick time: 981.366
+    Drop time: 981.58575
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1010.762
+    Drop time: 1015.76163
+    Action descriptions:
+      - [1011.86 - 1015.15]: pour-hibiscus-drink
+
+
+Object: bowl1 (ID: af6c96bc86a1a212)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 923.969
+    Drop time: 928.04651
+    Action descriptions:
+      - [926.16 - 928.01]: hold-some-plastic-bowls|retrieve-pyrex-bowl
+
+
+Object: blender jar2 (ID: a6cb9461e289ec27)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 871.855
+    Drop time: 883.26163
+    Action descriptions:
+      - [871.9 - 872.51]: retrieve-measuring-cup|hold-blender's-cup
+      - [872.98 - 873.9]: inspect-measuring-cup|place-blender's-lid
+      - [874.37 - 876.56]: walk-towards-sink
+      - [879.29 - 879.9]: hold-measuring-cup|turn-open-tap
+      - [880.56 - 881.29]: fill-measuring-cylinder
+      - [881.77 - 882.71]: drain-water
+
+
+  Touch 2:
+    Pick time: 889.013
+    Drop time: 889.62043
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 892.69186
+    Drop time: 893.33472
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 915.119
+    Drop time: 919.16788
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 942.211
+    Drop time: 942.72384
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: blender jar (ID: 284afab995eb2695)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 870.137
+    Drop time: 872.66788
+    Action descriptions:
+      - [871.9 - 872.51]: retrieve-measuring-cup|hold-blender's-cup
+
+
+Object: lid of jar of sugar (ID: 2c070ca8a84e0ef0)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 767.171
+    Drop time: 767.68983
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 787.856
+    Drop time: 788.856
+    Action descriptions:
+      - [787.96 - 788.34]: pick-jar's-lid
+
+
+  Time between last use and return (red):
+    Pick time: 992.1
+    Drop time: 994.17151
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 1003.344
+    Drop time: 1009.0186
+    Action descriptions:
+      - [1003.9 - 1005.65]: walk-across-kitchen|add-some-sugar
+      - [1005.58 - 1007.75]: pour-sugar
+
+
+Object: jar of sugar (ID: f31ca9c8d2683b50)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 762.023
+    Drop time: 763.39825
+    Action descriptions:
+      - [762.78 - 763.31]: place-jar-of-sugar
+
+
+  Touch 2:
+    Pick time: 765.877
+    Drop time: 767.58358
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 789.056
+    Drop time: 789.22287
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 985.757
+    Drop time: 992.1186
+    Action descriptions:
+      - [987.31 - 991.64]: pour-some-sugar
+
+
+  User return touch (blue):
+    Pick time: 995.409
+    Drop time: 1002.933
+    Action descriptions:
+      - [996.21 - 999.36]: add-more-sugar
+
+
+Object: bag of sugar (ID: 80f7cea2668443a4)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 760.023
+    Drop time: 762.0155
+    Action descriptions:
+      - [760.95 - 761.89]: place-bag-of-sugar
+
+
+  Touch 2:
+    Pick time: 763.092
+    Drop time: 765.67825
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 763.868
+    Drop time: 765.69525
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 767.99
+    Drop time: 778.69913
+    Action descriptions:
+      - [775.84 - 778.04]: fold-bag-of-sugar
+
+
+  Time between last use and return (red):
+    Pick time: 778.418
+    Drop time: 780.59937
+    Action descriptions:
+      - [778.8 - 780.16]: return-bag-of-sugar
+
+
+  User return touch (blue):
+    Pick time: 781.531
+    Drop time: 783.09937
+    Action descriptions:
+      - [781.62 - 782.25]: retrieve-bag-of-sugar
+
+
+Object: slotted spoon (ID: 2a4095823fa0cda4)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 744.319
+    Drop time: 748.9186
+    Action descriptions:
+      - [744.39 - 745.29]: retrieve-slotted-spoon
+      - [744.75 - 745.8]: inspect-slotted-spoon
+      - [745.9 - 746.29]: inspect-slotted-spoon
+      - [746.33 - 747.04]: close-drawer|hold-slotted-spoon
+      - [747.07 - 747.48]: inspect-slotted-spoon
+      - [747.58 - 748.21]: walk-towards-counter-surface
+
+
+  Touch 2:
+    Pick time: 807.932
+    Drop time: 862.17151
+    Action descriptions:
+      - [808.96 - 811.96]: filter-saucepan-of-hibiscus-drink
+      - [811.35 - 812.32]: remove-ginger|remove-hibiscus-bits
+      - [812.47 - 813.8]: bring-saucepan's-lid|hold-ginger|hold-hibiscus-bits
+      - [813.82 - 814.71]: place-bits-of-ginger|place-hibiscus
+      - [814.85 - 815.99]: filter-out-ginger|filter-out-hibiscus-bits
+      - [819.24 - 820.2]: place-ginger|place-hibiscus-bits
+      - [820.67 - 825.13]: hold-saucepan|filter-out-ginger|filter-out-hibiscus-bits
+      - [826.0 - 827.08]: place-ginger|place-hibiscus-bits
+      - [827.5 - 829.16]: filter-out-ginger|filter-out-hibiscus-bits
+      - [829.83 - 830.68]: place-ginger|place-hibiscus-bits
+      - [831.22 - 832.06]: place-discarded-ginger|place-hibiscus-flower
+      - [832.46 - 834.33]: filter-hibiscus-drink
+      - [834.65 - 835.36]: place-boiled-hibiscus-flower
+      - [835.91 - 839.65]: scoop-out-right-hand
+      - [840.45 - 841.69]: place-hibiscus-flower
+      - [842.4 - 844.11]: sift-through-saucepan-of-hibiscus-drink|get-rid-of-discarded-flower
+      - [847.19 - 847.86]: place-discarded-flower
+      - [848.62 - 850.26]: filter-out-flowers
+      - [851.07 - 851.85]: place-some-hibiscus-flowers
+      - [852.58 - 855.54]: sift-hibiscus-drink|remove-discarded-flower
+      - [855.63 - 856.2]: place-discarded-hibiscus-flower
+      - [856.82 - 858.87]: scoop-discarded-hibiscus-flowers
+      - [860.51 - 861.29]: place-slotted-spoon|hold-saucepan's-lid
+      - [861.39 - 861.61]: place-slotted-spoon
+
+
+  Touch 3:
+    Pick time: 888.419
+    Drop time: 898.21075
+    Action descriptions:
+      - [888.88 - 889.47]: move-measuring-cylinder
+      - [889.44 - 889.79]: place-measuring-cup
+      - [889.81 - 890.16]: transfer-slotted-spoon
+      - [890.74 - 891.88]: retrieve-saucepan
+      - [896.59 - 897.37]: place-slotted-spoon|place-saucepan
+
+
+  Time between last use and return (red):
+    Pick time: 910.469
+    Drop time: 914.2186
+    Action descriptions:
+      - [910.51 - 910.94]: pick-up-slotted-spoon
+      - [911.92 - 912.37]: pour-hibiscus-drink
+
+
+  User return touch (blue):
+    Pick time: 946.69027
+    Drop time: 980.44767
+    Action descriptions:
+      - [947.28 - 947.57]: hold-slotted-spoon|act-as-sieve|pour-hibiscus-drink
+      - [947.77 - 966.47]: remove-discarded-hibiscus-flower|remove-ginger
+      - [973.35 - 973.72]: turn-on-tap
+      - [973.82 - 974.83]: swirl-around-saucepan
+      - [974.92 - 975.62]: pour-water|hold-slotted-spoon
+      - [976.98 - 977.71]: place-saucepan
+      - [977.72 - 978.39]: transfer-slotted-spoon
+      - [978.56 - 979.66]: lift-pyrex-bowl-of-hibiscus-drink
+
+
+Object: spatula (ID: 11ac2e7c1ad490dd)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 740.948
+    Drop time: 743.19767
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: cap of orange juice (ID: 9b750a68f95831ca)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 696.713
+    Drop time: 700.64825
+    Action descriptions:
+      - [697.03 - 699.53]: pour-some-orange-juice
+
+
+Object: carton of orange juice (ID: 7f5e9cdb13a7ab97)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 690.008
+    Drop time: 705.77325
+    Action descriptions:
+      - [690.3 - 691.49]: retrieve-box-of-orange-juice
+      - [691.89 - 694.36]: close-fridge
+      - [695.13 - 696.71]: hold-pack-of-oranges|loosen-pack-of-oranges-cap
+      - [697.03 - 699.53]: pour-some-orange-juice
+      - [700.38 - 701.15]: place-lid
+      - [701.62 - 702.71]: walk-towards-fridge
+      - [703.1 - 703.99]: open-fridge|hold-carton-of-orange-juice
+      - [703.75 - 705.69]: place-carton-of-orange-juice
+
+
+Object: sticker (ID: c7cd3932247635ab)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 559.12
+    Drop time: 560.1405
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 655.57
+    Drop time: 666.34937
+    Action descriptions:
+      - [656.06 - 658.47]: wipe-counter-surface|hold-sticker
+      - [658.57 - 658.85]: place-napkin
+      - [658.95 - 659.84]: walk-towards-bin|discard-sticker
+      - [659.88 - 663.82]: walk-towards-counter-surface|pick-up-freezer-bags-packet
+      - [663.92 - 664.49]: pick-freezer-bags-packets
+
+
+Object: blue cloth (ID: 1644e846b3e9d46a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 493.489
+    Drop time: 497.31022
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: lid of jar2 (ID: 2d0f3590a81e0b13)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 456.46075
+    Drop time: 457.0155
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 485.123
+    Drop time: 488.2343
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 500.603
+    Drop time: 505.77639
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: jar2 (ID: 1afedd4f86fef78c)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 449.692
+    Drop time: 485.26329
+    Action descriptions:
+      - [453.71 - 456.29]: hold-glass-jar|unscrew-cap
+      - [457.82 - 459.13]: fill-glass-jar
+      - [457.49 - 459.52]: turn-off-tap|hold-water-filled-glass-jar
+      - [459.62 - 466.35]: transfer-sponge
+      - [450.36101 - 453.43244]: shake-jar
+
+
+  User return touch (blue):
+    Pick time: 498.642
+    Drop time: 505.661
+    Action descriptions:
+      - [498.78 - 504.47]: rinse-glass-jar
+
+
+Object: lid of jar (ID: 735d370142d171b8)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 410.122
+    Drop time: 411.122
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 423.816
+    Drop time: 448.62145
+    Action descriptions:
+      - [424.744 - 425.744]: grab-lid-of-jar
+      - [425.504 - 429.68244]: scrub-lid-of-jar|clean-lid-of-jar
+      - [429.43 - 430.325]: place-sponge
+      - [430.101 - 431.254]: turn-on-tap
+      - [431.317 - 433.00387]: wash-lid-of-jar
+      - [432.696 - 433.696]: pick-up-jar
+      - [433.555 - 437.0753]: wash-jar
+      - [437.671 - 446.43244]: examine-jar
+      - [446.813 - 448.39673]: place-jar
+
+
+Object: jar (ID: ee109fb7ed8f78a8)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 407.726
+    Drop time: 420.40358
+    Action descriptions:
+      - [407.895 - 408.75208]: pick-up-jar
+      - [408.712 - 410.15593]: open-jar
+      - [410.062 - 410.8867]: tip-jar|empty-jar-contents
+      - [411.444 - 419.72771]: clean-jar
+
+
+  User return touch (blue):
+    Pick time: 433.01
+    Drop time: 447.89922
+    Action descriptions:
+      - [433.555 - 437.0753]: wash-jar
+      - [437.671 - 446.43244]: examine-jar
+
+
+Object: kettle (ID: ec6d98316af5c9cc)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 368.448
+    Drop time: 369.448
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 528.637
+    Drop time: 530.04288
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 564.932
+    Drop time: 569.68217
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 645.793
+    Drop time: 653.79288
+    Action descriptions:
+      - [646.49 - 647.8]: lift-lid
+      - [647.85 - 648.74]: turn-on-tap|hold-kettle
+      - [648.76 - 650.85]: fill-kettle
+      - [651.98 - 652.85]: walk-towards-counter-surface|place-kettle
+
+
+Object: tea towel (ID: 9323086df0257151)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 364.469
+    Drop time: 371.9186
+    Action descriptions:
+      - [365.05 - 365.42]: retrieve-napkin
+      - [365.4 - 367.99]: dry-both-hands
+      - [367.9 - 368.59]: place-napkin
+      - [368.58 - 369.84]: turn-on-kettle
+      - [369.86 - 370.52]: retrieve-tablespoon
+
+
+  Touch 2:
+    Pick time: 402.007
+    Drop time: 405.02639
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 506.757
+    Drop time: 511.48792
+    Action descriptions:
+      - [507.42 - 508.63]: wipe-counter-surface
+      - [508.12 - 511.38]: wipe-both-hands
+
+
+  Touch 4:
+    Pick time: 620.699
+    Drop time: 622.41788
+    Action descriptions:
+      - [621.09 - 622.33]: dry-both-hands
+
+
+  Time between last use and return (red):
+    Pick time: 653.98
+    Drop time: 657.77858
+    Action descriptions:
+      - [654.37 - 655.39]: walk-towards-counter|pick-up-sticker
+      - [655.44 - 655.99]: pick-up-sticker
+
+
+  User return touch (blue):
+    Pick time: 882.969
+    Drop time: 888.4186
+    Action descriptions:
+      - [883.86 - 884.4]: pick-up-rag
+      - [884.84 - 885.73]: spread-napkin
+      - [885.94 - 887.33]: pick-up-lid-of-saucepan|move-lid-of-saucepan
+      - [887.52 - 887.82]: adjust-napkin
+
+
+Object: plastic bottle (ID: 148e3b691902a389)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 344.369
+    Drop time: 362.4686
+    Action descriptions:
+      - [344.71 - 345.85]: shake-plastic-bottle|rinse-plastic-bottle
+      - [346.0 - 347.4]: tilt-plastic-bottle|unscrew-plastic-bottle's-cap
+      - [347.35 - 348.95]: empty-plastic-bottle's-content|hold-plastic-bottle's-cap
+      - [348.8 - 350.0]: turn-on-tap
+      - [350.1 - 352.4]: rinse-plastic-bottle
+      - [352.5 - 354.75]: empty-plastic-bottle
+      - [354.45 - 354.65]: hold-plastic-bottle
+      - [354.9 - 356.25]: fill-plastic-bottle
+      - [355.85 - 357.1]: place-plastic-bottle's-cap|hold-plastic-bottle's-cap
+      - [357.2 - 357.8]: turn-off-tap|hold-plastic-bottle
+      - [358.03 - 359.9]: place-plastic-bottle's-cap|hold-plastic-bottle's-cap
+      - [359.66 - 360.46]: transfer-plastic-bottle
+
+
+  Time between last use and return (red):
+    Pick time: 406.18
+    Drop time: 407.661
+    Action descriptions:
+      - [406.84824 - 407.32901]: give-shake
+
+
+  User return touch (blue):
+    Pick time: 531.012
+    Drop time: 620.39825
+    Action descriptions:
+      - [531.51 - 532.17]: hold-plastic-bottle
+      - [532.21 - 538.42]: peel-off-sticker
+      - [536.41 - 559.52]: peel-sticker
+      - [559.48 - 560.57]: place-sticker|shake-plastic-bottle|rinse-plastic-bottle
+      - [560.67 - 561.37]: transfer-plastic-bottle
+      - [561.28 - 562.45]: hold-plastic-bottle|unscrew-plastic-bottle-cap
+      - [561.99 - 563.85]: empty-plastic-bottle|hold-plastic-bottle
+      - [563.53 - 564.76]: pick-up-kettle|drain-plastic-bottle
+      - [564.67 - 569.18]: pour-water
+      - [569.17 - 570.68]: shake-plastic-bottle|rinse-plastic-bottle|hold-kettle
+      - [570.67 - 571.35]: pick-up-hand-wash-liquid|hold-plastic-bottle
+      - [571.32 - 573.41]: place-some-hand-wash-liquid
+      - [573.27 - 573.93]: return-hand-wash-liquid's-bottle|hold-plastic-bottle
+      - [573.95 - 574.21]: transfer-plastic-bottle
+      - [574.31 - 575.91]: screw-on-plastic-bottle's-cap|hold-plastic-bottle
+      - [575.92 - 578.0]: shake-plastic-bottle|rinse-plastic-bottle
+      - [577.3 - 578.03]: transfer-plastic-bottle
+      - [578.13 - 581.04]: unscrew-plastic-bottle's-cap|hold-plastic-bottle's-cap
+      - [581.14 - 582.88]: drain-plastic-bottle
+      - [582.98 - 584.12]: turn-on-tap|hold-plastic-bottle
+      - [583.86 - 586.59]: keep-tap|fill-plastic-bottle
+      - [586.69 - 587.01]: hold-plastic-bottle|screw-on-plastic-bottle-cap
+      - [587.08 - 588.66]: screw-on-plastic-bottle's-cap|hold-plastic-bottle's-cap
+      - [588.76 - 589.2]: transfer-plastic-bottle
+      - [589.3 - 590.25]: shake-plastic-bottle|rinse-plastic-bottle
+      - [590.35 - 591.43]: shake-plastic-bottle|rinse-plastic-bottle
+      - [594.58 - 595.76]: hold-plastic-bottle|unscrew-plastic-bottle-cap
+      - [595.81 - 596.42]: drain-plastic-bottle
+      - [596.52 - 598.96]: empty-water-contents-of-plastic-bottle
+      - [599.88 - 601.09]: hold-plastic-bottle|turn-on-tap
+      - [601.15 - 604.39]: fill-plastic-bottle
+      - [604.28 - 606.78]: drain-plastic-bottle|get-rid-of-rinsing-water
+      - [606.88 - 610.36]: fill-plastic-bottle
+      - [610.46 - 610.94]: place-plastic-bottle's-cap|hold-plastic-bottle's-cap
+      - [611.04 - 611.52]: screw-on-plastic-bottle's-cap|hold-plastic-bottle's-cap
+      - [611.62 - 612.22]: turn-off-tap|hold-plastic-bottle
+      - [612.56 - 614.19]: hold-plastic-bottle|screw-on-plastic-bottle-cap
+      - [614.25 - 614.52]: shake-plastic-bottle|rinse-plastic-bottle
+      - [614.57 - 615.6]: inspect-boiling-pot
+      - [615.7 - 616.4]: shake-plastic-bottle|rinse-plastic-bottle
+      - [616.41 - 618.06]: hold-plastic-bottle|unscrew-plastic-bottle-cap
+      - [617.75 - 618.98]: change-plastic-bottle
+
+
+Object: bottle of washing up liquid (ID: 310ab08333cb90b9)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 314.569
+    Drop time: 318.0186
+    Action descriptions:
+      - [316.042 - 317.31835]: get-some-dish-washing-soap
+
+
+  Touch 2:
+    Pick time: 421.038
+    Drop time: 423.56589
+    Action descriptions:
+      - [421.927 - 422.92771]: get-some-soap
+
+
+  Time between last use and return (red):
+    Pick time: 463.701
+    Drop time: 466.37043
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 570.807
+    Drop time: 573.84884
+    Action descriptions:
+      - [571.32 - 573.41]: place-some-hand-wash-liquid
+
+
+Object: sponge (ID: 9e2107cababc8708)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 311.669
+    Drop time: 329.3186
+    Action descriptions:
+      - [312.105 - 312.9722]: wet-sponge|hold-sponge
+      - [312.62 - 313.32065]: squeeze-sponge|drain-excess-water
+      - [313.085 - 313.63224]: shake-sponge|get-rid-of-excess-water
+      - [313.513 - 314.10843]: transfer-sponge
+      - [314.243 - 316.11643]: grab-liquid-bottle-of-dish-washing-soap
+      - [316.042 - 317.31835]: get-some-dish-washing-soap
+      - [317.399 - 318.399]: place-soap-bottle
+      - [318.068 - 318.93373]: transfer-sponge
+      - [319.862 - 321.24143]: pick-up-knife|wash-knife
+      - [321.184 - 323.86643]: scrub-knife|clean-knife
+      - [324.058 - 325.20297]: pick-up-white-coloured-plastic-chopping-board
+      - [325.415 - 329.03885]: scrub-surface-of-chopping-board|clean-surface-of-chopping-board
+
+
+  Time between last use and return (red):
+    Pick time: 411.211
+    Drop time: 429.86192
+    Action descriptions:
+      - [420.71 - 421.37]: pick-up-bottle-of-washing-up-liquid
+      - [411.444 - 419.72771]: clean-jar
+      - [419.454 - 420.454]: place-jar
+      - [420.38 - 421.05271]: transfer-sponge
+      - [421.927 - 422.92771]: get-some-soap
+      - [422.88 - 423.72771]: place-liquid-soap-bottle
+      - [424.744 - 425.744]: grab-lid-of-jar
+      - [425.504 - 429.68244]: scrub-lid-of-jar|clean-lid-of-jar
+
+
+  User return touch (blue):
+    Pick time: 459.51
+    Drop time: 493.28101
+    Action descriptions:
+      - [459.62 - 466.35]: transfer-sponge
+      - [466.45 - 488.47]: scrub-glass-jar's-lid
+
+
+Object: spoon2 (ID: 84ed24b26503b75e)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 260.756
+    Drop time: 271.43953
+    Action descriptions:
+      - [261.02 - 262.19]: close-drawer|hold-tablespoon
+      - [263.59 - 268.62]: stir-hibiscus-drink|hold-lid-of-saucepan
+      - [262.429 - 263.429]: open-lid-of-saucepan
+      - [268.144 - 269.144]: shake-tablespoon
+      - [270.229 - 271.35908]: place-saucepan-lid
+
+
+  Touch 2:
+    Pick time: 289.023
+    Drop time: 291.39825
+    Action descriptions:
+      - [289.266 - 290.53765]: stir-contents-of-saucepan
+      - [290.328 - 291.002]: shake-spoon
+
+
+  Touch 3:
+    Pick time: 370.008
+    Drop time: 371.008
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 391.841
+    Drop time: 400.90358
+    Action descriptions:
+      - [392.309 - 396.32901]: stir-contents-of-saucepan
+      - [396.271 - 397.11747]: tap-tablespoon
+      - [397.173 - 398.173]: pick-up-saucepan-lid
+      - [398.948 - 400.34824]: place-lid
+
+
+  Touch 5:
+    Pick time: 512.186
+    Drop time: 528.36192
+    Action descriptions:
+      - [512.28 - 513.32]: remove-lid-of-saucepan|hold-tablespoon
+      - [512.88 - 526.56]: stir-saucepan|hold-saucepan-lid
+
+
+  Touch 6:
+    Pick time: 623.543
+    Drop time: 644.57413
+    Action descriptions:
+      - [624.04 - 624.86]: remove-lid-of-saucepan
+      - [624.69 - 625.42]: stir-saucepan
+      - [625.52 - 627.88]: place-saucepan's-lid|stir-saucepan
+      - [629.26 - 630.26]: transfer-tablespoon
+      - [630.36 - 631.52]: lift-saucepan
+      - [631.32 - 632.53]: walk-towards-sink
+      - [632.63 - 633.33]: turn-on-tap|hold-saucepan
+      - [633.43 - 636.88]: add-more-water
+      - [636.98 - 637.36]: turn-off-tap|hold-saucepan
+      - [637.41 - 638.47]: hold-saucepan
+      - [638.57 - 640.35]: place-saucepan|hold-tablespoon
+      - [640.34 - 641.03]: transfer-tablespoon|stir-pot|place-tablespoon
+      - [641.06 - 641.43]: transfer-tablespoon
+      - [641.46 - 642.8]: lift-electric-kettle
+
+
+  Touch 7:
+    Pick time: 715.122
+    Drop time: 725.94186
+    Action descriptions:
+      - [715.64 - 716.94]: lift-lid-of-saucepan
+      - [716.92 - 723.67]: stir-saucepan|hold-saucepan's-lid
+      - [723.77 - 725.59]: place-saucepan's-lid|hold-tablespoon
+
+
+  Time between last use and return (red):
+    Pick time: 749.741
+    Drop time: 756.64825
+    Action descriptions:
+      - [750.77 - 752.5]: stir-saucepan|hold-saucepan-lid
+      - [751.81 - 754.46]: place-saucepan's-lid
+
+
+  User return touch (blue):
+    Pick time: 790.823
+    Drop time: 801.5155
+    Action descriptions:
+      - [791.59 - 794.59]: scoop-some-hibiscus-drink
+      - [794.67 - 796.73]: taste-hibiscus-drink
+      - [798.54 - 800.65]: walk-towards-sink|discard-tablespoon
+
+
+Object: spoon1 (ID: 090982fce1e3386e)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 259.223
+    Drop time: 260.6062
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: mug1 (ID: 90869e62e1a10691)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 239.537
+    Drop time: 241.36519
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 678.827
+    Drop time: 687.64825
+    Action descriptions:
+      - [679.57 - 680.65]: transfer-mug
+      - [680.58 - 681.46]: turn-on-tap|hold-mug
+      - [681.43 - 681.93]: fill-mug
+      - [681.96 - 682.3]: turn-off-tap|hold-mug
+      - [682.4 - 684.16]: rinse-out-mug
+      - [684.26 - 687.4]: walk-across-kitchen|place-mug
+      - [685.47 - 686.62]: transfer-mug
+      - [687.06 - 687.58]: place-mug
+
+
+  User return touch (blue):
+    Pick time: 709.781
+    Drop time: 712.33575
+    Action descriptions:
+      - [710.64 - 712.04]: place-orange-juice
+
+
+Object: cup3 (ID: 7d92edb83473be44)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 238.01
+    Drop time: 241.93372
+    Action descriptions:
+      - [239.49 - 240.13]: retrieve-mug
+
+
+Object: cup2 (ID: 25ec4d4a87b6deb2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 233.51034
+    Drop time: 242.03811
+    Action descriptions:
+      - [234.79 - 236.33]: stack-keep-cup
+      - [239.49 - 240.13]: retrieve-mug
+      - [236.266 - 237.18051]: pick-up-another-cup
+      - [237.06 - 238.06]: stack-3-cups
+      - [237.796 - 238.538]: pick-up-another-transparent-plastic-cup
+
+
+Object: cup1 (ID: 9ce14d9dac0146a6)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 231.793
+    Drop time: 238.91788
+    Action descriptions:
+      - [234.79 - 236.33]: stack-keep-cup
+      - [231.999 - 232.999]: pick-up-tumbler
+      - [233.323 - 234.323]: pick-another-identical-tumbler
+      - [236.266 - 237.18051]: pick-up-another-cup
+      - [237.06 - 238.06]: stack-3-cups
+      - [237.796 - 238.538]: pick-up-another-transparent-plastic-cup
+
+
+Object: saucepan lid2 (ID: e1c42b7b084c9479)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 229.599
+    Drop time: 230.91755
+    Action descriptions:
+      - [229.885 - 230.885]: transfer-lid
+
+
+  User return touch (blue):
+    Pick time: 242.206
+    Drop time: 251.63953
+    Action descriptions:
+      - [242.301 - 244.78765]: pick-up-plastic-container
+      - [249.053 - 250.23408]: open-lower-cabinet
+      - [249.99 - 251.57336]: place-lid
+
+
+Object: serving spoon (ID: 087b540fb53ba990)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 226.69
+    Drop time: 228.69027
+    Action descriptions:
+      - [227.311 - 228.22214]: open-drawer
+      - [227.731 - 228.46622]: transfer-ladle
+
+
+Object: plastic box (ID: 34654e54d822c66b)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 224.784
+    Drop time: 226.3593
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 243.068
+    Drop time: 246.51034
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: metal colander (ID: 22eb7eeabe142878)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 220.653
+    Drop time: 222.91724
+    Action descriptions:
+      - [221.386 - 222.90964]: place-colander
+
+
+Object: colander (ID: 63c484cbca0c0492)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 218.814
+    Drop time: 219.814
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 221.785
+    Drop time: 222.785
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: frying pan2 (ID: 17d9ace5f3331085)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 213.888
+    Drop time: 219.41724
+    Action descriptions:
+      - [215.122 - 216.122]: stack-pans
+      - [215.742 - 216.94089]: transfer-stack-of-pans
+      - [216.942 - 218.22214]: open-drawer
+      - [218.522 - 219.316]: pick-up-plastic-colander
+
+
+Object: frying pan (ID: d114b0713768d371)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 213.469
+    Drop time: 219.4186
+    Action descriptions:
+      - [215.122 - 216.122]: stack-pans
+      - [215.742 - 216.94089]: transfer-stack-of-pans
+      - [216.942 - 218.22214]: open-drawer
+      - [218.522 - 219.316]: pick-up-plastic-colander
+
+
+Object: saucepan lid (ID: b9ca1eb8fd96f3c1)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 202.219
+    Drop time: 204.5186
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 262.79
+    Drop time: 271.18572
+    Action descriptions:
+      - [263.59 - 268.62]: stir-hibiscus-drink|hold-lid-of-saucepan
+      - [268.144 - 269.144]: shake-tablespoon
+
+
+  Touch 3:
+    Pick time: 512.404
+    Drop time: 527.86192
+    Action descriptions:
+      - [512.88 - 526.56]: stir-saucepan|hold-saucepan-lid
+
+
+  Touch 4:
+    Pick time: 641.543
+    Drop time: 644.44913
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 5:
+    Pick time: 715.94
+    Drop time: 726.33575
+    Action descriptions:
+      - [716.92 - 723.67]: stir-saucepan|hold-saucepan's-lid
+      - [723.77 - 725.59]: place-saucepan's-lid|hold-tablespoon
+
+
+  Touch 6:
+    Pick time: 749.719
+    Drop time: 754.1686
+    Action descriptions:
+      - [750.77 - 752.5]: stir-saucepan|hold-saucepan-lid
+
+
+  Touch 7:
+    Pick time: 812.727
+    Drop time: 814.69913
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 860.243
+    Drop time: 861.98038
+    Action descriptions:
+      - [860.51 - 861.29]: place-slotted-spoon|hold-saucepan's-lid
+      - [861.39 - 861.61]: place-slotted-spoon
+
+
+  User return touch (blue):
+    Pick time: 624.02144
+    Drop time: 627.78101
+    Action descriptions:
+      - [624.04 - 624.86]: remove-lid-of-saucepan
+      - [624.69 - 625.42]: stir-saucepan
+
+
+Object: saucepan3 (ID: 96510105da1f0c04)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 200.435
+    Drop time: 209.4686
+    Action descriptions:
+      - [203.65964 - 204.781]: close-lid
+      - [206.807 - 207.807]: open-cabinet
+
+
+Object: saucepan2 (ID: 9abab4497042e3cd)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 200.269
+    Drop time: 209.4686
+    Action descriptions:
+      - [203.65964 - 204.781]: close-lid
+      - [206.807 - 207.807]: open-cabinet
+
+
+Object: chopping board (ID: fd8a9f4e7602f1c0)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 140.213
+    Drop time: 142.213
+    Action descriptions:
+      - [140.29 - 141.05]: pick-up-chop-board
+
+
+  Time between last use and return (red):
+    Pick time: 309.4
+    Drop time: 310.4
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 324.269
+    Drop time: 341.1186
+    Action descriptions:
+      - [325.415 - 329.03885]: scrub-surface-of-chopping-board|clean-surface-of-chopping-board
+      - [329.103 - 329.63885]: put-sponge|scrub-chopping-board
+      - [329.838 - 330.63885]: turn-on-tap
+      - [330.609 - 331.3867]: wet-right-hand
+      - [331.299 - 332.34824]: increase-water-flow-of-tap|push-tap-handle
+      - [332.018 - 336.15593]: wash-chopping-board
+      - [336.103 - 336.86747]: turn-off-tap
+      - [337.705 - 338.705]: shake-chopping-board|drain-excess-water
+      - [338.522 - 340.75271]: place-chopping-board
+
+
+Object: freezer bag2 (ID: 9f02030ed27c975e)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 96.76
+    Drop time: 97.26034
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 103.936
+    Drop time: 117.58575
+    Action descriptions:
+      - [104.44 - 107.5]: open-freezer-bag|hold-pack-of-hibiscus-flowers
+      - [107.45 - 111.17]: place-pack-of-hibiscus-flowers
+      - [111.72 - 112.25]: close-freezer-bag
+      - [112.35 - 114.85]: fold-freezer-bag
+      - [114.95 - 115.72]: open-cupboard|hold-bag-of-hibiscus-flowers
+      - [115.82 - 116.85]: place-bag-of-hibiscus-flowers
+
+
+  User return touch (blue):
+    Pick time: 273.45
+    Drop time: 298.22287
+    Action descriptions:
+      - [284.0 - 284.83]: place-hibiscus-flowers|hold-bag-of-hibiscus-flowers
+      - [288.92 - 289.34000000000003]: pick-up-tablespoon
+      - [274.039 - 276.91265]: unfold-plastic-bag
+      - [276.8 - 277.8]: open-plastic-bag
+      - [277.634 - 282.50194]: reach-into-plastic-bag
+      - [282.985 - 283.985]: pick-up-some-hibiscus-flower
+      - [286.545 - 289.038]: seal-plastic-bag
+      - [289.266 - 290.53765]: stir-contents-of-saucepan
+      - [290.328 - 291.002]: shake-spoon
+      - [290.957 - 291.80551]: place-spoon
+      - [291.838 - 297.09122]: fold-plastic-bag
+      - [296.905 - 297.905]: place-pack-of-hibiscus-flowers
+
+
+Object: freezer bag1 (ID: 517858839d8838e4)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 93.864
+    Drop time: 94.864
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 97.6
+    Drop time: 102.22473
+    Action descriptions:
+      - [97.989 - 98.73827]: close-packet-of-freezer-bags
+      - [98.594 - 99.63301]: place-freezer-bag
+      - [99.327 - 100.27774]: place-packet-of-freezer-bags
+      - [100.244 - 100.92248]: place-packet-of-freezer-bags
+      - [100.554 - 101.383]: extract-freezer-bag
+
+
+Object: packet of freezer bags (ID: ab2609ec278240e0)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 88.031
+    Drop time: 100.69767
+    Action descriptions:
+      - [89.27 - 90.91]: place-pack-of-freezer-bags
+      - [90.94 - 92.09]: open-pack-of-freezer-bags
+      - [92.19 - 92.85]: retrieve-freezer-bag
+      - [92.57 - 94.02]: pull-out-freezer-bag|hold-packet
+      - [93.81 - 94.56]: place-freezer-bag|hold-pack-of-freezer-bags
+      - [94.64 - 96.92]: pull-out-another-freezer-bag
+      - [96.929 - 97.79392]: place-freezer-bag
+      - [97.454 - 98.30406]: pick-up-freezer-bag|place-freezer-bag
+      - [97.989 - 98.73827]: close-packet-of-freezer-bags
+      - [98.594 - 99.63301]: place-freezer-bag
+      - [99.327 - 100.27774]: place-packet-of-freezer-bags
+
+
+  Time between last use and return (red):
+    Pick time: 299.711
+    Drop time: 299.8843
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 664.054
+    Drop time: 669.59937
+    Action descriptions:
+      - [664.59 - 666.4]: walk-towards-bin|discard-sticker|discard-freezer-bag-packet
+
+
+Object: knife (ID: a953f013ba65d18a)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 58.114
+    Drop time: 64.69767
+    Action descriptions:
+      - [58.544 - 59.41892]: position-pack|hold-knife
+      - [59.421 - 60.421]: pierce-through-top-part-of-pack-of-hibiscus-flower|cut-top-part-of-pack-of-hibiscus-flower
+      - [60.231 - 63.75226]: cut-through-plastic-pack|open-plastic-pack
+
+
+  Touch 2:
+    Pick time: 137.038
+    Drop time: 142.91755
+    Action descriptions:
+      - [138.35 - 139.45]: walk-across-kitchen|wash-knife
+      - [139.75 - 140.15]: reach-for-chop-board
+      - [140.29 - 141.05]: pick-up-chop-board
+      - [141.7 - 142.3]: place-chop-board|hold-knife
+
+
+  Touch 3:
+    Pick time: 155.209
+    Drop time: 156.3843
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 168.594
+    Drop time: 183.16788
+    Action descriptions:
+      - [168.917 - 169.69439]: pick-up-knife
+      - [169.576 - 177.84824]: slice-ginger
+      - [177.656 - 178.656]: rotate-remaining-piece-of-ginger
+      - [178.628 - 182.72214]: slice-ginger
+
+
+  User return touch (blue):
+    Pick time: 320.569
+    Drop time: 342.9186
+    Action descriptions:
+      - [321.184 - 323.86643]: scrub-knife|clean-knife
+      - [324.058 - 325.20297]: pick-up-white-coloured-plastic-chopping-board
+      - [325.415 - 329.03885]: scrub-surface-of-chopping-board|clean-surface-of-chopping-board
+      - [329.103 - 329.63885]: put-sponge|scrub-chopping-board
+      - [329.838 - 330.63885]: turn-on-tap
+      - [330.609 - 331.3867]: wet-right-hand
+      - [331.299 - 332.34824]: increase-water-flow-of-tap|push-tap-handle
+      - [332.018 - 336.15593]: wash-chopping-board
+      - [336.103 - 336.86747]: turn-off-tap
+      - [337.705 - 338.705]: shake-chopping-board|drain-excess-water
+      - [338.522 - 340.75271]: place-chopping-board
+      - [340.769 - 341.769]: shake-knife|get-rid-of-excess-water
+
+
+Object: saucepan (ID: a6c988e3a34fd214)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 32.76
+    Drop time: 43.41206
+    Action descriptions:
+      - [36.97 - 39.99]: fill-saucepan
+      - [34.183 - 35.00226]: turn-on-tap|position-saucepan
+      - [34.848 - 36.14809]: rinse-saucepan
+      - [36.002 - 36.939]: tip-saucepan|pour-out-water
+      - [39.647 - 40.647]: pull-saucepan|wash-saucepan
+
+
+  Touch 2:
+    Pick time: 191.262
+    Drop time: 194.26163
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 382.737
+    Drop time: 391.46608
+    Action descriptions:
+      - [383.66 - 384.62]: walk-towards-sink|hold-saucepan|add-more-water
+      - [384.58 - 385.44]: turn-on-tap|hold-saucepan
+      - [385.52 - 386.5]: add-more-water
+      - [386.22 - 388.49]: fill-saucepan
+      - [387.646 - 388.646]: turn-off-tap
+      - [388.225 - 389.225]: pull-saucepan
+      - [389.949 - 391.23285]: place-saucepan
+
+
+  Touch 4:
+    Pick time: 630.543
+    Drop time: 640.57413
+    Action descriptions:
+      - [631.32 - 632.53]: walk-towards-sink
+      - [632.63 - 633.33]: turn-on-tap|hold-saucepan
+      - [633.43 - 636.88]: add-more-water
+      - [636.98 - 637.36]: turn-off-tap|hold-saucepan
+      - [637.41 - 638.47]: hold-saucepan
+      - [638.57 - 640.35]: place-saucepan|hold-tablespoon
+
+
+  Touch 5:
+    Pick time: 820.73
+    Drop time: 826.10538
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 6:
+    Pick time: 890.789
+    Drop time: 896.26329
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 909.263
+    Drop time: 918.8186
+    Action descriptions:
+      - [910.51 - 910.94]: pick-up-slotted-spoon
+      - [911.92 - 912.37]: pour-hibiscus-drink
+      - [913.02 - 914.31]: place-slotted-spoon
+      - [915.11 - 916.61]: pick-up-measuring-cup|hold-saucepan
+
+
+  User return touch (blue):
+    Pick time: 943.10538
+    Drop time: 977.44913
+    Action descriptions:
+      - [943.83 - 946.3]: pour-out-hibiscus-drink
+      - [946.31 - 947.37]: retrieve-slotted-spoon
+      - [947.28 - 947.57]: hold-slotted-spoon|act-as-sieve|pour-hibiscus-drink
+      - [947.77 - 966.47]: remove-discarded-hibiscus-flower|remove-ginger
+      - [973.35 - 973.72]: turn-on-tap
+      - [973.82 - 974.83]: swirl-around-saucepan
+      - [974.92 - 975.62]: pour-water|hold-slotted-spoon
+
+
+Object: piece of ginger1 (ID: 75f6c08f824a8783)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 24.781
+    Drop time: 25.48573
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 43.975
+    Drop time: 44.86646
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 3:
+    Pick time: 84.198
+    Drop time: 85.198
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 4:
+    Pick time: 119.836
+    Drop time: 120.836
+    Action descriptions:
+      - [120.0 - 120.29]: place-ginger
+
+
+  Touch 5:
+    Pick time: 121.758
+    Drop time: 122.48573
+    Action descriptions:
+      - [121.79 - 122.3]: pick-up-ginger
+
+
+  Time between last use and return (red):
+    Pick time: 146.486
+    Drop time: 147.00846
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 154.599
+    Drop time: 177.98256
+    Action descriptions:
+      - [156.65 - 157.09]: walk-towards-sink|cut-ginger
+      - [166.79 - 167.77]: turn-off-tap|hold-piece-of-ginger
+      - [155.073 - 155.79055]: place-ginger-piece
+      - [155.181 - 156.001]: grab-knife
+      - [155.842 - 156.57901]: put-down-knife
+      - [157.169 - 157.86747]: turn-on-tap
+      - [157.846 - 166.71362]: wash-ginger-piece
+      - [167.309 - 168.17516]: shake-wet-piece-of-ginger|dry-off-excess-water
+      - [168.118 - 169.118]: place-washed-piece-of-ginger
+      - [168.917 - 169.69439]: pick-up-knife
+      - [169.576 - 177.84824]: slice-ginger
+
+
+Object: ginger root (ID: 6623199d4318b2e4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 20.873
+    Drop time: 26.41755
+    Action descriptions:
+      - [21.46 - 24.52309]: examine-ginger
+      - [24.212 - 24.94]: break-ginger
+      - [24.831 - 25.831]: place-ginger|measure-ginger-weight
+
+
+Object: bag of ginger (ID: 332a5a68afbf7632)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 15.94
+    Drop time: 21.21869
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 26.454
+    Drop time: 29.07897
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 300.108
+    Drop time: 303.09763
+    Action descriptions:
+      - [300.668 - 301.668]: fold-bag
+
+
+Object: weighing scales (ID: 07a7bdb86f519819)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 14.501
+    Drop time: 15.73038
+    Action descriptions:
+      - [14.585 - 15.12726]: transfer-weighing-scale
+
+
+  Touch 2:
+    Pick time: 150.213
+    Drop time: 150.80391
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 304.743
+    Drop time: 306.27471
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 785.963
+    Drop time: 788.16755
+    Action descriptions:
+      - [786.59 - 787.93]: turn-on-scale|hold-scale
+
+
+Object: packet1 (ID: caa64c36f9230875)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 9.899
+    Drop time: 10.899
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 45.131
+    Drop time: 111.3686
+    Action descriptions:
+      - [79.92 - 82.48]: seal-pack-of-hibiscus-flowers
+      - [83.33 - 83.8]: pick-up-hibiscus-flowers|place-on-scale
+      - [83.72 - 83.97]: place-hibiscus-flowers
+      - [84.07 - 84.32]: pick-ginger
+      - [84.62 - 85.51]: place-bit-of-ginger
+      - [83.19 - 83.74]: take-bit-of-hibiscus-flower
+      - [83.82 - 84.06]: place-hibiscus-flower
+      - [86.82 - 87.69]: open-drawer
+      - [87.75 - 89.46000000000001]: take-packet-of-freezer-bags|hold-hibiscus-flowers
+      - [89.27 - 90.91]: place-pack-of-freezer-bags
+      - [90.94 - 92.09]: open-pack-of-freezer-bags
+      - [92.19 - 92.85]: retrieve-freezer-bag
+      - [92.57 - 94.02]: pull-out-freezer-bag|hold-packet
+      - [93.81 - 94.56]: place-freezer-bag|hold-pack-of-freezer-bags
+      - [94.64 - 96.92]: pull-out-another-freezer-bag
+      - [96.929 - 97.79392]: place-freezer-bag
+      - [97.454 - 98.30406]: pick-up-freezer-bag|place-freezer-bag
+      - [97.989 - 98.73827]: close-packet-of-freezer-bags
+      - [98.594 - 99.63301]: place-freezer-bag
+      - [99.327 - 100.27774]: place-packet-of-freezer-bags
+      - [100.244 - 100.92248]: place-packet-of-freezer-bags
+      - [100.554 - 101.383]: extract-freezer-bag
+      - [100.9 - 102.60669]: place-freezer-bag
+      - [102.475 - 103.36985]: close-drawer
+      - [102.904 - 103.83037]: transfer-pack-of-hibiscus-flowers|place-pack-of-hibiscus-flowers
+      - [103.76 - 104.37]: pick-up-freezer-bag|hold-bag-of-hibiscus
+      - [104.44 - 107.5]: open-freezer-bag|hold-pack-of-hibiscus-flowers
+      - [107.45 - 111.17]: place-pack-of-hibiscus-flowers
+      - [45.641 - 48.79392]: pull-top-part-of-pack-of-hibiscus-flower|open-pack-of-hibiscus-flower
+      - [48.708 - 49.50226]: rotate-pack|pull-from-another-angle
+      - [49.381 - 57.27309]: pull-top-of-pack
+      - [57.157 - 58.64809]: pull-packaging|pick-up-knife
+      - [58.544 - 59.41892]: position-pack|hold-knife
+      - [59.421 - 60.421]: pierce-through-top-part-of-pack-of-hibiscus-flower|cut-top-part-of-pack-of-hibiscus-flower
+      - [60.231 - 63.75226]: cut-through-plastic-pack|open-plastic-pack
+      - [63.665 - 65.50226]: place-knife
+      - [65.274 - 66.50226]: pull-plastic-flap-of-opened-pack-of-hibiscus-flower
+      - [66.47 - 71.46059]: reach-with-right-hand|pull-out-some-flower-pieces|pour-some-flower-pieces
+      - [71.725 - 73.58559]: pick-up-scattered-pieces-of-hibiscus-flower|place-scattered-pieces-of-hibiscus-flower
+      - [74.237 - 75.52309]: reach-into-pack|pick-up-some-more-pieces-of-hibiscus-flower
+      - [75.532 - 79.68976]: place-pieces-of-hibiscus-flower
+
+

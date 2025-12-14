@@ -1,0 +1,259 @@
+Video ID: P08-20240613-122900
+================================================================================
+
+Object: correct espresso cup2 (ID: 861578bccfa95b1d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 115.531
+    Drop time: 116.0049
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: small plates (ID: 335ac76791e3c914)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 177.271
+    Drop time: 178.25581
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: espresso scoop (ID: d15633d5f98ef8da)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 122.18
+    Drop time: 140.30279
+    Action descriptions:
+      - [122.47 - 125.8]: mix-coffee-grinded-beans
+      - [125.55 - 128.0]: tap-coffee-grinder|loosen-up-grinded-coffee-beans
+      - [127.75 - 130.2]: scoop-coffee-beans
+      - [130.13 - 131.6]: place-grinded-beans
+      - [131.4 - 133.15]: tap-coffee-grinder|loosen-up-beans
+      - [132.95 - 135.95]: grind-coffee
+      - [135.55 - 137.62]: tap-grinder|loosen-up-coffee-beans
+
+
+  User return touch (blue):
+    Pick time: 142.455
+    Drop time: 151.75345
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: espresso cup2 (ID: cf2b1eccb7050a98)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 109.19
+    Drop time: 110.05372
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 114.334
+    Drop time: 114.89963
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: pot lid (ID: 6ca6757d39185fb5)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 104.005
+    Drop time: 106.0643
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: espresso handle (ID: 649f8fc3f26c963d)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 100.939
+    Drop time: 101.64651
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Touch 2:
+    Pick time: 107.255
+    Drop time: 108.68194
+    Action descriptions:
+      - [107.37 - 107.81]: pick-up-espresso-cup|look-for-correct-espresso-cup
+
+
+  Time between last use and return (red):
+    Pick time: 110.657
+    Drop time: 117.01805
+    Action descriptions:
+      - [111.19 - 114.51]: twist-espresso-cup
+      - [114.38 - 114.99]: place-incorrect-espresso-cup
+
+
+  User return touch (blue):
+    Pick time: 152.29
+    Drop time: 155.80465
+    Action descriptions:
+      - [153.87 - 154.9]: tighten-espresso-cup
+
+
+Object: cap of coffee grinder (ID: 597beb4b555642d6)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 73.756
+    Drop time: 75.2562
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 77.592
+    Drop time: 78.21751
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 122.703
+    Drop time: 123.56715
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: coffee grinder (ID: 31bcf671cbf7a126)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 72.988
+    Drop time: 74.0562
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 125.694
+    Drop time: 140.1343
+    Action descriptions:
+      - [127.75 - 130.2]: scoop-coffee-beans
+      - [130.13 - 131.6]: place-grinded-beans
+      - [131.4 - 133.15]: tap-coffee-grinder|loosen-up-beans
+      - [132.95 - 135.95]: grind-coffee
+      - [135.55 - 137.62]: tap-grinder|loosen-up-coffee-beans
+
+
+Object: phone (ID: 3541555e3fc36ff8)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 46.756
+    Drop time: 47.2062
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 67.523
+    Drop time: 68.42287
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 157.449
+    Drop time: 158.88081
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: lid (ID: e95bec22b5c8708d)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 36.933
+    Drop time: 41.47287
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: can of coffee beans (ID: 9e0001e6ba3e6d7b)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 34.54
+    Drop time: 46.37287
+    Action descriptions:
+      - [35.71 - 36.87]: open-can-of-coffee-beans|twist-top
+      - [36.64 - 41.37]: pour-coffee-beans
+      - [41.26 - 44.71]: close-can|screw-top
+
+
+Object: small espresso cup (ID: 0aa55acdac04a9d6)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 16.427
+    Drop time: 27.93522
+    Action descriptions:
+      - [17.78 - 19.23]: turn-on-scale|measure-coffee
+      - [18.85 - 26.83]: adjust-scale
+
+
+  Touch 2:
+    Pick time: 74.706
+    Drop time: 77.53124
+    Action descriptions:
+      - [75.72 - 76.96000000000001]: pour-coffee-beans
+
+
+  Touch 3:
+    Pick time: 119.308
+    Drop time: 119.82069
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 160.912
+    Drop time: 162.69331
+    Action descriptions:
+      - [161.38 - 162.5]: place-espresso-cup
+
+
+  User return touch (blue):
+    Pick time: 188.132
+    Drop time: 191.36519
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: scale (ID: 9a12c2a3d2b5d42f)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 9.269
+    Drop time: 10.5885
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 69.973
+    Drop time: 70.7062
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 117.702
+    Drop time: 118.76805
+    Action descriptions:
+      (No action descriptions found)
+
+
