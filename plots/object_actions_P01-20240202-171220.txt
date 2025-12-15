@@ -1,0 +1,688 @@
+Video ID: P01-20240202-171220
+================================================================================
+
+Object: knife2 (ID: 067f49caca9d1aff)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 345.55269
+    Drop time: 350.52696
+    Action descriptions:
+      - [346.86 - 347.86]: open-dishwasher's-door|slide-dishwasher's-door
+      - [348.11 - 349.07]: open-cutlery-drawer-of-dishwasher|slide-cutlery-drawer-of-dishwasher
+
+
+Object: plastic spoon (ID: 06f797d4571f2b86)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 302.126
+    Drop time: 323.86628
+    Action descriptions:
+      - [302.28 - 303.78]: scoop-sugar
+      - [302.64 - 307.22]: fill-scoop-spoon
+      - [307.32 - 308.12]: check-amount
+      - [308.22 - 314.31]: scoop-more
+      - [315.87 - 317.02]: pour-candy-floss-sugar
+      - [316.67 - 318.26]: shake-scoop-spoon
+      - [319.08 - 319.94]: switch-on-candy-floss-machine|press-candy-floss-machine-button
+      - [320.63 - 322.08]: open-plastic-bag
+
+
+Object: strainer2 (ID: 145af72efec29ee7)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 264.20372
+    Drop time: 266.79372
+    Action descriptions:
+      - [265.04 - 265.84]: close-drawer
+
+
+Object: mug2 (ID: 878f03d7b38887ac)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 258.82372
+    Drop time: 261.30372
+    Action descriptions:
+      - [259.72 - 260.45]: turn-mug
+
+
+Object: container's cover (ID: 0749a379142903b2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 235.241
+    Drop time: 245.25903
+    Action descriptions:
+      - [236.15 - 242.15]: pour-content-of-container|flip-container
+      - [244.24 - 245.05]: put-down-empty-container
+
+
+Object: small gold color container (ID: a060d880e6450095)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 230.83103
+    Drop time: 244.73692
+    Action descriptions:
+      - [231.0 - 231.73]: pick-up-small-gold-color-container
+      - [231.95 - 235.53]: open-container|hold-container|pull-container-cover
+      - [236.15 - 242.15]: pour-content-of-container|flip-container
+
+
+Object: second cover (ID: 9471a44d2c431bb8)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 227.79197
+    Drop time: 228.33103
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 286.60465
+    Drop time: 288.99215
+    Action descriptions:
+      - [286.65 - 286.9]: pick-up-second-lid
+
+
+Object: cover of flask (ID: 851a735d1af406e2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 226.76633
+    Drop time: 227.33884
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: flask (ID: 9fb1d013fbbfb9ed)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 224.65916
+    Drop time: 228.16697
+    Action descriptions:
+      - [224.72 - 225.95]: pick-up-black-thermos-flask
+      - [226.6 - 226.95]: open-cover-of-flask|hold-flask|hold-cover|turn-cover|release-cover|lift-cover
+      - [227.05 - 227.45]: put-cover
+      - [227.6 - 227.9]: pick-up-second-cover
+
+
+Object: glass2 (ID: 053199e520c0f556)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 223.66715
+    Drop time: 224.22166
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: mug (ID: 4af1b1d04e17deff)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 221.71372
+    Drop time: 222.71715
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: kettle (ID: 885fa930de759506)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 208.94
+    Drop time: 218.07372
+    Action descriptions:
+      - [209.08 - 209.51]: pick-up-kettle|press-at-same-time|open-kettle-lid
+      - [210.66 - 211.03]: move-kettle
+      - [211.45 - 211.93]: position-kettle|open-tap|turn-right-handle
+      - [211.96 - 214.71]: fill-kettle
+      - [214.36 - 214.92]: close-tap
+      - [215.29 - 215.61]: close-lid-of-kettle
+
+
+  Time between last use and return (red):
+    Pick time: 268.781
+    Drop time: 271.96715
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 274.79215
+    Drop time: 285.99215
+    Action descriptions:
+      - [278.8 - 283.78]: pour-hot-water
+
+
+Object: bag of bagels (ID: ac266267bdee2863)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 199.70372
+    Drop time: 202.80372
+    Action descriptions:
+      - [199.79 - 200.24]: pick-up-plastic-bag
+      - [200.64 - 201.11]: fold-plastic-bag
+      - [202.08 - 202.36]: open-bread-box|slide-bread-box-door
+
+
+Object: notepad (ID: c6d57bd31af924bb)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 192.4031
+    Drop time: 196.64477
+    Action descriptions:
+      - [193.09 - 193.45]: tear-one-paper
+
+
+Object: glass (ID: 1e1e627cdef3b1f4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 185.043
+    Drop time: 191.98038
+    Action descriptions:
+      - [185.1 - 185.41]: pick-up-glass
+      - [185.91 - 190.95]: drink-water
+      - [186.98 - 189.55]: close-cupboard
+
+
+Object: water filter jug (ID: b1b8d0f845af0e69)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 180.34171
+    Drop time: 184.76143
+    Action descriptions:
+      - [180.45 - 181.06]: pick-up-water-filter-jug|hold-water-filter-jug
+      - [181.43 - 183.83]: pour-water
+      - [184.28 - 184.69]: put-down-water-filter-jug
+
+
+Object: plastic bag (ID: c9466433cb43fa2d)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 172.89406
+    Drop time: 175.57461
+    Action descriptions:
+      - [174.18 - 175.04]: close-cupboard
+
+
+  Time between last use and return (red):
+    Pick time: 291.655
+    Drop time: 319.00846
+    Action descriptions:
+      - [292.14 - 295.65]: open-tie|hold-sides|pull-tie
+      - [302.28 - 303.78]: scoop-sugar
+      - [302.64 - 307.22]: fill-scoop-spoon
+      - [307.32 - 308.12]: check-amount
+      - [308.22 - 314.31]: scoop-more
+      - [315.87 - 317.02]: pour-candy-floss-sugar
+      - [316.67 - 318.26]: shake-scoop-spoon
+
+
+  User return touch (blue):
+    Pick time: 320.57664
+    Drop time: 335.18495
+    Action descriptions:
+      - [320.63 - 322.08]: open-plastic-bag
+      - [322.58 - 324.24]: throw-scoop-spoon
+      - [324.67 - 332.42]: close-plastic-bag|tie-knot|hold-sides|establish-knot
+      - [332.67 - 333.65]: fold-plastic-bag
+      - [333.89 - 334.41]: open-cupboard
+
+
+Object: wooden stick (ID: 706d23768993e4c9)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 170.3385
+    Drop time: 171.78295
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 336.94331
+    Drop time: 512.98372
+    Action descriptions:
+      - [336.99 - 337.84000000000003]: pick-up-wooden-stick|hold-wooden-stick
+      - [345.45 - 346.31]: pick-up-knife
+      - [346.86 - 347.86]: open-dishwasher's-door|slide-dishwasher's-door
+      - [348.11 - 349.07]: open-cutlery-drawer-of-dishwasher|slide-cutlery-drawer-of-dishwasher
+      - [349.5 - 350.98]: put-down-knife
+      - [351.18 - 352.0]: close-cutlery-drawer-of-dishwasher|slide-cutlery-drawer-of-dishwasher
+      - [352.31 - 353.13]: close-dishwasher
+      - [402.27 - 404.03]: position-wooden-stick|move-wooden-stick|gather-candy-floss
+      - [404.05 - 503.83]: roll-wooden-stick|move-wooden-stick|gather-candy-floss
+      - [501.92 - 503.6]: switch-off-candy-floss-machine|press-button
+      - [506.11 - 508.8]: pull-strand-of-candy-floss
+      - [509.08 - 510.51]: eat-candy-floss
+
+
+Object: food processing bin (ID: ceacf569e9559dd2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 152.827
+    Drop time: 153.4211
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plug (ID: 0e6e6a0e27d713b4)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 150.859
+    Drop time: 152.44491
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: disk (ID: 8aae67747df26d12)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 135.686
+    Drop time: 143.11846
+    Action descriptions:
+      - [138.5 - 140.43]: put-down-candy-floss
+      - [141.22 - 141.87]: flip-disk|look-at-disk-base
+
+
+  User return touch (blue):
+    Pick time: 143.45
+    Drop time: 148.80839
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: candy floss machine (ID: 771ffcc774722447)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 133.80421
+    Drop time: 140.13538
+    Action descriptions:
+      - [135.39 - 136.05]: pick-up-disk-of-candy-floss-machine
+
+
+  Touch 2:
+    Pick time: 156.1711
+    Drop time: 158.683
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 158.921
+    Drop time: 159.67151
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 163.477
+    Drop time: 166.61628
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: second sponge (ID: a9ed77e8e0c896fc)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 110.628
+    Drop time: 122.30689
+    Action descriptions:
+      - [110.84 - 111.28]: open-dishwasher's-door
+      - [111.46 - 120.72]: place-left-hand|wipe-surface|discard-left-hand
+
+
+Object: pot3 (ID: e506804ec6e96883)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 94.90916
+    Drop time: 109.69082
+    Action descriptions:
+      - [94.95 - 96.36]: pick-up-another-soaked-pan|tilt-another-soaked-pan|pour-soaking-liquid|empty-another-soaked-pan
+      - [97.46 - 97.75]: pick-up-sponge
+      - [97.94 - 101.33]: lather-pan|move-sponge
+      - [101.48 - 101.73]: put-down-sponge
+      - [101.87 - 102.18]: open-tap
+      - [102.33 - 106.48]: rinse-pan
+      - [106.43 - 106.68]: turn-off-tap
+      - [106.5 - 107.14]: flip-pan|empty-any-remaining-water
+      - [107.94 - 109.27]: put-down-pan
+
+
+Object: strainer (ID: 41302bb5824a0f27)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 74.22108
+    Drop time: 81.81304
+    Action descriptions:
+      - [75.02 - 76.91]: lather-strainer|move-strainer
+      - [76.98 - 77.46000000000001]: put-down-sponge
+      - [77.56 - 77.99]: open-tap
+      - [78.06 - 80.39]: rinse-strainer|direct-water
+      - [80.53999999999999 - 80.88]: close-tap
+
+
+  User return touch (blue):
+    Pick time: 74.22108
+    Drop time: 81.81304
+    Action descriptions:
+      - [75.02 - 76.91]: lather-strainer|move-strainer
+      - [76.98 - 77.46000000000001]: put-down-sponge
+      - [77.56 - 77.99]: open-tap
+      - [78.06 - 80.39]: rinse-strainer|direct-water
+      - [80.53999999999999 - 80.88]: close-tap
+
+
+Object: bottle of washing up liquid (ID: adc726968328d1fa)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 70.23983
+    Drop time: 73.01163
+    Action descriptions:
+      - [70.27 - 70.74]: pick-up-bottle-of-washing-up-liquid
+      - [70.92 - 71.27]: flip-bottle-of-washing-up-liquid|position-bottle-of-washing-up-liquid|retrieve-some-of-washing-up-liquid
+      - [71.57 - 72.2]: pour-washing-up-liquid
+
+
+Object: sponge (ID: 41e14d735f1bad62)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 69.41483
+    Drop time: 77.32108
+    Action descriptions:
+      - [70.27 - 70.74]: pick-up-bottle-of-washing-up-liquid
+      - [70.92 - 71.27]: flip-bottle-of-washing-up-liquid|position-bottle-of-washing-up-liquid|retrieve-some-of-washing-up-liquid
+      - [71.57 - 72.2]: pour-washing-up-liquid
+      - [72.42 - 73.38]: put-down-washing-up-liquid-bottle
+      - [73.31 - 74.19]: squeeze-sponge
+      - [74.22 - 74.95]: pick-up-strainer
+      - [75.02 - 76.91]: lather-strainer|move-strainer
+
+
+  Time between last use and return (red):
+    Pick time: 83.28416
+    Drop time: 86.83884
+    Action descriptions:
+      - [83.66 - 86.52]: lather-pan|move-sponge
+
+
+  User return touch (blue):
+    Pick time: 97.54477
+    Drop time: 101.6031
+    Action descriptions:
+      - [97.94 - 101.33]: lather-pan|move-sponge
+
+
+Object: left glove (ID: f606e9a6184e55df)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 66.91483
+    Drop time: 130.09097
+    Action descriptions:
+      - [67.41 - 68.71000000000001]: slide-left-hand|wear-left-glove
+      - [69.3 - 69.7]: pick-up-sponge
+      - [70.27 - 70.74]: pick-up-bottle-of-washing-up-liquid
+      - [70.92 - 71.27]: flip-bottle-of-washing-up-liquid|position-bottle-of-washing-up-liquid|retrieve-some-of-washing-up-liquid
+      - [71.57 - 72.2]: pour-washing-up-liquid
+      - [72.42 - 73.38]: put-down-washing-up-liquid-bottle
+      - [73.31 - 74.19]: squeeze-sponge
+      - [74.22 - 74.95]: pick-up-strainer
+      - [75.02 - 76.91]: lather-strainer|move-strainer
+      - [76.98 - 77.46000000000001]: put-down-sponge
+      - [77.56 - 77.99]: open-tap
+      - [78.06 - 80.39]: rinse-strainer|direct-water
+      - [80.53999999999999 - 80.88]: close-tap
+      - [81.14 - 81.88]: put-strainer
+      - [82.31 - 82.87]: pick-up-pan
+      - [83.23 - 83.56]: pick-up-sponge
+      - [83.66 - 86.52]: lather-pan|move-sponge
+      - [86.53 - 86.87]: put-down-sponge
+      - [87.31 - 87.57]: open-tap
+      - [87.64 - 92.48]: rinse-pan
+      - [92.36 - 92.66]: close-tap
+      - [92.7 - 92.95]: empty-pan|turn-pan
+      - [93.72 - 95.3]: put-pan
+      - [94.95 - 96.36]: pick-up-another-soaked-pan|tilt-another-soaked-pan|pour-soaking-liquid|empty-another-soaked-pan
+      - [97.46 - 97.75]: pick-up-sponge
+      - [97.94 - 101.33]: lather-pan|move-sponge
+      - [101.48 - 101.73]: put-down-sponge
+      - [101.87 - 102.18]: open-tap
+      - [102.33 - 106.48]: rinse-pan
+      - [106.43 - 106.68]: turn-off-tap
+      - [106.5 - 107.14]: flip-pan|empty-any-remaining-water
+      - [107.94 - 109.27]: put-down-pan
+      - [110.84 - 111.28]: open-dishwasher's-door
+      - [111.46 - 120.72]: place-left-hand|wipe-surface|discard-left-hand
+      - [122.06 - 122.41]: put-down-second-sponge
+      - [123.04 - 123.66]: open-lid-of-food-waste-bin
+      - [124.01 - 124.8]: brush-left-hand|remove-any-crumbs
+      - [125.04 - 125.44]: close-food-waste-bin
+      - [126.04 - 126.64]: open-tap
+      - [126.68 - 127.16]: rinse-glove|scrub-both-hands
+      - [127.29 - 127.69]: close-tap
+      - [128.89 - 129.44]: remove-right-glove
+      - [129.7 - 130.03]: place-gloves
+
+
+Object: right glove (ID: fb98ceef3538db60)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 64.80233
+    Drop time: 129.57475
+    Action descriptions:
+      - [65.33 - 66.69]: slide-right-hand|wear-right-hand
+      - [66.79 - 67.39]: hold-left-glove|wear-glove
+      - [67.41 - 68.71000000000001]: slide-left-hand|wear-left-glove
+      - [69.3 - 69.7]: pick-up-sponge
+      - [70.27 - 70.74]: pick-up-bottle-of-washing-up-liquid
+      - [70.92 - 71.27]: flip-bottle-of-washing-up-liquid|position-bottle-of-washing-up-liquid|retrieve-some-of-washing-up-liquid
+      - [71.57 - 72.2]: pour-washing-up-liquid
+      - [72.42 - 73.38]: put-down-washing-up-liquid-bottle
+      - [73.31 - 74.19]: squeeze-sponge
+      - [74.22 - 74.95]: pick-up-strainer
+      - [75.02 - 76.91]: lather-strainer|move-strainer
+      - [76.98 - 77.46000000000001]: put-down-sponge
+      - [77.56 - 77.99]: open-tap
+      - [78.06 - 80.39]: rinse-strainer|direct-water
+      - [80.53999999999999 - 80.88]: close-tap
+      - [81.14 - 81.88]: put-strainer
+      - [82.31 - 82.87]: pick-up-pan
+      - [83.23 - 83.56]: pick-up-sponge
+      - [83.66 - 86.52]: lather-pan|move-sponge
+      - [86.53 - 86.87]: put-down-sponge
+      - [87.31 - 87.57]: open-tap
+      - [87.64 - 92.48]: rinse-pan
+      - [92.36 - 92.66]: close-tap
+      - [92.7 - 92.95]: empty-pan|turn-pan
+      - [93.72 - 95.3]: put-pan
+      - [94.95 - 96.36]: pick-up-another-soaked-pan|tilt-another-soaked-pan|pour-soaking-liquid|empty-another-soaked-pan
+      - [97.46 - 97.75]: pick-up-sponge
+      - [97.94 - 101.33]: lather-pan|move-sponge
+      - [101.48 - 101.73]: put-down-sponge
+      - [101.87 - 102.18]: open-tap
+      - [102.33 - 106.48]: rinse-pan
+      - [106.43 - 106.68]: turn-off-tap
+      - [106.5 - 107.14]: flip-pan|empty-any-remaining-water
+      - [107.94 - 109.27]: put-down-pan
+      - [110.84 - 111.28]: open-dishwasher's-door
+      - [111.46 - 120.72]: place-left-hand|wipe-surface|discard-left-hand
+      - [122.06 - 122.41]: put-down-second-sponge
+      - [123.04 - 123.66]: open-lid-of-food-waste-bin
+      - [124.01 - 124.8]: brush-left-hand|remove-any-crumbs
+      - [125.04 - 125.44]: close-food-waste-bin
+      - [126.04 - 126.64]: open-tap
+      - [126.68 - 127.16]: rinse-glove|scrub-both-hands
+      - [127.29 - 127.69]: close-tap
+      - [128.89 - 129.44]: remove-right-glove
+
+
+  User return touch (blue):
+    Pick time: 177.839
+    Drop time: 178.1997
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: pot (ID: 8eb9783d5ebd751a)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 61.92733
+    Drop time: 64.52108
+    Action descriptions:
+      - [62.01 - 62.64]: pick-up-pan
+
+
+  User return touch (blue):
+    Pick time: 82.41697
+    Drop time: 95.35447
+    Action descriptions:
+      - [83.23 - 83.56]: pick-up-sponge
+      - [83.66 - 86.52]: lather-pan|move-sponge
+      - [86.53 - 86.87]: put-down-sponge
+      - [87.31 - 87.57]: open-tap
+      - [87.64 - 92.48]: rinse-pan
+      - [92.36 - 92.66]: close-tap
+      - [92.7 - 92.95]: empty-pan|turn-pan
+      - [93.72 - 95.3]: put-pan
+
+
+Object: knife (ID: 2c3afc468fb10cb2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 56.58358
+    Drop time: 59.27108
+    Action descriptions:
+      - [56.94 - 57.59]: close-dishwasher's-drawer|push-left-hand
+      - [58.14 - 58.84]: open-cutlery-drawer|pull-left-hand
+
+
+Object: container (ID: e511e9a22559c0d2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 53.008
+    Drop time: 55.88032
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plate2 (ID: 9e93691684fa34a2)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 42.01446
+    Drop time: 56.05105
+    Action descriptions:
+      - [44.07 - 44.46]: pass-plate|open-tap
+      - [45.01 - 45.71]: rinse-first-plate
+      - [45.84 - 49.6]: rinse-second-plate
+      - [49.22 - 49.7]: close-tap
+      - [51.21 - 52.13]: open-dishwasher-door|pull-dishwasher-door
+      - [52.19 - 53.44]: slide-drawer-of-dishwasher|open-drawer-of-dishwasher
+
+
+Object: empty pot (ID: e61cc9d1001e6807)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 32.49007
+    Drop time: 38.4169
+    Action descriptions:
+      - [32.65 - 33.39]: pick-up-empty-pan
+      - [34.86 - 35.2]: open-tap
+      - [35.21 - 37.26]: soak-pan|add-water
+
+
+Object: plate (ID: 9a8f738729f20c04)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 24.64333
+    Drop time: 26.57217
+    Action descriptions:
+      - [24.84 - 25.67]: pick-up-empty-plate
+
+
+  User return touch (blue):
+    Pick time: 42.19129
+    Drop time: 55.94739
+    Action descriptions:
+      - [44.07 - 44.46]: pass-plate|open-tap
+      - [45.01 - 45.71]: rinse-first-plate
+      - [45.84 - 49.6]: rinse-second-plate
+      - [49.22 - 49.7]: close-tap
+      - [51.21 - 52.13]: open-dishwasher-door|pull-dishwasher-door
+      - [52.19 - 53.44]: slide-drawer-of-dishwasher|open-drawer-of-dishwasher
+
+
+Object: ladle (ID: 3f22f687f702f00a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 24.32811
+    Drop time: 30.39751
+    Action descriptions:
+      - [24.44 - 25.19]: pick-up-ladle
+      - [24.84 - 25.67]: pick-up-empty-plate
+      - [26.23 - 26.91]: put-down-plate
+      - [27.31 - 28.12]: position-ladle|pass-ladle|rinse-ladle
+      - [27.59 - 28.58]: open-tap
+      - [28.04 - 29.23]: rinse-ladle
+      - [29.22 - 29.94]: close-tap
+
+
+Object: scale (ID: d6036d36b016b549)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 15.886
+    Drop time: 22.59097
+    Action descriptions:
+      - [17.89 - 19.69]: brush-hand|clear-any-remaining-food-parts
+
+
+Object: bowl (ID: 529e99d14e2ebc44)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 5.79685
+    Drop time: 10.20862
+    Action descriptions:
+      - [8.76 - 9.84]: put-down-plate
+
+
+Object: tissue (ID: 7af41a37f4989671)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 3.691
+    Drop time: 4.96608
+    Action descriptions:
+      - [4.49 - 4.74]: open-lid-of-trash-bin|flip-lid-of-trash-bin
+
+

@@ -1,0 +1,249 @@
+Video ID: P01-20240203-152956
+================================================================================
+
+Object: foil2 (ID: bb44361e219f3117)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 164.65196
+    Drop time: 173.15742
+    Action descriptions:
+      - [164.75 - 167.3]: fold-edges-of-foil|pick-up-plate
+      - [166.95 - 172.1]: tuck-edges-of-foil|hold-plate
+
+
+  Time between last use and return (red):
+    Pick time: 173.47473
+    Drop time: 173.81926
+    Action descriptions:
+      (No action descriptions found)
+
+
+  User return touch (blue):
+    Pick time: 173.993
+    Drop time: 174.36274
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: unrolled foil (ID: cf1d912cff6dee38)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 143.40196
+    Drop time: 153.19741
+    Action descriptions:
+      - [145.49 - 146.62]: put-foil-paper|protect-heat
+      - [146.54 - 148.8]: fold-foil|pick-up-foil
+
+
+  Time between last use and return (red):
+    Pick time: 146.79215
+    Drop time: 153.20877
+    Action descriptions:
+      - [150.59 - 153.2]: put-plate|fold-plate
+
+
+  User return touch (blue):
+    Pick time: 153.492
+    Drop time: 156.09215
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: foil wrap (ID: 2235546dde63c803)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 138.44741
+    Drop time: 143.60935
+    Action descriptions:
+      - [138.53 - 139.63]: pick-up-foil-wrap|place-box
+      - [139.66 - 141.67000000000002]: unroll-foil|pull-foil
+
+
+  User return touch (blue):
+    Pick time: 156.92965
+    Drop time: 162.02342
+    Action descriptions:
+      - [160.41 - 161.19]: tear-additional-unrolled-foil-paper|hold-edge
+
+
+Object: box of foil wrap (ID: bc24aa33519b5a40)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 135.00423
+    Drop time: 138.91332
+    Action descriptions:
+      - [137.06 - 138.0]: open-box-of-foil-wrap|unfold-box-of-foil-wrap-cover
+
+
+Object: pie2 (ID: 7c0e8b08f01b540a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 89.54014
+    Drop time: 90.13538
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plate2 (ID: 2ba459bb82d1644b)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 57.37348
+    Drop time: 58.36157
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plate (ID: 93b520de4380b9e1)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 54.69491
+    Drop time: 59.63372
+    Action descriptions:
+      - [55.0 - 55.73]: close-cupboard
+      - [56.31 - 56.87]: pick-up-plastic-spoon
+      - [56.97 - 58.38]: move-plate|empty-space|place-other-plate
+
+
+  User return touch (blue):
+    Pick time: 92.19767
+    Drop time: 122.21092
+    Action descriptions:
+      - [92.2 - 92.91]: pick-up-plate|position-plate|slide-pies
+      - [100.56 - 101.53]: separate-two-pies|place-spoon|push-one
+      - [102.5 - 103.79]: pick-up-one-pie
+      - [103.89 - 104.6]: place-pie|pile-pie
+      - [104.74 - 106.77]: pick-up-another-pie
+      - [106.84 - 107.66]: place-pie
+      - [107.84 - 110.96]: pick-up-another-pie
+      - [111.14 - 111.64]: separate-two-pies|place-spoon|break-edge
+      - [113.19 - 113.89]: pick-up-one-pie
+      - [116.14 - 116.69]: push-pies
+      - [116.57 - 117.4]: place-pie
+      - [117.77 - 119.24]: pick-up-last-pie
+      - [119.3 - 120.28]: place-pie|pile-pie
+      - [120.98 - 122.14]: put-down-plate
+
+
+Object: fork (ID: 96935f2c226f655a)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 33.57372
+    Drop time: 50.79014
+    Action descriptions:
+      - [34.23 - 46.77]: pick-another-pie|place-plastic-spoon|place-fork|slide-plastic-spoon|slide-fork|pull-pie|break-pie
+      - [47.32 - 48.61]: put-pie|pile-pie
+      - [48.58 - 49.79]: put-down-plastic-spoon
+
+
+Object: pie (ID: 3faff8c98a7e48be)
+--------------------------------------------------------------------------------
+
+  User return touch (blue):
+    Pick time: 27.58394
+    Drop time: 28.1711
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: plastic spoon (ID: 85e1cf228aa07339)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 21.695
+    Drop time: 49.37043
+    Action descriptions:
+      - [21.89 - 22.68]: pick-up-plastic-spoon
+      - [22.69 - 28.11]: pick-up-one-meat-pie|slide-spoon|pull-up-pie|break-pie
+      - [28.47 - 29.46]: put-pie|pile-pie
+      - [29.93 - 33.25]: pick-another-pie
+      - [33.36 - 34.13]: pick-up-fork
+      - [34.23 - 46.77]: pick-another-pie|place-plastic-spoon|place-fork|slide-plastic-spoon|slide-fork|pull-pie|break-pie
+      - [47.32 - 48.61]: put-pie|pile-pie
+
+
+  User return touch (blue):
+    Pick time: 56.39729
+    Drop time: 124.32241
+    Action descriptions:
+      - [56.97 - 58.38]: move-plate|empty-space|place-other-plate
+      - [60.56 - 66.72]: pick-up-two-pies|support-pies|pick-up-of-them
+      - [67.48 - 67.92]: place-pies
+      - [68.28999999999999 - 78.02]: slide-spoon
+      - [76.42 - 86.49]: separate-two-pies|move-two-pies
+      - [89.87 - 91.56]: pick-up-two-pies|support-two-pies
+      - [92.2 - 92.91]: pick-up-plate|position-plate|slide-pies
+      - [100.56 - 101.53]: separate-two-pies|place-spoon|push-one
+      - [102.5 - 103.79]: pick-up-one-pie
+      - [103.89 - 104.6]: place-pie|pile-pie
+      - [104.74 - 106.77]: pick-up-another-pie
+      - [106.84 - 107.66]: place-pie
+      - [107.84 - 110.96]: pick-up-another-pie
+      - [111.14 - 111.64]: separate-two-pies|place-spoon|break-edge
+      - [113.19 - 113.89]: pick-up-one-pie
+      - [116.14 - 116.69]: push-pies
+      - [116.57 - 117.4]: place-pie
+      - [117.77 - 119.24]: pick-up-last-pie
+      - [119.3 - 120.28]: place-pie|pile-pie
+      - [120.98 - 122.14]: put-down-plate
+      - [123.2 - 124.05]: pick-up-oven-glove
+
+
+Object: tray (ID: b425dac2854a391a)
+--------------------------------------------------------------------------------
+
+  Touch 1:
+    Pick time: 13.046
+    Drop time: 14.70179
+    Action descriptions:
+      (No action descriptions found)
+
+
+  Time between last use and return (red):
+    Pick time: 15.476
+    Drop time: 19.38538
+    Action descriptions:
+      - [17.41 - 18.64]: close-oven's-door
+
+
+  User return touch (blue):
+    Pick time: 126.7655
+    Drop time: 129.47384
+    Action descriptions:
+      (No action descriptions found)
+
+
+Object: oven glove (ID: bbc50cb48f983958)
+--------------------------------------------------------------------------------
+
+  Time between last use and return (red):
+    Pick time: 4.612
+    Drop time: 21.39482
+    Action descriptions:
+      - [5.39 - 6.59]: wear-oven-glove
+      - [7.38 - 8.43]: open-oven's-door|hold-handrail
+      - [8.51 - 11.63]: flap-air|move-steam
+      - [14.12 - 17.31]: pick-up-tray|slide-oven-glove
+      - [17.41 - 18.64]: close-oven's-door
+      - [17.98 - 19.58]: put-tray
+      - [20.23 - 21.01]: take-off-oven's-glove
+
+
+  User return touch (blue):
+    Pick time: 123.46494
+    Drop time: 132.20877
+    Action descriptions:
+      - [124.17 - 124.9]: put-plastic-spoon
+      - [124.97 - 126.31]: wear-oven-glove
+      - [126.68 - 127.62]: pick-up-tray
+      - [129.07 - 130.44]: put-tray|pile-tray
+      - [130.59 - 131.96]: take-off-oven-glove
+
+

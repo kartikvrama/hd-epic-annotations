@@ -1,0 +1,338 @@
+{
+  "P01-20240203-152956": [
+    {
+      "object_name": "plastic spoon",
+      "association_id": "85e1cf228aa07339",
+      "pre_lastTrace_start": 49.37043,
+      "pre_lastTrace_end": 56.39729,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 56.39729,
+      "lastTrace_end": 124.32241,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 124.32241,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "tray",
+      "association_id": "b425dac2854a391a",
+      "pre_lastTrace_start": 19.38538,
+      "pre_lastTrace_end": 126.7655,
+      "pre_lastTrace_label": "inuse",
+      "lastTrace_start": 126.7655,
+      "lastTrace_end": 129.47384,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 129.47384,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "oven glove",
+      "association_id": "bbc50cb48f983958",
+      "pre_lastTrace_start": 21.39482,
+      "pre_lastTrace_end": 123.46494,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 123.46494,
+      "lastTrace_end": 132.20877,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 132.20877,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "plate",
+      "association_id": "93b520de4380b9e1",
+      "pre_lastTrace_start": 59.63372,
+      "pre_lastTrace_end": 92.19767,
+      "pre_lastTrace_label": "inuse",
+      "lastTrace_start": 92.19767,
+      "lastTrace_end": 122.21092,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 122.21092,
+      "after_lastTrace_label": "inuse"
+    },
+    {
+      "object_name": "foil2",
+      "association_id": "bb44361e219f3117",
+      "skip": true
+    },
+    {
+      "object_name": "unrolled foil",
+      "association_id": "cf1d912cff6dee38",
+      "skip": true
+    },
+    {
+      "object_name": "foil wrap",
+      "association_id": "2235546dde63c803",
+      "skip": true
+    },
+    {
+      "object_name": "box of foil wrap",
+      "association_id": "bc24aa33519b5a40",
+      "skip": true
+    },
+    {
+      "object_name": "pie2",
+      "association_id": "7c0e8b08f01b540a",
+      "skip": true
+    },
+    {
+      "object_name": "plate2",
+      "association_id": "2ba459bb82d1644b",
+      "skip": true
+    },
+    {
+      "object_name": "fork",
+      "association_id": "96935f2c226f655a",
+      "skip": true
+    },
+    {
+      "object_name": "pie",
+      "association_id": "3faff8c98a7e48be",
+      "skip": true
+    }
+  ],
+  "P01-20240202-171220": [
+    {
+      "object_name": "second cover",
+      "association_id": "9471a44d2c431bb8",
+      "skip": true
+    },
+    {
+      "object_name": "kettle",
+      "association_id": "885fa930de759506",
+      "pre_lastTrace_start": 271.96715,
+      "pre_lastTrace_end": 274.79215,
+      "pre_lastTrace_label": "inuse",
+      "lastTrace_start": 274.79215,
+      "lastTrace_end": 285.99215,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 285.99215,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "plastic bag",
+      "association_id": "c9466433cb43fa2d",
+      "pre_lastTrace_start": 319.00846,
+      "pre_lastTrace_end": 320.57664,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 320.57664,
+      "lastTrace_end": 335.18495,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 335.18495,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "wooden stick",
+      "association_id": "706d23768993e4c9",
+      "skip": true
+    },
+    {
+      "object_name": "disk",
+      "association_id": "8aae67747df26d12",
+      "skip": true
+    },
+    {
+      "object_name": "candy floss machine",
+      "association_id": "771ffcc774722447",
+      "pre_lastTrace_start": 159.67151,
+      "pre_lastTrace_end": 163.477,
+      "pre_lastTrace_label": "inuse",
+      "lastTrace_start": 163.477,
+      "lastTrace_end": 166.61628,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 166.61628,
+      "after_lastTrace_label": "inuse"
+    },
+    {
+      "object_name": "knife2",
+      "association_id": "067f49caca9d1aff",
+      "skip": true
+    },
+    {
+      "object_name": "plastic spoon",
+      "association_id": "06f797d4571f2b86",
+      "skip": true
+    },
+    {
+      "object_name": "strainer2",
+      "association_id": "145af72efec29ee7",
+      "skip": true
+    },
+    {
+      "object_name": "mug2",
+      "association_id": "878f03d7b38887ac",
+      "skip": true
+    },
+    {
+      "object_name": "container's cover",
+      "association_id": "0749a379142903b2",
+      "skip": true
+    },
+    {
+      "object_name": "small gold color container",
+      "association_id": "a060d880e6450095",
+      "skip": true
+    },
+    {
+      "object_name": "cover of flask",
+      "association_id": "851a735d1af406e2",
+      "skip": true
+    },
+    {
+      "object_name": "flask",
+      "association_id": "9fb1d013fbbfb9ed",
+      "skip": true
+    },
+    {
+      "object_name": "glass2",
+      "association_id": "053199e520c0f556",
+      "skip": true
+    },
+    {
+      "object_name": "mug",
+      "association_id": "4af1b1d04e17deff",
+      "skip": true
+    },
+    {
+      "object_name": "bag of bagels",
+      "association_id": "ac266267bdee2863",
+      "skip": true
+    },
+    {
+      "object_name": "notepad",
+      "association_id": "c6d57bd31af924bb",
+      "skip": true
+    },
+    {
+      "object_name": "glass",
+      "association_id": "1e1e627cdef3b1f4",
+      "skip": true
+    },
+    {
+      "object_name": "water filter jug",
+      "association_id": "b1b8d0f845af0e69",
+      "skip": true
+    },
+    {
+      "object_name": "food processing bin",
+      "association_id": "ceacf569e9559dd2",
+      "skip": true
+    },
+    {
+      "object_name": "plug",
+      "association_id": "0e6e6a0e27d713b4",
+      "skip": true
+    },
+    {
+      "object_name": "second sponge",
+      "association_id": "a9ed77e8e0c896fc",
+      "skip": true
+    },
+    {
+      "object_name": "pot3",
+      "association_id": "e506804ec6e96883",
+      "skip": true
+    },
+    {
+      "object_name": "strainer",
+      "association_id": "41302bb5824a0f27",
+      "skip": true
+    },
+    {
+      "object_name": "bottle of washing up liquid",
+      "association_id": "adc726968328d1fa",
+      "skip": true
+    },
+    {
+      "object_name": "sponge",
+      "association_id": "41e14d735f1bad62",
+      "pre_lastTrace_start": 86.83884,
+      "pre_lastTrace_end": 97.54477,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 97.54477,
+      "lastTrace_end": 101.6031,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 101.6031,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "left glove",
+      "association_id": "f606e9a6184e55df",
+      "skip": true
+    },
+    {
+      "object_name": "right glove",
+      "association_id": "fb98ceef3538db60",
+      "pre_lastTrace_start": 129.57475,
+      "pre_lastTrace_end": 177.839,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 177.839,
+      "lastTrace_end": 178.1997,
+      "lastTrace_label": "idle",
+      "after_lastTrace_start": 178.1997,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "pot",
+      "association_id": "8eb9783d5ebd751a",
+      "pre_lastTrace_start": 64.52108,
+      "pre_lastTrace_end": 82.41697,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 82.41697,
+      "lastTrace_end": 95.35447,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 95.35447,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "knife",
+      "association_id": "2c3afc468fb10cb2",
+      "skip": true
+    },
+    {
+      "object_name": "container",
+      "association_id": "e511e9a22559c0d2",
+      "skip": true
+    },
+    {
+      "object_name": "plate2",
+      "association_id": "9e93691684fa34a2",
+      "skip": true
+    },
+    {
+      "object_name": "empty pot",
+      "association_id": "e61cc9d1001e6807",
+      "skip": true
+    },
+    {
+      "object_name": "plate",
+      "association_id": "9a8f738729f20c04",
+      "pre_lastTrace_start": 26.57217,
+      "pre_lastTrace_end": 42.19129,
+      "pre_lastTrace_label": "idle",
+      "lastTrace_start": 42.19129,
+      "lastTrace_end": 55.94739,
+      "lastTrace_label": "inuse",
+      "after_lastTrace_start": 55.94739,
+      "after_lastTrace_label": "idle"
+    },
+    {
+      "object_name": "ladle",
+      "association_id": "3f22f687f702f00a",
+      "skip": true
+    },
+    {
+      "object_name": "scale",
+      "association_id": "d6036d36b016b549",
+      "skip": true
+    },
+    {
+      "object_name": "bowl",
+      "association_id": "529e99d14e2ebc44",
+      "skip": true
+    },
+    {
+      "object_name": "tissue",
+      "association_id": "7af41a37f4989671",
+      "skip": true
+    }
+  ]
+}
