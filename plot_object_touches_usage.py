@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 from utils import extract_touches_from_track
 
+BAR_WIDTH = 0.2
 
 def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_position, label_dict, video_end_time=None):
     """Plot object movement with labeled periods."""
-    print("lets get them touches")
     touch_points = extract_touches_from_track(track_sequence)
     
     if len(touch_points) < 2:
@@ -24,9 +24,20 @@ def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_positi
     
     # Plot main track line (light gray background)
     if plot_points:
-        ax.plot(plot_points, [y_position] * len(plot_points), "-", color="black", linewidth=1, alpha=0.2)
-        ax.plot(plot_x, [y_position] * len(plot_x), "x", color="gray", markersize=4, alpha=0.5)
-        ax.plot(plot_o, [y_position] * len(plot_o), "o", color="gray", markersize=4, alpha=0.5)
+        if len(plot_o) >= 2:
+            fill_end = plot_o[-2]
+            ax.fill_betweenx(
+                [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
+                plot_points[0],
+                fill_end,
+                color="red",
+                alpha=0.3,
+                zorder=0,
+                linewidth=0  # removes border
+            )
+        ax.plot(plot_points, [y_position] * len(plot_points), "-", color="black", linewidth=3, alpha=0.2)
+        ax.plot(plot_x, [y_position] * len(plot_x), "x", color="gray", markersize=10, alpha=0.8)
+        ax.plot(plot_o, [y_position] * len(plot_o), "x", color="gray", markersize=10, alpha=0.8)
     
     # Find the last touch (last pick and drop)
     if touch_points:
@@ -50,7 +61,6 @@ def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_positi
         )
         ax.add_patch(rect)
     
-    print("basic touches plotted")
     ## Label dictionary structure    
     # {
     #   "object_name": "plastic spoon",
@@ -65,15 +75,15 @@ def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_positi
     #   "after_lastTrace_label": "idle"
     # },
 
+    if video_end_time is None:
+        video_end_time = max(plot_o) if plot_o else label_dict.get("after_lastTrace_start", 0) + 100
 
     # import pdb; pdb.set_trace()
     # Plot shaded bars for usage periods
     if label_dict and not label_dict.get("skip", False):
         # Determine video end time (use provided or max from all drops)
-        if video_end_time is None:
-            video_end_time = max(plot_o) if plot_o else label_dict.get("after_lastTrace_start", 0) + 100
 
-        # ax.axhspan(y_position - 0.2, y_position + 0.2, xmin=0, xmax=video_end_time, 
+        # ax.axhspan(y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2, xmin=0, xmax=video_end_time, 
         #               color="blue", alpha=0.8, zorder=0)
 
         # Pre-lastTrace period
@@ -83,8 +93,8 @@ def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_positi
             label = label_dict.get("pre_lastTrace_label")
             color = "red" if label == "inuse" else "blue"
             print(f"plotting pre_lastTrace from {start} to {end} with color {color}")
-            ax.axhspan(y_position - 0.2, y_position + 0.2, xmin=int(start), xmax=int(end), 
-                      color=color, alpha=0.4, zorder=0)
+            ax.fill_betweenx([y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2], start, end,
+                            color=color, alpha=0.3, zorder=0, linewidth=0)
         
         # LastTrace period
         if "lastTrace_start" in label_dict and "lastTrace_end" in label_dict:
@@ -93,18 +103,18 @@ def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_positi
             label = label_dict.get("lastTrace_label")
             color = "red" if label == "inuse" else "blue"
             print(f"plotting lastTrace from {start} to {end} with color {color}")
-            ax.axhspan(y_position - 0.2, y_position + 0.2, xmin=int(start), xmax=int(end), 
-                      color=color, alpha=0.4, zorder=0)
+            ax.fill_betweenx([y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2], start, end,
+                            color=color, alpha=0.3, zorder=0, linewidth=0)
         
         # After-lastTrace period
         if "after_lastTrace_start" in label_dict:
             start = label_dict["after_lastTrace_start"]
             end = video_end_time
             label = label_dict.get("after_lastTrace_label")
-            color = "red" if label == "inuse" else "blue"
-            print(f"plotting after_lastTrace from {start} to {end} with color {color}")
-            ax.axhspan(y_position - 0.2, y_position + 0.2, xmin=int(start), xmax=int(end), 
-                      color=color, alpha=0.4, zorder=0)
+            if label == "inuse":
+                print(f"plotting after_lastTrace from {start} to {end} with color red")
+                ax.fill_betweenx([y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2], start, end,
+                                color="red", alpha=0.3, zorder=0, linewidth=0)
     print("--------------------------------")
 
 def main():
@@ -152,7 +162,6 @@ def main():
         num_objects = len(non_skipped_labels)
         
         fig, ax = plt.subplots(figsize=(15, max(5, num_objects * 0.5)))
-        ax.set_xlabel("Time (seconds)")
         ax.set_ylabel("Object")
         ax.set_title(f"Object Usage Labels - {video_id}")
         
@@ -174,7 +183,7 @@ def main():
             y_pos = object_idx
             plot_object_with_labels(track_sequence, object_name, object_id, ax, y_pos, label_dict, video_end_time)
             y_positions.append(y_pos)
-            y_labels.append(f"{object_name}\n({object_id[:8]}...)")
+            y_labels.append(f"{object_name}")
             object_idx += 1
         
         # Set y-axis ticks and labels
@@ -184,6 +193,15 @@ def main():
         
         # Set x-axis limits
         ax.set_xlim(0, video_end_time)
+
+        # Change xtick labels to minutes:seconds
+        def seconds_to_min_sec(x, pos=None):
+            minutes = int(x // 60)
+            seconds = int(x % 60)
+            return f"{minutes}:{seconds:02d}"
+
+        ax.xaxis.set_major_formatter(plt.FuncFormatter(seconds_to_min_sec))
+        ax.set_xlabel("Time (minutes:seconds)")
         
         # Add legend
         legend_elements = [
