@@ -24,7 +24,7 @@ from utils import extract_touches_from_track, retrieve_action_descriptions
 #   }
 # }
 
-LABELS = ["idle", "inuse", "other"]
+LABELS = ["idle", "inuse"]
 
 
 
