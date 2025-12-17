@@ -6,7 +6,7 @@ from utils import extract_touches_from_track
 
 BAR_WIDTH = 0.2
 
-def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_position, label_dict, video_end_time=None):
+def plot_object_with_labels(track_sequence, ax, y_position, label_dict, video_end_time=None):
     """Plot object movement with labeled periods."""
     touch_points = extract_touches_from_track(track_sequence)
     
@@ -79,12 +79,11 @@ def plot_object_with_labels(track_sequence, object_name, object_id, ax, y_positi
         video_end_time = max(plot_o) if plot_o else label_dict.get("after_lastTrace_start", 0) + 100
 
     # import pdb; pdb.set_trace()
-    # Plot shaded bars for usage periods
-    if label_dict and not label_dict.get("skip", False):
+    ## Plot shaded bars for usage periods
+    if label_dict:
+        if label_dict.get("skip", False):
+            return
         # Determine video end time (use provided or max from all drops)
-
-        # ax.axhspan(y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2, xmin=0, xmax=video_end_time, 
-        #               color="blue", alpha=0.8, zorder=0)
 
         # Pre-lastTrace period
         if "pre_lastTrace_start" in label_dict and "pre_lastTrace_end" in label_dict:
@@ -157,7 +156,7 @@ def main():
         # Add a small buffer
         video_end_time += 10
 
-        # Filter out skipped objects for plotting
+        ## Filter out skipped objects for plotting
         non_skipped_labels = [l for l in video_labels if not l.get("skip", False)]
         num_objects = len(non_skipped_labels)
         
@@ -180,8 +179,9 @@ def main():
                 print(f"  Warning: Object ID {object_id} not found in association data")
                 continue
             track_sequence = data_assoc[video_id][object_id]['tracks']
+            # print(f"Track sequence: {track_sequence}")
             y_pos = object_idx
-            plot_object_with_labels(track_sequence, object_name, object_id, ax, y_pos, label_dict, video_end_time)
+            plot_object_with_labels(track_sequence, ax, y_pos, label_dict, video_end_time)
             y_positions.append(y_pos)
             y_labels.append(f"{object_name}")
             object_idx += 1

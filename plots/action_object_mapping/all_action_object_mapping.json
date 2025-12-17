@@ -1,0 +1,3005 @@
+{
+  "P01-20240202-171220": [
+    {
+      "unique_narration_id": "P01-20240202-171220-1",
+      "start": 3.55,
+      "end": 4.01,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "tissue",
+        "plate",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-2",
+      "start": 4.49,
+      "end": 4.74,
+      "objects_used": [],
+      "nouns": [
+        "lid of trash bin"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-3",
+      "start": 4.79,
+      "end": 5.19,
+      "objects_used": [],
+      "nouns": [
+        "tissue",
+        "trash bin"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-4",
+      "start": 5.19,
+      "end": 5.54,
+      "objects_used": [],
+      "nouns": [
+        "trash bin"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-5",
+      "start": 5.79,
+      "end": 6.09,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "fork",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-6",
+      "start": 8.76,
+      "end": 9.84,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "fork",
+        "sink",
+        "nozzle of tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-7",
+      "start": 10.36,
+      "end": 10.76,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "tap",
+        "right handle",
+        "water",
+        "plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-8",
+      "start": 11.8,
+      "end": 14.55,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-9",
+      "start": 15.8,
+      "end": 16.88,
+      "objects_used": [],
+      "nouns": [
+        "scale",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-10",
+      "start": 17.89,
+      "end": 19.69,
+      "objects_used": [],
+      "nouns": [
+        "top of sink",
+        "face of scale",
+        "any remaining food parts"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-11",
+      "start": 21.71,
+      "end": 22.78,
+      "objects_used": [],
+      "nouns": [
+        "scale",
+        "top of microwave",
+        "shelf"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-12",
+      "start": 24.44,
+      "end": 25.19,
+      "objects_used": [
+        "ladle"
+      ],
+      "nouns": [
+        "ladle",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-13",
+      "start": 24.84,
+      "end": 25.67,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "empty plate",
+        "countertop",
+        "hob"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-14",
+      "start": 26.23,
+      "end": 26.91,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "counter top",
+        "left"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-15",
+      "start": 27.31,
+      "end": 28.12,
+      "objects_used": [
+        "ladle"
+      ],
+      "nouns": [
+        "ladle",
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-16",
+      "start": 27.59,
+      "end": 28.58,
+      "objects_used": [],
+      "nouns": [
+        "tap",
+        "right handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-17",
+      "start": 28.04,
+      "end": 29.23,
+      "objects_used": [
+        "ladle"
+      ],
+      "nouns": [
+        "ladle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-18",
+      "start": 29.22,
+      "end": 29.94,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-19",
+      "start": 29.65,
+      "end": 30.72,
+      "objects_used": [
+        "ladle"
+      ],
+      "nouns": [
+        "ladle",
+        "drainer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-20",
+      "start": 32.65,
+      "end": 33.39,
+      "objects_used": [],
+      "nouns": [
+        "empty pan",
+        "spatula",
+        "hob"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-21",
+      "start": 34.86,
+      "end": 35.2,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-22",
+      "start": 35.21,
+      "end": 37.26,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "water"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-23",
+      "start": 37.07,
+      "end": 38.52,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "sink",
+        "water"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-24",
+      "start": 38.77,
+      "end": 39.1,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-25",
+      "start": 41.94,
+      "end": 42.74,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "one empty plate",
+        "another empty plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-26",
+      "start": 44.07,
+      "end": 44.46,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-27",
+      "start": 45.01,
+      "end": 45.71,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "first plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-28",
+      "start": 45.84,
+      "end": 49.6,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "second plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-29",
+      "start": 49.22,
+      "end": 49.7,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-30",
+      "start": 51.21,
+      "end": 52.13,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher door",
+        "outwards"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-31",
+      "start": 52.19,
+      "end": 53.44,
+      "objects_used": [],
+      "nouns": [
+        "drawer of dishwasher"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-32",
+      "start": 53.79,
+      "end": 56.09,
+      "objects_used": [],
+      "nouns": [
+        "plates",
+        "dishwasher's drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-33",
+      "start": 56.49,
+      "end": 56.95,
+      "objects_used": [
+        "knife"
+      ],
+      "nouns": [
+        "knife",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-34",
+      "start": 56.94,
+      "end": 57.59,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher's drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-35",
+      "start": 58.14,
+      "end": 58.84,
+      "objects_used": [],
+      "nouns": [
+        "cutlery drawer",
+        "dishwasher"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-36",
+      "start": 59.09,
+      "end": 59.59,
+      "objects_used": [
+        "knife"
+      ],
+      "nouns": [
+        "knife",
+        "dishwasher's cutlery drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-37",
+      "start": 59.71,
+      "end": 60.14,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher's cutlery drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-38",
+      "start": 60.13,
+      "end": 61.49,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher's door"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-39",
+      "start": 62.01,
+      "end": 62.64,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "strainer",
+        "hob"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-40",
+      "start": 64.04,
+      "end": 64.69,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "strainer",
+        "right of sink"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-41",
+      "start": 64.74,
+      "end": 65.29,
+      "objects_used": [
+        "right glove"
+      ],
+      "nouns": [
+        "right glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-42",
+      "start": 65.33,
+      "end": 66.69,
+      "objects_used": [
+        "right glove"
+      ],
+      "nouns": [
+        "right glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-43",
+      "start": 66.79,
+      "end": 67.39,
+      "objects_used": [
+        "left glove",
+        "right glove"
+      ],
+      "nouns": [
+        "left glove",
+        "glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-44",
+      "start": 67.41,
+      "end": 68.71000000000001,
+      "objects_used": [
+        "left glove"
+      ],
+      "nouns": [
+        "left glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-45",
+      "start": 69.3,
+      "end": 69.7,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-46",
+      "start": 70.27,
+      "end": 70.74,
+      "objects_used": [],
+      "nouns": [
+        "bottle of washing up liquid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-47",
+      "start": 70.92,
+      "end": 71.27,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "bottle of washing up liquid",
+        "top of sponge",
+        "some of washing up liquid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-48",
+      "start": 71.57,
+      "end": 72.2,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "washing up liquid",
+        "washing up liquid bottle",
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-49",
+      "start": 72.42,
+      "end": 73.38,
+      "objects_used": [],
+      "nouns": [
+        "washing up liquid bottle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-50",
+      "start": 73.31,
+      "end": 74.19,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-51",
+      "start": 74.22,
+      "end": 74.95,
+      "objects_used": [],
+      "nouns": [
+        "strainer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-52",
+      "start": 75.02,
+      "end": 76.91,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "strainer",
+        "sponge",
+        "surface of strainer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-53",
+      "start": 76.98,
+      "end": 77.46000000000001,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-54",
+      "start": 77.56,
+      "end": 77.99,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-55",
+      "start": 78.06,
+      "end": 80.39,
+      "objects_used": [],
+      "nouns": [
+        "strainer",
+        "water",
+        "various parts of strainer surface"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-56",
+      "start": 80.53999999999999,
+      "end": 80.88,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-57",
+      "start": 81.14,
+      "end": 81.88,
+      "objects_used": [],
+      "nouns": [
+        "strainer",
+        "drainer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-58",
+      "start": 82.31,
+      "end": 82.87,
+      "objects_used": [],
+      "nouns": [
+        "pan"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-59",
+      "start": 83.23,
+      "end": 83.56,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-60",
+      "start": 83.66,
+      "end": 86.52,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "pan",
+        "sponge",
+        "circular motions",
+        "sponge base",
+        "sides"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-61",
+      "start": 86.53,
+      "end": 86.87,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-62",
+      "start": 87.31,
+      "end": 87.57,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-63",
+      "start": 87.64,
+      "end": 92.48,
+      "objects_used": [],
+      "nouns": [
+        "pan"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-64",
+      "start": 92.36,
+      "end": 92.66,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-65",
+      "start": 92.7,
+      "end": 92.95,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "any remaining liquid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-66",
+      "start": 93.72,
+      "end": 95.3,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "drainer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-67",
+      "start": 94.95,
+      "end": 96.36,
+      "objects_used": [],
+      "nouns": [
+        "another soaked pan",
+        "sink",
+        "soaking liquid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-68",
+      "start": 97.46,
+      "end": 97.75,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-69",
+      "start": 97.94,
+      "end": 101.33,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "pan",
+        "sponge",
+        "circular motion",
+        "sponge base",
+        "sides"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-70",
+      "start": 101.48,
+      "end": 101.73,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-71",
+      "start": 101.87,
+      "end": 102.18,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-72",
+      "start": 102.33,
+      "end": 106.48,
+      "objects_used": [],
+      "nouns": [
+        "pan"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-73",
+      "start": 106.43,
+      "end": 106.68,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-74",
+      "start": 106.5,
+      "end": 107.14,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "any remaining water"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-75",
+      "start": 107.94,
+      "end": 109.27,
+      "objects_used": [],
+      "nouns": [
+        "pan",
+        "drainer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-76",
+      "start": 110.84,
+      "end": 111.28,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher's door"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-77",
+      "start": 111.46,
+      "end": 120.72,
+      "objects_used": [
+        "left glove",
+        "right glove",
+        "sponge"
+      ],
+      "nouns": [
+        "glove",
+        "edge of countertop",
+        "sponge",
+        "surface",
+        "any crumbs",
+        "long straight motion",
+        "empty surface"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-78",
+      "start": 122.06,
+      "end": 122.41,
+      "objects_used": [
+        "sponge"
+      ],
+      "nouns": [
+        "second sponge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-79",
+      "start": 123.04,
+      "end": 123.66,
+      "objects_used": [],
+      "nouns": [
+        "lid of food waste bin"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-80",
+      "start": 124.01,
+      "end": 124.8,
+      "objects_used": [],
+      "nouns": [
+        "any crumbs",
+        "surface"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-81",
+      "start": 125.04,
+      "end": 125.44,
+      "objects_used": [],
+      "nouns": [
+        "food waste bin"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-82",
+      "start": 126.04,
+      "end": 126.64,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-83",
+      "start": 126.68,
+      "end": 127.16,
+      "objects_used": [
+        "left glove",
+        "right glove"
+      ],
+      "nouns": [
+        "glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-84",
+      "start": 127.29,
+      "end": 127.69,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-85",
+      "start": 127.79,
+      "end": 130.1,
+      "objects_used": [
+        "left glove"
+      ],
+      "nouns": [
+        "left glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-86",
+      "start": 128.89,
+      "end": 129.44,
+      "objects_used": [
+        "right glove"
+      ],
+      "nouns": [
+        "right glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-87",
+      "start": 129.7,
+      "end": 130.03,
+      "objects_used": [],
+      "nouns": [
+        "gloves",
+        "rim of sink"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-88",
+      "start": 130.93,
+      "end": 131.79,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher's door"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-89",
+      "start": 132.35,
+      "end": 133.27,
+      "objects_used": [],
+      "nouns": [
+        "upper cupboard",
+        "handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-90",
+      "start": 133.3,
+      "end": 137.15,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "top shelf",
+        "candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-91",
+      "start": 135.39,
+      "end": 136.05,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "disk of candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-92",
+      "start": 138.5,
+      "end": 140.43,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss",
+        "counter top"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-93",
+      "start": 141.22,
+      "end": 141.87,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "disk",
+        "disk base",
+        "machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-94",
+      "start": 141.93,
+      "end": 148.99,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "disk",
+        "center of candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-95",
+      "start": 150.42000000000002,
+      "end": 152.64,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "cord of candy floss machine",
+        "socket"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-96",
+      "start": 152.7,
+      "end": 154.05,
+      "objects_used": [],
+      "nouns": [
+        "food processing bin",
+        "surface top"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-97",
+      "start": 156.26,
+      "end": 158.87,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss",
+        "candy floss buttons"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-98",
+      "start": 159.04,
+      "end": 160.21,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "parts of candy floss machine",
+        "candy floss machine wall",
+        "disk"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-99",
+      "start": 160.34,
+      "end": 161.19,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss machine",
+        "button",
+        "candy floss machine side"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-100",
+      "start": 161.74,
+      "end": 162.71,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candyfloss machine",
+        "button"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-101",
+      "start": 165.32,
+      "end": 166.76,
+      "objects_used": [
+        "candy floss machine",
+        "bowl"
+      ],
+      "nouns": [
+        "candy floss bowl"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-102",
+      "start": 166.96,
+      "end": 167.68,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candyfloss machine",
+        "components",
+        "button",
+        "side"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-103",
+      "start": 168.68,
+      "end": 169.4,
+      "objects_used": [],
+      "nouns": [
+        "lower cupboard",
+        "handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-104",
+      "start": 170.11,
+      "end": 170.87,
+      "objects_used": [],
+      "nouns": [
+        "long wooden stick",
+        "top shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-105",
+      "start": 171.51,
+      "end": 171.87,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "wooden stick",
+        "countertop",
+        "candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-106",
+      "start": 172.57,
+      "end": 173.72,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "sugar granules",
+        "top shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-107",
+      "start": 174.18,
+      "end": 175.04,
+      "objects_used": [],
+      "nouns": [
+        "cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-108",
+      "start": 175.04,
+      "end": 175.6,
+      "objects_used": [
+        "candy floss machine",
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "top of chopping board",
+        "countertop",
+        "candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-109",
+      "start": 177.89,
+      "end": 178.49,
+      "objects_used": [
+        "left glove",
+        "right glove"
+      ],
+      "nouns": [
+        "glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-110",
+      "start": 180.45,
+      "end": 181.06,
+      "objects_used": [],
+      "nouns": [
+        "water filter jug",
+        "countertop",
+        "water filter jug handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-111",
+      "start": 181.43,
+      "end": 183.83,
+      "objects_used": [
+        "glass"
+      ],
+      "nouns": [
+        "water",
+        "water filter jug",
+        "glass",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-112",
+      "start": 184.28,
+      "end": 184.69,
+      "objects_used": [],
+      "nouns": [
+        "water filter jug"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-113",
+      "start": 185.1,
+      "end": 185.41,
+      "objects_used": [
+        "glass"
+      ],
+      "nouns": [
+        "glass",
+        "water",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-114",
+      "start": 185.91,
+      "end": 190.95,
+      "objects_used": [
+        "glass"
+      ],
+      "nouns": [
+        "water",
+        "glass"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-115",
+      "start": 186.98,
+      "end": 189.55,
+      "objects_used": [],
+      "nouns": [
+        "cupboard",
+        "left hand handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-116",
+      "start": 191.74,
+      "end": 192.08,
+      "objects_used": [
+        "glass"
+      ],
+      "nouns": [
+        "empty glass",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-117",
+      "start": 193.09,
+      "end": 193.45,
+      "objects_used": [
+        "notepad"
+      ],
+      "nouns": [
+        "one paper",
+        "top of notepad",
+        "measurements"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-118",
+      "start": 197.05,
+      "end": 197.29,
+      "objects_used": [],
+      "nouns": [
+        "lid of trash bin"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-119",
+      "start": 198.02,
+      "end": 198.22,
+      "objects_used": [],
+      "nouns": [
+        "paper"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-120",
+      "start": 199.79,
+      "end": 200.24,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "bagels",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-121",
+      "start": 200.64,
+      "end": 201.11,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-122",
+      "start": 202.08,
+      "end": 202.36,
+      "objects_used": [],
+      "nouns": [
+        "bread box",
+        "bread box door"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-123",
+      "start": 202.51,
+      "end": 202.96,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "donuts",
+        "bread box"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-124",
+      "start": 203.06,
+      "end": 203.51,
+      "objects_used": [],
+      "nouns": [
+        "bread box"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-125",
+      "start": 209.08,
+      "end": 209.51,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "kettle base",
+        "same time",
+        "button",
+        "kettle lid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-126",
+      "start": 210.66,
+      "end": 211.03,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-127",
+      "start": 211.45,
+      "end": 211.93,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "nozzle of tap",
+        "tap",
+        "right handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-128",
+      "start": 211.96,
+      "end": 214.71,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "water"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-129",
+      "start": 214.36,
+      "end": 214.92,
+      "objects_used": [],
+      "nouns": [
+        "tap"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-130",
+      "start": 215.29,
+      "end": 215.61,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "lid of kettle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-131",
+      "start": 216.35,
+      "end": 218.11,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "kettle base"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-132",
+      "start": 218.2,
+      "end": 218.7,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "button",
+        "bottom of base"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-133",
+      "start": 220.0,
+      "end": 221.0,
+      "objects_used": [],
+      "nouns": [
+        "top cupboard",
+        "right hand handle"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-134",
+      "start": 221.55,
+      "end": 222.75,
+      "objects_used": [
+        "mug"
+      ],
+      "nouns": [
+        "mug",
+        "bottom shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-135",
+      "start": 223.5,
+      "end": 224.3,
+      "objects_used": [
+        "glass"
+      ],
+      "nouns": [
+        "glass",
+        "second shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-136",
+      "start": 224.72,
+      "end": 225.95,
+      "objects_used": [],
+      "nouns": [
+        "black thermos flask",
+        "second shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-137",
+      "start": 226.6,
+      "end": 226.95,
+      "objects_used": [],
+      "nouns": [
+        "cover of flask",
+        "flask",
+        "cover"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-138",
+      "start": 227.05,
+      "end": 227.45,
+      "objects_used": [],
+      "nouns": [
+        "cover",
+        "counter top"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-139",
+      "start": 227.6,
+      "end": 227.9,
+      "objects_used": [],
+      "nouns": [
+        "second cover"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-140",
+      "start": 228.0,
+      "end": 228.46,
+      "objects_used": [],
+      "nouns": [
+        "second cover",
+        "counter top"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-141",
+      "start": 229.37,
+      "end": 230.2,
+      "objects_used": [],
+      "nouns": [
+        "cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-142",
+      "start": 231.0,
+      "end": 231.73,
+      "objects_used": [],
+      "nouns": [
+        "small gold color container",
+        "shelf",
+        "right",
+        "container",
+        "red cover",
+        "loose tea"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-143",
+      "start": 231.95,
+      "end": 235.53,
+      "objects_used": [],
+      "nouns": [
+        "container",
+        "container cover"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-144",
+      "start": 236.15,
+      "end": 242.15,
+      "objects_used": [],
+      "nouns": [
+        "content of container",
+        "loose tea",
+        "container",
+        "thermo flask",
+        "tea"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-145",
+      "start": 244.24,
+      "end": 245.05,
+      "objects_used": [],
+      "nouns": [
+        "empty container",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-146",
+      "start": 245.09,
+      "end": 245.82,
+      "objects_used": [],
+      "nouns": [
+        "trash bin's lid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-147",
+      "start": 245.18,
+      "end": 245.82,
+      "objects_used": [],
+      "nouns": [
+        "container's cover",
+        "trash"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-148",
+      "start": 245.78,
+      "end": 246.43,
+      "objects_used": [],
+      "nouns": [
+        "trash bin's lid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-149",
+      "start": 248.6,
+      "end": 250.43,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss machine",
+        "electric heater"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-150",
+      "start": 257.29,
+      "end": 258.26,
+      "objects_used": [],
+      "nouns": [
+        "cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-151",
+      "start": 258.41,
+      "end": 259.5,
+      "objects_used": [
+        "mug"
+      ],
+      "nouns": [
+        "mug",
+        "bottom shelf",
+        "bottom"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-152",
+      "start": 259.72,
+      "end": 260.45,
+      "objects_used": [
+        "mug"
+      ],
+      "nouns": [
+        "mug"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-153",
+      "start": 260.74,
+      "end": 261.79,
+      "objects_used": [
+        "mug"
+      ],
+      "nouns": [
+        "mug",
+        "counter top"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-154",
+      "start": 262.74,
+      "end": 263.84,
+      "objects_used": [],
+      "nouns": [
+        "drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-155",
+      "start": 264.15,
+      "end": 265.07,
+      "objects_used": [
+        "plastic spoon",
+        "plastic bag"
+      ],
+      "nouns": [
+        "small plastic strainer",
+        "cutlery drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-156",
+      "start": 265.04,
+      "end": 265.84,
+      "objects_used": [],
+      "nouns": [
+        "drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-157",
+      "start": 266.05,
+      "end": 266.92,
+      "objects_used": [
+        "mug"
+      ],
+      "nouns": [
+        "strainer",
+        "top of mug",
+        "tea",
+        "loose tea"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-158",
+      "start": 268.47,
+      "end": 277.51,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "kettle base"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-159",
+      "start": 278.8,
+      "end": 283.78,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "hot water",
+        "kettle",
+        "thermo flask"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-160",
+      "start": 284.49,
+      "end": 286.29,
+      "objects_used": [
+        "kettle"
+      ],
+      "nouns": [
+        "kettle",
+        "kettle base"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-161",
+      "start": 286.56,
+      "end": 286.85,
+      "objects_used": [],
+      "nouns": [
+        "thermoflask"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-162",
+      "start": 286.65,
+      "end": 286.9,
+      "objects_used": [],
+      "nouns": [
+        "second lid",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-163",
+      "start": 286.92,
+      "end": 289.22,
+      "objects_used": [],
+      "nouns": [
+        "thermo flask",
+        "second lid"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-164",
+      "start": 290.46,
+      "end": 291.07,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss machine",
+        "button",
+        "candy floss machine side"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-165",
+      "start": 291.58,
+      "end": 292.08,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "candyfloss sugar",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-166",
+      "start": 292.14,
+      "end": 295.65,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "tie",
+        "bag",
+        "sides"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-167",
+      "start": 302.28,
+      "end": 303.78,
+      "objects_used": [
+        "plastic spoon",
+        "plastic bag"
+      ],
+      "nouns": [
+        "sugar",
+        "bag",
+        "scoop spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-168",
+      "start": 302.64,
+      "end": 307.22,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "scoop spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-169",
+      "start": 307.32,
+      "end": 308.12,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "amount",
+        "scoop spoon",
+        "enough"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-170",
+      "start": 308.22,
+      "end": 314.31,
+      "objects_used": [
+        "plastic spoon",
+        "plastic bag"
+      ],
+      "nouns": [
+        "more",
+        "candyfloss sugar",
+        "bag",
+        "scoop spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-171",
+      "start": 315.87,
+      "end": 317.02,
+      "objects_used": [
+        "candy floss machine",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "candy floss sugar",
+        "scoop spoon",
+        "center of disk of candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-172",
+      "start": 316.67,
+      "end": 318.26,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "scoop spoon",
+        "top of disk",
+        "any remaining loose sugar"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-173",
+      "start": 319.08,
+      "end": 319.94,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss machine",
+        "candy floss machine button"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-174",
+      "start": 320.63,
+      "end": 322.08,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-175",
+      "start": 322.58,
+      "end": 324.24,
+      "objects_used": [
+        "plastic spoon",
+        "plastic bag"
+      ],
+      "nouns": [
+        "scoop spoon",
+        "plastic bag"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-176",
+      "start": 324.67,
+      "end": 332.42,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "knot",
+        "sides"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-177",
+      "start": 332.67,
+      "end": 333.65,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-178",
+      "start": 333.89,
+      "end": 334.41,
+      "objects_used": [],
+      "nouns": [
+        "cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-179",
+      "start": 334.7,
+      "end": 335.49,
+      "objects_used": [
+        "plastic bag"
+      ],
+      "nouns": [
+        "plastic bag",
+        "top shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-180",
+      "start": 335.34000000000003,
+      "end": 336.45,
+      "objects_used": [],
+      "nouns": [
+        "cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-181",
+      "start": 336.99,
+      "end": 337.84000000000003,
+      "objects_used": [],
+      "nouns": [
+        "wooden stick",
+        "counter top",
+        "wooden stick ends"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-182",
+      "start": 345.45,
+      "end": 346.31,
+      "objects_used": [
+        "knife"
+      ],
+      "nouns": [
+        "knife",
+        "chopping board",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-183",
+      "start": 346.86,
+      "end": 347.86,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher's door"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-184",
+      "start": 348.11,
+      "end": 349.07,
+      "objects_used": [],
+      "nouns": [
+        "cutlery drawer of dishwasher"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-185",
+      "start": 349.5,
+      "end": 350.98,
+      "objects_used": [
+        "knife"
+      ],
+      "nouns": [
+        "knife",
+        "cutlery drawer of dishwasher"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-186",
+      "start": 351.18,
+      "end": 352.0,
+      "objects_used": [],
+      "nouns": [
+        "cutlery drawer of dishwasher"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-187",
+      "start": 352.31,
+      "end": 353.13,
+      "objects_used": [],
+      "nouns": [
+        "dishwasher"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-188",
+      "start": 402.27,
+      "end": 404.03,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "wooden stick",
+        "top of candy floss machine",
+        "disk",
+        "center of machine",
+        "candy floss"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-189",
+      "start": 404.05,
+      "end": 503.83,
+      "objects_used": [
+        "candy floss machine",
+        "bowl"
+      ],
+      "nouns": [
+        "wooden stick",
+        "top of candy floss machine",
+        "candy floss",
+        "stick",
+        "bowl of candy floss machine"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-190",
+      "start": 501.92,
+      "end": 503.6,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss machine",
+        "button",
+        "candy floss machine side"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-191",
+      "start": 506.11,
+      "end": 508.8,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "strand of candy floss",
+        "candy floss pile",
+        "top of wooden stick",
+        "candy floss",
+        "wooden stick"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240202-171220-192",
+      "start": 509.08,
+      "end": 510.51,
+      "objects_used": [
+        "candy floss machine"
+      ],
+      "nouns": [
+        "candy floss"
+      ]
+    }
+  ],
+  "P01-20240203-152956": [
+    {
+      "unique_narration_id": "P01-20240203-152956-1",
+      "start": 4.61,
+      "end": 5.51,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven glove",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-2",
+      "start": 5.39,
+      "end": 6.59,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-3",
+      "start": 7.38,
+      "end": 8.43,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven's door",
+        "handrail"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-4",
+      "start": 8.51,
+      "end": 11.63,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "air",
+        "steam",
+        "oven",
+        "eyesight"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-5",
+      "start": 14.12,
+      "end": 17.31,
+      "objects_used": [
+        "tray",
+        "oven glove"
+      ],
+      "nouns": [
+        "tray",
+        "upper shelf of oven",
+        "oven glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-6",
+      "start": 17.41,
+      "end": 18.64,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven's door"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-7",
+      "start": 17.98,
+      "end": 19.58,
+      "objects_used": [
+        "tray"
+      ],
+      "nouns": [
+        "tray",
+        "hob"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-8",
+      "start": 20.23,
+      "end": 21.01,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven's glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-9",
+      "start": 21.18,
+      "end": 21.93,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven's glove",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-10",
+      "start": 21.89,
+      "end": 22.68,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "plastic spoon",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-11",
+      "start": 22.69,
+      "end": 28.11,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "one meat pie",
+        "tray",
+        "plastic spoon",
+        "spoon",
+        "pie",
+        "neighboring pie"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-12",
+      "start": 28.47,
+      "end": 29.46,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "pie",
+        "plate",
+        "hob",
+        "top of other pies"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-13",
+      "start": 29.93,
+      "end": 33.25,
+      "objects_used": [
+        "tray"
+      ],
+      "nouns": [
+        "another pie",
+        "tray",
+        "pies",
+        "base of tray"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-14",
+      "start": 33.36,
+      "end": 34.13,
+      "objects_used": [
+        "fork"
+      ],
+      "nouns": [
+        "fork",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-15",
+      "start": 34.23,
+      "end": 46.77,
+      "objects_used": [
+        "tray",
+        "fork",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "another pie",
+        "tray",
+        "plastic spoon",
+        "fork",
+        "either side of pie",
+        "pie",
+        "base of tray",
+        "neighboring pies"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-16",
+      "start": 47.32,
+      "end": 48.61,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "pie",
+        "plate",
+        "top of other pies"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-17",
+      "start": 48.58,
+      "end": 49.79,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "plastic spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-18",
+      "start": 50.5,
+      "end": 51.31,
+      "objects_used": [
+        "fork"
+      ],
+      "nouns": [
+        "fork"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-19",
+      "start": 53.4,
+      "end": 54.13,
+      "objects_used": [],
+      "nouns": [
+        "upper cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-20",
+      "start": 54.3,
+      "end": 55.13,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "top of pile of plates",
+        "lower shelf of cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-21",
+      "start": 55.0,
+      "end": 55.73,
+      "objects_used": [],
+      "nouns": [
+        "cupboard"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-22",
+      "start": 56.31,
+      "end": 56.87,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "plastic spoon",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-23",
+      "start": 56.97,
+      "end": 58.38,
+      "objects_used": [
+        "plate",
+        "plate2"
+      ],
+      "nouns": [
+        "plate",
+        "pies",
+        "right of countertop",
+        "space",
+        "hob",
+        "other plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-24",
+      "start": 60.56,
+      "end": 66.72,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "two pies",
+        "tray",
+        "plastic spoon",
+        "pies",
+        "of them",
+        "spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-25",
+      "start": 67.48,
+      "end": 67.92,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "pies",
+        "plate",
+        "hob"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-26",
+      "start": 68.28999999999999,
+      "end": 78.02,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "spoon",
+        "more pies",
+        "tray",
+        "process"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-27",
+      "start": 76.42,
+      "end": 86.49,
+      "objects_used": [
+        "tray"
+      ],
+      "nouns": [
+        "two pies",
+        "other pies",
+        "tray"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-28",
+      "start": 89.87,
+      "end": 91.56,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "two pies",
+        "tray",
+        "plastic spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-29",
+      "start": 92.2,
+      "end": 92.91,
+      "objects_used": [
+        "tray",
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "countertop",
+        "tray",
+        "pies"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-30",
+      "start": 100.56,
+      "end": 101.53,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "two pies",
+        "spoon",
+        "edge",
+        "one"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-31",
+      "start": 102.5,
+      "end": 103.79,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "one pie",
+        "tray",
+        "plastic spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-32",
+      "start": 103.89,
+      "end": 104.6,
+      "objects_used": [
+        "tray"
+      ],
+      "nouns": [
+        "pie",
+        "tray",
+        "top of other pies"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-33",
+      "start": 104.74,
+      "end": 106.77,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "another pie",
+        "tray",
+        "plastic spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-34",
+      "start": 106.84,
+      "end": 107.66,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "pie",
+        "plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-35",
+      "start": 107.84,
+      "end": 110.96,
+      "objects_used": [
+        "tray"
+      ],
+      "nouns": [
+        "another pie",
+        "tray",
+        "other pie"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-36",
+      "start": 111.14,
+      "end": 111.64,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "two pies",
+        "spoon",
+        "edge"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-37",
+      "start": 113.19,
+      "end": 113.89,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "one pie",
+        "tray",
+        "plastic spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-38",
+      "start": 116.14,
+      "end": 116.69,
+      "objects_used": [
+        "plate",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "pies",
+        "plate",
+        "left emptying space",
+        "spoon",
+        "new pie"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-39",
+      "start": 116.57,
+      "end": 117.4,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "pie",
+        "plate",
+        "pile of pies"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-40",
+      "start": 117.77,
+      "end": 119.24,
+      "objects_used": [
+        "tray",
+        "plastic spoon"
+      ],
+      "nouns": [
+        "last pie",
+        "tray",
+        "plastic spoon"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-41",
+      "start": 119.3,
+      "end": 120.28,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "pie",
+        "plate",
+        "top of another pie"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-42",
+      "start": 120.98,
+      "end": 122.14,
+      "objects_used": [
+        "plate"
+      ],
+      "nouns": [
+        "plate",
+        "counter top",
+        "hob"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-43",
+      "start": 123.2,
+      "end": 124.05,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven glove",
+        "countertop",
+        "emptying space"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-44",
+      "start": 124.17,
+      "end": 124.9,
+      "objects_used": [
+        "plastic spoon"
+      ],
+      "nouns": [
+        "plastic spoon",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-45",
+      "start": 124.97,
+      "end": 126.31,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-46",
+      "start": 126.68,
+      "end": 127.62,
+      "objects_used": [
+        "tray",
+        "oven glove"
+      ],
+      "nouns": [
+        "tray",
+        "hob",
+        "oven glove",
+        "oven"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-47",
+      "start": 129.07,
+      "end": 130.44,
+      "objects_used": [
+        "tray"
+      ],
+      "nouns": [
+        "tray",
+        "sink",
+        "top of other tray"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-48",
+      "start": 130.59,
+      "end": 131.96,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven glove"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-49",
+      "start": 131.97,
+      "end": 132.73,
+      "objects_used": [
+        "oven glove"
+      ],
+      "nouns": [
+        "oven glove",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-50",
+      "start": 133.25,
+      "end": 134.33,
+      "objects_used": [],
+      "nouns": [
+        "second drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-51",
+      "start": 134.74,
+      "end": 135.62,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "box of foil wrap",
+        "second drawer"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-52",
+      "start": 137.06,
+      "end": 138.0,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "box of foil wrap",
+        "box of foil wrap cover"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-53",
+      "start": 138.53,
+      "end": 139.63,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "foil wrap",
+        "box",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-54",
+      "start": 139.66,
+      "end": 141.67000000000002,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "foil",
+        "foil wrap",
+        "upwards"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-55",
+      "start": 141.32999999999998,
+      "end": 143.62,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "unrolled foil",
+        "edge of unrolled foil"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-56",
+      "start": 145.49,
+      "end": 146.62,
+      "objects_used": [
+        "box of foil wrap",
+        "plate",
+        "plate2"
+      ],
+      "nouns": [
+        "foil paper",
+        "roll",
+        "top of plate",
+        "meat pies",
+        "first plate",
+        "heat"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-57",
+      "start": 146.54,
+      "end": 148.8,
+      "objects_used": [
+        "box of foil wrap",
+        "plate"
+      ],
+      "nouns": [
+        "foil",
+        "plate",
+        "sides"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-58",
+      "start": 150.59,
+      "end": 153.2,
+      "objects_used": [
+        "plate",
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "plate",
+        "foil",
+        "another countertop",
+        "another countertop sides"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-59",
+      "start": 156.6,
+      "end": 160.11,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "foil paper",
+        "foil roll"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-60",
+      "start": 160.41,
+      "end": 161.19,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "additional unrolled foil paper",
+        "edge",
+        "foil roll"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-61",
+      "start": 161.39,
+      "end": 162.15,
+      "objects_used": [
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "foil roll",
+        "countertop"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-62",
+      "start": 163.85,
+      "end": 164.55,
+      "objects_used": [
+        "box of foil wrap",
+        "plate"
+      ],
+      "nouns": [
+        "foil",
+        "plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-63",
+      "start": 164.75,
+      "end": 167.3,
+      "objects_used": [
+        "box of foil wrap",
+        "plate"
+      ],
+      "nouns": [
+        "edges of foil",
+        "plate",
+        "edges"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-64",
+      "start": 166.95,
+      "end": 172.1,
+      "objects_used": [
+        "box of foil wrap",
+        "plate",
+        "plate2"
+      ],
+      "nouns": [
+        "edges of foil",
+        "rim of plate",
+        "plate"
+      ]
+    },
+    {
+      "unique_narration_id": "P01-20240203-152956-65",
+      "start": 172.2,
+      "end": 173.2,
+      "objects_used": [
+        "plate",
+        "box of foil wrap"
+      ],
+      "nouns": [
+        "plate",
+        "countertop",
+        "foil",
+        "edges"
+      ]
+    }
+  ]
+}
