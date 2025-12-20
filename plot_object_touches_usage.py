@@ -26,15 +26,15 @@ def plot_object_with_labels(track_sequence, ax, y_position, label_dict, video_en
     if plot_points:
         if len(plot_o) >= 2:
             fill_end = plot_o[-2]
-            ax.fill_betweenx(
-                [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
-                plot_points[0],
-                fill_end,
-                color="red",
-                alpha=0.3,
-                zorder=0,
-                linewidth=0  # removes border
-            )
+            # ax.fill_betweenx(
+            #     [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
+            #     plot_points[0],
+            #     fill_end,
+            #     color="gray",
+            #     alpha=0.3,
+            #     zorder=0,
+            #     linewidth=0  # removes border
+            # )
         ax.plot(plot_points, [y_position] * len(plot_points), "-", color="black", linewidth=3, alpha=0.2)
         ax.plot(plot_x, [y_position] * len(plot_x), "x", color="gray", markersize=10, alpha=0.8)
         ax.plot(plot_o, [y_position] * len(plot_o), "x", color="gray", markersize=10, alpha=0.8)
