@@ -3,6 +3,13 @@ import json
 import pickle
 import ollama
 
+
+parser = argparse.ArgumentParser(description='Process a video by its ID.')
+parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
+args = parser.parse_args()
+
+VERBOSE = True
+
 # Check if "qwen3:8b" is already loaded in Ollama; if not, load it.
 def ensure_ollama_model_loaded(model_name="qwen3:8b"):
     try:
@@ -17,15 +24,10 @@ def ensure_ollama_model_loaded(model_name="qwen3:8b"):
         print(f"Error while checking/loading model '{model_name}': {e}")
 
 
-parser = argparse.ArgumentParser(description='Process a video by its ID.')
-parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
-args = parser.parse_args()
-
-VERBOSE = True
-
 def verbose_print(*args, **kwargs):
     if VERBOSE:
         print(*args, **kwargs)
+
 
 def link_objects_to_action(narration, nouns, available_objects, system_prompt, examples):
     """
@@ -155,12 +157,14 @@ def main():
         data_narrations = pickle.load(f)
 
     object_trace_data = data_assoc[args.video_id]
-    objects_available = [assoc_data['name'] for assoc_data in object_trace_data.values()]
+    objects_available = [elem['name'] for elem in object_trace_data.values()]
 
 
     narrations_person = data_narrations[
         data_narrations.unique_narration_id.str.startswith(args.video_id)
     ]
+    ## Sort by start timestamp
+    narrations_person = narrations_person.sort_values(by="start_timestamp")
 
     output_filename = f"linked_objects_{args.video_id}.jsonl"
     with open(output_filename, "w") as outfile:
@@ -180,6 +184,7 @@ def main():
             outfile.write(json.dumps(output_entry) + "\n")
 
     print(f"Linked objects written to {output_filename}")
+
 
 if __name__ == "__main__":
     main()
