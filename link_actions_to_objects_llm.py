@@ -1,3 +1,8 @@
+#! /usr/bin/env python3
+
+## Start ollama server: ./ollama/bin/ollama serve&
+## Check ollama: ./ollama/bin/ollama ps
+
 import argparse
 import json
 import pickle
@@ -13,13 +18,20 @@ VERBOSE = True
 # Check if "qwen3:8b" is already loaded in Ollama; if not, load it.
 def ensure_ollama_model_loaded(model_name="qwen3:8b"):
     try:
-        models = ollama.list()["models"]
-        loaded_model_names = {m["name"].split(":")[0] for m in models}
+        models = ollama.list().get("models", [])
+        loaded_model_names = set()
+        for m in models:
+            # Some entries may not have a "name" key, so use get with fallback
+            name = m.get("name") or m.get("model") or ""
+            if not name:
+                continue
+            loaded_model_names.add(name.split(":")[0])
+        verbose_print(f"Loaded model names: {loaded_model_names}")
         if model_name.split(":")[0] not in loaded_model_names:
-            print(f'Pulling model {model_name} since it is not loaded...')
+            print(f"Pulling model {model_name} since it is not loaded...")
             ollama.pull(model_name)
         else:
-            verbose_print(f'Model {model_name} is already loaded.')
+            verbose_print(f"Model {model_name} is already loaded.")
     except Exception as e:
         print(f"Error while checking/loading model '{model_name}': {e}")
 
@@ -159,28 +171,62 @@ def main():
     object_trace_data = data_assoc[args.video_id]
     objects_available = [elem['name'] for elem in object_trace_data.values()]
 
-
     narrations_person = data_narrations[
         data_narrations.unique_narration_id.str.startswith(args.video_id)
     ]
     ## Sort by start timestamp
     narrations_person = narrations_person.sort_values(by="start_timestamp")
 
+    system_prompt = """You are an expert at analyzing cooking actions and identifying which objects are used in each action.
+    Given a narration describing an action and a list of nouns mentioned, you need to identify which objects from the available object list are actually used in this action.
+    Return a JSON array of object names that are relevant to the action and an explanation of why these objects are relevant to the action. Consider all possible interpretations of the nouns."""
+        
+    examples = [
+        {
+            "narration": "put the box of foil paper inside the second drawer.",
+            "nouns": ['box of foil paper', 'second drawer'],
+            "objects_available": ['foil2', 'unrolled foil', 'foil wrap', 'box of foil wrap', 'pie2', 'plate2', 'plate', 'fork', 'pie', 'plastic spoon', 'tray', 'oven glove'],
+            "objects_used": ["box of foil paper"],
+            "explanation": "The `box of foil paper` noun is present in the `objects_available` list verbatim."
+        },
+        {
+            "narration": "Push the pies already on the plate slightly to the left emptying space. The pies are pushed using the spoon which has the new pie.",
+            "nouns": ['pies', 'plate', 'left emptying space', 'spoon', 'new pie'],
+            "objects_available": ['foil2', 'unrolled foil', 'foil wrap', 'box of foil wrap', 'pie2', 'plate2', 'plate', 'fork', 'pie', 'plastic spoon', 'tray', 'oven glove'],
+            "objects_used": ["plate", "plate2", "plastic spoon", "pie", "pie2"],
+            "explanation": "The `plate` noun corresponds with the `plate` and `plate2` objects in the `objects_available` list. The `spoon` noun corresponds with the `plastic spoon` object in the `objects_available` list. The `new pie` and `pies` nouns correspond with the `pie` and `pie2` objects in the `objects_available` list."
+        }
+    ]
+        
     output_filename = f"linked_objects_{args.video_id}.jsonl"
-    with open(output_filename, "w") as outfile:
-        for iter_idx, row in narrations_person.iterrows():
-            llm_response = link_objects_to_action(
-                narration=row['narration'],
-                nouns=row['nouns'],
-                available_objects=objects_available
-            )
-            trace_id = row['unique_narration_id'] if 'unique_narration_id' in row else iter_idx
-            output_entry = {
-                "trace_id": trace_id,
-                "action_narration": row["narration"],
-                "objects_used": llm_response["objects_used"],
-                "explanation": llm_response["explanation"],
-            }
+    with open(output_filename, "r") as infile:
+        previous_entries = [json.loads(line) for line in infile]
+    previous_trace_ids = [entry['trace_id'] for entry in previous_entries]
+
+    for iter_idx, row in narrations_person.iterrows():
+        trace_id = row['unique_narration_id']
+        if trace_id in previous_trace_ids:
+            print(f"Skipping {trace_id} since it already exists in {output_filename}")
+            continue
+
+        llm_response = link_objects_to_action(
+            narration=row['narration'],
+            nouns=row['nouns'],
+            available_objects=objects_available,
+            system_prompt=system_prompt,
+            examples=examples
+        )[0]
+        # print(type(llm_response))
+        # print(llm_response)
+        # import pdb; pdb.set_trace()
+        output_entry = {
+            "trace_id": trace_id,
+            "action_narration": row["narration"],
+            "nouns": row["nouns"],
+            "objects_used": llm_response.get("objects_used", ["ERROR"]),
+            "explanation": llm_response.get("explanation", "ERROR"),
+        }
+        with open(output_filename, "a") as outfile:
             outfile.write(json.dumps(output_entry) + "\n")
 
     print(f"Linked objects written to {output_filename}")
