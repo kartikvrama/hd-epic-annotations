@@ -10,6 +10,7 @@ import ollama
 
 
 parser = argparse.ArgumentParser(description='Process a video by its ID.')
+parser.add_argument('--filter_objects', required=False, type=bool, default=False, help='Filter objects based on the action start and end timestamps')
 parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
 args = parser.parse_args()
 
@@ -156,6 +157,59 @@ Response: """
 # print(f"Linked objects: {linked_objects}")
 
 
+
+def return_objects_available(action_start, action_end, object_trace_data):
+    available_objects = []
+    for _, assoc_data in object_trace_data.items():
+
+        closest_pick_before_start = [
+            (track["track_id"], track["time_segment"][0]) for track in assoc_data["tracks"]
+            if track["time_segment"][0] < action_start ## object picked before the action start
+        ]
+        if len(closest_pick_before_start) == 0: ## all picks are after the action start
+            ## assign the first pick
+            closest_pick_before_start = (assoc_data["tracks"][0]["track_id"], assoc_data["tracks"][0]["time_segment"][0])
+        else:
+            closest_pick_before_start = closest_pick_before_start[-1] ## tuple of (track_id, time_segment[0])
+        if closest_pick_before_start[1] > action_end + 30: ## object picked after the action end
+            continue
+
+        closest_drop_after_end = [
+            (track["track_id"], track["time_segment"][1]) for track in assoc_data["tracks"]
+            if track["time_segment"][1] > action_end ## object dropped after the action end
+        ]
+        if len(closest_drop_after_end) == 0: ## all drops are before the action end
+            ## assign the last drop
+            closest_drop_after_end = (assoc_data["tracks"][-1]["track_id"], assoc_data["tracks"][-1]["time_segment"][1])
+        else:
+            closest_drop_after_end = closest_drop_after_end[0] ## tuple of (track_id, time_segment[1])
+        if closest_drop_after_end[1] < action_start - 30: ## 30 seconds tolerance
+            # print(f"Object dropped before the action start")
+            continue
+        
+        available_objects.append(assoc_data['name'])
+
+        # print(f"**{assoc_data['name']}**")
+        # print(f"\nClosest pick before start: {closest_pick_before_start} ( < {action_end + 30} )")
+        # print(f"Closest drop after end: {closest_drop_after_end} ( > {action_start - 30} )")
+
+        # flag = False
+        # for track in assoc_data["tracks"]:
+        #     track_id = track["track_id"]
+        #     if track_id == closest_pick_before_start[0]:
+        #         flag = True
+        #     if flag:
+        #         print(f"\tPicked at {track['time_segment'][0]} and dropped at {track['time_segment'][1]}")
+        #     if track_id == closest_drop_after_end[0]:
+        #         flag = False
+        #         break
+        # print("--------------------------------")
+
+    verbose_print(f"Original set of objects: {[assoc_data['name'] for assoc_data in object_trace_data.values()]}")
+    verbose_print(f"Available objects: {available_objects}")
+    return available_objects
+
+
 def main():
     print(f"Processing video: {args.video_id}")
 
@@ -169,7 +223,7 @@ def main():
         data_narrations = pickle.load(f)
 
     object_trace_data = data_assoc[args.video_id]
-    objects_available = [elem['name'] for elem in object_trace_data.values()]
+    objects_available_all = [elem['name'] for elem in object_trace_data.values()]
 
     narrations_person = data_narrations[
         data_narrations.unique_narration_id.str.startswith(args.video_id)
@@ -209,6 +263,8 @@ def main():
             print(f"Skipping {trace_id} since it already exists in {output_filename}")
             continue
 
+        objects_available = objects_available_all if not args.filter_objects else return_objects_available(row["start_timestamp"], row["end_timestamp"], object_trace_data)
+
         llm_response = link_objects_to_action(
             narration=row['narration'],
             nouns=row['nouns'],
@@ -216,9 +272,6 @@ def main():
             system_prompt=system_prompt,
             examples=examples
         )[0]
-        # print(type(llm_response))
-        # print(llm_response)
-        # import pdb; pdb.set_trace()
         output_entry = {
             "trace_id": trace_id,
             "action_narration": row["narration"],
