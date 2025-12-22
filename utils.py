@@ -1,6 +1,12 @@
 import textwrap
 
 
+def seconds_to_minutes_seconds(seconds):
+    minutes = int(seconds) // 60
+    seconds_rem = int(seconds) % 60
+    return f"{minutes:02d}:{seconds_rem:02d}"
+
+
 def retrieve_action_descriptions(data_narrations, video_id, start_timestamp, end_timestamp):
     data_narrations_person = data_narrations[
         data_narrations.unique_narration_id.str.startswith(video_id) 

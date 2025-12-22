@@ -1,13 +1,16 @@
 import os
 import json
+import pickle
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
-from utils import extract_touches_from_track
+import pandas as pd
 
-BAR_WIDTH = 0.2
+from utils import extract_touches_from_track, seconds_to_minutes_seconds
 
-def plot_object_with_labels(track_sequence, ax, y_position, label_dict, video_end_time=None):
-    """Plot object movement with labeled periods."""
+BAR_WIDTH = 0.5
+
+def plot_object_touches(track_sequence, ax, y_position):
+    """Plot object pick-drop instances."""
     touch_points = extract_touches_from_track(track_sequence)
     
     if len(touch_points) < 2:
@@ -24,197 +27,102 @@ def plot_object_with_labels(track_sequence, ax, y_position, label_dict, video_en
     
     # Plot main track line (light gray background)
     if plot_points:
-        if len(plot_o) >= 2:
-            fill_end = plot_o[-2]
-            # ax.fill_betweenx(
-            #     [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
-            #     plot_points[0],
-            #     fill_end,
-            #     color="gray",
-            #     alpha=0.3,
-            #     zorder=0,
-            #     linewidth=0  # removes border
-            # )
         ax.plot(plot_points, [y_position] * len(plot_points), "-", color="black", linewidth=3, alpha=0.2)
         ax.plot(plot_x, [y_position] * len(plot_x), "x", color="gray", markersize=10, alpha=0.8)
         ax.plot(plot_o, [y_position] * len(plot_o), "x", color="gray", markersize=10, alpha=0.8)
-    
-    # Find the last touch (last pick and drop)
-    if touch_points:
-        last_touch = touch_points[-1]
-        last_pick = last_touch["pick"]
-        last_drop = last_touch["drop"]
-        # Draw a rectangle ("box") around the last pick and drop
-        box_y = y_position - 0.15
-        box_height = 0.3
-        box_x_start = min(last_pick, last_drop) - 1
-        box_x_end = max(last_pick, last_drop) + 1
-        box_width = box_x_end - box_x_start
-        rect = plt.Rectangle(
-            (box_x_start, box_y), 
-            box_width, 
-            box_height, 
-            linewidth=1, 
-            edgecolor='green', 
-            facecolor='none', 
-            zorder=3
+
+
+def plot_object_inuse_segments(inuse_segments, ax, y_position):
+    for segment in inuse_segments:
+        ax.fill_betweenx(
+            [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
+            segment["start_timestamp"],
+            segment["end_timestamp"],
+            color="red",
+            alpha=0.3,
         )
-        ax.add_patch(rect)
-    
-    ## Label dictionary structure    
-    # {
-    #   "object_name": "plastic spoon",
-    #   "association_id": "85e1cf228aa07339",
-    #   "pre_lastTrace_start": 49.37043,
-    #   "pre_lastTrace_end": 56.39729,
-    #   "pre_lastTrace_label": "idle",
-    #   "lastTrace_start": 56.39729,
-    #   "lastTrace_end": 124.32241,
-    #   "lastTrace_label": "inuse",
-    #   "after_lastTrace_start": 124.32241,
-    #   "after_lastTrace_label": "idle"
-    # },
 
-    if video_end_time is None:
-        video_end_time = max(plot_o) if plot_o else label_dict.get("after_lastTrace_start", 0) + 100
 
-    # import pdb; pdb.set_trace()
-    ## Plot shaded bars for usage periods
-    if label_dict:
-        if label_dict.get("skip", False):
-            return
-        # Determine video end time (use provided or max from all drops)
+def return_inuse_segments_per_object(action_object_mapping: [dict], narrations: pd.DataFrame) -> dict:
+    inuse_segment_dict = {}
+    for i, action_object_dict in enumerate(action_object_mapping):
+        if i % 10 == 0:
+            print(f"[Getting inuse segments] Processing action object {i} of {len(action_object_mapping)}")
+        narration_id = action_object_dict["trace_id"]
+        narration = narrations[narrations.unique_narration_id.eq(narration_id)]
+        if len(narration) == 0:
+            raise ValueError(f"Narration {narration_id} not found in data_narrations")
+        elif len(narration) > 1:
+            raise ValueError(f"Multiple narrations found for {narration_id}")
+        narration = narration.iloc[0]
+        start_timestamp = narration["start_timestamp"]
+        end_timestamp = narration["end_timestamp"]
+        objects_used = action_object_dict["objects_used"]
+        for object_used in objects_used:
+            if object_used not in inuse_segment_dict:
+                inuse_segment_dict[object_used] = []
+            inuse_segment_dict[object_used].append({
+                    "start_timestamp": start_timestamp,
+                    "end_timestamp": end_timestamp,
+                    "objects_used": objects_used,
+                })
+    return inuse_segment_dict
 
-        # Pre-lastTrace period
-        if "pre_lastTrace_start" in label_dict and "pre_lastTrace_end" in label_dict:
-            start = label_dict["pre_lastTrace_start"]
-            end = label_dict["pre_lastTrace_end"]
-            label = label_dict.get("pre_lastTrace_label")
-            color = "red" if label == "inuse" else "blue"
-            print(f"plotting pre_lastTrace from {start} to {end} with color {color}")
-            ax.fill_betweenx([y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2], start, end,
-                            color=color, alpha=0.3, zorder=0, linewidth=0)
-        
-        # LastTrace period
-        if "lastTrace_start" in label_dict and "lastTrace_end" in label_dict:
-            start = label_dict["lastTrace_start"]
-            end = label_dict["lastTrace_end"]
-            label = label_dict.get("lastTrace_label")
-            color = "red" if label == "inuse" else "blue"
-            print(f"plotting lastTrace from {start} to {end} with color {color}")
-            ax.fill_betweenx([y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2], start, end,
-                            color=color, alpha=0.3, zorder=0, linewidth=0)
-        
-        # After-lastTrace period
-        if "after_lastTrace_start" in label_dict:
-            start = label_dict["after_lastTrace_start"]
-            end = video_end_time
-            label = label_dict.get("after_lastTrace_label")
-            if label == "inuse":
-                print(f"plotting after_lastTrace from {start} to {end} with color red")
-                ax.fill_betweenx([y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2], start, end,
-                                color="red", alpha=0.3, zorder=0, linewidth=0)
-    print("--------------------------------")
 
 def main():
-    labels_file = "plots/object_usage_labels.json"
-    if not os.path.exists(labels_file):
-        print(f"Labels file not found: {labels_file}")
-        return
-    
-    with open(labels_file, "r") as f:
-        all_labels = json.load(f)
-    
+    with open("linked_objects_gpt-oss:20b_P01-20240203-123350_unfiltered.jsonl", "r") as f:
+        action_object_mapping_video = [json.loads(line) for line in f]
+
+    video_id = "P01-20240203-123350"
+
     # Load association info
     with open("scene-and-object-movements/assoc_info.json") as f:
-        data_assoc = json.load(f)
-    
+        object_movements_all = json.load(f)
+    object_movements_video = object_movements_all[video_id]
+
+    ## Load action narrations
+    with open("narrations-and-action-segments/HD_EPIC_Narrations.pkl", "rb") as f:
+        action_narrations = pickle.load(f)
+    action_narrations_video = action_narrations[action_narrations.unique_narration_id.str.startswith(video_id)]
+    action_narrations_video = action_narrations_video.sort_values(by="start_timestamp")
+
     os.makedirs("plots", exist_ok=True)
-    
-    # Process each video
-    for video_id, video_labels in all_labels.items():
-        if video_id not in data_assoc:
-            print(f"Skipping video {video_id} - not found in association data")
+
+    try:    
+        inuse_segment_dict = return_inuse_segments_per_object(action_object_mapping_video, action_narrations_video)
+    except Exception as e:
+        print(f"Error returning inuse segments per object: {e}")
+        import pdb; pdb.set_trace()
+
+    fig, ax = plt.subplots(figsize=(25, 15))
+    for i, (_, association_info) in enumerate(object_movements_video.items(), 1):
+        if i % 10 == 0:
+            print(f"[Plotting object touches] Processing object {i} ({association_info['name']}) of {len(object_movements_video)}")
+        y_position = i
+        plot_object_touches(association_info["tracks"], ax, y_position)
+        if not association_info["name"] in inuse_segment_dict:
             continue
-        print(f"Processing video: {video_id}")
+        plot_object_inuse_segments(inuse_segment_dict[association_info["name"]], ax, y_position)
 
-        # Calculate video end time (maximum time from all objects in this video)
-        video_end_time = 0
-        for label_dict in video_labels:
-            if label_dict.get("skip", False):
-                continue
-            object_id = label_dict['association_id']
-            if object_id in data_assoc[video_id]:
-                track_sequence = data_assoc[video_id][object_id]['tracks']
-                touch_points = extract_touches_from_track(track_sequence)
-                for touch in touch_points:
-                    video_end_time = max(video_end_time, touch["drop"])
-            # Also check after_lastTrace_start
-            if "after_lastTrace_start" in label_dict:
-                video_end_time = max(video_end_time, label_dict["after_lastTrace_start"])
-        
-        # Add a small buffer
-        video_end_time += 10
 
-        ## Filter out skipped objects for plotting
-        non_skipped_labels = [l for l in video_labels if not l.get("skip", False)]
-        num_objects = len(non_skipped_labels)
-        
-        fig, ax = plt.subplots(figsize=(15, max(5, num_objects * 0.5)))
-        ax.set_ylabel("Object")
-        ax.set_title(f"Object Usage Labels - {video_id}")
-        
-        y_positions = []
-        y_labels = []
-        object_idx = 0
-        
-        for i, label_dict in enumerate(video_labels):
-            if label_dict.get("skip", False):
-                print(f"Skipping object {label_dict['object_name']} (ID: {label_dict['association_id']}) - already skipped")
-                continue
-            print(f"Processing object: {label_dict['object_name']} (ID: {label_dict['association_id']})")
-            object_name = label_dict['object_name']
-            object_id = label_dict['association_id']
-            if object_id not in data_assoc[video_id]:
-                print(f"  Warning: Object ID {object_id} not found in association data")
-                continue
-            track_sequence = data_assoc[video_id][object_id]['tracks']
-            # print(f"Track sequence: {track_sequence}")
-            y_pos = object_idx
-            plot_object_with_labels(track_sequence, ax, y_pos, label_dict, video_end_time)
-            y_positions.append(y_pos)
-            y_labels.append(f"{object_name}")
-            object_idx += 1
-        
-        # Set y-axis ticks and labels
-        if y_positions:
-            ax.set_yticks(y_positions)
-            ax.set_yticklabels(y_labels, fontsize=8)
-        
-        # Set x-axis limits
-        ax.set_xlim(0, video_end_time)
+    ax.set_xlabel("Time (minutes:seconds)")
+    video_end_time = action_narrations_video.iloc[-1]["end_timestamp"]
+    # ## convert x-axis to minutes:seconds
+    tick_interval = 30  # seconds
+    xticks = [i for i in range(0, int(video_end_time)+tick_interval, tick_interval)]
+    ax.set_xticks(xticks)
+    ax.set_xticklabels([seconds_to_minutes_seconds(i) for i in xticks], rotation=60)
 
-        # Change xtick labels to minutes:seconds
-        def seconds_to_min_sec(x, pos=None):
-            minutes = int(x // 60)
-            seconds = int(x % 60)
-            return f"{minutes}:{seconds:02d}"
-
-        ax.xaxis.set_major_formatter(plt.FuncFormatter(seconds_to_min_sec))
-        ax.set_xlabel("Time (minutes:seconds)")
-        
-        # Add legend
-        legend_elements = [
-            Patch(facecolor='red', alpha=0.3, label='inuse'),
-            Patch(facecolor='blue', alpha=0.3, label='idle')
-        ]
-        ax.legend(handles=legend_elements, loc='upper right')
-        
-        # Save the plot
-        output_file = f"plots/{video_id}_usage_plot.png"
-        plt.savefig(output_file, dpi=150, bbox_inches='tight')
-        print(f"Saved plot to {output_file}")
-        plt.close()
+    ax.set_ylabel("Object")
+    # ## set y axis tick labels to the object names
+    # ax.set_yticks([i*BAR_WIDTH for i in range(len(object_movements_video))])
+    ax.set_yticks([i for i in range(1, len(object_movements_video)+1)])
+    ax.set_yticklabels([v["name"] for v in object_movements_video.values()])
+    ax.legend()
+    fig.tight_layout()
+    ## turn on grid
+    ax.grid(True)
+    fig.savefig(f"plots/object_touches_usage_{video_id}.png")
 
 
 if __name__ == "__main__":
