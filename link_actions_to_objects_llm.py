@@ -3,6 +3,7 @@
 ## Start ollama server: ./ollama/bin/ollama serve&
 ## Check ollama: ./ollama/bin/ollama ps
 
+import os
 import argparse
 import json
 import pickle
@@ -10,11 +11,11 @@ import ollama
 
 
 parser = argparse.ArgumentParser(description='Process a video by its ID.')
-parser.add_argument('--filter_objects', required=False, type=bool, default=False, help='Filter objects based on the action start and end timestamps')
 parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
 args = parser.parse_args()
 
-VERBOSE = True
+VERBOSE = False
+MODEL_NAME = "gpt-oss:20b"
 
 # Check if "qwen3:8b" is already loaded in Ollama; if not, load it.
 def ensure_ollama_model_loaded(model_name="qwen3:8b"):
@@ -42,7 +43,7 @@ def verbose_print(*args, **kwargs):
         print(*args, **kwargs)
 
 
-def link_objects_to_action(narration, nouns, available_objects, system_prompt, examples):
+def link_objects_to_action(narration, nouns, available_objects, system_prompt, examples, model_name="qwen3:8b"):
     """
     Use Ollama with Qwen3 8B to link objects to actions based on narration and nouns.
     
@@ -95,7 +96,7 @@ Response: """
     try:
         # Construct the expected JSON response format for Ollama
         response = ollama.chat(
-            model='qwen3:8b',
+            model=model_name,
             messages=[
                 {
                     'role': 'system',
@@ -214,7 +215,7 @@ def main():
     print(f"Processing video: {args.video_id}")
 
     # Ensure the Qwen3 8B model is loaded before using it.
-    ensure_ollama_model_loaded("qwen3:8b")
+    ensure_ollama_model_loaded(MODEL_NAME)
 
     with open("scene-and-object-movements/assoc_info.json") as f:
         data_assoc = json.load(f)
@@ -252,30 +253,34 @@ def main():
         }
     ]
         
-    output_filename = f"linked_objects_{args.video_id}.jsonl"
-    with open(output_filename, "r") as infile:
-        previous_entries = [json.loads(line) for line in infile]
-    previous_trace_ids = [entry['trace_id'] for entry in previous_entries]
-
+    output_filename = f"linked_objects_{MODEL_NAME}_{args.video_id}.jsonl"
+    if os.path.exists(output_filename):
+        with open(output_filename, "r") as infile:
+            previous_entries = [json.loads(line) for line in infile]
+        previous_trace_ids = [entry['trace_id'] for entry in previous_entries]
+    else:
+        previous_trace_ids = []
     for iter_idx, row in narrations_person.iterrows():
         trace_id = row['unique_narration_id']
         if trace_id in previous_trace_ids:
             print(f"Skipping {trace_id} since it already exists in {output_filename}")
             continue
 
-        objects_available = objects_available_all if not args.filter_objects else return_objects_available(row["start_timestamp"], row["end_timestamp"], object_trace_data)
+        objects_available = objects_available_all
 
         llm_response = link_objects_to_action(
             narration=row['narration'],
             nouns=row['nouns'],
             available_objects=objects_available,
             system_prompt=system_prompt,
-            examples=examples
+            examples=examples,
+            model_name=MODEL_NAME
         )[0]
         output_entry = {
             "trace_id": trace_id,
             "action_narration": row["narration"],
             "nouns": row["nouns"],
+            "raw_response": llm_response,
             "objects_used": llm_response.get("objects_used", ["ERROR"]),
             "explanation": llm_response.get("explanation", "ERROR"),
         }

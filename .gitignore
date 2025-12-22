@@ -1,5 +1,7 @@
 ## Custom scripts
 read_dataset.ipynb
+logs/*.out
+logs/*.err
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
