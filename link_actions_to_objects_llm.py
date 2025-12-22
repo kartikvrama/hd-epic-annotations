@@ -10,13 +10,15 @@ import pickle
 import ollama
 from utils import seconds_to_minutes_seconds
 import pdb
+import unicodedata
+import re
 
 
 parser = argparse.ArgumentParser(description='Process a video by its ID.')
 parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
 args = parser.parse_args()
 
-VERBOSE = True
+VERBOSE = False
 MODEL_NAME = "gpt-oss:20b"
 
 
@@ -45,8 +47,42 @@ def verbose_print(*args, **kwargs):
         print(*args, **kwargs)
 
 
-def _remove_emdash(text):
-    return text.encode('utf-8').replace(b"\u2013", b"-").decode('utf-8')
+def normalize_text(text):
+    """
+    Normalize text to avoid encoding errors by replacing problematic Unicode characters.
+    Handles em-dash, en-dash, and other common problematic characters.
+    """
+    if not isinstance(text, str):
+        return text
+    
+    # Normalize Unicode characters (NFD normalization helps with composed characters)
+    text = unicodedata.normalize('NFD', text)
+    
+    # Replace common problematic Unicode characters with ASCII equivalents
+    replacements = {
+        '\u2011': '-',  # non-breaking hyphen
+        '\u2013': '-',  # en-dash
+        '\u2014': '-',  # em-dash
+        '\u2015': '-',  # horizontal bar
+        '\u2018': "'",  # left single quotation mark
+        '\u2019': "'",  # right single quotation mark
+        '\u201C': '"',  # left double quotation mark
+        '\u201D': '"',  # right double quotation mark
+        '\u2026': '...',  # horizontal ellipsis
+        '\u00A0': ' ',  # non-breaking space
+        '\u200B': '',   # zero-width space
+        '\u200C': '',   # zero-width non-joiner
+        '\u200D': '',   # zero-width joiner
+        '\uFEFF': '',   # zero-width no-break space (BOM)
+    }
+    
+    for unicode_char, replacement in replacements.items():
+        text = text.replace(unicode_char, replacement)
+    
+    # Remove any remaining non-printable control characters except newlines and tabs
+    text = re.sub(r'[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F-\x9F]', '', text)
+    
+    return text
 
 
 def extract_event_history(object_movement_video, mask_fixture_video):
@@ -109,14 +145,14 @@ def generate_prompt_object_linking(action_description, available_objects, event_
 Example {i}:
 Action Start Time: {example['action_start_time']}
 Action End Time: {example['action_end_time']}
-Narration: {example['narration']}
-Nouns: {json.dumps(example['nouns'])}
-Available objects: {json.dumps(example['objects_available'])}
-Event History: {example['event_history']}
+Narration: {normalize_text(str(example['narration']))}
+Nouns: {json.dumps(example['nouns'], ensure_ascii=False)}
+Available objects: {json.dumps(example['objects_available'], ensure_ascii=False)}
+Event History: {normalize_text(str(example['event_history']))}
 Response:
 {{
-  "objects_used": {json.dumps(example['objects_used'])},
-  "explanation": "{example['explanation']}"
+  "objects_used": {json.dumps(example['objects_used'], ensure_ascii=False)},
+  "explanation": "{normalize_text(str(example['explanation']))}"
 }}
 """
     
@@ -134,13 +170,13 @@ Response:
 Task:
 Action Start Time: {seconds_to_minutes_seconds(start_timestamp)}
 Action End Time: {seconds_to_minutes_seconds(end_timestamp)}
-Narration: {action_description['narration']}
-Nouns: {json.dumps(action_description['nouns'])}
-Available objects: {json.dumps(available_objects)}
+Narration: {normalize_text(str(action_description['narration']))}
+Nouns: {json.dumps(action_description['nouns'], ensure_ascii=False)}
+Available objects: {json.dumps(available_objects, ensure_ascii=False)}
 Event History:
-{chr(10).join("  "+str(event) for event in event_history_filtered)}
+{chr(10).join("  "+normalize_text(str(event)) for event in event_history_filtered)}
 Response: """
-    return _remove_emdash(system_prompt), _remove_emdash(prompt)
+    return normalize_text(system_prompt), normalize_text(prompt)
     
 def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
     """
@@ -152,7 +188,7 @@ def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
         model_name: Model name
     
     Returns:
-        Response
+        Response processed, Response text
     """
     verbose_print(f"System prompt:\n<{system_prompt}>")
     verbose_print(f"Prompt:\n<{prompt}>")
@@ -160,7 +196,6 @@ def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
     # Call Ollama
     try:
         # Construct the expected JSON response format for Ollama
-        pdb.set_trace()
         response = ollama.chat(
             model=model_name,
             messages=[
@@ -176,38 +211,21 @@ def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
             format="json"
         )
         # Extract the response content
-        pdb.set_trace()
-        response_text = _remove_emdash(response['message']['content'].strip())
+        response_text = normalize_text(response['message']['content'].strip())
         verbose_print(f"--------------------------------\nResponse:\n<{response_text}>")
         
-        # Try to parse as JSON
-        # Sometimes the response might have markdown code blocks
-        if response_text.startswith('```'):
-            # Remove markdown code blocks
-            response_text = response_text.split('```')[1]
-            if response_text.startswith('json'):
-                response_text = response_text[4:]
-            response_text = response_text.strip()
-        
         # Parse JSON
-        objects = json.loads(response_text)
-        
-        # Ensure it's a list
-        if isinstance(objects, list):
-            return objects
-        else:
-            return [objects] if objects else []
-            
+        response_json = json.loads(response_text)
+        return response_json, response_text
+
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON response: {e}")
         print(f"Response was: {response_text}")
-        pdb.set_trace()
-        return []
+        return {}, response_text
 
     except Exception as e:
         print(f"Error calling Ollama: {e}")
-        pdb.set_trace()
-        return []
+        return {}, "ERROR"
 
 
 def main():
@@ -216,10 +234,10 @@ def main():
     # Ensure the Qwen3 8B model is loaded before using it.
     ensure_ollama_model_loaded(MODEL_NAME)
 
-    with open("scene-and-object-movements/assoc_info.json") as f:
+    with open("scene-and-object-movements/assoc_info.json", encoding='utf-8') as f:
         object_movement_dict = json.load(f)
 
-    with open("scene-and-object-movements/mask_info.json", "r") as f:
+    with open("scene-and-object-movements/mask_info.json", "r", encoding='utf-8') as f:
         mask_fixture_dict = json.load(f)
 
     with open("narrations-and-action-segments/HD_EPIC_Narrations.pkl", "rb") as f:
@@ -250,6 +268,7 @@ Be clear and specific in your reasoning."""
         "explanation": "<concise explanation>"
     }
     system_prompt += f"\n\nRespond ONLY in the following JSON format: {json.dumps(response_format, ensure_ascii=False)}"
+    system_prompt = normalize_text(system_prompt)
         
     examples = [
         # {
@@ -305,11 +324,13 @@ Be clear and specific in your reasoning."""
         },
     ]
         
-        
-    output_filename_linked_objects = f"linked_objects_{MODEL_NAME}_{args.video_id}.jsonl"
-    output_filename_llm_input_response = f"llm_input_response_{MODEL_NAME}_{args.video_id}.jsonl"
+    
+    output_folder = f"outputs/linked_objects_llm_{MODEL_NAME}"
+    os.makedirs(output_folder, exist_ok=True)
+    output_filename_linked_objects = os.path.join(output_folder, f"linked_objects_{MODEL_NAME}_{args.video_id}.jsonl")
+    output_filename_llm_input_response = os.path.join(output_folder, f"llm_input_response_{MODEL_NAME}_{args.video_id}.jsonl")
     if os.path.exists(output_filename_linked_objects):
-        with open(output_filename_linked_objects, "r") as infile:
+        with open(output_filename_linked_objects, "r", encoding='utf-8') as infile:
             previous_entries = [json.loads(line) for line in infile]
         previous_trace_ids = [entry['trace_id'] for entry in previous_entries]
     else:
@@ -317,38 +338,40 @@ Be clear and specific in your reasoning."""
     for iter_idx, row in narrations_person.iterrows():
         trace_id = row['unique_narration_id']
         if trace_id in previous_trace_ids:
-            print(f"Skipping {trace_id} since it already exists in {output_filename_linked_objects}")
+            verbose_print(f"Skipping {trace_id} since it already exists in {output_filename_linked_objects}")
             continue
 
         system_prompt, prompt = generate_prompt_object_linking(row, objects_available_all, event_history_example, system_prompt, examples)
-        ## Save system prompt and prompt to pickle file
-        with open(f"prompt_{args.video_id}.pkl", "wb") as outfile:
-            pickle.dump({"system_prompt": system_prompt, "prompt": prompt}, outfile)
-        llm_response = call_ollama_object_linking(system_prompt, prompt)
+        llm_response_json, llm_response_text = call_ollama_object_linking(system_prompt, prompt)
         output_llm_input_response = {
             "system_prompt": system_prompt,
             "prompt": prompt,
-            "response": llm_response,
+            "response": llm_response_text,
         }
-        with open(output_filename_llm_input_response, "a") as outfile:
-            outfile.write(json.dumps(output_llm_input_response) + "\n")
-        if not isinstance(llm_response, dict):
-            llm_response = {
+        with open(output_filename_llm_input_response, "a", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(output_llm_input_response, ensure_ascii=False) + "\n")
+
+        if not isinstance(llm_response_json, dict):
+            llm_response_json = {
                 "objects_used": ["ERROR"],
                 "explanation": "ERROR",
             }
+        llm_response = {
+            "objects_used": llm_response_json.get("objects_used", ["ERROR"]),
+            "explanation": llm_response_json.get("explanation", "ERROR"),
+        }
         output_entry = {
             "trace_id": trace_id,
-            "action_narration": row["narration"],
+            "action_narration": normalize_text(str(row["narration"])),
             "nouns": row["nouns"],
             "objects_used": llm_response.get("objects_used", ["ERROR"]),
-            "explanation": llm_response.get("explanation", "ERROR"),
+            "explanation": normalize_text(str(llm_response.get("explanation", "ERROR"))),
         }
-        with open(output_filename_linked_objects, "a") as outfile:
-            outfile.write(json.dumps(output_entry) + "\n")
+        with open(output_filename_linked_objects, "a", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(output_entry, ensure_ascii=False) + "\n")
 
-    print(f"Linked objects written to {output_filename_linked_objects}")
-    print(f"LLM input and response written to {output_filename_llm_input_response}")
+    verbose_print(f"Linked objects written to {output_filename_linked_objects}")
+    verbose_print(f"LLM input and response written to {output_filename_llm_input_response}")
 
 
 if __name__ == "__main__":
