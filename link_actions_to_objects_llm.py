@@ -9,13 +9,14 @@ import json
 import pickle
 import ollama
 from utils import seconds_to_minutes_seconds
+import pdb
 
 
 parser = argparse.ArgumentParser(description='Process a video by its ID.')
 parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
 args = parser.parse_args()
 
-VERBOSE = False
+VERBOSE = True
 MODEL_NAME = "gpt-oss:20b"
 
 
@@ -42,6 +43,10 @@ def ensure_ollama_model_loaded(model_name="qwen3:8b"):
 def verbose_print(*args, **kwargs):
     if VERBOSE:
         print(*args, **kwargs)
+
+
+def _remove_emdash(text):
+    return text.encode('utf-8').replace(b"\u2013", b"-").decode('utf-8')
 
 
 def extract_event_history(object_movement_video, mask_fixture_video):
@@ -95,12 +100,6 @@ def generate_prompt_object_linking(action_description, available_objects, event_
     Returns:
         Prompt
     """
-    response_format = {
-        "objects_used": ["<list of object names as strings>"],
-        "explanation": "<concise explanation>"
-    }
-    system_prompt += f"\nRespond ONLY in the following JSON format: {json.dumps(response_format, ensure_ascii=False)}"
-
     # Build the prompt with examples
     prompt = f"""Examples:
 """
@@ -129,8 +128,6 @@ Response:
     event_pos_after_action = [i for i, event in enumerate(event_history) if event[0] > end_timestamp]
     if not event_pos_after_action:
         event_pos_after_action = [len(event_history)-1]
-    verbose_print(event_pos_before_action)
-    verbose_print(event_pos_after_action)
     event_history_filtered = [elem[-1] for elem in event_history[event_pos_before_action[-1]:event_pos_after_action[0]+1]]
     # Add the current task
     prompt += f"""
@@ -143,12 +140,7 @@ Available objects: {json.dumps(available_objects)}
 Event History:
 {chr(10).join("  "+str(event) for event in event_history_filtered)}
 Response: """
-    
-    ## Create debug print statement
-    verbose_print(f"System prompt:\n<{system_prompt}>")
-    verbose_print(f"Prompt:\n<{prompt}>")
-
-    return system_prompt, prompt
+    return _remove_emdash(system_prompt), _remove_emdash(prompt)
     
 def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
     """
@@ -162,9 +154,13 @@ def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
     Returns:
         Response
     """
+    verbose_print(f"System prompt:\n<{system_prompt}>")
+    verbose_print(f"Prompt:\n<{prompt}>")
+
     # Call Ollama
     try:
         # Construct the expected JSON response format for Ollama
+        pdb.set_trace()
         response = ollama.chat(
             model=model_name,
             messages=[
@@ -180,8 +176,9 @@ def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
             format="json"
         )
         # Extract the response content
-        response_text = response['message']['content'].strip()
-        verbose_print(f"Response:\n<{response_text}>")
+        pdb.set_trace()
+        response_text = _remove_emdash(response['message']['content'].strip())
+        verbose_print(f"--------------------------------\nResponse:\n<{response_text}>")
         
         # Try to parse as JSON
         # Sometimes the response might have markdown code blocks
@@ -204,9 +201,12 @@ def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON response: {e}")
         print(f"Response was: {response_text}")
+        pdb.set_trace()
         return []
+
     except Exception as e:
         print(f"Error calling Ollama: {e}")
+        pdb.set_trace()
         return []
 
 
@@ -236,14 +236,20 @@ def main():
     ## Sort by start timestamp
     narrations_person = narrations_person.sort_values(by="start_timestamp")
 
-    system_prompt = """You are an expert in analyzing cooking actions to determine which objects are involved in each action.
-    You will be given:
-    - An action narration (a textual description of the action)
-    - A list of nouns mentioned in the narration
-    - A list of available objects in the scene
-    - A timeline of pick and drop events that occur during the action
+    system_prompt = """You are an expert in analyzing kitchen actions to determine which objects are involved in each action.
+You will be given:
+    * An action narration (a textual description of the action)
+    * A list of nouns mentioned in the narration
+    * A list of available objects in the scene
+    * A timeline of pick and drop events that occur during the action
 
-    Your task is to identify which objects from the available list are actually used in the described action, considering both the narration/nouns and the pick/drop event overlaps. Also return an explanation justifying why these objects are deemed relevant, referencing the list of objects available, the narration, nouns, and event information. Be clear and specific in your reasoning."""
+Your task is to identify which objects from the available list are actually used in the described action, considering both the narration/nouns and the pick/drop event overlaps. Also return an explanation justifying why these objects are deemed relevant, referencing the list of objects available, the narration, nouns, and event information.
+Be clear and specific in your reasoning."""
+    response_format = {
+        "objects_used": ["<list of object names as strings>"],
+        "explanation": "<concise explanation>"
+    }
+    system_prompt += f"\n\nRespond ONLY in the following JSON format: {json.dumps(response_format, ensure_ascii=False)}"
         
     examples = [
         # {
@@ -315,6 +321,9 @@ def main():
             continue
 
         system_prompt, prompt = generate_prompt_object_linking(row, objects_available_all, event_history_example, system_prompt, examples)
+        ## Save system prompt and prompt to pickle file
+        with open(f"prompt_{args.video_id}.pkl", "wb") as outfile:
+            pickle.dump({"system_prompt": system_prompt, "prompt": prompt}, outfile)
         llm_response = call_ollama_object_linking(system_prompt, prompt)
         output_llm_input_response = {
             "system_prompt": system_prompt,
@@ -323,6 +332,11 @@ def main():
         }
         with open(output_filename_llm_input_response, "a") as outfile:
             outfile.write(json.dumps(output_llm_input_response) + "\n")
+        if not isinstance(llm_response, dict):
+            llm_response = {
+                "objects_used": ["ERROR"],
+                "explanation": "ERROR",
+            }
         output_entry = {
             "trace_id": trace_id,
             "action_narration": row["narration"],
