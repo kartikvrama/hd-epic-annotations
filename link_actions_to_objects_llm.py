@@ -8,6 +8,7 @@ import argparse
 import json
 import pickle
 import ollama
+from utils import seconds_to_minutes_seconds
 
 
 parser = argparse.ArgumentParser(description='Process a video by its ID.')
@@ -17,7 +18,7 @@ args = parser.parse_args()
 VERBOSE = False
 MODEL_NAME = "gpt-oss:20b"
 
-# Check if "qwen3:8b" is already loaded in Ollama; if not, load it.
+
 def ensure_ollama_model_loaded(model_name="qwen3:8b"):
     try:
         models = ollama.list().get("models", [])
@@ -43,25 +44,62 @@ def verbose_print(*args, **kwargs):
         print(*args, **kwargs)
 
 
-def link_objects_to_action(narration, nouns, available_objects, system_prompt, examples, model_name="qwen3:8b"):
+def extract_event_history(object_movement_video, mask_fixture_video):
+
+    def _format_fixture_name(fixture_name):
+        if fixture_name is None:
+            return "unknown"
+        if not "_" in fixture_name:
+            return fixture_name
+        return fixture_name.split("_")[1]
+
+    event_history = []
+    for assoc_id, assoc_data in object_movement_video.items():
+        for track in assoc_data["tracks"]:
+            pick_time = track["time_segment"][0]
+            pick_fixture = mask_fixture_video[track["masks"][0]]["fixture"]
+            event_history.append(
+                (
+                    pick_time,
+                    'PICK',
+                    f"[{seconds_to_minutes_seconds(pick_time)}] `{assoc_data['name']}` picked from `{_format_fixture_name(pick_fixture)}`"
+                )
+            )
+            drop_time = track["time_segment"][1]
+            if len(track["masks"]) > 1:
+                drop_fixture = mask_fixture_video[track["masks"][1]]["fixture"]
+            else:
+                drop_fixture = "unknown"
+            event_history.append(
+                (
+                    drop_time,
+                    'DROP',
+                    f"[{seconds_to_minutes_seconds(drop_time)}] `{assoc_data['name']}` dropped to `{_format_fixture_name(drop_fixture)}`"
+                )
+            )
+    event_history.sort(key=lambda x: x[0])
+    return event_history
+
+
+def generate_prompt_object_linking(action_description, available_objects, event_history, system_prompt, examples):
     """
-    Use Ollama with Qwen3 8B to link objects to actions based on narration and nouns.
+    Generate a prompt for linking objects to actions based on narration and nouns.
     
     Args:
-        narration: Text description of the action
-        nouns: List of nouns mentioned in the narration
+        action_description: Action description
         available_objects: List of available object names to choose from
-        system_prompt: Optional system-level prompt (uses default if None)
-        examples: Optional list of 2-3 examples in format [{"narration": "...", "nouns": [...], "objects": [...]}, ...]
+        event_history: Event history
+        system_prompt: System prompt
+        examples: Examples
     
     Returns:
-        List of object names that are linked to the action
+        Prompt
     """
     response_format = {
         "objects_used": ["<list of object names as strings>"],
         "explanation": "<concise explanation>"
     }
-    system_prompt += f"\n\nRespond ONLY in the following JSON format: {json.dumps(response_format, ensure_ascii=False)}"
+    system_prompt += f"\nRespond ONLY in the following JSON format: {json.dumps(response_format, ensure_ascii=False)}"
 
     # Build the prompt with examples
     prompt = f"""Examples:
@@ -70,9 +108,12 @@ def link_objects_to_action(narration, nouns, available_objects, system_prompt, e
     for i, example in enumerate(examples, 1):
         prompt += f"""
 Example {i}:
+Action Start Time: {example['action_start_time']}
+Action End Time: {example['action_end_time']}
 Narration: {example['narration']}
 Nouns: {json.dumps(example['nouns'])}
 Available objects: {json.dumps(example['objects_available'])}
+Event History: {example['event_history']}
 Response:
 {{
   "objects_used": {json.dumps(example['objects_used'])},
@@ -80,18 +121,47 @@ Response:
 }}
 """
     
+    start_timestamp = action_description['start_timestamp']
+    end_timestamp = action_description['end_timestamp']
+    event_pos_before_action = [i for i, event in enumerate(event_history) if event[0] < start_timestamp]
+    if not event_pos_before_action:
+        event_pos_before_action = [0]
+    event_pos_after_action = [i for i, event in enumerate(event_history) if event[0] > end_timestamp]
+    if not event_pos_after_action:
+        event_pos_after_action = [len(event_history)-1]
+    verbose_print(event_pos_before_action)
+    verbose_print(event_pos_after_action)
+    event_history_filtered = [elem[-1] for elem in event_history[event_pos_before_action[-1]:event_pos_after_action[0]+1]]
     # Add the current task
     prompt += f"""
 Task:
-Narration: {narration}
-Nouns: {json.dumps(nouns)}
+Action Start Time: {seconds_to_minutes_seconds(start_timestamp)}
+Action End Time: {seconds_to_minutes_seconds(end_timestamp)}
+Narration: {action_description['narration']}
+Nouns: {json.dumps(action_description['nouns'])}
 Available objects: {json.dumps(available_objects)}
+Event History:
+{chr(10).join("  "+str(event) for event in event_history_filtered)}
 Response: """
     
     ## Create debug print statement
     verbose_print(f"System prompt:\n<{system_prompt}>")
     verbose_print(f"Prompt:\n<{prompt}>")
+
+    return system_prompt, prompt
     
+def call_ollama_object_linking(system_prompt, prompt, model_name=MODEL_NAME):
+    """
+    Call Ollama to link objects to actions based on narration and nouns.
+    
+    Args:
+        system_prompt: System prompt
+        prompt: Prompt
+        model_name: Model name
+    
+    Returns:
+        Response
+    """
     # Call Ollama
     try:
         # Construct the expected JSON response format for Ollama
@@ -139,77 +209,6 @@ Response: """
         print(f"Error calling Ollama: {e}")
         return []
 
-# Example usage:
-# video_id = open("video_ids_long.txt").read().splitlines()[0]
-# narrations_person = data_narrations[
-#     data_narrations.unique_narration_id.str.startswith(video_id) 
-# ]
-# row = narrations_person.iloc[0]
-# 
-# # Get available objects for this video
-# available_objects = [obj_data['name'] for obj_data in data_assoc[video_id].values()]
-# 
-# # Link objects to action
-# linked_objects = link_objects_to_action(
-#     narration=row['narration'],
-#     nouns=row['nouns'],
-#     available_objects=available_objects
-# )
-# print(f"Linked objects: {linked_objects}")
-
-
-
-def return_objects_available(action_start, action_end, object_trace_data):
-    available_objects = []
-    for _, assoc_data in object_trace_data.items():
-
-        closest_pick_before_start = [
-            (track["track_id"], track["time_segment"][0]) for track in assoc_data["tracks"]
-            if track["time_segment"][0] < action_start ## object picked before the action start
-        ]
-        if len(closest_pick_before_start) == 0: ## all picks are after the action start
-            ## assign the first pick
-            closest_pick_before_start = (assoc_data["tracks"][0]["track_id"], assoc_data["tracks"][0]["time_segment"][0])
-        else:
-            closest_pick_before_start = closest_pick_before_start[-1] ## tuple of (track_id, time_segment[0])
-        if closest_pick_before_start[1] > action_end + 30: ## object picked after the action end
-            continue
-
-        closest_drop_after_end = [
-            (track["track_id"], track["time_segment"][1]) for track in assoc_data["tracks"]
-            if track["time_segment"][1] > action_end ## object dropped after the action end
-        ]
-        if len(closest_drop_after_end) == 0: ## all drops are before the action end
-            ## assign the last drop
-            closest_drop_after_end = (assoc_data["tracks"][-1]["track_id"], assoc_data["tracks"][-1]["time_segment"][1])
-        else:
-            closest_drop_after_end = closest_drop_after_end[0] ## tuple of (track_id, time_segment[1])
-        if closest_drop_after_end[1] < action_start - 30: ## 30 seconds tolerance
-            # print(f"Object dropped before the action start")
-            continue
-        
-        available_objects.append(assoc_data['name'])
-
-        # print(f"**{assoc_data['name']}**")
-        # print(f"\nClosest pick before start: {closest_pick_before_start} ( < {action_end + 30} )")
-        # print(f"Closest drop after end: {closest_drop_after_end} ( > {action_start - 30} )")
-
-        # flag = False
-        # for track in assoc_data["tracks"]:
-        #     track_id = track["track_id"]
-        #     if track_id == closest_pick_before_start[0]:
-        #         flag = True
-        #     if flag:
-        #         print(f"\tPicked at {track['time_segment'][0]} and dropped at {track['time_segment'][1]}")
-        #     if track_id == closest_drop_after_end[0]:
-        #         flag = False
-        #         break
-        # print("--------------------------------")
-
-    verbose_print(f"Original set of objects: {[assoc_data['name'] for assoc_data in object_trace_data.values()]}")
-    verbose_print(f"Available objects: {available_objects}")
-    return available_objects
-
 
 def main():
     print(f"Processing video: {args.video_id}")
@@ -218,13 +217,18 @@ def main():
     ensure_ollama_model_loaded(MODEL_NAME)
 
     with open("scene-and-object-movements/assoc_info.json") as f:
-        data_assoc = json.load(f)
+        object_movement_dict = json.load(f)
+
+    with open("scene-and-object-movements/mask_info.json", "r") as f:
+        mask_fixture_dict = json.load(f)
 
     with open("narrations-and-action-segments/HD_EPIC_Narrations.pkl", "rb") as f:
         data_narrations = pickle.load(f)
 
-    object_trace_data = data_assoc[args.video_id]
-    objects_available_all = [elem['name'] for elem in object_trace_data.values()]
+    object_movement_example = object_movement_dict[args.video_id]
+    mask_fixture_example = mask_fixture_dict[args.video_id]
+    objects_available_all = [elem['name'] for elem in object_movement_example.values()]
+    event_history_example = extract_event_history(object_movement_example, mask_fixture_example)
 
     narrations_person = data_narrations[
         data_narrations.unique_narration_id.str.startswith(args.video_id)
@@ -232,30 +236,74 @@ def main():
     ## Sort by start timestamp
     narrations_person = narrations_person.sort_values(by="start_timestamp")
 
-    system_prompt = """You are an expert at analyzing cooking actions and identifying which objects are used in each action.
-    Given a narration describing an action and a list of nouns mentioned, you need to identify which objects from the available object list are actually used in this action.
-    Return a JSON array of object names that are relevant to the action and an explanation of why these objects are relevant to the action. Consider all possible interpretations of the nouns."""
+    system_prompt = """You are an expert in analyzing cooking actions to determine which objects are involved in each action.
+    You will be given:
+    - An action narration (a textual description of the action)
+    - A list of nouns mentioned in the narration
+    - A list of available objects in the scene
+    - A timeline of pick and drop events that occur during the action
+
+    Your task is to identify which objects from the available list are actually used in the described action, considering both the narration/nouns and the pick/drop event overlaps. Also return an explanation justifying why these objects are deemed relevant, referencing the list of objects available, the narration, nouns, and event information. Be clear and specific in your reasoning."""
         
     examples = [
+        # {
+        #     "action_start_time": "00:20",
+        #     "action_end_time": "00:21",
+        #     "narration": "Take off the oven's glove.",
+        #     "nouns": ["oven's glove"],
+        #     "objects_available": ["foil2", "unrolled foil", "foil wrap", "box of foil wrap", "pie2", "plate2", "plate", "fork", "pie", "plastic spoon", "tray", "oven glove", "Track 19 (skipped)"],
+        #     "event_history": """
+        #     [00:19] `tray` dropped to `hob.001`
+        #     [00:21] `oven glove` dropped to `counter.002`
+        #     """,
+        #     "objects_used": ["oven glove"],
+        #     "explanation": "The `oven glove` noun is dropped to the counter in the event history during the action start and end times. The narration mentions taking off the glove, which is likely the `oven glove` object."
+        # },
         {
-            "narration": "put the box of foil paper inside the second drawer.",
-            "nouns": ['box of foil paper', 'second drawer'],
-            "objects_available": ['foil2', 'unrolled foil', 'foil wrap', 'box of foil wrap', 'pie2', 'plate2', 'plate', 'fork', 'pie', 'plastic spoon', 'tray', 'oven glove'],
-            "objects_used": ["box of foil paper"],
-            "explanation": "The `box of foil paper` noun is present in the `objects_available` list verbatim."
+            "action_start_time": "02:52",
+            "action_end_time": "02:53",
+            "narration": "Put down the plate on the countertop, now fully covered with foil with all edges tucked in.",
+            "nouns": ["plate", "countertop", "foil", "edges"],
+            "objects_available": ["foil2", "unrolled foil", "foil wrap", "box of foil wrap", "pie2", "plate2", "plate", "fork", "pie", "plastic spoon", "tray", "oven glove", "Track 19 (skipped)"],
+            "event_history": """
+    [02:44] `foil2` picked from `counter.009`
+    [02:53] `foil2` dropped to `counter.009`
+    [02:53] `foil2` picked from `counter.009`""",
+            "objects_used": ["foil2"],
+            "explanation": "The `foil2` object is picked up and dropped to the counter in the event history during the action start and end times. The narration mentions a plate covered with foil, which is likely the `foil2` object. The `plate` object is not mentioned in the event history."
         },
         {
-            "narration": "Push the pies already on the plate slightly to the left emptying space. The pies are pushed using the spoon which has the new pie.",
-            "nouns": ['pies', 'plate', 'left emptying space', 'spoon', 'new pie'],
-            "objects_available": ['foil2', 'unrolled foil', 'foil wrap', 'box of foil wrap', 'pie2', 'plate2', 'plate', 'fork', 'pie', 'plastic spoon', 'tray', 'oven glove'],
-            "objects_used": ["plate", "plate2", "plastic spoon", "pie", "pie2"],
-            "explanation": "The `plate` noun corresponds with the `plate` and `plate2` objects in the `objects_available` list. The `spoon` noun corresponds with the `plastic spoon` object in the `objects_available` list. The `new pie` and `pies` nouns correspond with the `pie` and `pie2` objects in the `objects_available` list."
-        }
+            "action_start_time": "01:04",
+            "action_end_time": "01:04",
+            "narration": "Put the pan with the strainer to the right of the sink.",
+            "nouns": ["pan", "strainer", "right of sink"],
+            "objects_available": ["knife2", "plastic spoon", "strainer2", "mug2", "container's cover", "small gold color container", "second cover", "cover of flask", "flask", "glass2", "mug", "kettle", "bag of bagels", "notepad", "glass", "water filter jug", "plastic bag", "wooden stick", "food processing bin", "plug", "disk", "candy floss machine", "second sponge", "pot3", "strainer", "bottle of washing up liquid", "sponge", "left glove", "right glove", "pot", "knife", "container", "plate2", "empty pot", "plate", "ladle", "scale", "bowl", "tissue"],
+            "event_history": """
+    [01:01] `pot` picked from `hob.001`
+    [01:04] `pot` dropped to `counter.006`
+    [01:04] `right glove` picked from `sink.001`""",
+            "objects_used": ["pot"],
+            "explanation": "The `pot` object is dropped to the counter in the event history during the action start and end times. The narration mentions a pan with the strainer, which is likely the `pot` object. The `strainer` object is not mentioned in the event history."
+        },
+        {
+            "action_start_time": "00:27",
+            "action_end_time": "00:28",
+            "narration": "Open the tap using the right handle.",
+            "nouns": ["tap", "right handle"],
+            "objects_available": ["knife2", "plastic spoon", "strainer2", "mug2", "container's cover", "small gold color container", "second cover", "cover of flask", "flask", "glass2", "mug", "kettle", "bag of bagels", "notepad", "glass", "water filter jug", "plastic bag", "wooden stick", "food processing bin", "plug", "disk", "candy floss machine", "second sponge", "pot3", "strainer", "bottle of washing up liquid", "sponge", "left glove", "right glove", "pot", "knife", "container", "plate2", "empty pot", "plate", "ladle", "scale", "bowl", "tissue"],
+            "event_history": """
+    [00:26] `plate` dropped to `counter.003`
+    [00:30] `ladle` dropped to `counter.004`""",
+            "objects_used": [],
+            "explanation": "The `plate` and `ladle` objects are dropped to the counter in the event history, but they are moved outside the action start and end times and not mentioned in the narration. The `tap` and `right handle` nouns are not present in the `objects_available` list."
+        },
     ]
         
-    output_filename = f"linked_objects_{MODEL_NAME}_{args.video_id}.jsonl"
-    if os.path.exists(output_filename):
-        with open(output_filename, "r") as infile:
+        
+    output_filename_linked_objects = f"linked_objects_{MODEL_NAME}_{args.video_id}.jsonl"
+    output_filename_llm_input_response = f"llm_input_response_{MODEL_NAME}_{args.video_id}.jsonl"
+    if os.path.exists(output_filename_linked_objects):
+        with open(output_filename_linked_objects, "r") as infile:
             previous_entries = [json.loads(line) for line in infile]
         previous_trace_ids = [entry['trace_id'] for entry in previous_entries]
     else:
@@ -263,31 +311,30 @@ def main():
     for iter_idx, row in narrations_person.iterrows():
         trace_id = row['unique_narration_id']
         if trace_id in previous_trace_ids:
-            print(f"Skipping {trace_id} since it already exists in {output_filename}")
+            print(f"Skipping {trace_id} since it already exists in {output_filename_linked_objects}")
             continue
 
-        objects_available = objects_available_all
-
-        llm_response = link_objects_to_action(
-            narration=row['narration'],
-            nouns=row['nouns'],
-            available_objects=objects_available,
-            system_prompt=system_prompt,
-            examples=examples,
-            model_name=MODEL_NAME
-        )[0]
+        system_prompt, prompt = generate_prompt_object_linking(row, objects_available_all, event_history_example, system_prompt, examples)
+        llm_response = call_ollama_object_linking(system_prompt, prompt)
+        output_llm_input_response = {
+            "system_prompt": system_prompt,
+            "prompt": prompt,
+            "response": llm_response,
+        }
+        with open(output_filename_llm_input_response, "a") as outfile:
+            outfile.write(json.dumps(output_llm_input_response) + "\n")
         output_entry = {
             "trace_id": trace_id,
             "action_narration": row["narration"],
             "nouns": row["nouns"],
-            "raw_response": llm_response,
             "objects_used": llm_response.get("objects_used", ["ERROR"]),
             "explanation": llm_response.get("explanation", "ERROR"),
         }
-        with open(output_filename, "a") as outfile:
+        with open(output_filename_linked_objects, "a") as outfile:
             outfile.write(json.dumps(output_entry) + "\n")
 
-    print(f"Linked objects written to {output_filename}")
+    print(f"Linked objects written to {output_filename_linked_objects}")
+    print(f"LLM input and response written to {output_filename_llm_input_response}")
 
 
 if __name__ == "__main__":
