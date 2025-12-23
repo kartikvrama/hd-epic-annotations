@@ -1,5 +1,10 @@
 ## ![logo](logo-white.png) HD-EPIC: A Highly-Detailed Egocentric Video Dataset (CVPR 2025)
 
+## Custom commands (Kartik)
+
+```
+rsync -r kvr6@sky2.cc.gatech.edu:/coc/flash5/kvr6/repos/hd-epic-annotations/outputs .
+```
 
 <!-- start badges -->
 [![arXiv-2502.04144](https://img.shields.io/badge/arXiv-2502.04144-green.svg)](https://arxiv.org/abs/2502.04144)

@@ -1,0 +1,46 @@
+PICK [00:04] `oven glove` picked from `counter.002`
+PICK [00:13] `tray` picked from `oven.001`
+DROP [00:14] `tray` dropped to `oven.001`
+PICK [00:15] `tray` picked from `oven.001`
+DROP [00:19] `tray` dropped to `hob.001`
+DROP [00:21] `oven glove` dropped to `counter.002`
+PICK [00:21] `plastic spoon` picked from `counter.002`
+PICK [00:27] `pie` picked from `hob.001`
+DROP [00:28] `pie` dropped to `hob.001`
+PICK [00:33] `fork` picked from `counter.002`
+DROP [00:49] `plastic spoon` dropped to `counter.002`
+DROP [00:50] `fork` dropped to `counter.002`
+PICK [00:54] `plate` picked from `cupboard.008`
+PICK [00:56] `plastic spoon` picked from `counter.002`
+PICK [00:57] `plate2` picked from `counter.002`
+DROP [00:58] `plate2` dropped to `counter.002`
+DROP [00:59] `plate` dropped to `counter.002`
+PICK [01:29] `pie2` picked from `hob.001`
+DROP [01:30] `pie2` dropped to `hob.001`
+PICK [01:32] `plate` picked from `counter.002`
+DROP [02:02] `plate` dropped to `counter.002`
+PICK [02:03] `oven glove` picked from `counter.002`
+DROP [02:04] `plastic spoon` dropped to `counter.002`
+PICK [02:06] `tray` picked from `hob.001`
+DROP [02:09] `tray` dropped to `sink.001`
+DROP [02:12] `oven glove` dropped to `counter.009`
+PICK [02:15] `box of foil wrap` picked from `drawer.002`
+PICK [02:18] `foil wrap` picked from `counter.008`
+DROP [02:18] `box of foil wrap` dropped to `counter.008`
+PICK [02:23] `unrolled foil` picked from `mid-air`
+DROP [02:23] `foil wrap` dropped to `counter.008`
+PICK [02:26] `unrolled foil` picked from `counter.002`
+DROP [02:33] `unrolled foil` dropped to `counter.009`
+DROP [02:33] `unrolled foil` dropped to `counter.009`
+PICK [02:33] `unrolled foil` picked from `counter.009`
+DROP [02:36] `unrolled foil` dropped to `unknown`
+PICK [02:36] `foil wrap` picked from `counter.008`
+PICK [02:41] `Track 19 (skipped)` picked from `counter.009`
+DROP [02:42] `foil wrap` dropped to `counter.008`
+DROP [02:44] `Track 19 (skipped)` dropped to `unknown`
+PICK [02:44] `foil2` picked from `counter.009`
+DROP [02:53] `foil2` dropped to `counter.009`
+PICK [02:53] `foil2` picked from `counter.009`
+DROP [02:53] `foil2` dropped to `counter.009`
+PICK [02:53] `foil2` picked from `counter.009`
+DROP [02:54] `foil2` dropped to `counter.009`

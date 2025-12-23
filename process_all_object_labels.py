@@ -70,7 +70,7 @@ def return_inuse_segments_per_object(action_object_mapping: [dict], narrations: 
 
 
 def main():
-    with open("linked_objects_gpt-oss:20b_P01-20240203-123350_unfiltered.jsonl", "r") as f:
+    with open("outputs/linked_objects_llm_gpt-oss:20b/linked_objects_gpt-oss:20b_P01-20240203-123350.jsonl", "r") as f:
         action_object_mapping_video = [json.loads(line) for line in f]
 
     video_id = "P01-20240203-123350"
