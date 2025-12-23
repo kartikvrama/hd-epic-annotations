@@ -3,6 +3,16 @@ read_dataset.ipynb
 logs/*.out
 logs/*.err
 
+## VS Code settings and temporary files
+.vscode/
+.DS_Store
+.cursorrules
+.cursorignore
+.cursorignore.md
+.cursorignore.txt
+.cursorignore.json
+.cursorignore.yaml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

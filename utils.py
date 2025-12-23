@@ -1,5 +1,5 @@
 import textwrap
-
+import pandas as pd
 
 def seconds_to_minutes_seconds(seconds):
     minutes = int(seconds) // 60
@@ -41,3 +41,36 @@ def extract_touches_from_track(track_list):
             "drop": time_seg_tuple[1],
         })
     return touches
+
+
+def return_event_history_sorted(object_movements: dict) -> pd.DataFrame:
+    """
+    Return a sorted event history dataframe from the object movements.
+    """
+
+    event_history = []
+    for _, assoc_data in object_movements.items():
+        for track in assoc_data["tracks"]:
+            pick_time = track["time_segment"][0]
+            event_history.append(
+                {
+                    "time": pick_time,
+                    "object_name": assoc_data["name"],
+                    "action": "PICK",
+                    "mask_id": track["masks"][0],
+                }
+            )
+            drop_time = track["time_segment"][1]
+            drop_mask_id = "unknown"
+            if len(track["masks"]) > 1:
+                drop_mask_id = track["masks"][1]
+            event_history.append(
+                {
+                    "time": drop_time,
+                    "object_name": assoc_data["name"],
+                    "action": "DROP",
+                    "mask_id": drop_mask_id
+                }
+            )
+    event_history = pd.DataFrame(event_history).sort_values(by="time").reset_index(drop=True)
+    return event_history
