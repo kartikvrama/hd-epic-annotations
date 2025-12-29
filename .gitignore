@@ -2,6 +2,7 @@
 read_dataset.ipynb
 logs/*.out
 logs/*.err
+outputs/object_crops/
 
 ## VS Code settings and temporary files
 .vscode/
