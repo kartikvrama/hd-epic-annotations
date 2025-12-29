@@ -139,6 +139,7 @@ def generate_time_wise_scene_graphs(object_movements: dict, mask_fixtures: dict)
             "time": initial_time,
             "action": "INITIAL",
             "object_name": None,
+            "mask_id": None,
             "scene_graph": initial_scene_graph
         })
     
@@ -199,6 +200,7 @@ def generate_time_wise_scene_graphs(object_movements: dict, mask_fixtures: dict)
             "time": time,
             "action": action,
             "object_name": object_name,
+            "mask_id": mask_id,
             "scene_graph": scene_graph_snapshot
         })
     

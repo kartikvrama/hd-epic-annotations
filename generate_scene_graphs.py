@@ -160,7 +160,10 @@ def main():
     if len(scene_graphs) > 0:
         video_end_time = max(entry["time"] for entry in scene_graphs)
     
-    # Format output
+    # Prepare JSONL entries
+    jsonl_entries = []
+    
+    # Format output (text file)
     output_lines = []
     output_lines.append("=" * 80)
     output_lines.append(f"Time-wise Scene Graphs for Video: {args.video_id}")
@@ -177,6 +180,7 @@ def main():
         time = entry["time"]
         action = entry["action"]
         object_name = entry["object_name"]
+        mask_id = entry.get("mask_id")
         scene_graph = entry["scene_graph"]
         time_str = seconds_to_minutes_seconds(time)
         
@@ -185,7 +189,7 @@ def main():
         
         # Get narrations at this timestamp
         narrations = get_narrations_at_time(narrations_df, args.video_id, time)
-        
+                
         # Format header
         if action == "INITIAL":
             output_lines.append(f"Initial State | Time: {time:.2f}s ({time_str})")
@@ -214,8 +218,22 @@ def main():
         else:
             output_lines.append("  (empty scene graph)")
         output_lines.append("")
+        
+        # Create JSONL entry
+        jsonl_entry = {
+            "video_id": args.video_id,
+            "time": time,
+            "time_str": time_str,
+            "action": action,
+            "object_name": object_name,
+            "mask_id": mask_id,
+            "high_level_activity": activity_info,
+            "narrations": narrations,
+            "scene_graph": scene_graph
+        }
+        jsonl_entries.append(jsonl_entry)
     
-    # Write to file
+    # Write text file
     os.makedirs("outputs", exist_ok=True)
     output_filename = f"outputs/scene_graphs_{args.video_id}.txt"
     
@@ -223,6 +241,14 @@ def main():
         f.write("\n".join(output_lines))
     
     print(f"Scene graphs saved to: {output_filename}")
+    
+    # Write JSONL file
+    jsonl_filename = f"outputs/scene_graphs_{args.video_id}.jsonl"
+    with open(jsonl_filename, "w", encoding='utf-8') as f:
+        for entry in jsonl_entries:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    
+    print(f"JSONL file saved to: {jsonl_filename}")
     print(f"Total events processed: {len(scene_graphs)}")
 
 
