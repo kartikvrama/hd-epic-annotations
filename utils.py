@@ -74,3 +74,132 @@ def return_event_history_sorted(object_movements: dict) -> pd.DataFrame:
             )
     event_history = pd.DataFrame(event_history).sort_values(by="time").reset_index(drop=True)
     return event_history
+
+
+def generate_time_wise_scene_graphs(object_movements: dict, mask_fixtures: dict) -> list:
+    """
+    Generate time-wise scene graphs from object movements.
+    
+    Args:
+        object_movements: Dictionary from assoc_info.json for a video_id
+        mask_fixtures: Dictionary from mask_info.json for a video_id
+    
+    Returns:
+        List of dictionaries, each containing:
+            - "time": timestamp of the scene graph
+            - "action": action type ("PICK" or "DROP")
+            - "object_name": name of the object involved in the action
+            - "scene_graph": dictionary mapping node names (fixtures/"Human"/"Free Space") to lists of object names
+    """
+    # Get sorted event history
+    event_history = return_event_history_sorted(object_movements)
+    
+    # Initialize scene graph: use first pick action of each object to determine initial state
+    scene_graph = {}  # Maps node name -> list of object names
+    object_initial_locations = {}  # Track where each object starts
+    
+    # Find first pick for each object to determine initial location
+    for _, assoc_data in object_movements.items():
+        object_name = assoc_data["name"]
+        # Skip objects whose name starts with "Track"
+        if object_name.startswith("Track"):
+            continue
+        if len(assoc_data["tracks"]) > 0:
+            first_track = assoc_data["tracks"][0]
+            first_pick_mask_id = first_track["masks"][0]
+            
+            # Get fixture from mask_info
+            if first_pick_mask_id in mask_fixtures:
+                fixture = mask_fixtures[first_pick_mask_id]["fixture"]
+                # Handle Null fixture
+                if fixture is None or fixture == "Null":
+                    node_name = "Free Space"
+                else:
+                    node_name = fixture
+            else:
+                node_name = "Free Space"
+            
+            # Initialize object at this location
+            if node_name not in scene_graph:
+                scene_graph[node_name] = []
+            scene_graph[node_name].append(object_name)
+            object_initial_locations[object_name] = node_name
+    
+    # Track current location of each object
+    object_current_location = object_initial_locations.copy()
+    
+    # List to store scene graphs at each time point
+    time_wise_scene_graphs = []
+    
+    # Store initial state (before any events)
+    if len(event_history) > 0:
+        initial_time = max(0.0, event_history.iloc[0]["time"] - 0.01)  # Slightly before first event
+        initial_scene_graph = {node: objects.copy() for node, objects in scene_graph.items()}
+        time_wise_scene_graphs.append({
+            "time": initial_time,
+            "action": "INITIAL",
+            "object_name": None,
+            "scene_graph": initial_scene_graph
+        })
+    
+    # Process events chronologically
+    for _, row in event_history.iterrows():
+        time = row["time"]
+        object_name = row["object_name"]
+        # Skip objects whose name starts with "Track"
+        if object_name.startswith("Track"):
+            continue
+        action = row["action"]
+        mask_id = row["mask_id"]
+        
+        if action == "PICK":
+            # Remove object from current node and add to "Human"
+            current_node = object_current_location.get(object_name)
+            if current_node and current_node in scene_graph:
+                if object_name in scene_graph[current_node]:
+                    scene_graph[current_node].remove(object_name)
+                # Remove empty nodes (optional, for cleaner output)
+                if len(scene_graph[current_node]) == 0 and current_node != "Human" and current_node != "Free Space":
+                    del scene_graph[current_node]
+            
+            # Add to Human node
+            if "Human" not in scene_graph:
+                scene_graph["Human"] = []
+            if object_name not in scene_graph["Human"]:
+                scene_graph["Human"].append(object_name)
+            object_current_location[object_name] = "Human"
+            
+        elif action == "DROP":
+            # Remove object from "Human" and add to drop location
+            if "Human" in scene_graph:
+                if object_name in scene_graph["Human"]:
+                    scene_graph["Human"].remove(object_name)
+            
+            # Determine drop location
+            if mask_id == "unknown" or mask_id not in mask_fixtures:
+                drop_node = "Free Space"
+            else:
+                fixture = mask_fixtures[mask_id]["fixture"]
+                if fixture is None or fixture == "Null":
+                    drop_node = "Free Space"
+                else:
+                    drop_node = fixture
+            
+            # Add to drop node
+            if drop_node not in scene_graph:
+                scene_graph[drop_node] = []
+            if object_name not in scene_graph[drop_node]:
+                scene_graph[drop_node].append(object_name)
+            object_current_location[object_name] = drop_node
+        
+        # Store scene graph snapshot at this time
+        # Create a deep copy to avoid reference issues
+        scene_graph_snapshot = {node: objects.copy() for node, objects in scene_graph.items()}
+        time_wise_scene_graphs.append({
+            "time": time,
+            "action": action,
+            "object_name": object_name,
+            "scene_graph": scene_graph_snapshot
+        })
+    
+    return time_wise_scene_graphs
