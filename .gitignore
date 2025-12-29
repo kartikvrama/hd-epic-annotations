@@ -3,6 +3,7 @@ read_dataset.ipynb
 logs/*.out
 logs/*.err
 outputs/object_crops/
+outputs/linked_objects_llm_*
 
 ## VS Code settings and temporary files
 .vscode/
