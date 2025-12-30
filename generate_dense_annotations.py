@@ -183,10 +183,23 @@ def process_video(video_id, video_path, scene_graph_path, assoc_info_path, mask_
     try:
         # 2. Initialize SAM 2 Video Predictor
         # Note: Model paths and config should be adjusted based on server setup
-        sam2_checkpoint = "/coc/flash5/kvr6/repos/sam2/checkpoints/sam2.1_hiera_small.pt"
-        model_cfg = "configs/sam2.1/sam2.1_hiera_s.yaml"
+
+        # sam2_checkpoint = "/coc/flash5/kvr6/repos/sam2/checkpoints/sam2.1_hiera_small.pt"
+        # model_cfg = "configs/sam2.1/sam2.1_hiera_s.yaml"
+
+        sam2_checkpoint = "/coc/flash5/kvr6/repos/sam2/checkpoints/sam2.1_hiera_large.pt"
+        model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"
+
+        # sam2_checkpoint = "/coc/flash5/kvr6/repos/sam2/checkpoints/sam2.1_hiera_base_plus.pt"
+        # model_cfg = "configs/sam2.1/sam2.1_hiera_base_plus.yaml"
+
         predictor = build_sam2_video_predictor(model_cfg, sam2_checkpoint)
         print("SAM 2 predictor initialized")
+        
+        # Enable autocast with BFloat16 to handle dtype conversions automatically
+        # This ensures all operations use BFloat16 when model expects it
+        torch.backends.cuda.matmul.allow_tf32 = True
+        torch.backends.cudnn.allow_tf32 = True
 
         # 3. Process each manipulated object (association)
         dense_annotations = []
@@ -201,18 +214,27 @@ def process_video(video_id, video_path, scene_graph_path, assoc_info_path, mask_
             print(f"GPU memory before init: {torch.cuda.memory_allocated() / 1024**3:.2f} GB")
 
         print(f"Initializing inference state for video {video_id}: video path {video_path}")
+        # Use offload_video_to_cpu=True for memory savings, but wrap operations in autocast
+        # to handle dtype conversions automatically
         inference_state = predictor.init_state(
             video_path=video_path,
-            offload_video_to_cpu=True,  # Keep video frames in CPU memory
-            offload_state_to_cpu=True  # Tip: Keep state on GPU for better performance
+            offload_video_to_cpu=True,  # Keep video frames in CPU memory for memory savings
+            offload_state_to_cpu=False  # Keep state on GPU
         )
         print("Inference state initialized")
         if torch.cuda.is_available():
             print(f"GPU memory after init: {torch.cuda.memory_allocated() / 1024**3:.2f} GB")
 
+        # Create mapping from obj_id to assoc_id for later lookup
+        obj_id_to_assoc_id = {}
+        
         for assoc_id, assoc_data in assoc_info[video_id].items():
             obj_name = assoc_data['name']
             print(f"Tracking object: {obj_name} (ID: {assoc_id})")
+            
+            # Compute obj_id for this assoc_id
+            obj_id = int(assoc_id.split('_')[-1]) if '_' in assoc_id else hash(assoc_id) % 1000
+            obj_id_to_assoc_id[obj_id] = assoc_id
             
             # Collect all available bboxes for this association as prompts
             prompts = []
@@ -241,8 +263,8 @@ def process_video(video_id, video_path, scene_graph_path, assoc_info_path, mask_
                 _, out_obj_ids, out_mask_logits = predictor.add_new_points_or_box(
                     inference_state=inference_state,
                     frame_idx=prompt['frame_idx'],
-                    obj_id=int(assoc_id.split('_')[-1]) if '_' in assoc_id else hash(assoc_id) % 1000,
-                    box=np.array(scaled_bbox, dtype=np.float16),
+                    obj_id=obj_id,
+                    box=np.array(scaled_bbox, dtype=np.float32),
                 )
 
         # 4. Propagate bidirectionally
@@ -252,34 +274,42 @@ def process_video(video_id, video_path, scene_graph_path, assoc_info_path, mask_
         last_print_frame = -1
         print_interval = 50  # Print progress every 50 frames
         
-        for out_frame_idx, out_obj_ids, out_mask_logits in predictor.propagate_in_video(inference_state):
-            frame_count += 1
-            
-            # Print progress periodically
-            if out_frame_idx - last_print_frame >= print_interval or frame_count == 1:
-                print(f"Processing frame {out_frame_idx} (processed {frame_count} frames so far)")
-                last_print_frame = out_frame_idx
-            
-            for i, out_obj_id in enumerate(out_obj_ids):
-                mask = (out_mask_logits[i] > 0.0).cpu().numpy()
-                if mask.any():
-                    # Convert mask to bbox
-                    y, x = np.where(mask[0])
-                    bbox = [float(np.min(x)), float(np.min(y)), float(np.max(x)), float(np.max(y))]
-                    
-                    if out_obj_id not in video_segments:
-                        video_segments[out_obj_id] = {}
-                    video_segments[out_obj_id][out_frame_idx] = bbox
+        # Wrap propagation in autocast to automatically handle dtype conversions (Float32 -> BFloat16)
+        with torch.autocast(device_type='cuda', dtype=torch.bfloat16):
+            for out_frame_idx, out_obj_ids, out_mask_logits in predictor.propagate_in_video(inference_state):
+                # Only process frames that match frame_interval
+                if out_frame_idx % frame_interval != 0:
+                    continue
+                
+                frame_count += 1
+
+                if frame_count == 100: ## Checking if script is running
+                    break
+                
+                # Print progress periodically
+                if out_frame_idx - last_print_frame >= print_interval or frame_count == 1:
+                    print(f"Processing frame {out_frame_idx} (processed {frame_count} frames so far)")
+                    last_print_frame = out_frame_idx
+                
+                for i, out_obj_id in enumerate(out_obj_ids):
+                    mask = (out_mask_logits[i] > 0.0).cpu().numpy()
+                    if mask.any():
+                        # Convert mask to bbox
+                        y, x = np.where(mask[0])
+                        bbox = [float(np.min(x)), float(np.min(y)), float(np.max(x)), float(np.max(y))]
+                        
+                        if out_obj_id not in video_segments:
+                            video_segments[out_obj_id] = {}
+                        video_segments[out_obj_id][out_frame_idx] = bbox
         
         print(f"Completed propagation: processed {frame_count} frames total")
 
-        # 5. Save results (only every Nth frame)
+        # 5. Save results (all processed frames)
         output_file = os.path.join(output_dir, f"dense_annotations_{video_id}.jsonl")
         all_frame_indices = sorted(set(idx for seg in video_segments.values() for idx in seg.keys()))
-        filtered_frame_indices = [idx for idx in all_frame_indices if idx % frame_interval == 0]
         
         with open(output_file, 'w') as f:
-            for frame_idx in filtered_frame_indices:
+            for frame_idx in all_frame_indices:
                 frame_data = {"frame_number": frame_idx, "objects": []}
                 for obj_id, segments in video_segments.items():
                     if frame_idx in segments:
@@ -291,10 +321,17 @@ def process_video(video_id, video_path, scene_graph_path, assoc_info_path, mask_
                         else:
                             original_bbox = bbox
                         
-                        # Find original assoc_id and name
-                        # (In a real implementation, we'd maintain a mapping)
+                        # Map obj_id back to original assoc_id
+                        assoc_id_returned = obj_id_to_assoc_id.get(obj_id, str(obj_id))
+                        assert assoc_id_returned == assoc_id, f"Assoc ID mismatch: {assoc_id_returned} != {assoc_id}"
                         frame_data["objects"].append({
-                            "assoc_id": str(obj_id),
+                            "assoc_id": assoc_id,
+                            "assoc_name": assoc_data['name'],
+                            "bbox": original_bbox
+                        })
+                        print({
+                            "assoc_id": assoc_id,
+                            "assoc_name": assoc_data['name'],
                             "bbox": original_bbox
                         })
                 f.write(json.dumps(frame_data) + "\n")

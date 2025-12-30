@@ -3,8 +3,8 @@
 #SBATCH --partition=rail-lab
 #SBATCH --ntasks=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=32
-#SBATCH --gpus=a40:2
+#SBATCH --cpus-per-task=64
+#SBATCH --gpus=a40:1
 #SBATCH --qos=long
 #SBATCH --output=logs/R-%x.%j.out
 #SBATCH --error=logs/R-%x.%j.err
@@ -19,7 +19,7 @@ PYTHON_EXEC=$PYTHONPATH
 VIDEO_DATA_DIR="/coc/flash5/kvr6/data/hd-epic-data-files/HD-EPIC/Videos"
 
 # Frame interval: annotate every Nth frame (default: 1 = all frames)
-FRAME_INTERVAL=${FRAME_INTERVAL:-1}
+FRAME_INTERVAL=30
 
 # Read video IDs from file and loop over them
 VIDEO_IDS_FILE="video_ids_short.txt"
@@ -41,7 +41,7 @@ while IFS= read -r video_id || [ -n "$video_id" ]; do
         --assoc_info scene-and-object-movements/assoc_info.json \
         --mask_info scene-and-object-movements/mask_info.json \
         --output_dir outputs \
-        --video_scale_factor 0.3 \
+        --video_scale_factor 0.5 \
         --frame_interval $FRAME_INTERVAL"
     
     echo $CMD
