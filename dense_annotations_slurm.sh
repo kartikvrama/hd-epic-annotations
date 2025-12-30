@@ -12,14 +12,17 @@
 cd /coc/flash5/kvr6/repos/hd-epic-annotations
 
 # Set up environment
-export PYTHONPATH=/coc/flash5/kvr6/anaconda3/envs/llmEnv/bin/python
+export PYTHONPATH=/coc/flash5/kvr6/containers/envs/llmEnv/bin/python
 PYTHON_EXEC=$PYTHONPATH
 
 # Video data path on server
-VIDEO_DATA_DIR="/coc/flash5/kvr6/datasets/hd-epic-videos"
+VIDEO_DATA_DIR="/coc/flash5/kvr6/data/hd-epic-data-files/HD-EPIC/Videos"
+
+# Frame interval: annotate every Nth frame (default: 1 = all frames)
+FRAME_INTERVAL=${FRAME_INTERVAL:-1}
 
 # Read video IDs from file and loop over them
-VIDEO_IDS_FILE="video_ids_long.txt"
+VIDEO_IDS_FILE="video_ids_short.txt"
 
 # Create logs directory if it doesn't exist
 mkdir -p logs
@@ -37,7 +40,9 @@ while IFS= read -r video_id || [ -n "$video_id" ]; do
         --scene_graph_dir outputs \
         --assoc_info scene-and-object-movements/assoc_info.json \
         --mask_info scene-and-object-movements/mask_info.json \
-        --output_dir outputs"
+        --output_dir outputs \
+        --video_scale_factor 0.3 \
+        --frame_interval $FRAME_INTERVAL"
     
     echo $CMD
     eval $CMD
