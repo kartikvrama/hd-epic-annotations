@@ -234,8 +234,8 @@ def main():
         jsonl_entries.append(jsonl_entry)
     
     # Write text file
-    os.makedirs("outputs", exist_ok=True)
-    output_filename = f"outputs/scene_graphs_{args.video_id}.txt"
+    os.makedirs("outputs/scene_graphs", exist_ok=True)
+    output_filename = f"outputs/scene_graphs/scene_graphs_{args.video_id}.txt"
     
     with open(output_filename, "w", encoding='utf-8') as f:
         f.write("\n".join(output_lines))
@@ -243,7 +243,7 @@ def main():
     print(f"Scene graphs saved to: {output_filename}")
     
     # Write JSONL file
-    jsonl_filename = f"outputs/scene_graphs_{args.video_id}.jsonl"
+    jsonl_filename = f"outputs/scene_graphs/scene_graphs_{args.video_id}.jsonl"
     with open(jsonl_filename, "w", encoding='utf-8') as f:
         for entry in jsonl_entries:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")

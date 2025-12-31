@@ -159,9 +159,9 @@ def generate_time_wise_scene_graphs(object_movements: dict, mask_fixtures: dict)
             if current_node and current_node in scene_graph:
                 if object_name in scene_graph[current_node]:
                     scene_graph[current_node].remove(object_name)
-                # Remove empty nodes (optional, for cleaner output)
-                if len(scene_graph[current_node]) == 0 and current_node != "Human" and current_node != "Free Space":
-                    del scene_graph[current_node]
+                # # Remove empty nodes (optional, for cleaner output)
+                # if len(scene_graph[current_node]) == 0 and current_node != "Human" and current_node != "Free Space":
+                #     del scene_graph[current_node]
             
             # Add to Human node
             if "Human" not in scene_graph:
