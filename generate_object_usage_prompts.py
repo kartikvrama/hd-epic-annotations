@@ -18,7 +18,7 @@ def format_scene_graph(scene_graph: dict) -> str:
 
 def _visualize_scene_graph(scene_graph, video_id, mask_info_dict):
     print(f"Time: {scene_graph['time_str']}")
-    # print(f"High-level activity: {scene_graph['high_level_activity']['high_level_activity_label']}")
+    print(f"High-level activity: {scene_graph['high_level_activity']['high_level_activity_label']}")
     print("Action narrations:")
     for narration in scene_graph['narrations']:
         print(f"  * {narration['narration']}")
@@ -45,9 +45,8 @@ def _extract_event_history(scene_graphs, mask_info_dict, query_object_name):
         if scene_graph["action"] == "INITIAL":
             continue
         fixture_name = mask_info_dict[scene_graph['mask_id']]['fixture'] if scene_graph['mask_id'] in mask_info_dict else "unknown"
-        print(scene_graph["action"])
-        print(fixture_name, fixture_name in scene_graph["scene_graph"])
         event = {
+            "time": scene_graph['time'],
             "time_str": seconds_to_minutes_seconds(scene_graph['time']),
             "high_level_activity": scene_graph['high_level_activity']['high_level_activity_label'],
             "action_narrations": [narration['narration'] for narration in scene_graph['narrations']],
@@ -92,8 +91,7 @@ def main():
     for assoc_id, assoc_data in object_movement_dict[video_id].items():
 
         object_name = assoc_data['name']
-        timesteps = [scene_graphs[0]["time"]] + [scene_graph['time'] for scene_graph in scene_graphs if scene_graph["object_name"] == object_name] + [scene_graphs[-1]["time"]]
-
+        timesteps = [0] + [scene_graph['time'] for scene_graph in scene_graphs if scene_graph["object_name"] == object_name] + [scene_graphs[-1]["time"]]
 
         ## Print event history for consecutive timesteps
         for i in range(len(timesteps) - 1):
@@ -101,6 +99,8 @@ def main():
             timestep_2 = timesteps[i + 1]
             scene_graphs_between_timesteps = [scene_graph for scene_graph in scene_graphs if scene_graph['time'] >= timestep_1 and scene_graph['time'] <= timestep_2]
             result = _extract_event_history(scene_graphs_between_timesteps, mask_info_dict[video_id], object_name)
+            result["time_start"] = timestep_1
+            result["time_end"] = timestep_2
             prompt_info.append(result)
 
     with open(f"outputs/prompt_info_{video_id}.json", "w") as f:
