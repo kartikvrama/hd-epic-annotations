@@ -13,13 +13,11 @@ import re
 
 
 parser = argparse.ArgumentParser(description='Label object usage during time periods.')
-parser.add_argument('--prompt_info_file', type=str, required=False,
-                    help='Path to prompt_info JSON file (e.g., outputs/prompt_info_P01-20240202-171220.json)')
 parser.add_argument('--video_id', type=str, required=False,
                     help='Video ID to construct prompt_info file path (e.g., P01-20240202-171220)')
 args = parser.parse_args()
 
-VERBOSE = False
+VERBOSE = True
 MODEL_NAME = "gpt-oss:20b"
 
 
@@ -291,8 +289,6 @@ def call_ollama_object_usage(system_prompt, prompt, examples, model_name=MODEL_N
     Returns:
         Response JSON dict, Response text
     """
-    verbose_print(f"Prompt:\n<{prompt}>")
-
     examples_prompt = "Examples:"
     for i, example in enumerate(examples, 1):
         examples_prompt += f"""
@@ -340,12 +336,10 @@ Response: {{
 
 def main():
     # Determine input file path
-    if args.prompt_info_file:
-        prompt_info_path = args.prompt_info_file
-    elif args.video_id:
-        prompt_info_path = f"outputs/prompt_info_{args.video_id}.json"
+    if args.video_id:
+        prompt_info_path = f"outputs/prompts/prompt_info_{args.video_id}.json"
     else:
-        parser.error("Either --prompt_info_file or --video_id must be provided")
+        parser.error("Arg --video_id must be provided")
     
     if not os.path.exists(prompt_info_path):
         print(f"Error: File not found: {prompt_info_path}")
@@ -353,8 +347,8 @@ def main():
     
     print(f"Processing prompt info file: {prompt_info_path}")
     
-    # # Ensure the model is loaded
-    # ensure_ollama_model_loaded(MODEL_NAME)
+    # Ensure the model is loaded
+    ensure_ollama_model_loaded(MODEL_NAME)
     
     # Load prompt info
     with open(prompt_info_path, 'r', encoding='utf-8') as f:
@@ -363,9 +357,29 @@ def main():
     print(f"Found {len(prompt_info)} entries to process")
     
     # Determine output file path
-    base_name = os.path.splitext(os.path.basename(prompt_info_path))[0]
-    output_dir = os.path.dirname(prompt_info_path) if os.path.dirname(prompt_info_path) else "outputs"
-    output_filename = os.path.join(output_dir, f"{base_name}_object_usage_labels.jsonl")
+    output_dir = "outputs/object_usage_labels"
+    os.makedirs(output_dir, exist_ok=True)
+    output_filename = os.path.join(output_dir, f"object_usage_labels_{args.video_id}.jsonl")
+    
+    # Load already processed entries to avoid reprocessing
+    processed_entries = set()
+    if os.path.exists(output_filename):
+        print(f"Loading existing entries from {output_filename}")
+        with open(output_filename, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    existing_entry = json.loads(line)
+                    # Create a unique key from object_name, time_start, and time_end
+                    key = (existing_entry.get('object_name'), 
+                           existing_entry.get('time_start'), 
+                           existing_entry.get('time_end'))
+                    processed_entries.add(key)
+                except json.JSONDecodeError as e:
+                    print(f"Warning: Skipping invalid JSON line in existing file: {e}")
+        print(f"Found {len(processed_entries)} already processed entries")
     
     # Generate system prompt
     system_prompt = generate_system_prompt()
@@ -375,21 +389,30 @@ def main():
 
     
     # Process each entry
+    skipped_count = 0
     for idx, entry in enumerate(prompt_info):
         object_name = entry['object_name']
         time_start = entry['time_start']
         time_end = entry['time_end']
+        
+        # Check if this entry has already been processed
+        entry_key = (object_name, time_start, time_end)
+        if entry_key in processed_entries:
+            skipped_count += 1
+            print(f"Skipping entry {idx + 1}/{len(prompt_info)}: {object_name} ({time_start:.2f}s - {time_end:.2f}s) - already processed")
+            continue
         
         print(f"Processing entry {idx + 1}/{len(prompt_info)}: {object_name} ({time_start:.2f}s - {time_end:.2f}s)")
         
         # Generate prompts
         user_prompt = generate_user_prompt(entry)
 
-        print(f"User prompt:\n<{user_prompt}>\n\n--------------------------------")
+        verbose_print(f"User prompt:\n<{user_prompt}>\n\n--------------------------------")
         
         # Call ollama
         llm_response_json, llm_response_text = call_ollama_object_usage(system_prompt, user_prompt, examples)
         llm_response_text = json.dumps(llm_response_json, ensure_ascii=False)
+        verbose_print(f"LLM response JSON:\n<{llm_response_json}>")
         
         # Prepare output entry
         output_entry = {
@@ -407,7 +430,9 @@ def main():
         with open(output_filename, "a", encoding='utf-8') as outfile:
             outfile.write(json.dumps(output_entry, ensure_ascii=False) + "\n")
     
-    print(f"\nCompleted! Results written to {output_filename}")
+    processed_count = len(prompt_info) - skipped_count
+    print(f"\nCompleted! Processed {processed_count} entries, skipped {skipped_count} already processed entries.")
+    print(f"Results written to {output_filename}")
 
 
 if __name__ == "__main__":

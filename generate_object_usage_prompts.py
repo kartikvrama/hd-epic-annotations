@@ -1,3 +1,4 @@
+import os
 import json
 import argparse
 from utils import seconds_to_minutes_seconds
@@ -103,7 +104,8 @@ def main():
             result["time_end"] = timestep_2
             prompt_info.append(result)
 
-    with open(f"outputs/prompt_info_{video_id}.json", "w") as f:
+    os.makedirs("outputs/prompts", exist_ok=True)
+    with open(f"outputs/prompts/prompt_info_{video_id}.json", "w") as f:
         json.dump(prompt_info, f, indent=1)
 
 

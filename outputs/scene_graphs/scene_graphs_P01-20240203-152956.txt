@@ -1,0 +1,561 @@
+================================================================================
+Time-wise Scene Graphs for Video: P01-20240203-152956
+================================================================================
+
+Scene graphs are generated from object movements.
+Each entry shows the state after an event (PICK or DROP) occurs.
+
+--------------------------------------------------------------------------------
+
+Initial State | Time: 4.60s (00:04)
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  P01_counter.002: [fork, oven glove, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  P01_oven.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #1 | Time: 4.61s (00:04) | PICK: oven glove
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [4.61s - 5.51s] Pick up the oven glove from the countertop using the right hand.
+--------------------------------------------------------------------------------
+  Human: [oven glove]
+  P01_counter.002: [fork, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  P01_oven.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #2 | Time: 13.05s (00:13) | PICK: tray
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [oven glove, tray]
+  P01_counter.002: [fork, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  mid-air: [unrolled foil]
+
+Event #3 | Time: 14.70s (00:14) | DROP: tray
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [14.12s - 17.31s] Pick up the tray from the upper shelf of the oven using the right hand holding the oven glove by sliding it out.
+--------------------------------------------------------------------------------
+  Human: [oven glove]
+  P01_counter.002: [fork, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  P01_oven.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #4 | Time: 15.48s (00:15) | PICK: tray
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [14.12s - 17.31s] Pick up the tray from the upper shelf of the oven using the right hand holding the oven glove by sliding it out.
+--------------------------------------------------------------------------------
+  Human: [oven glove, tray]
+  P01_counter.002: [fork, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  mid-air: [unrolled foil]
+
+Event #5 | Time: 19.39s (00:19) | DROP: tray
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [17.98s - 19.58s] Put the tray on the hob.
+--------------------------------------------------------------------------------
+  Human: [oven glove]
+  P01_counter.002: [fork, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #6 | Time: 21.39s (00:21) | DROP: oven glove
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [21.18s - 21.93s] Throw the oven's glove on the countertop using the right hand.
+--------------------------------------------------------------------------------
+  P01_counter.002: [fork, oven glove, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #7 | Time: 21.70s (00:21) | PICK: plastic spoon
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [21.18s - 21.93s] Throw the oven's glove on the countertop using the right hand.
+--------------------------------------------------------------------------------
+  Human: [plastic spoon]
+  P01_counter.002: [fork, oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #8 | Time: 27.58s (00:27) | PICK: pie
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [22.69s - 28.11s] Pick up one meat pie from the tray using the plastic spoon by sliding the spoon under the pie and pulling it up, also using the left hand to break the pie from its neighboring pie.
+--------------------------------------------------------------------------------
+  Human: [pie, plastic spoon]
+  P01_counter.002: [fork, oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #9 | Time: 28.17s (00:28) | DROP: pie
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [plastic spoon]
+  P01_counter.002: [fork, oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #10 | Time: 33.57s (00:33) | PICK: fork
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [33.36s - 34.13s] Pick up a fork from the countertop.
+--------------------------------------------------------------------------------
+  Human: [fork, plastic spoon]
+  P01_counter.002: [oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #11 | Time: 49.37s (00:49) | DROP: plastic spoon
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [48.58s - 49.79s] Put down the plastic spoon.
+--------------------------------------------------------------------------------
+  Human: [fork]
+  P01_counter.002: [oven glove, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #12 | Time: 50.79s (00:50) | DROP: fork
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [50.50s - 51.31s] put down the fork.
+--------------------------------------------------------------------------------
+  P01_counter.002: [fork, oven glove, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_cupboard.008: [plate]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #13 | Time: 54.69s (00:54) | PICK: plate
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [54.30s - 55.13s] pick up a plate, that's the top of the pile of plates, on the lower shelf of the cupboard.
+--------------------------------------------------------------------------------
+  Human: [plate]
+  P01_counter.002: [fork, oven glove, plastic spoon, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #14 | Time: 56.40s (00:56) | PICK: plastic spoon
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [56.31s - 56.87s] pick up the plastic spoon from the countertop.
+--------------------------------------------------------------------------------
+  Human: [plastic spoon, plate]
+  P01_counter.002: [fork, oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #15 | Time: 57.37s (00:57) | PICK: plate2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [56.97s - 58.38s] Move the plate filled with pies to the right of the countertop so that to empty space next to the hob to place the other plate.
+--------------------------------------------------------------------------------
+  Human: [plastic spoon, plate, plate2]
+  P01_counter.002: [fork, oven glove]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #16 | Time: 58.36s (00:58) | DROP: plate2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [56.97s - 58.38s] Move the plate filled with pies to the right of the countertop so that to empty space next to the hob to place the other plate.
+--------------------------------------------------------------------------------
+  Human: [plastic spoon, plate]
+  P01_counter.002: [fork, oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #17 | Time: 59.63s (00:59) | DROP: plate
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [plastic spoon]
+  P01_counter.002: [fork, oven glove, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #18 | Time: 89.54s (01:29) | PICK: pie2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [pie2, plastic spoon]
+  P01_counter.002: [fork, oven glove, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, tray]
+  mid-air: [unrolled foil]
+
+Event #19 | Time: 90.14s (01:30) | DROP: pie2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [89.87s - 91.56s] Pick up two pies from the tray using the plastic spoon and supporting them with the left hand. These two pies are still attached to one another.
+--------------------------------------------------------------------------------
+  Human: [plastic spoon]
+  P01_counter.002: [fork, oven glove, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #20 | Time: 92.20s (01:32) | PICK: plate
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [plastic spoon, plate]
+  P01_counter.002: [fork, oven glove, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #21 | Time: 122.21s (02:02) | DROP: plate
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [plastic spoon]
+  P01_counter.002: [fork, oven glove, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #22 | Time: 123.46s (02:03) | PICK: oven glove
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [123.20s - 124.05s] Pick up the oven glove from the countertop emptying space.
+--------------------------------------------------------------------------------
+  Human: [oven glove, plastic spoon]
+  P01_counter.002: [fork, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #23 | Time: 124.32s (02:04) | DROP: plastic spoon
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [124.17s - 124.90s] Put the plastic spoon on the countertop.
+--------------------------------------------------------------------------------
+  Human: [oven glove]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2, tray]
+  mid-air: [unrolled foil]
+
+Event #24 | Time: 126.77s (02:06) | PICK: tray
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [126.68s - 127.62s] Pick up the tray from the hob using the oven glove. The tray is still very hot and it just came out of the oven.
+--------------------------------------------------------------------------------
+  Human: [oven glove, tray]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  mid-air: [unrolled foil]
+
+Event #25 | Time: 129.47s (02:09) | DROP: tray
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [129.07s - 130.44s] put the tray in the sink, piling it on top of the other tray.
+--------------------------------------------------------------------------------
+  Human: [oven glove]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #26 | Time: 132.21s (02:12) | DROP: oven glove
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [131.97s - 132.73s] throw the oven glove on the countertop.
+--------------------------------------------------------------------------------
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_drawer.002: [box of foil wrap]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #27 | Time: 135.00s (02:15) | PICK: box of foil wrap
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [134.74s - 135.62s] pick up the box of foil wrap from the second drawer.
+--------------------------------------------------------------------------------
+  Human: [box of foil wrap]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #28 | Time: 138.45s (02:18) | PICK: foil wrap
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [box of foil wrap, foil wrap]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #29 | Time: 138.91s (02:18) | DROP: box of foil wrap
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [138.53s - 139.63s] Pick up the foil wrap from the box, placing the box on the countertop.
+--------------------------------------------------------------------------------
+  Human: [foil wrap]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+  mid-air: [unrolled foil]
+
+Event #30 | Time: 143.40s (02:23) | PICK: unrolled foil
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [141.33s - 143.62s] tear the unrolled foil by using both hands on the edge of the unrolled foil and tearing it apart.
+--------------------------------------------------------------------------------
+  Human: [foil wrap, unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #31 | Time: 143.61s (02:23) | DROP: foil wrap
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [141.33s - 143.62s] tear the unrolled foil by using both hands on the edge of the unrolled foil and tearing it apart.
+--------------------------------------------------------------------------------
+  Human: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #32 | Time: 146.79s (02:26) | PICK: unrolled foil
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [146.54s - 148.80s] Fold the foil around the plate on both sides, also picking it up using both hands.
+--------------------------------------------------------------------------------
+  Human: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #33 | Time: 153.20s (02:33) | DROP: unrolled foil
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [150.59s - 153.20s] put the plate wrapped with foil on another countertop, folding its sides.
+--------------------------------------------------------------------------------
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove, unrolled foil]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #34 | Time: 153.21s (02:33) | DROP: unrolled foil
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove, unrolled foil]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #35 | Time: 153.49s (02:33) | PICK: unrolled foil
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Human: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #36 | Time: 156.09s (02:36) | DROP: unrolled foil
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #37 | Time: 156.93s (02:36) | PICK: foil wrap
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [156.60s - 160.11s] unroll more of the foil paper by picking up the foil roll with the right hand and unrolling with the left hand.
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  Human: [foil wrap]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #38 | Time: 162.02s (02:42) | DROP: foil wrap
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [161.39s - 162.15s] Place the foil roll on the countertop.
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #39 | Time: 164.65s (02:44) | PICK: foil2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  Human: [foil2]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #40 | Time: 173.16s (02:53) | DROP: foil2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Active Narrations:
+  [172.20s - 173.20s] Put down the plate on the countertop, now fully covered with foil with all edges tucked in.
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #41 | Time: 173.47s (02:53) | PICK: foil2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  Human: [foil2]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #42 | Time: 173.82s (02:53) | DROP: foil2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #43 | Time: 173.99s (02:53) | PICK: foil2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  Human: [foil2]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]
+
+Event #44 | Time: 174.36s (02:54) | DROP: foil2
+High-Level Activity: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+--------------------------------------------------------------------------------
+  Free Space: [unrolled foil]
+  P01_counter.002: [fork, plastic spoon, plate, plate2]
+  P01_counter.008: [box of foil wrap, foil wrap]
+  P01_counter.009: [foil2, oven glove]
+  P01_hob.001: [pie, pie2]
+  P01_sink.001: [tray]

@@ -1,0 +1,2458 @@
+================================================================================
+Time-wise Scene Graphs for Video: P01-20240202-171220
+================================================================================
+
+Scene graphs are generated from object movements.
+Each entry shows the state after an event (PICK or DROP) occurs.
+
+--------------------------------------------------------------------------------
+
+Initial State | Time: 3.68s (00:03)
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [3.55s - 4.01s]  Pick up tissue from inside the plate on the countertop using the right hand.
+--------------------------------------------------------------------------------
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, scale, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_counter.009: [bowl, tissue]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #1 | Time: 3.69s (00:03) | PICK: tissue
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [3.55s - 4.01s]  Pick up tissue from inside the plate on the countertop using the right hand.
+--------------------------------------------------------------------------------
+  Human: [tissue]
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, scale, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_counter.009: [bowl]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #2 | Time: 4.97s (00:04) | DROP: tissue
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [4.79s - 5.19s]  Throw the tissue in the trash bin using the right hand.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, scale, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_counter.009: [bowl]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #3 | Time: 5.80s (00:05) | PICK: bowl
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [5.79s - 6.09s]  Pick up the plate with a fork inside it from the countertop using the left hand. This action is off screen.
+--------------------------------------------------------------------------------
+  Human: [bowl]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, scale, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #4 | Time: 10.21s (00:10) | DROP: bowl
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, scale, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #5 | Time: 15.89s (00:15) | PICK: scale
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [15.80s - 16.88s]  Pick up the scale from the countertop using both hands.
+--------------------------------------------------------------------------------
+  Human: [scale]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #6 | Time: 22.59s (00:22) | DROP: scale
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [21.71s - 22.78s]  put down the scale on top of the microwave on the shelf using the right hand.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, ladle, plate, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #7 | Time: 24.33s (00:24) | PICK: ladle
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  Human: [ladle]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, plate, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #8 | Time: 24.64s (00:24) | PICK: plate
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [24.44s - 25.19s]  Pick up the ladle from the countertop using the right hand.
+--------------------------------------------------------------------------------
+  Human: [ladle, plate]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #9 | Time: 26.57s (00:26) | DROP: plate
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [26.23s - 26.91s]  Put down the plate on the counter top the left.
+--------------------------------------------------------------------------------
+  Human: [ladle]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, plate, water filter jug]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #10 | Time: 30.40s (00:30) | DROP: ladle
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [29.65s - 30.72s]  put the ladle on the drainer using the left hand.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, plate, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [empty pot, pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #11 | Time: 32.49s (00:32) | PICK: empty pot
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  Human: [empty pot]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, plate, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #12 | Time: 38.42s (00:38) | DROP: empty pot
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [37.07s - 38.52s]  Put down the pan in the sink while water is flowing inside it to continue soaking it.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, plate2, second cover]
+  P01_counter.003: [glass, kettle, notepad, plate, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #13 | Time: 42.01s (00:42) | PICK: plate2
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [41.94s - 42.74s]  Pick up one empty plate using the left hand and another empty plate using the right hand.
+--------------------------------------------------------------------------------
+  Human: [plate2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, second cover]
+  P01_counter.003: [glass, kettle, notepad, plate, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #14 | Time: 42.19s (00:42) | PICK: plate
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [41.94s - 42.74s]  Pick up one empty plate using the left hand and another empty plate using the right hand.
+--------------------------------------------------------------------------------
+  Human: [plate, plate2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #15 | Time: 53.01s (00:53) | PICK: container
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [52.19s - 53.44s]  Slide the drawer of the dishwasher using the left hand to open it.
+--------------------------------------------------------------------------------
+  Human: [container, plate, plate2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #16 | Time: 55.88s (00:55) | DROP: container
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [53.79s - 56.09s]  Put both plates in the dishwasher's drawer.
+--------------------------------------------------------------------------------
+  Human: [plate, plate2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #17 | Time: 55.95s (00:55) | DROP: plate
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [53.79s - 56.09s]  Put both plates in the dishwasher's drawer.
+--------------------------------------------------------------------------------
+  Human: [plate2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, plate]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #18 | Time: 56.05s (00:56) | DROP: plate2
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [53.79s - 56.09s]  Put both plates in the dishwasher's drawer.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, knife, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #19 | Time: 56.58s (00:56) | PICK: knife
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [56.49s - 56.95s]  Pick up a knife from the countertop using the right hand.
+--------------------------------------------------------------------------------
+  Human: [knife]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #20 | Time: 59.27s (00:59) | DROP: knife
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [59.09s - 59.59s]  Put the knife into the dishwasher's cutlery drawer.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_hob.001: [pot]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #21 | Time: 61.93s (01:01) | PICK: pot
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  Human: [pot]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #22 | Time: 64.52s (01:04) | DROP: pot
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [64.04s - 64.69s]  Put the pan with the strainer to the right of the sink.
+--------------------------------------------------------------------------------
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [pot, strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3, right glove]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #23 | Time: 64.80s (01:04) | PICK: right glove
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [64.74s - 65.29s]  Hold the right glove using the left hand to wear it.
+--------------------------------------------------------------------------------
+  Human: [right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [pot, strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #24 | Time: 66.91s (01:06) | PICK: left glove
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [66.79s - 67.39s]  Hold the left glove with the right hand wearing the glove so as to wear it.
+--------------------------------------------------------------------------------
+  Human: [left glove, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [pot, strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #25 | Time: 69.41s (01:09) | PICK: sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [69.30s - 69.70s]  pick up the sponge.
+--------------------------------------------------------------------------------
+  Human: [left glove, right glove, sponge]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid]
+  P01_counter.006: [pot, strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #26 | Time: 70.24s (01:10) | PICK: bottle of washing up liquid
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  Human: [bottle of washing up liquid, left glove, right glove, sponge]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.006: [pot, strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #27 | Time: 73.01s (01:13) | DROP: bottle of washing up liquid
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [72.42s - 73.38s]  Put down the washing up liquid bottle.
+--------------------------------------------------------------------------------
+  Human: [left glove, right glove, sponge]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid]
+  P01_counter.006: [pot, strainer]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #28 | Time: 74.22s (01:14) | PICK: strainer
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [74.22s - 74.95s]  Pick up the strainer.
+--------------------------------------------------------------------------------
+  Human: [left glove, right glove, sponge, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid]
+  P01_counter.006: [pot]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #29 | Time: 74.22s (01:14) | PICK: strainer
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [74.22s - 74.95s]  Pick up the strainer.
+--------------------------------------------------------------------------------
+  Human: [left glove, right glove, sponge, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid]
+  P01_counter.006: [pot]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #30 | Time: 77.32s (01:17) | DROP: sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [76.98s - 77.46s]  Put down the sponge.
+--------------------------------------------------------------------------------
+  Human: [left glove, right glove, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [pot]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #31 | Time: 81.81s (01:21) | DROP: strainer
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [81.14s - 81.88s]  Put the strainer on the drainer.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [pot]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #32 | Time: 81.81s (01:21) | DROP: strainer
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [81.14s - 81.88s]  Put the strainer on the drainer.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.006: [pot]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #33 | Time: 82.42s (01:22) | PICK: pot
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [82.31s - 82.87s]  pick up the pan so as to clean it.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #34 | Time: 83.28s (01:23) | PICK: sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [83.23s - 83.56s]  pick up the sponge
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot, right glove, sponge]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, strainer]
+  P01_counter.005: [bottle of washing up liquid]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #35 | Time: 86.84s (01:26) | DROP: sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [86.53s - 86.87s]  Put down the sponge.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, pot3]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #36 | Time: 94.91s (01:34) | PICK: pot3
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [93.72s - 95.30s]  Put the pan on the drainer.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot, pot3, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #37 | Time: 95.35s (01:35) | DROP: pot
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [94.95s - 96.36s]  pick up another soaked pan from the sink, tilting it to pour the soaking liquid and emptying it.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot3, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #38 | Time: 97.54s (01:37) | PICK: sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [97.46s - 97.75s]  pick up sponge.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot3, right glove, sponge]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, strainer]
+  P01_counter.005: [bottle of washing up liquid]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #39 | Time: 101.60s (01:41) | DROP: sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [101.48s - 101.73s]  Put down the sponge.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, pot3, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #40 | Time: 109.69s (01:49) | DROP: pot3
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug, second sponge]
+
+Event #41 | Time: 110.63s (01:50) | PICK: second sponge
+High-Level Activity: Clear the dishes
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, right glove, second sponge]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug]
+
+Event #42 | Time: 122.31s (02:02) | DROP: second sponge
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [122.06s - 122.41s]  Put down the second sponge.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove, right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot]
+  mid-air: [cover of flask, plug]
+
+Event #43 | Time: 129.57s (02:09) | DROP: right glove
+High-Level Activity: Clear the dishes
+Active Narrations:
+  [127.79s - 130.10s]  Remove the left glove by holding it with the right hand and sliding the left hand out.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [left glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #44 | Time: 130.09s (02:10) | DROP: left glove
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [127.79s - 130.10s]  Remove the left glove by holding it with the right hand and sliding the left hand out.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [candy floss machine, disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #45 | Time: 133.80s (02:13) | PICK: candy floss machine
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [133.30s - 137.15s]  From the top shelf pick up the candy floss machine by sliding it outwards, using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [candy floss machine]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.008: [disk]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #46 | Time: 135.69s (02:15) | PICK: disk
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [133.30s - 137.15s]  From the top shelf pick up the candy floss machine by sliding it outwards, using the right hand.
+  [135.39s - 136.05s]  With the left hand, pick up the disk of the candy floss machine.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [candy floss machine, disk]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #47 | Time: 140.14s (02:20) | DROP: candy floss machine
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [138.50s - 140.43s]  Put down the candy floss on the counter top.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [disk]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, candy floss machine, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #48 | Time: 143.12s (02:23) | DROP: disk
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [141.93s - 148.99s]  Slide the disk in the center of the candy floss machine, locking it in place.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #49 | Time: 143.45s (02:23) | PICK: disk
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [141.93s - 148.99s]  Slide the disk in the center of the candy floss machine, locking it in place.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [disk]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, candy floss machine, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #50 | Time: 148.81s (02:28) | DROP: disk
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [141.93s - 148.99s]  Slide the disk in the center of the candy floss machine, locking it in place.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask, plug]
+
+Event #51 | Time: 150.86s (02:30) | PICK: plug
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [150.42s - 152.64s]  Plug the cord of the Candy Floss machine into the socket using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [plug]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #52 | Time: 152.44s (02:32) | DROP: plug
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [150.42s - 152.64s]  Plug the cord of the Candy Floss machine into the socket using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #53 | Time: 152.83s (02:32) | PICK: food processing bin
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [152.70s - 154.05s]  Slightly move the food processing bin on the surface top using both hands.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [food processing bin]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #54 | Time: 153.42s (02:33) | DROP: food processing bin
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [152.70s - 154.05s]  Slightly move the food processing bin on the surface top using both hands.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #55 | Time: 156.17s (02:36) | PICK: candy floss machine
+High-Level Activity: Prepare candy floss
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [candy floss machine]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #56 | Time: 158.68s (02:38) | DROP: candy floss machine
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [156.26s - 158.87s]  Rotate the candy floss 90 degrees to better access its buttons.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #57 | Time: 158.92s (02:38) | PICK: candy floss machine
+High-Level Activity: Prepare candy floss
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [candy floss machine]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #58 | Time: 159.67s (02:39) | DROP: candy floss machine
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [159.04s - 160.21s]  Check all the parts of the candy floss machine are locked in place, its wall and the disk, by touching them.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #59 | Time: 163.48s (02:43) | PICK: candy floss machine
+High-Level Activity: Prepare candy floss
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [candy floss machine]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #60 | Time: 166.62s (02:46) | DROP: candy floss machine
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [165.32s - 166.76s]  rotate slightly the candy floss bowl to better lock it in place using both hands, rotating it slightly clockwise.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #61 | Time: 170.34s (02:50) | PICK: wooden stick
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [170.11s - 170.87s]  Pick up a long wooden stick from the top shelf of the cupboard.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [wooden stick]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #62 | Time: 171.78s (02:51) | DROP: wooden stick
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [171.51s - 171.87s]  put down the wooden stick on the countertop next to the candy floss machine.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon, wooden stick]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #63 | Time: 172.89s (02:52) | PICK: plastic bag
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [172.57s - 173.72s]  pick up a plastic bag containing sugar granules inside from the top shelf of the cupboard.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [plastic bag]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #64 | Time: 175.57s (02:55) | DROP: plastic bag
+High-Level Activity: Prepare candy floss
+Active Narrations:
+  [175.04s - 175.60s]  Put down the plastic bag on top of the chopping board on the countertop next to the candy floss machine.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #65 | Time: 177.84s (02:57) | PICK: right glove
+High-Level Activity: Prepare candy floss
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [right glove]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove]
+  mid-air: [cover of flask]
+
+Event #66 | Time: 178.20s (02:58) | DROP: right glove
+High-Level Activity: Drink some water
+Active Narrations:
+  [177.89s - 178.49s]  Touch the glove then release it.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #67 | Time: 180.34s (03:00) | PICK: water filter jug
+High-Level Activity: Drink some water
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [water filter jug]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #68 | Time: 184.76s (03:04) | DROP: water filter jug
+High-Level Activity: Drink some water
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #69 | Time: 185.04s (03:05) | PICK: glass
+High-Level Activity: Drink some water
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [glass]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #70 | Time: 191.98s (03:11) | DROP: glass
+High-Level Activity: Drink some water
+Active Narrations:
+  [191.74s - 192.08s]  Put down the empty glass on the countertop.
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, notepad, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #71 | Time: 192.40s (03:12) | PICK: notepad
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [strainer]
+  Human: [notepad]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #72 | Time: 196.64s (03:16) | DROP: notepad
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [bag of bagels, candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #73 | Time: 199.70s (03:19) | PICK: bag of bagels
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [bag of bagels]
+  P01_bin.001: [tissue]
+  P01_counter.002: [container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #74 | Time: 202.80s (03:22) | DROP: bag of bagels
+High-Level Activity: Continue preparing candy floss
+Active Narrations:
+  [202.51s - 202.96s]  Put the plastic bag containing donuts inside the bread box.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #75 | Time: 208.94s (03:28) | PICK: kettle
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [kettle]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #76 | Time: 218.07s (03:38) | DROP: kettle
+High-Level Activity: Brew tea
+Active Narrations:
+  [216.35s - 218.11s]  Put down the kettle back on its base.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #77 | Time: 221.71s (03:41) | PICK: mug
+High-Level Activity: Brew tea
+Active Narrations:
+  [221.55s - 222.75s]  Move a mug at the bottom shelf of the cupboard without picking it up.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [mug]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #78 | Time: 222.72s (03:42) | DROP: mug
+High-Level Activity: Brew tea
+Active Narrations:
+  [221.55s - 222.75s]  Move a mug at the bottom shelf of the cupboard without picking it up.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #79 | Time: 223.67s (03:43) | PICK: glass2
+High-Level Activity: Brew tea
+Active Narrations:
+  [223.50s - 224.30s]  Move a glass at the second shelf of the cupboard without picking it up, so as to access what's behind it.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [glass2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #80 | Time: 224.22s (03:44) | DROP: glass2
+High-Level Activity: Brew tea
+Active Narrations:
+  [223.50s - 224.30s]  Move a glass at the second shelf of the cupboard without picking it up, so as to access what's behind it.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [flask, glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #81 | Time: 224.66s (03:44) | PICK: flask
+High-Level Activity: Brew tea
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [flask]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  mid-air: [cover of flask]
+
+Event #82 | Time: 226.77s (03:46) | PICK: cover of flask
+High-Level Activity: Brew tea
+Active Narrations:
+  [226.60s - 226.95s]  Open the cover of the flask by holding the flask using the left hand, holding the cover with the right hand, turning the cover counterclockwise to release it and then lifting it up.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [cover of flask, flask]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #83 | Time: 227.34s (03:47) | DROP: cover of flask
+High-Level Activity: Brew tea
+Active Narrations:
+  [227.05s - 227.45s]  Put the cover on the counter top.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [flask]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, cover of flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #84 | Time: 227.79s (03:47) | PICK: second cover
+High-Level Activity: Brew tea
+Active Narrations:
+  [227.60s - 227.90s]  Pick up the second cover using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [flask, second cover]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, cover of flask]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #85 | Time: 228.17s (03:48) | DROP: flask
+High-Level Activity: Brew tea
+Active Narrations:
+  [228.00s - 228.46s]  Put the second cover on the counter top.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [second cover]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, cover of flask, flask]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #86 | Time: 228.33s (03:48) | DROP: second cover
+High-Level Activity: Brew tea
+Active Narrations:
+  [228.00s - 228.46s]  Put the second cover on the counter top.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_shelf.003: [small gold color container]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #87 | Time: 230.83s (03:50) | PICK: small gold color container
+High-Level Activity: Brew tea
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [small gold color container]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, container's cover, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #88 | Time: 235.24s (03:55) | PICK: container's cover
+High-Level Activity: Brew tea
+Active Narrations:
+  [231.95s - 235.53s]  Open the container by holding it with the left hand and then pulling its cover with the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [container's cover, small gold color container]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #89 | Time: 244.74s (04:04) | DROP: small gold color container
+High-Level Activity: Brew tea
+Active Narrations:
+  [244.24s - 245.05s]  Put down the empty container on the countertop.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [container's cover]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+
+Event #90 | Time: 245.26s (04:05) | DROP: container's cover
+High-Level Activity: Brew tea
+Active Narrations:
+  [245.09s - 245.82s]  Open the trash bin's lid.
+  [245.18s - 245.82s]  Throw the container's cover in the trash, using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug, mug2]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #91 | Time: 258.82s (04:18) | PICK: mug2
+High-Level Activity: Brew tea
+Active Narrations:
+  [258.41s - 259.50s]  Pick up a mug from the bottom shelf by holding it with the left hand from its bottom. The mug is upside down.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [mug2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #92 | Time: 261.30s (04:21) | DROP: mug2
+High-Level Activity: Brew tea
+Active Narrations:
+  [260.74s - 261.79s]  Put down the mug on the counter top.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_drawer.003: [strainer2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #93 | Time: 264.20s (04:24) | PICK: strainer2
+High-Level Activity: Brew tea
+Active Narrations:
+  [264.15s - 265.07s]  Pick up a small plastic strainer from the cutlery drawer using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [strainer2]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #94 | Time: 266.79s (04:26) | DROP: strainer2
+High-Level Activity: Brew tea
+Active Narrations:
+  [266.05s - 266.92s]  Place the strainer on top of the mug. The strainer will be used to separate the tea from the loose tea.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #95 | Time: 268.78s (04:28) | PICK: kettle
+High-Level Activity: Brew tea
+Active Narrations:
+  [268.47s - 277.51s]  pick up the kettle from its base.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [kettle]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #96 | Time: 271.97s (04:31) | DROP: kettle
+High-Level Activity: Brew tea
+Active Narrations:
+  [268.47s - 277.51s]  pick up the kettle from its base.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #97 | Time: 274.79s (04:34) | PICK: kettle
+High-Level Activity: Brew tea
+Active Narrations:
+  [268.47s - 277.51s]  pick up the kettle from its base.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [kettle]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #98 | Time: 285.99s (04:45) | DROP: kettle
+High-Level Activity: Brew tea
+Active Narrations:
+  [284.49s - 286.29s]  Return the kettle to its base.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #99 | Time: 286.60s (04:46) | PICK: second cover
+High-Level Activity: Brew tea
+Active Narrations:
+  [286.56s - 286.85s]  Hold the thermoflask using the left hand.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [second cover]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #100 | Time: 288.99s (04:48) | DROP: second cover
+High-Level Activity: Brew tea
+Active Narrations:
+  [286.92s - 289.22s]  Close the thermo flask by holding it with the left hand, placing and rotating the second lid using the right hand, clockwise, until it's secured.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #101 | Time: 291.65s (04:51) | PICK: plastic bag
+High-Level Activity: Continue preparing candy floss
+Active Narrations:
+  [291.58s - 292.08s]  Pick up the plastic bag, contain the candyfloss sugar from the countertop.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [plastic bag]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #102 | Time: 302.13s (05:02) | PICK: plastic spoon
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [plastic bag, plastic spoon]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #103 | Time: 319.01s (05:19) | DROP: plastic bag
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [plastic spoon]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic bag, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #104 | Time: 320.58s (05:20) | PICK: plastic bag
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [plastic bag, plastic spoon]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #105 | Time: 323.87s (05:23) | DROP: plastic spoon
+High-Level Activity: Continue preparing candy floss
+Active Narrations:
+  [322.58s - 324.24s]  Throw the scoop spoon into the plastic bag.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [plastic bag]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #106 | Time: 335.18s (05:35) | DROP: plastic bag
+High-Level Activity: Continue preparing candy floss
+Active Narrations:
+  [334.70s - 335.49s]  Put the plastic bag on the top shelf of the cupboard using the right hand.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic spoon, wooden stick]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #107 | Time: 336.94s (05:36) | PICK: wooden stick
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [wooden stick]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, knife2, plastic spoon]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #108 | Time: 345.55s (05:45) | PICK: knife2
+High-Level Activity: Continue preparing candy floss
+Active Narrations:
+  [345.45s - 346.31s]  Pick up a knife from the chopping board on the countertop.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [knife2, wooden stick]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, plastic spoon]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #109 | Time: 350.53s (05:50) | DROP: knife2
+High-Level Activity: Continue preparing candy floss
+Active Narrations:
+  [349.50s - 350.98s]  Put down the knife in the cutlery drawer of the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer]
+  Human: [wooden stick]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, plastic spoon]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, knife2, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
+
+Event #110 | Time: 512.98s (08:32) | DROP: wooden stick
+High-Level Activity: Continue preparing candy floss
+--------------------------------------------------------------------------------
+  Free Space: [notepad, strainer, wooden stick]
+  P01_bin.001: [tissue]
+  P01_counter.002: [bag of bagels, cover of flask, flask, second cover, strainer2]
+  P01_counter.003: [glass, kettle, water filter jug]
+  P01_counter.004: [ladle, pot, pot3, strainer]
+  P01_counter.005: [bottle of washing up liquid, second sponge, sponge]
+  P01_counter.007: [food processing bin, plug]
+  P01_counter.008: [candy floss machine, disk, plastic spoon]
+  P01_counter.009: [small gold color container]
+  P01_cupboard.004: [plastic bag]
+  P01_cupboard.009: [glass2, mug]
+  P01_dishwasher.001: [container, knife, knife2, mug2, plate, plate2]
+  P01_microwave.001: [scale]
+  P01_sink.001: [bowl, empty pot, left glove, right glove]
+  P01_storage.001: [container's cover]
