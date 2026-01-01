@@ -13,6 +13,13 @@ parser.add_argument('--video_id', required=True, type=str, help='ID of the video
 args = parser.parse_args()
 
 BAR_WIDTH = 0.5
+VERBOSE = True
+
+
+def verbose_print(*args, **kwargs):
+    """Print only if VERBOSE is True."""
+    if VERBOSE:
+        print(*args, **kwargs)
 
 
 def plot_object_touches(track_sequence, axis, y_position):
@@ -34,64 +41,71 @@ def plot_object_usage_segments(object_labels_array, axis, all_object_labels):
     for object_label in object_labels_array:
         if object_label["object_name"] not in all_object_labels:
             continue
+        if object_label.get("is_used") is None:
+            print(f"WARNING: Object {object_label['object_name']} has invalid usage label between {object_label['time_start']} and {object_label['time_end']}")
+            continue
+        elif object_label["is_used"] == False: ## Skip if object was not used
+            continue
         y_position = all_object_labels.index(object_label["object_name"])
-        print(f"Object {object_label['object_name']} used between {object_label['usage_start_timestamp']} and {object_label['usage_end_timestamp']}")
+        verbose_print(f"Object {object_label['object_name']} used between {object_label['time_start']} and {object_label['time_end']}")
         axis.fill_betweenx(
             [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
-            object_label["usage_start_timestamp"],
-            object_label["usage_end_timestamp"],
+            object_label["time_start"],
+            object_label["time_end"],
             color="red",
             alpha=0.3,
         )
 
 
-
-def combine_object_labels(action_object_mapping: [dict], narrations: pd.DataFrame, object_movements: dict, mask_fixtures: dict) -> dict:
-    ## TODO: come up with a separate array of 0, 1 labels and corresponding msk and frame ids
-    ## If an object being picked or dropped, find if it is being used and label accordingly
+def combine_object_labels_from_usage_labels(object_usage_labels: [dict], scene_graphs: [dict], mask_fixtures: dict) -> dict:
+    """
+    Process object_usage_labels jsonl entries to create object_labels_array.
+    Includes all entries regardless of is_used status.
+    Uses scene graphs instead of event_history to extract mask_frame_ids.
+    """
     object_labels_array = []
-    event_history = return_event_history_sorted(object_movements)
-    for i, action_object_dict in enumerate(action_object_mapping):
+    
+    for i, usage_label in enumerate(object_usage_labels):
         if i % 10 == 0:
-            print(f"[Getting inuse segments] Processing action object {i} of {len(action_object_mapping)}")
-        narration_id = action_object_dict["trace_id"]
-        narration = narrations[narrations.unique_narration_id.eq(narration_id)]
-        if len(narration) == 0:
-            raise ValueError(f"Narration {narration_id} not found in data_narrations")
-        elif len(narration) > 1:
-            raise ValueError(f"Multiple narrations found for {narration_id}")
-        narration = narration.iloc[0]
-        start_timestamp = narration["start_timestamp"]
-        end_timestamp = narration["end_timestamp"]
-        objects_used = action_object_dict["objects_used"]
-        event_history_trimmed = event_history[
-            (event_history.time >= start_timestamp)
-            & (event_history.time <= end_timestamp)
+            print(f"[Getting inuse segments] Processing usage label {i} of {len(object_usage_labels)}")
+        
+        object_name = usage_label["object_name"]
+        start_timestamp = usage_label["time_start"]
+        end_timestamp = usage_label["time_end"]
+        
+        # Filter scene graphs for this object and time range
+        scene_graphs_trimmed = [
+            sg for sg in scene_graphs
+            if sg.get("object_name") == object_name
+            and sg.get("time") is not None
+            and start_timestamp <= sg["time"] <= end_timestamp
+            and sg.get("action") != "INITIAL"  # Skip INITIAL entries
         ]
-        for object_used in objects_used:
-            event_history_trimmed_object = event_history_trimmed[
-                event_history_trimmed.object_name.eq(object_used)
-            ]
-            if len(event_history_trimmed_object) == 0:
-                print(f"WARNING: No event history found for {object_used} in the action {narration_id}")
+        
+        mask_frame_ids = []
+        for scene_graph in scene_graphs_trimmed:
+            mask_id = scene_graph.get("mask_id")
+            if mask_id is None:
                 continue
-            mask_frame_ids = []
-            for _, row in event_history_trimmed_object.iterrows():
-                frame_number = mask_fixtures[row["mask_id"]]["frame_number"] if row["mask_id"] in mask_fixtures else None
-                mask_bbox = mask_fixtures[row["mask_id"]]["bbox"] if row["mask_id"] in mask_fixtures else None
-                mask_frame_ids.append({
-                    "time": row["time"],
-                    "action_type": row["action"],
-                    "mask_id": row["mask_id"],
-                    "frame_number": frame_number,
-                    "mask_bbox": mask_bbox,
-                })
-            object_labels_array.append({
-                "object_name": object_used,
-                "usage_start_timestamp": start_timestamp,
-                "usage_end_timestamp": end_timestamp,
-                "mask_frame_ids": mask_frame_ids,
+            
+            frame_number = mask_fixtures[mask_id]["frame_number"] if mask_id in mask_fixtures else None
+            mask_bbox = mask_fixtures[mask_id]["bbox"] if mask_id in mask_fixtures else None
+            mask_frame_ids.append({
+                "time": scene_graph["time"],
+                "action_type": scene_graph["action"],
+                "mask_id": mask_id,
+                "frame_number": frame_number,
+                "mask_bbox": mask_bbox,
             })
+        
+        object_labels_array.append({
+            "object_name": object_name,
+            "time_start": start_timestamp,
+            "time_end": end_timestamp,
+            "is_used": usage_label.get("llm_response_json", {}).get("is_used", None),
+            "mask_frame_ids": mask_frame_ids,
+        })
+    
     return object_labels_array
 
 
@@ -105,8 +119,21 @@ def main():
     with open("narrations-and-action-segments/HD_EPIC_Narrations.pkl", "rb") as f:
         action_narrations_all = pickle.load(f)
 
-    with open(f"outputs/linked_objects_llm_gpt-oss:20b/linked_objects_gpt-oss:20b_{args.video_id}.jsonl", "r") as f:
-        action_object_mapping = [json.loads(line) for line in f]
+    # Read object usage labels from jsonl file
+    object_usage_labels_path = f"outputs/object_usage_labels/object_usage_labels_{args.video_id}.jsonl"
+    if not os.path.exists(object_usage_labels_path):
+        raise FileNotFoundError(f"Object usage labels file not found: {object_usage_labels_path}")
+    
+    with open(object_usage_labels_path, "r") as f:
+        object_usage_labels = [json.loads(line) for line in f]
+
+    # Read scene graphs from jsonl file
+    scene_graphs_path = f"outputs/scene_graphs/scene_graphs_{args.video_id}.jsonl"
+    if not os.path.exists(scene_graphs_path):
+        raise FileNotFoundError(f"Scene graphs file not found: {scene_graphs_path}")
+    
+    with open(scene_graphs_path, "r") as f:
+        scene_graphs = [json.loads(line) for line in f]
 
     object_movements = object_movements_all[args.video_id]
     ## Sort object movements by start timestamp
@@ -120,7 +147,7 @@ def main():
     os.makedirs("plots", exist_ok=True)
 
     try:    
-        object_labels_array = combine_object_labels(action_object_mapping, action_narrations, object_movements, mask_fixtures)
+        object_labels_array = combine_object_labels_from_usage_labels(object_usage_labels, scene_graphs, mask_fixtures)
     except Exception as e:
         print(f"Error returning inuse segments per object: {e}")
         pdb.set_trace()
