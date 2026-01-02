@@ -95,6 +95,7 @@ def main():
         timesteps = [0] + [scene_graph['time'] for scene_graph in scene_graphs if scene_graph["object_name"] == object_name] + [scene_graphs[-1]["time"]]
 
         ## Print event history for consecutive timesteps
+        segment_categories = ["passive", "active"]
         for i in range(len(timesteps) - 1):
             timestep_1 = timesteps[i]
             timestep_2 = timesteps[i + 1]
@@ -102,6 +103,7 @@ def main():
             result = _extract_event_history(scene_graphs_between_timesteps, mask_info_dict[video_id], object_name)
             result["time_start"] = timestep_1
             result["time_end"] = timestep_2
+            result["segment_category"] = segment_categories[i%2]
             prompt_info.append(result)
 
     os.makedirs("outputs/prompts", exist_ok=True)

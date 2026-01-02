@@ -418,6 +418,7 @@ def main():
         output_entry = {
             "object_name": object_name,
             "time_start": time_start,
+            "segment_category": entry['segment_category'],
             "llm_response_json": llm_response_json,
             "llm_response_text": llm_response_text,
             "time_end": time_end,
