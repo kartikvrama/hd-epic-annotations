@@ -1,5 +1,6 @@
 import textwrap
 import pandas as pd
+import pdb
 
 def seconds_to_minutes_seconds(seconds):
     minutes = int(seconds) // 60
@@ -51,27 +52,37 @@ def return_event_history_sorted(object_movements: dict) -> pd.DataFrame:
     event_history = []
     for _, assoc_data in object_movements.items():
         for track in assoc_data["tracks"]:
-            pick_time = track["time_segment"][0]
-            event_history.append(
-                {
-                    "time": pick_time,
-                    "object_name": assoc_data["name"],
-                    "action": "PICK",
-                    "mask_id": track["masks"][0],
-                }
-            )
-            drop_time = track["time_segment"][1]
-            drop_mask_id = "unknown"
-            if len(track["masks"]) > 1:
-                drop_mask_id = track["masks"][1]
-            event_history.append(
-                {
-                    "time": drop_time,
-                    "object_name": assoc_data["name"],
-                    "action": "DROP",
-                    "mask_id": drop_mask_id
-                }
-            )
+            try:
+                pick_mask_id = "unknown"
+                if len(track["masks"]) > 0:
+                    pick_mask_id = track["masks"][0]
+                else:
+                    print(f"Track {track['track_id']} has no pick mask: {track['masks']}")
+                pick_time = track["time_segment"][0]
+                event_history.append(
+                    {
+                        "time": pick_time,
+                        "object_name": assoc_data["name"],
+                        "action": "PICK",
+                        "mask_id": pick_mask_id,
+                    }
+                )
+                drop_time = track["time_segment"][1]
+                drop_mask_id = "unknown"
+                if len(track["masks"]) > 1:
+                    drop_mask_id = track["masks"][1]
+                else:
+                    print(f"Track {track['track_id']} has no drop mask: {track['masks']}")
+                event_history.append(
+                    {
+                        "time": drop_time,
+                        "object_name": assoc_data["name"],
+                        "action": "DROP",
+                        "mask_id": drop_mask_id
+                    }
+                )
+            except Exception as e:
+                print(f"Error processing track {track['track_id']}: {e}")
     event_history = pd.DataFrame(event_history).sort_values(by="time").reset_index(drop=True)
     return event_history
 

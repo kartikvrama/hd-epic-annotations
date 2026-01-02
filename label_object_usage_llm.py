@@ -10,6 +10,7 @@ import ollama
 from utils import seconds_to_minutes_seconds
 import unicodedata
 import re
+import pdb
 
 
 parser = argparse.ArgumentParser(description='Label object usage during time periods.')
@@ -17,7 +18,7 @@ parser.add_argument('--video_id', type=str, required=False,
                     help='Video ID to construct prompt_info file path (e.g., P01-20240202-171220)')
 args = parser.parse_args()
 
-VERBOSE = True
+VERBOSE = False
 MODEL_NAME = "gpt-oss:20b"
 
 
@@ -32,12 +33,12 @@ def ensure_ollama_model_loaded(model_name=MODEL_NAME):
             if not name:
                 continue
             loaded_model_names.add(name.split(":")[0])
-        verbose_print(f"Loaded model names: {loaded_model_names}")
+        print(f"Loaded model names: {loaded_model_names}")
         if model_name.split(":")[0] not in loaded_model_names:
             print(f"Pulling model {model_name} since it is not loaded...")
             ollama.pull(model_name)
         else:
-            verbose_print(f"Model {model_name} is already loaded.")
+            print(f"Model {model_name} is already loaded.")
     except Exception as e:
         print(f"Error while checking/loading model '{model_name}': {e}")
 
@@ -136,63 +137,59 @@ def generate_system_prompt():
     Returns:
         System prompt string
     """
-    system_prompt = """You are an expert in analyzing kitchen activities to determine if an object is being used during a specific time period.
-
-Your task is to determine whether a given object is being used during a specified time period. An object is considered "being used" if it is 
-contributing to the high-level activity, either by actively being held by the person or passively performing a function as part of the high-level activity.
-
+    system_prompt = """You are an expert in analyzing kitchen activities to determine if an object is being used during a specific time period. Your task is to determine whether a given object is being used during a specified time period.
+    
 You will be given a history of events that occurred during the time period. The events include:
     - High-level activity
     - Low-level action narrations
-    - Objects in the person's hand
-    - Objects near the person
+    - Current object locations (e.g., in the person's hand, on the countertop, etc.)
     - Atomic actions such as picking up and placing down
 
+An object is considered 'being used' if it is contributing to the high-level activity, either by actively being held by the person or passively performing a function as part of the high-level activity.
 You must use Chain of Thought (CoT) reasoning to analyze the evidence step-by-step before providing your final answer. Think through the following questions:
-1. If the object is in the person's hand at any point during this period, is the person using this object to perform the high-level activity? Otherwise, it is not being used.
-2. If the object is not in the person's hand at any point during this period, is the object meaningfully contributing to the task being performed? Otherwise, it is not being used.
+    1. If the object is in the person's hand during this period, is the person using this object to perform the high-level activity? Otherwise, it is not being used.
+    2. If the object is not in the person's hand during this period, is the object meaningfully contributing to the task being performed? Otherwise, it is not being used.
 
 Respond in JSON format with the following structure:
 {
-  "is_used": true/false,
-  "explanation": "Step-by-step Chain of Thought reasoning explaining your decision..."
+  'is_used': true/false,
+  'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
 }
 
 Be thorough in your reasoning and provide clear evidence from the event history."""
     
-    return system_prompt
+    return normalize_text(system_prompt)
 
 
-def generate_user_prompt_example():
-    example_1 = {
-        "prompt": """Determine if the object "pot" is being used during the time period from 01:01 to 01:04.
+def generate_user_prompt_example_active():
+    example_a1 = {
+        "prompt": """Determine if the object "right glove" is being used during the time period between 02:57 (177.84s) and 02:58 (178.20s).
 
 Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
 
 Event History:
-Time: 01:01 (61.93s)
-High-level task being performed: Clear the dishes
+Time: 02:57 (177.84s)
+High-level task being performed: Prepare candy floss
 Objects currently in hand: []
-Objects currently at `hob.001`: []
-Human atomic action: pick up `pot` from `hob.001`
+Objects currently at `sink.001`: left glove, empty pot, bowl
+Human atomic action: pick up `right glove` from `sink.001`
 
-Time: 01:04 (64.52s)
-High-level task being performed: Clear the dishes
+Time: 02:58 (178.20s)
+High-level task being performed: Drink some water
 Current scene narration:
-  -  Put the pan with the strainer to the right of the sink.
-Objects currently in hand: pot
-Objects currently at `counter.006`: pot, strainer
-Human atomic action: put down `pot` to `counter.006`
-
-
-Provide your analysis using Chain of Thought reasoning, then output your answer in the required JSON format.""",
+  -  Touch the glove then release it.
+Objects currently in hand: right glove
+Objects currently at `sink.001`: left glove, right glove, empty pot, bowl
+Human atomic action: put down `right glove` to `sink.001`
+""",
     "response": {
-        "is_used": True,
-        "explanation": "The object `pot` is moved from the hob to the counter while the person is clearing the dishes. The pot is meaningfully contributing to the high-level activity of clearing the dishes. Hence, it is being used."
+        "is_used": False,
+        "explanation": "The object `right glove` is briefly touched by the person during the time period, but is not being used to perform the high-level activity of preparing candy floss. Hence, it is not being used."
     }
     }
-    example_2 = {
-        "prompt": """Determine if the object "plate" is being used during the time period from 00:54 to 00:59.
+
+    example_a2 = {
+        "prompt": """Determine if the object "plate" is being used during the time period between 00:54 (54.69s) and 00:59 (59.63s).
 
 Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
 
@@ -234,16 +231,275 @@ High-level task being performed: Pick up the second tray from the oven, pile the
 Objects currently in hand: plate, plastic spoon
 Objects currently at `counter.002`: plate2, fork, oven glove, plate
 Human atomic action: put down `plate` to `counter.002`
-
-
-Provide your analysis using Chain of Thought reasoning, then output your answer in the required JSON format.""",
+""",
     "response": {
         "is_used": True,
         "explanation": "The object `plate` is in the person's hand while the person is piling meat pies. The plate is meaningfully contributing to the high-level activity of piling the meat pies. Hence, it is being used.",
     }
     }
-    return [example_1, example_2]
 
+    return [example_a2, example_a1]
+
+def generate_user_prompt_example_passive():
+
+    example_p1 = {
+        "prompt": """Determine if the object "kettle" is being used during the time period from 03:38 (218.07s) to 04:28 (268.78s).
+
+Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+
+Event History:
+Time: 03:38 (218.07s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Put down the kettle back on its base.
+Objects currently in hand: kettle
+Objects currently at `counter.003`: kettle, water filter jug, glass
+Human atomic action: put down `kettle` to `counter.003`
+
+Time: 03:41 (221.71s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Move a mug at the bottom shelf of the cupboard without picking it up.
+Objects currently in hand: []
+Objects currently at `cupboard.009`: flask, glass2, mug2
+Human atomic action: pick up `mug` from `cupboard.009`
+
+Time: 03:42 (222.72s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Move a mug at the bottom shelf of the cupboard without picking it up.
+Objects currently in hand: mug
+Objects currently at `cupboard.009`: glass2, mug, mug2, flask
+Human atomic action: put down `mug` to `cupboard.009`
+
+Time: 03:43 (223.67s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Move a glass at the second shelf of the cupboard without picking it up, so as to access what's behind it.
+Objects currently in hand: []
+Objects currently at `cupboard.009`: flask, mug, mug2
+Human atomic action: pick up `glass2` from `cupboard.009`
+
+Time: 03:44 (224.22s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Move a glass at the second shelf of the cupboard without picking it up, so as to access what's behind it.
+Objects currently in hand: glass2
+Objects currently at `cupboard.009`: glass2, mug, mug2, flask
+Human atomic action: put down `glass2` to `cupboard.009`
+
+Time: 03:44 (224.66s)
+High-level task being performed: Brew tea
+Objects currently in hand: []
+Objects currently at `cupboard.009`: glass2, mug, mug2
+Human atomic action: pick up `flask` from `cupboard.009`
+
+Time: 03:46 (226.77s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Open the cover of the flask by holding the flask using the left hand, holding the cover with the right hand, turning the cover counterclockwise to release it and then lifting it up.
+Objects currently in hand: flask
+Objects currently at `mid-air`: []
+Human atomic action: pick up `cover of flask` from `mid-air`
+
+Time: 03:47 (227.34s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Put the cover on the counter top.
+Objects currently in hand: flask, cover of flask
+Objects currently at `counter.002`: container's cover, cover of flask, second cover, bag of bagels
+Human atomic action: put down `cover of flask` to `counter.002`
+
+Time: 03:47 (227.79s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Pick up the second cover using the right hand.
+Objects currently in hand: flask
+Objects currently at `counter.002`: container's cover, cover of flask, bag of bagels
+Human atomic action: pick up `second cover` from `counter.002`
+
+Time: 03:48 (228.17s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Put the second cover on the counter top.
+Objects currently in hand: flask, second cover
+Objects currently at `counter.002`: container's cover, cover of flask, flask, bag of bagels
+Human atomic action: put down `flask` to `counter.002`
+
+Time: 03:48 (228.33s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Put the second cover on the counter top.
+Objects currently in hand: second cover
+Objects currently at `counter.002`: container's cover, cover of flask, flask, second cover, bag of bagels
+Human atomic action: put down `second cover` to `counter.002`
+
+Time: 03:50 (230.83s)
+High-level task being performed: Brew tea
+Objects currently in hand: []
+Objects currently at `shelf.003`: []
+Human atomic action: pick up `small gold color container` from `shelf.003`
+
+Time: 03:55 (235.24s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Open the container by holding it with the left hand and then pulling its cover with the right hand.
+Objects currently in hand: small gold color container
+Objects currently at `counter.002`: flask, cover of flask, second cover, bag of bagels
+Human atomic action: pick up `container's cover` from `counter.002`
+
+Time: 04:04 (244.74s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Put down the empty container on the countertop.
+Objects currently in hand: container's cover, small gold color container
+Objects currently at `counter.009`: small gold color container
+Human atomic action: put down `small gold color container` to `counter.009`
+
+Time: 04:05 (245.26s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Open the trash bin's lid.
+  -  Throw the container's cover in the trash, using the right hand.
+Objects currently in hand: container's cover
+Objects currently at `storage.001`: container's cover
+Human atomic action: put down `container's cover` to `storage.001`
+
+Time: 04:18 (258.82s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Pick up a mug from the bottom shelf by holding it with the left hand from its bottom. The mug is upside down.
+Objects currently in hand: []
+Objects currently at `cupboard.009`: glass2, mug
+Human atomic action: pick up `mug2` from `cupboard.009`
+
+Time: 04:21 (261.30s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Put down the mug on the counter top.
+Objects currently in hand: mug2
+Objects currently at `dishwasher.001`: knife, plate, mug2, container, plate2
+Human atomic action: put down `mug2` to `dishwasher.001`
+
+Time: 04:24 (264.20s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Pick up a small plastic strainer from the cutlery drawer using the right hand.
+Objects currently in hand: []
+Objects currently at `drawer.003`: []
+Human atomic action: pick up `strainer2` from `drawer.003`
+
+Time: 04:26 (266.79s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  Place the strainer on top of the mug. The strainer will be used to separate the tea from the loose tea.
+Objects currently in hand: strainer2
+Objects currently at `counter.002`: cover of flask, flask, second cover, strainer2, bag of bagels
+Human atomic action: put down `strainer2` to `counter.002`
+
+Time: 04:28 (268.78s)
+High-level task being performed: Brew tea
+Current scene narration:
+  -  pick up the kettle from its base.
+Objects currently in hand: []
+Objects currently at `counter.003`: water filter jug, glass
+Human atomic action: pick up `kettle` from `counter.003`
+""",
+    "response": {
+        "is_used": True,
+        "explanation": "The object `kettle` is not in the person's hand between 218.07s and 268.78s. However, the user is currently preparing the mug to brew tea, and the kettle is likely boiling water for the tea. Hence, it is being used."
+    }
+    }
+
+    example_p2 = {
+        "prompt": """Determine if the object "fork" is being used during the time period between 00:00 (0.00s) and 00:33 (33.57s).
+
+Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+
+Event History:
+Time: 00:04 (4.61s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Pick up the oven glove from the countertop using the right hand.
+Objects currently in hand: []
+Objects currently at `counter.002`: plastic spoon, fork, plate2
+Human atomic action: pick up `oven glove` from `counter.002`
+
+Time: 00:13 (13.05s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Objects currently in hand: oven glove
+Objects currently at `oven.001`: []
+Human atomic action: pick up `tray` from `oven.001`
+
+Time: 00:14 (14.70s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Pick up the tray from the upper shelf of the oven using the right hand holding the oven glove by sliding it out.
+Objects currently in hand: tray, oven glove
+Objects currently at `oven.001`: tray
+Human atomic action: put down `tray` to `oven.001`
+
+Time: 00:15 (15.48s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Pick up the tray from the upper shelf of the oven using the right hand holding the oven glove by sliding it out.
+Objects currently in hand: oven glove
+Objects currently at `oven.001`: []
+Human atomic action: pick up `tray` from `oven.001`
+
+Time: 00:19 (19.39s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Put the tray on the hob.
+Objects currently in hand: tray, oven glove
+Objects currently at `hob.001`: pie2, pie, tray
+Human atomic action: put down `tray` to `hob.001`
+
+Time: 00:21 (21.39s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Throw the oven's glove on the countertop using the right hand.
+Objects currently in hand: oven glove
+Objects currently at `counter.002`: oven glove, plastic spoon, fork, plate2
+Human atomic action: put down `oven glove` to `counter.002`
+
+Time: 00:21 (21.70s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Throw the oven's glove on the countertop using the right hand.
+Objects currently in hand: []
+Objects currently at `counter.002`: oven glove, fork, plate2
+Human atomic action: pick up `plastic spoon` from `counter.002`
+
+Time: 00:27 (27.58s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Pick up one meat pie from the tray using the plastic spoon by sliding the spoon under the pie and pulling it up, also using the left hand to break the pie from its neighboring pie.
+Objects currently in hand: plastic spoon
+Objects currently at `hob.001`: pie2, tray
+Human atomic action: pick up `pie` from `hob.001`
+
+Time: 00:28 (28.17s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Objects currently in hand: plastic spoon, pie
+Objects currently at `hob.001`: pie2, pie, tray
+Human atomic action: put down `pie` to `hob.001`
+
+Time: 00:33 (33.57s)
+High-level task being performed: Pick up the second tray from the oven, pile the meat pies on two plate and cover one of them using foil paper
+Current scene narration:
+  - Pick up a fork from the countertop.
+Objects currently in hand: plastic spoon
+Objects currently at `counter.002`: oven glove, plate2
+Human atomic action: pick up `fork` from `counter.002`
+""",
+    "response": {
+        "is_used": False,
+        "explanation": "The object `fork` is not in the person's hand between 4.61s and 33.57s. The activity until 33.57s is about piling meat pies, and none of the action narrations mention before 00:33s or after 00:04s mention using the fork. Hence, it is not being used."
+    }
+    }
+
+    return [example_p1, example_p2]
 
 def generate_user_prompt(entry):
     """
@@ -256,23 +512,27 @@ def generate_user_prompt(entry):
         User prompt string
     """
     object_name = entry['object_name']
-    time_start = entry['time_start']
-    time_end = entry['time_end']
+    time_start = float(entry['time_start'])
+    time_end = float(entry['time_end'])
     event_history = entry['event_history']
     
     time_start_str = seconds_to_minutes_seconds(time_start)
     time_end_str = seconds_to_minutes_seconds(time_end)
     
     formatted_history = format_event_history(event_history)
-    
-    prompt = f"""Determine if the object "{object_name}" is being used during the time period from {time_start_str} to {time_end_str}.
+
+    prompt = f"""Determine if the object '{object_name}' is being used during the time period between {time_start_str} ({time_start:.2f}s) and {time_end_str} ({time_end:.2f}s).
 
 Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
 
 Event History:
 {formatted_history}
 
-Provide your analysis using Chain of Thought reasoning, then output your answer in the required JSON format."""
+Provide your analysis using Chain of Thought reasoning, and then respond in JSON format with the following structure:""" + """
+{
+  'is_used': true/false,
+  'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
+}"""
     
     return normalize_text(prompt)
 
@@ -293,45 +553,56 @@ def call_ollama_object_usage(system_prompt, prompt, examples, model_name=MODEL_N
     for i, example in enumerate(examples, 1):
         examples_prompt += f"""
 Example {i}:
-{example['prompt']}
+{normalize_text(example['prompt'])}
+
 Response: {{
-    "is_used": {example['response']['is_used']},
-    "explanation": "{normalize_text(str(example['response']['explanation']))}"
+    'is_used': {example['response']['is_used']},
+    'explanation': '{normalize_text(str(example['response']['explanation']))}'
 }}
 """
-    prompt = f"""{examples_prompt}\n\n{prompt}"""
-    # Call Ollama
-    try:
-        response = ollama.chat(
-            model=model_name,
-            messages=[
-                {
-                    'role': 'system',
-                    'content': system_prompt
-                },
-                {
-                    'role': 'user',
-                    'content': prompt
-                }
-            ],
-            format="json"
-        )
-        # Extract the response content
-        response_text = normalize_text(response['message']['content'].strip())
-        verbose_print(f"--------------------------------\nResponse:\n<{response_text}>")
-        
-        # Parse JSON
-        response_json = json.loads(response_text)
-        return response_json, response_text
+    prompt = f"""{normalize_text(examples_prompt)}\n\n{normalize_text(prompt)}"""
+    success = False
+    response_text = None
+    while not success:
+        # Call Ollama
+        try:
+            response = ollama.chat(
+                model=model_name,
+                messages=[
+                    {
+                        'role': 'system',
+                        'content': system_prompt
+                    },
+                    {
+                        'role': 'user',
+                        'content': prompt
+                    }
+                ],
+                format="json",
+                options={"temperature": 0.0},
+            )
+            # Extract the response content
+            response_text = normalize_text(response['message']['content'].strip())
+            verbose_print(f"--------------------------------\nResponse:\n<{response_text}>")
+            
+            # Parse JSON
+            response_json = json.loads(response_text)
+            if "explanation" in response_json and "is_used" in response_json:
+                success = True
+                return response_json, response_text
+            else:
+                print(f"Warning: Missing explanation or is_used in LLM response: <{response_text}>")
+                continue
 
-    except json.JSONDecodeError as e:
-        print(f"Error parsing JSON response: {e}")
-        print(f"Response was: {response_text}")
-        return {}, response_text
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON response: {e}")
+            if response_text is not None:
+                print(f"Response was: {response_text}")
+            continue  # Retry instead of returning
 
-    except Exception as e:
-        print(f"Error calling Ollama: {e}")
-        return {}, "ERROR"
+        except Exception as e:
+            print(f"Error calling Ollama: {e}")
+            continue  # Retry instead of returning
 
 
 def main():
@@ -359,7 +630,7 @@ def main():
     # Determine output file path
     output_dir = "outputs/object_usage_labels"
     os.makedirs(output_dir, exist_ok=True)
-    output_filename = os.path.join(output_dir, f"object_usage_labels_{args.video_id}.jsonl")
+    output_filename = os.path.join(output_dir, f"object_usage_labels_diffExamples_{args.video_id}.jsonl")
     
     # Load already processed entries to avoid reprocessing
     processed_entries = set()
@@ -372,6 +643,12 @@ def main():
                     continue
                 try:
                     existing_entry = json.loads(line)
+                    if not existing_entry.get('llm_response_text'):
+                        verbose_print(f"Warning: Skipping entry {existing_entry.get('object_name')} ({existing_entry.get('time_start')}s - {existing_entry.get('time_end')}s) - no LLM response text")
+                        continue
+                    if "explanation" not in existing_entry.get('llm_response_json') or "is_used" not in existing_entry.get('llm_response_json'):
+                        verbose_print(f"Warning: Skipping entry {existing_entry.get('object_name')} ({existing_entry.get('time_start')}s - {existing_entry.get('time_end')}s) - missing explanation or is_used in LLM response")
+                        continue
                     # Create a unique key from object_name, time_start, and time_end
                     key = (existing_entry.get('object_name'), 
                            existing_entry.get('time_start'), 
@@ -381,12 +658,8 @@ def main():
                     print(f"Warning: Skipping invalid JSON line in existing file: {e}")
         print(f"Found {len(processed_entries)} already processed entries")
     
-    # Generate system prompt
     system_prompt = generate_system_prompt()
-    examples = generate_user_prompt_example()
     verbose_print(f"System prompt:\n<{system_prompt}>")
-    verbose_print(f"Examples:\n<{examples}>")
-
     
     # Process each entry
     skipped_count = 0
@@ -395,6 +668,14 @@ def main():
         time_start = entry['time_start']
         time_end = entry['time_end']
         
+        # Generate system prompt
+        if entry['segment_category'] == "active":
+            examples = generate_user_prompt_example_active()
+        elif entry['segment_category'] == "passive":
+            examples = generate_user_prompt_example_passive()
+        else:
+            raise ValueError(f"Invalid segment category: {entry['segment_category']}")
+
         # Check if this entry has already been processed
         entry_key = (object_name, time_start, time_end)
         if entry_key in processed_entries:
@@ -406,13 +687,12 @@ def main():
         
         # Generate prompts
         user_prompt = generate_user_prompt(entry)
-
         verbose_print(f"User prompt:\n<{user_prompt}>\n\n--------------------------------")
         
         # Call ollama
         llm_response_json, llm_response_text = call_ollama_object_usage(system_prompt, user_prompt, examples)
         llm_response_text = json.dumps(llm_response_json, ensure_ascii=False)
-        verbose_print(f"LLM response JSON:\n<{llm_response_json}>")
+        verbose_print(f"LLM response text:\n<{llm_response_text}>")
         
         # Prepare output entry
         output_entry = {

@@ -45,7 +45,13 @@ def _extract_event_history(scene_graphs, mask_info_dict, query_object_name):
     for scene_graph in scene_graphs:
         if scene_graph["action"] == "INITIAL":
             continue
-        fixture_name = mask_info_dict[scene_graph['mask_id']]['fixture'] if scene_graph['mask_id'] in mask_info_dict else "unknown"
+        if scene_graph['mask_id'] in mask_info_dict:
+            if mask_info_dict[scene_graph['mask_id']]['fixture'] is None:
+                fixture_name = "unknown"
+            else:
+                fixture_name = mask_info_dict[scene_graph['mask_id']]['fixture']
+        else:
+            fixture_name = "unknown"
         event = {
             "time": scene_graph['time'],
             "time_str": seconds_to_minutes_seconds(scene_graph['time']),

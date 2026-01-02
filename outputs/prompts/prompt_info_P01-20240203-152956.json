@@ -14,9 +14,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -43,8 +43,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -76,13 +76,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -99,10 +99,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -136,8 +136,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -153,9 +153,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -187,13 +187,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -210,10 +210,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -259,8 +259,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -278,9 +278,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -297,13 +297,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -334,13 +334,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -369,13 +369,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -409,14 +409,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -448,8 +448,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -543,8 +543,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -563,10 +563,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -584,8 +584,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -601,8 +601,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -680,7 +680,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 164.65196
+  "time_end": 164.65196,
+  "segment_category": "passive"
  },
  {
   "object_name": "foil2",
@@ -718,7 +719,8 @@
    }
   ],
   "time_start": 164.65196,
-  "time_end": 173.15742
+  "time_end": 173.15742,
+  "segment_category": "active"
  },
  {
   "object_name": "foil2",
@@ -756,7 +758,8 @@
    }
   ],
   "time_start": 173.15742,
-  "time_end": 173.47473
+  "time_end": 173.47473,
+  "segment_category": "passive"
  },
  {
   "object_name": "foil2",
@@ -792,7 +795,8 @@
    }
   ],
   "time_start": 173.47473,
-  "time_end": 173.81926
+  "time_end": 173.81926,
+  "segment_category": "active"
  },
  {
   "object_name": "foil2",
@@ -828,7 +832,8 @@
    }
   ],
   "time_start": 173.81926,
-  "time_end": 173.993
+  "time_end": 173.993,
+  "segment_category": "passive"
  },
  {
   "object_name": "foil2",
@@ -864,7 +869,8 @@
    }
   ],
   "time_start": 173.993,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "active"
  },
  {
   "object_name": "foil2",
@@ -887,7 +893,8 @@
    }
   ],
   "time_start": 174.36274,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "unrolled foil",
@@ -904,9 +911,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -933,8 +940,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -966,13 +973,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -989,10 +996,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1026,8 +1033,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -1043,9 +1050,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -1077,13 +1084,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1100,10 +1107,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1149,8 +1156,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -1168,9 +1175,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -1187,13 +1194,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -1224,13 +1231,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -1259,13 +1266,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -1299,14 +1306,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1338,8 +1345,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -1424,7 +1431,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 143.40196
+  "time_end": 143.40196,
+  "segment_category": "passive"
  },
  {
   "object_name": "unrolled foil",
@@ -1455,8 +1463,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -1475,15 +1483,16 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    }
   ],
   "time_start": 143.40196,
-  "time_end": 146.79215
+  "time_end": 146.79215,
+  "segment_category": "active"
  },
  {
   "object_name": "unrolled foil",
@@ -1500,10 +1509,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -1521,13 +1530,14 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    }
   ],
   "time_start": 146.79215,
-  "time_end": 153.19741
+  "time_end": 153.19741,
+  "segment_category": "passive"
  },
  {
   "object_name": "unrolled foil",
@@ -1547,8 +1557,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -1564,13 +1574,14 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    }
   ],
   "time_start": 153.19741,
-  "time_end": 153.20877
+  "time_end": 153.20877,
+  "segment_category": "active"
  },
  {
   "object_name": "unrolled foil",
@@ -1588,8 +1599,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -1608,7 +1619,8 @@
    }
   ],
   "time_start": 153.20877,
-  "time_end": 153.492
+  "time_end": 153.492,
+  "segment_category": "passive"
  },
  {
   "object_name": "unrolled foil",
@@ -1642,7 +1654,8 @@
    }
   ],
   "time_start": 153.492,
-  "time_end": 156.09215
+  "time_end": 156.09215,
+  "segment_category": "active"
  },
  {
   "object_name": "unrolled foil",
@@ -1784,7 +1797,8 @@
    }
   ],
   "time_start": 156.09215,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "foil wrap",
@@ -1801,9 +1815,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1830,8 +1844,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -1863,13 +1877,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -1886,10 +1900,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1923,8 +1937,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -1940,9 +1954,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -1974,13 +1988,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -1997,10 +2011,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -2046,8 +2060,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -2065,9 +2079,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -2084,13 +2098,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -2121,13 +2135,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -2156,13 +2170,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -2196,14 +2210,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -2235,8 +2249,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -2288,7 +2302,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 138.44741
+  "time_end": 138.44741,
+  "segment_category": "passive"
  },
  {
   "object_name": "foil wrap",
@@ -2350,8 +2365,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -2360,7 +2375,8 @@
    }
   ],
   "time_start": 138.44741,
-  "time_end": 143.60935
+  "time_end": 143.60935,
+  "segment_category": "active"
  },
  {
   "object_name": "foil wrap",
@@ -2376,8 +2392,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -2396,10 +2412,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -2417,8 +2433,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -2434,8 +2450,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -2482,7 +2498,8 @@
    }
   ],
   "time_start": 143.60935,
-  "time_end": 156.92965
+  "time_end": 156.92965,
+  "segment_category": "passive"
  },
  {
   "object_name": "foil wrap",
@@ -2522,7 +2539,8 @@
    }
   ],
   "time_start": 156.92965,
-  "time_end": 162.02342
+  "time_end": 162.02342,
+  "segment_category": "active"
  },
  {
   "object_name": "foil wrap",
@@ -2636,7 +2654,8 @@
    }
   ],
   "time_start": 162.02342,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "box of foil wrap",
@@ -2653,9 +2672,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -2682,8 +2701,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -2715,13 +2734,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -2738,10 +2757,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -2775,8 +2794,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -2792,9 +2811,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -2826,13 +2845,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -2849,10 +2868,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -2898,8 +2917,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -2917,9 +2936,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -2936,13 +2955,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -2973,13 +2992,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -3008,13 +3027,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -3048,14 +3067,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -3087,8 +3106,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -3127,7 +3146,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 135.00423
+  "time_end": 135.00423,
+  "segment_category": "passive"
  },
  {
   "object_name": "box of foil wrap",
@@ -3178,7 +3198,8 @@
    }
   ],
   "time_start": 135.00423,
-  "time_end": 138.91332
+  "time_end": 138.91332,
+  "segment_category": "active"
  },
  {
   "object_name": "box of foil wrap",
@@ -3227,8 +3248,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -3247,10 +3268,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -3268,8 +3289,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -3285,8 +3306,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -3440,7 +3461,8 @@
    }
   ],
   "time_start": 138.91332,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "pie2",
@@ -3457,9 +3479,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -3486,8 +3508,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -3519,13 +3541,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -3542,10 +3564,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -3579,8 +3601,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -3596,9 +3618,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -3630,13 +3652,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -3653,10 +3675,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -3702,8 +3724,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -3721,9 +3743,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -3740,13 +3762,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -3768,7 +3790,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 89.54014
+  "time_end": 89.54014,
+  "segment_category": "passive"
  },
  {
   "object_name": "pie2",
@@ -3800,18 +3823,19 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    }
   ],
   "time_start": 89.54014,
-  "time_end": 90.13538
+  "time_end": 90.13538,
+  "segment_category": "active"
  },
  {
   "object_name": "pie2",
@@ -3827,13 +3851,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -3862,13 +3886,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -3902,14 +3926,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -3941,8 +3965,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -4036,8 +4060,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -4056,10 +4080,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -4077,8 +4101,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -4094,8 +4118,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -4249,7 +4273,8 @@
    }
   ],
   "time_start": 90.13538,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "plate2",
@@ -4266,9 +4291,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -4295,8 +4320,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -4328,13 +4353,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -4351,10 +4376,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -4388,8 +4413,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -4405,9 +4430,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -4439,13 +4464,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -4462,10 +4487,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -4511,8 +4536,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -4521,7 +4546,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 57.37348
+  "time_end": 57.37348,
+  "segment_category": "passive"
  },
  {
   "object_name": "plate2",
@@ -4537,8 +4563,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -4556,9 +4582,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -4568,7 +4594,8 @@
    }
   ],
   "time_start": 57.37348,
-  "time_end": 58.36157
+  "time_end": 58.36157,
+  "segment_category": "active"
  },
  {
   "object_name": "plate2",
@@ -4584,9 +4611,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -4603,13 +4630,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -4640,13 +4667,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -4675,13 +4702,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -4715,14 +4742,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -4754,8 +4781,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -4849,8 +4876,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -4869,10 +4896,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -4890,8 +4917,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -4907,8 +4934,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -5062,7 +5089,8 @@
    }
   ],
   "time_start": 58.36157,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "plate",
@@ -5079,9 +5107,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -5108,8 +5136,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -5141,13 +5169,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -5164,10 +5192,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -5201,8 +5229,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -5218,9 +5246,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -5252,13 +5280,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -5275,10 +5303,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -5296,7 +5324,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 54.69491
+  "time_end": 54.69491,
+  "segment_category": "passive"
  },
  {
   "object_name": "plate",
@@ -5344,8 +5373,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -5363,9 +5392,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -5382,19 +5411,20 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    }
   ],
   "time_start": 54.69491,
-  "time_end": 59.63372
+  "time_end": 59.63372,
+  "segment_category": "active"
  },
  {
   "object_name": "plate",
@@ -5408,13 +5438,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -5445,13 +5475,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -5473,7 +5503,8 @@
    }
   ],
   "time_start": 59.63372,
-  "time_end": 92.19767
+  "time_end": 92.19767,
+  "segment_category": "passive"
  },
  {
   "object_name": "plate",
@@ -5504,19 +5535,20 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    }
   ],
   "time_start": 92.19767,
-  "time_end": 122.21092
+  "time_end": 122.21092,
+  "segment_category": "active"
  },
  {
   "object_name": "plate",
@@ -5530,13 +5562,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -5570,14 +5602,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -5609,8 +5641,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -5704,8 +5736,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -5724,10 +5756,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -5745,8 +5777,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -5762,8 +5794,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -5917,7 +5949,8 @@
    }
   ],
   "time_start": 122.21092,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "fork",
@@ -5934,9 +5967,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -5963,8 +5996,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -5996,13 +6029,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -6019,10 +6052,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6056,8 +6089,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -6073,9 +6106,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -6098,7 +6131,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 33.57372
+  "time_end": 33.57372,
+  "segment_category": "passive"
  },
  {
   "object_name": "fork",
@@ -6132,13 +6166,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6155,15 +6189,16 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    }
   ],
   "time_start": 33.57372,
-  "time_end": 50.79014
+  "time_end": 50.79014,
+  "segment_category": "active"
  },
  {
   "object_name": "fork",
@@ -6182,10 +6217,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6231,8 +6266,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -6250,9 +6285,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -6269,13 +6304,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -6306,13 +6341,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -6341,13 +6376,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -6381,14 +6416,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6420,8 +6455,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -6515,8 +6550,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -6535,10 +6570,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -6556,8 +6591,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -6573,8 +6608,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -6728,7 +6763,8 @@
    }
   ],
   "time_start": 50.79014,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "pie",
@@ -6745,9 +6781,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6774,8 +6810,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -6807,13 +6843,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -6830,10 +6866,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6867,13 +6903,14 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    }
   ],
   "time_start": 0,
-  "time_end": 27.58394
+  "time_end": 27.58394,
+  "segment_category": "passive"
  },
  {
   "object_name": "pie",
@@ -6892,8 +6929,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -6909,14 +6946,15 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    }
   ],
   "time_start": 27.58394,
-  "time_end": 28.1711
+  "time_end": 28.1711,
+  "segment_category": "active"
  },
  {
   "object_name": "pie",
@@ -6934,9 +6972,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -6968,13 +7006,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -6991,10 +7029,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -7040,8 +7078,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -7059,9 +7097,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -7078,13 +7116,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -7115,13 +7153,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -7150,13 +7188,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -7190,14 +7228,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -7229,8 +7267,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -7324,8 +7362,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -7344,10 +7382,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -7365,8 +7403,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -7382,8 +7420,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -7537,7 +7575,8 @@
    }
   ],
   "time_start": 28.1711,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "plastic spoon",
@@ -7554,9 +7593,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -7583,8 +7622,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -7616,13 +7655,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -7639,10 +7678,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -7664,7 +7703,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 21.695
+  "time_end": 21.695,
+  "segment_category": "passive"
  },
  {
   "object_name": "plastic spoon",
@@ -7700,8 +7740,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -7717,9 +7757,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -7751,18 +7791,19 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    }
   ],
   "time_start": 21.695,
-  "time_end": 49.37043
+  "time_end": 49.37043,
+  "segment_category": "active"
  },
  {
   "object_name": "plastic spoon",
@@ -7778,13 +7819,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -7801,10 +7842,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -7841,7 +7882,8 @@
    }
   ],
   "time_start": 49.37043,
-  "time_end": 56.39729
+  "time_end": 56.39729,
+  "segment_category": "passive"
  },
  {
   "object_name": "plastic spoon",
@@ -7876,8 +7918,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -7895,9 +7937,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -7914,13 +7956,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -7951,13 +7993,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -7986,13 +8028,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -8026,19 +8068,20 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    }
   ],
   "time_start": 56.39729,
-  "time_end": 124.32241
+  "time_end": 124.32241,
+  "segment_category": "active"
  },
  {
   "object_name": "plastic spoon",
@@ -8054,14 +8097,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -8093,8 +8136,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -8188,8 +8231,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -8208,10 +8251,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -8229,8 +8272,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -8246,8 +8289,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -8401,7 +8444,8 @@
    }
   ],
   "time_start": 124.32241,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "tray",
@@ -8418,9 +8462,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -8438,7 +8482,8 @@
    }
   ],
   "time_start": 0,
-  "time_end": 13.046
+  "time_end": 13.046,
+  "segment_category": "passive"
  },
  {
   "object_name": "tray",
@@ -8467,8 +8512,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -8476,7 +8521,8 @@
    }
   ],
   "time_start": 13.046,
-  "time_end": 14.70179
+  "time_end": 14.70179,
+  "segment_category": "active"
  },
  {
   "object_name": "tray",
@@ -8492,8 +8538,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -8516,7 +8562,8 @@
    }
   ],
   "time_start": 14.70179,
-  "time_end": 15.476
+  "time_end": 15.476,
+  "segment_category": "passive"
  },
  {
   "object_name": "tray",
@@ -8547,18 +8594,19 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    }
   ],
   "time_start": 15.476,
-  "time_end": 19.38538
+  "time_end": 19.38538,
+  "segment_category": "active"
  },
  {
   "object_name": "tray",
@@ -8574,13 +8622,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -8597,10 +8645,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -8634,8 +8682,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -8651,9 +8699,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -8685,13 +8733,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -8708,10 +8756,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -8757,8 +8805,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -8776,9 +8824,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -8795,13 +8843,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -8832,13 +8880,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -8867,13 +8915,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -8907,14 +8955,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -8937,7 +8985,8 @@
    }
   ],
   "time_start": 19.38538,
-  "time_end": 126.7655
+  "time_end": 126.7655,
+  "segment_category": "passive"
  },
  {
   "object_name": "tray",
@@ -8971,8 +9020,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -8980,7 +9029,8 @@
    }
   ],
   "time_start": 126.7655,
-  "time_end": 129.47384
+  "time_end": 129.47384,
+  "segment_category": "active"
  },
  {
   "object_name": "tray",
@@ -8996,8 +9046,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -9091,8 +9141,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -9111,10 +9161,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -9132,8 +9182,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -9149,8 +9199,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -9304,7 +9354,8 @@
    }
   ],
   "time_start": 129.47384,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "oven glove",
@@ -9321,14 +9372,15 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    }
   ],
   "time_start": 0,
-  "time_end": 4.612
+  "time_end": 4.612,
+  "segment_category": "passive"
  },
  {
   "object_name": "oven glove",
@@ -9345,9 +9397,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -9374,8 +9426,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -9407,13 +9459,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -9430,15 +9482,16 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    }
   ],
   "time_start": 4.612,
-  "time_end": 21.39482
+  "time_end": 21.39482,
+  "segment_category": "active"
  },
  {
   "object_name": "oven glove",
@@ -9457,10 +9510,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -9494,8 +9547,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -9511,9 +9564,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -9545,13 +9598,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -9568,10 +9621,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -9617,8 +9670,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -9636,9 +9689,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -9655,13 +9708,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -9692,13 +9745,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -9727,13 +9780,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -9758,7 +9811,8 @@
    }
   ],
   "time_start": 21.39482,
-  "time_end": 123.46494
+  "time_end": 123.46494,
+  "segment_category": "passive"
  },
  {
   "object_name": "oven glove",
@@ -9793,14 +9847,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -9832,8 +9886,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -9859,7 +9913,8 @@
    }
   ],
   "time_start": 123.46494,
-  "time_end": 132.20877
+  "time_end": 132.20877,
+  "segment_category": "active"
  },
  {
   "object_name": "oven glove",
@@ -9952,8 +10007,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -9972,10 +10027,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -9993,8 +10048,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -10010,8 +10065,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -10165,7 +10220,8 @@
    }
   ],
   "time_start": 132.20877,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  },
  {
   "object_name": "Track 19 (skipped)",
@@ -10182,9 +10238,9 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -10211,8 +10267,8 @@
     "object": "tray",
     "fixture": "oven.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -10244,13 +10300,13 @@
     "object": "tray",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -10267,10 +10323,10 @@
      "oven glove"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -10304,8 +10360,8 @@
      "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "pie2",
-     "tray"
+     "tray",
+     "pie2"
     ]
    },
    {
@@ -10321,9 +10377,9 @@
      "pie"
     ],
     "nearby_objects_fixture": [
+     "tray",
      "pie2",
-     "pie",
-     "tray"
+     "pie"
     ]
    },
    {
@@ -10355,13 +10411,13 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "fork"
+     "fork",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "oven glove",
-     "plate2"
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -10378,10 +10434,10 @@
      "fork"
     ],
     "nearby_objects_fixture": [
-     "oven glove",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "oven glove",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -10427,8 +10483,8 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -10446,9 +10502,9 @@
     "object": "plate2",
     "fixture": "counter.002",
     "objects_in_hand": [
+     "plate",
      "plastic spoon",
-     "plate2",
-     "plate"
+     "plate2"
     ],
     "nearby_objects_fixture": [
      "oven glove",
@@ -10465,13 +10521,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -10502,13 +10558,13 @@
     "object": "pie2",
     "fixture": "hob.001",
     "objects_in_hand": [
-     "pie2",
-     "plastic spoon"
+     "plastic spoon",
+     "pie2"
     ],
     "nearby_objects_fixture": [
      "tray",
-     "pie",
-     "pie2"
+     "pie2",
+     "pie"
     ]
    },
    {
@@ -10537,13 +10593,13 @@
     "object": "plate",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "plate"
+     "plate",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
+     "fork",
      "oven glove",
      "plate",
-     "fork",
      "plate2"
     ]
    },
@@ -10577,14 +10633,14 @@
     "object": "plastic spoon",
     "fixture": "counter.002",
     "objects_in_hand": [
-     "plastic spoon",
-     "oven glove"
+     "oven glove",
+     "plastic spoon"
     ],
     "nearby_objects_fixture": [
-     "plate",
-     "plastic spoon",
      "fork",
-     "plate2"
+     "plate",
+     "plate2",
+     "plastic spoon"
     ]
    },
    {
@@ -10616,8 +10672,8 @@
     "object": "tray",
     "fixture": "sink.001",
     "objects_in_hand": [
-     "tray",
-     "oven glove"
+     "oven glove",
+     "tray"
     ],
     "nearby_objects_fixture": [
      "tray"
@@ -10711,8 +10767,8 @@
     "object": "foil wrap",
     "fixture": "counter.008",
     "objects_in_hand": [
-     "foil wrap",
-     "unrolled foil"
+     "unrolled foil",
+     "foil wrap"
     ],
     "nearby_objects_fixture": [
      "foil wrap",
@@ -10731,10 +10787,10 @@
     "fixture": "counter.002",
     "objects_in_hand": [],
     "nearby_objects_fixture": [
-     "plastic spoon",
      "fork",
      "plate2",
-     "plate"
+     "plate",
+     "plastic spoon"
     ]
    },
    {
@@ -10752,8 +10808,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -10769,8 +10825,8 @@
     ],
     "nearby_objects_fixture": [
      "oven glove",
-     "foil2",
-     "unrolled foil"
+     "unrolled foil",
+     "foil2"
     ]
    },
    {
@@ -10924,6 +10980,7 @@
    }
   ],
   "time_start": 0,
-  "time_end": 174.36274
+  "time_end": 174.36274,
+  "segment_category": "passive"
  }
 ]

@@ -43,6 +43,7 @@ def plot_object_usage_segments(object_labels_array, axis, all_object_labels):
             continue
         if object_label.get("is_used") is None:
             print(f"WARNING: Object {object_label['object_name']} has invalid usage label between {object_label['time_start']} and {object_label['time_end']}")
+            # pdb.set_trace()
             continue
         elif object_label["is_used"] == False: ## Skip if object was not used
             continue
@@ -103,6 +104,7 @@ def combine_object_labels_from_usage_labels(object_usage_labels: [dict], scene_g
             "time_start": start_timestamp,
             "time_end": end_timestamp,
             "is_used": usage_label.get("llm_response_json", {}).get("is_used", None),
+            "_explanation": usage_label.get("llm_response_json").get("explanation"),
             "mask_frame_ids": mask_frame_ids,
         })
     
@@ -120,7 +122,7 @@ def main():
         action_narrations_all = pickle.load(f)
 
     # Read object usage labels from jsonl file
-    object_usage_labels_path = f"outputs/object_usage_labels/object_usage_labels_{args.video_id}.jsonl"
+    object_usage_labels_path = f"outputs/object_usage_labels/object_usage_labels_diffExamples_{args.video_id}.jsonl"
     if not os.path.exists(object_usage_labels_path):
         raise FileNotFoundError(f"Object usage labels file not found: {object_usage_labels_path}")
     
