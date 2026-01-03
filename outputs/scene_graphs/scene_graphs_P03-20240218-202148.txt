@@ -1,0 +1,3247 @@
+================================================================================
+Time-wise Scene Graphs for Video: P03-20240218-202148
+================================================================================
+
+Scene graphs are generated from object movements.
+Each entry shows the state after an event (PICK or DROP) occurs.
+
+--------------------------------------------------------------------------------
+
+Initial State | Time: 1.71s (00:01)
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [0.00s - 2.06s] With my right hand, pick up a plastic lid from the table.
+--------------------------------------------------------------------------------
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plastic lid, plate, plate2, red glass, spoon, sweet's cardboard box, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #1 | Time: 1.72s (00:01) | PICK: plastic lid
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [0.00s - 2.06s] With my right hand, pick up a plastic lid from the table.
+--------------------------------------------------------------------------------
+  Human: [plastic lid]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plate, plate2, red glass, spoon, sweet's cardboard box, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #2 | Time: 3.86s (00:03) | DROP: plastic lid
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [3.68s - 5.00s] With my right hand, pick up the sweet's cardboard box from the right hand side of the table.
+--------------------------------------------------------------------------------
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plastic lid, plate, plate2, red glass, spoon, sweet's cardboard box, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #3 | Time: 4.35s (00:04) | PICK: sweet's cardboard box
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [3.68s - 5.00s] With my right hand, pick up the sweet's cardboard box from the right hand side of the table.
+--------------------------------------------------------------------------------
+  Human: [sweet's cardboard box]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plastic lid, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #4 | Time: 5.76s (00:05) | PICK: plastic lid
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [4.92s - 7.28s] Push the sweet plastic box together with its lid inside the sweet cardboard box. I push the plastic box with my left hand and I hold the cardboard box with my right hand.
+--------------------------------------------------------------------------------
+  Human: [plastic lid, sweet's cardboard box]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #5 | Time: 7.02s (00:07) | DROP: plastic lid
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [4.92s - 7.28s] Push the sweet plastic box together with its lid inside the sweet cardboard box. I push the plastic box with my left hand and I hold the cardboard box with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [sweet's cardboard box]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #6 | Time: 15.95s (00:15) | DROP: sweet's cardboard box
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [14.14s - 16.78s] With my right hand, move bags and other packaging in the middle shelf of the plastic stand to rearrange the shelf and make sure the sweet's box has enough room and nothing falls off the shelf.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_floor.001: [chair]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #7 | Time: 19.67s (00:19) | PICK: chair
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [18.71s - 20.81s] With my right hand, push the other chair, sliding it underneath the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [chair]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #8 | Time: 20.67s (00:20) | DROP: chair
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [18.71s - 20.81s] With my right hand, push the other chair, sliding it underneath the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl, bowl2, bowl3, chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #9 | Time: 21.49s (00:21) | PICK: bowl
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [20.79s - 22.10s] With my right hand, pick up the bowl containing the grapes from the top right corner of the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl2, bowl3, chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #10 | Time: 25.68s (00:25) | DROP: bowl
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [24.39s - 25.92s] With my left hand, place the bowl containing the grapes in the middle shelf of the fridge.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl2, bowl3, chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #11 | Time: 30.20s (00:30) | PICK: bowl2
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [29.59s - 30.45s] With my right hand, pick up the dirty bowl from the center of the table, a fork is placed inside the bowl.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [bowl3, chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #12 | Time: 30.28s (00:30) | PICK: bowl3
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [29.59s - 30.45s] With my right hand, pick up the dirty bowl from the center of the table, a fork is placed inside the bowl.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2, bowl3]
+  P03_counter.003: [fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #13 | Time: 34.62s (00:34) | DROP: bowl3
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [33.63s - 34.84s] Put down the two bowls on the kitchen top next to the sink using both hands, putting down one bowl per hand at the same time.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2]
+  P03_counter.003: [bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #14 | Time: 34.80s (00:34) | DROP: bowl2
+High-Level Activity: Clear the table and put stuff away
+Active Narrations:
+  [33.63s - 34.84s] Put down the two bowls on the kitchen top next to the sink using both hands, putting down one bowl per hand at the same time.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.008: [food container]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #15 | Time: 46.89s (00:46) | PICK: food container
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [46.10s - 47.85s] With my left hand, pick up the food container from the top shelf of the bottom cupboard.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.010: [food container lid, plastic divider]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #16 | Time: 50.63s (00:50) | PICK: plastic divider
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [49.90s - 52.40s] With my left hand, pick out the food container lid and divider from the top shelf of the bottom cupboard.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container, plastic divider]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_cupboard.010: [food container lid]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #17 | Time: 52.12s (00:52) | PICK: food container lid
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [49.90s - 52.40s] With my left hand, pick out the food container lid and divider from the top shelf of the bottom cupboard.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container, food container lid, plastic divider]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #18 | Time: 56.61s (00:56) | DROP: food container
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [55.99s - 56.76s] With my right hand, put the food container on the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container lid, plastic divider]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #19 | Time: 58.72s (00:58) | DROP: plastic divider
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [58.28s - 58.99s] With my left hand, put down the food container lid on the left hand side of the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container lid]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #20 | Time: 58.84s (00:58) | DROP: food container lid
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [58.28s - 58.99s] With my left hand, put down the food container lid on the left hand side of the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #21 | Time: 59.45s (00:59) | PICK: plate
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [59.36s - 60.01s] With my right hand, grab the wooden spoon from the plate.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #22 | Time: 59.46s (00:59) | PICK: wooden spoon
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [59.36s - 60.01s] With my right hand, grab the wooden spoon from the plate.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate, wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate2, red glass, spoon, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #23 | Time: 74.67s (01:14) | DROP: plate
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [74.05s - 74.82s] With my left hand, put down the now empty plate on the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #24 | Time: 77.35s (01:17) | PICK: food container
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [77.23s - 77.83s] With my left hand, grab the food container and turn it slightly on the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container, wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #25 | Time: 77.62s (01:17) | DROP: food container
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [77.23s - 77.83s] With my left hand, grab the food container and turn it slightly on the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #26 | Time: 79.00s (01:19) | PICK: food container
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [77.93s - 79.04s] With my right hand, tap the wooden spoon against the edge of the food container to drop the mashed potato attached to the wooden spoon into the right hand side compartment of the food container.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container, wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #27 | Time: 79.43s (01:19) | DROP: food container
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [79.14s - 80.13s] With my left hand, pick up a bit of mashed potato that fell on the table while tapping the spoon earlier.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #28 | Time: 84.20s (01:24) | DROP: wooden spoon
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [83.28s - 84.68s] With my right hand, put the wooden spoon on the empty plate.
+  [83.83s - 84.81s] With my left hand, pick up another plate containing the stroganoff leftovers from the center of the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #29 | Time: 84.30s (01:24) | PICK: plate2
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [83.28s - 84.68s] With my right hand, put the wooden spoon on the empty plate.
+  [83.83s - 84.81s] With my left hand, pick up another plate containing the stroganoff leftovers from the center of the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, red glass, spoon, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #30 | Time: 85.35s (01:25) | PICK: spoon
+High-Level Activity: Transfer leftovers to food container
+Active Narrations:
+  [84.91s - 85.58s] With my right hand, grab the spoon from the plate containing the stroganoff leftovers.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2, spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, red glass, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #31 | Time: 119.60s (01:59) | DROP: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [118.72s - 120.12s] With my left hand, put down the now empty plate on the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2, wooden spoon]
+  P03_washingmachine.001: [one tissue]
+
+Event #32 | Time: 121.19s (02:01) | PICK: wooden spoon
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [120.87s - 121.60s] With my right hand, pick up the wooden spoon from the plate standing on the right hand side of the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spoon, wooden spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #33 | Time: 126.44s (02:06) | DROP: wooden spoon
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [125.65s - 126.52s] With my right hand, place the wooden spoon in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spoon]
+  P03_counter.003: [bowl2, bowl3, fork, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #34 | Time: 127.89s (02:07) | PICK: fork
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [127.48s - 128.49s] Pick up two forks from the two bowls on the kitchen top next to the sink and pick up one fork per hand at the same time.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [fork, spoon]
+  P03_counter.003: [bowl2, bowl3, fork2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #35 | Time: 128.13s (02:08) | PICK: fork2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [127.48s - 128.49s] Pick up two forks from the two bowls on the kitchen top next to the sink and pick up one fork per hand at the same time.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [fork, fork2, spoon]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #36 | Time: 133.26s (02:13) | DROP: fork2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [132.60s - 133.92s] With my right hand, place the fork in the dishwasher cutlery tray located at the bottom left corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [fork, spoon]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #37 | Time: 134.92s (02:14) | DROP: spoon
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [134.84s - 135.51s] With my right hand, place the fork in the dishwasher cutlery tray located at the bottom left corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [fork]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #38 | Time: 135.02s (02:15) | DROP: fork
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [134.84s - 135.51s] With my right hand, place the fork in the dishwasher cutlery tray located at the bottom left corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #39 | Time: 139.09s (02:19) | PICK: food container
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [138.57s - 139.76s] With my left hand, pick up the dirty plate from the table. This plate contained the stroganoff earlier.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #40 | Time: 140.40s (02:20) | DROP: food container
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [139.98s - 141.66s] With my right hand, move the food container containing the mashed potatoes and stroganoff leftovers on the table. I initially picked up the container to put it away, but I will do that later as I will instead pick up the dirty plate now.
+  [140.25s - 141.85s] With my right hand, pick up the dirty plate from the table. This plate contained the mashed potato earlier.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, plate2, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #41 | Time: 140.77s (02:20) | PICK: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [139.98s - 141.66s] With my right hand, move the food container containing the mashed potatoes and stroganoff leftovers on the table. I initially picked up the container to put it away, but I will do that later as I will instead pick up the dirty plate now.
+  [140.25s - 141.85s] With my right hand, pick up the dirty plate from the table. This plate contained the mashed potato earlier.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, plate, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #42 | Time: 140.98s (02:20) | PICK: plate
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [139.98s - 141.66s] With my right hand, move the food container containing the mashed potatoes and stroganoff leftovers on the table. I initially picked up the container to put it away, but I will do that later as I will instead pick up the dirty plate now.
+  [140.25s - 141.85s] With my right hand, pick up the dirty plate from the table. This plate contained the mashed potato earlier.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate, plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #43 | Time: 145.13s (02:25) | DROP: plate
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #44 | Time: 145.82s (02:25) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [145.45s - 145.93s] With my right hand, pick up the dishwasher brush from the small rack attached inside the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher brush, plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #45 | Time: 152.91s (02:32) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [149.22s - 153.27s] With my right hand, drop the dishwasher brush into the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, metal colander, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #46 | Time: 156.59s (02:36) | PICK: metal colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [154.70s - 157.14s] With my left hand, pick up the metal colander from the dishwasher bottom rack to make room for the dirty plate which I'm holding in my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [metal colander, plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #47 | Time: 159.12s (02:39) | DROP: metal colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [158.64s - 162.33s] With my right hand, put down the dirty plate on the kitchen top next to the saucepan.
+  [159.05s - 160.76s] With my left hand, pick up the dirty saucepan from the dishwasher bottom rack to make room for the dirty plate which I am holding in my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.001: [metal colander]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #48 | Time: 160.12s (02:40) | PICK: saucepan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [158.64s - 162.33s] With my right hand, put down the dirty plate on the kitchen top next to the saucepan.
+  [159.05s - 160.76s] With my left hand, pick up the dirty saucepan from the dishwasher bottom rack to make room for the dirty plate which I am holding in my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2, saucepan]
+  P03_counter.001: [metal colander]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #49 | Time: 162.02s (02:42) | DROP: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [158.64s - 162.33s] With my right hand, put down the dirty plate on the kitchen top next to the saucepan.
+  [160.81s - 162.47s] With my left hand, put down the dirty saucepan on the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [saucepan]
+  P03_counter.001: [metal colander]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #50 | Time: 162.20s (02:42) | DROP: saucepan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [158.64s - 162.33s] With my right hand, put down the dirty plate on the kitchen top next to the saucepan.
+  [160.81s - 162.47s] With my left hand, put down the dirty saucepan on the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [frying pan, spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #51 | Time: 163.84s (02:43) | PICK: frying pan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [162.43s - 164.43s] With my left hand, pick up the frying pan from the hob.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [frying pan]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [spatula]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #52 | Time: 164.09s (02:44) | PICK: spatula
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [162.43s - 164.43s] With my left hand, pick up the frying pan from the hob.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [frying pan, spatula]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #53 | Time: 165.66s (02:45) | DROP: spatula
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [165.27s - 166.27s] With my right hand, put the dirty spatula in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [frying pan]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #54 | Time: 166.09s (02:46) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [165.27s - 166.27s] With my right hand, put the dirty spatula in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher brush, frying pan]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #55 | Time: 202.15s (03:22) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [202.05s - 203.03s] With my right hand, drop the dishwasher brush in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [frying pan]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #56 | Time: 213.59s (03:33) | DROP: frying pan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [206.67s - 215.65s] Pick up the frying pan from the dishwasher bottom rack because I'm not happy with the way it is positioned. So we'll continue rearranging the crockery on the dishwasher bottom rack.
+  [211.62s - 218.38s] With my left hand, pick up the plate from the top right corner of the dishwasher bottom rack to make room for the frying pan.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #57 | Time: 215.17s (03:35) | PICK: frying pan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [206.67s - 215.65s] Pick up the frying pan from the dishwasher bottom rack because I'm not happy with the way it is positioned. So we'll continue rearranging the crockery on the dishwasher bottom rack.
+  [211.62s - 218.38s] With my left hand, pick up the plate from the top right corner of the dishwasher bottom rack to make room for the frying pan.
+  [214.91s - 215.69s] With my right hand, place again the frying pan on the dishwasher bottom rack. This time succeeding.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [frying pan]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #58 | Time: 216.09s (03:36) | PICK: plate3
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [211.62s - 218.38s] With my left hand, pick up the plate from the top right corner of the dishwasher bottom rack to make room for the frying pan.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [frying pan, plate3]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, inner part of plastic colander, knife, plastic colander, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #59 | Time: 221.10s (03:41) | DROP: frying pan
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate3]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #60 | Time: 226.97s (03:46) | DROP: plate3
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [223.69s - 227.57s] Place the dirty plate on the top right corner of the dishwasher bottom rack using both hands, struggling at the beginning as there isn't much room in the corner, but still managing to position the plate.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, plate, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #61 | Time: 229.08s (03:49) | PICK: plate
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [228.97s - 229.81s] With my right hand, pick up the plate from the kitchen top next to the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #62 | Time: 230.01s (03:50) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher brush, plate]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #63 | Time: 233.31s (03:53) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [233.27s - 234.18s] With my right hand, drop the dishwasher brush in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #64 | Time: 243.27s (04:03) | DROP: plate
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #65 | Time: 244.88s (04:04) | PICK: plate4
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [244.87s - 248.69s] Move the plates on the left hand side of the dishwasher bottom rack to try to rearrange the crockery in the bottom rack to make more room. While moving the plates also grab the frying pan by its handle and try to move it a little bit to make more room.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate4]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #66 | Time: 246.44s (04:06) | DROP: plate4
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [244.87s - 248.69s] Move the plates on the left hand side of the dishwasher bottom rack to try to rearrange the crockery in the bottom rack to make more room. While moving the plates also grab the frying pan by its handle and try to move it a little bit to make more room.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #67 | Time: 248.47s (04:08) | PICK: plate5
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [244.87s - 248.69s] Move the plates on the left hand side of the dishwasher bottom rack to try to rearrange the crockery in the bottom rack to make more room. While moving the plates also grab the frying pan by its handle and try to move it a little bit to make more room.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate5]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate4, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #68 | Time: 249.46s (04:09) | DROP: plate5
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #69 | Time: 250.56s (04:10) | PICK: plate6
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate6]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate4, plate5, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #70 | Time: 254.00s (04:14) | DROP: plate6
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plastic colander, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #71 | Time: 263.79s (04:23) | PICK: plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [261.28s - 264.24s] Pick up the outer part of the plastic colander from the dishwasher top rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plastic colander]
+  P03_counter.001: [metal colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #72 | Time: 265.06s (04:25) | DROP: plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [264.34s - 265.27s] Put the outer part of the plastic colander on the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #73 | Time: 265.69s (04:25) | PICK: small bowl
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [265.24s - 266.46s] With my right hand, pick up the small bowl from the dishwasher top rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [small bowl]
+  P03_counter.001: [metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plate, plate3, plate4, plate5, plate6, potato masher, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #74 | Time: 269.02s (04:29) | DROP: small bowl
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [268.27s - 269.18s] With my left hand, place the small bowl on the dishwasher top rack next to other three identical small bowls.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, inner part of plastic colander, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #75 | Time: 269.54s (04:29) | PICK: inner part of plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [269.28s - 269.95s] Pick up the inner part of the plastic colander from the dishwasher top rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [inner part of plastic colander]
+  P03_counter.001: [metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #76 | Time: 271.44s (04:31) | DROP: inner part of plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2, bowl3]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #77 | Time: 271.70s (04:31) | PICK: bowl3
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [271.45s - 272.05s] With my right hand, pick up the bowl from the kitchen top next to the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl3]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #78 | Time: 273.13s (04:33) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [272.15s - 273.51s] With my right hand, pick up the dishwasher brush from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl3, dishwasher brush]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #79 | Time: 277.55s (04:37) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [277.50s - 277.80s] Drop the dishwasher brush in the sink with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl3]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #80 | Time: 281.36s (04:41) | DROP: bowl3
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [279.15s - 281.85s] Place the bowl in the bottom left corner of the dishwasher top rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #81 | Time: 281.94s (04:41) | PICK: potato masher
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [potato masher]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #82 | Time: 284.17s (04:44) | DROP: potato masher
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [283.60s - 284.65s] Place the potato masher at the center of the dishwasher top rack to make room for more crockery.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.003: [bowl2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #83 | Time: 285.78s (04:45) | PICK: bowl2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [285.45s - 286.05s] With my left hand, pick up another dirty bowl from the kitchen top next to the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #84 | Time: 286.30s (04:46) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [286.15s - 286.75s] With my right hand, pick up the dishwasher brush from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2, dishwasher brush]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #85 | Time: 289.78s (04:49) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [289.55s - 290.20s] Drop the dishwasher brush in the sink with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #86 | Time: 293.94s (04:53) | PICK: bowl3
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [291.00s - 297.00s] Try to put the dirty bowl on the dishwasher top rack next to another identical bowl, failing to do so as there isn't enough room in this corner of the dishwasher top rack.
+  [293.62s - 294.79s] With my left hand, pick up the bowl from the bottom left corner of the dishwasher top rack to try to make room for the identical ball which I'm holding in my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl2, bowl3]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #87 | Time: 297.72s (04:57) | DROP: bowl2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [296.30s - 297.90s] With my right hand, put down the dirty bowl on the dishwasher top rack next to the other identical bowl.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [bowl3]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #88 | Time: 300.51s (05:00) | DROP: bowl3
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [297.84s - 301.03s] Grab the other bowl at the bottom left corner of the dishwasher top rack and move it a little bit with both hands to make sure the bowl is well positioned.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.002: [plate2]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #89 | Time: 302.69s (05:02) | PICK: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [301.02s - 302.90s] With my right hand, pick up the plate from the kitchen top.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #90 | Time: 316.42s (05:16) | DROP: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [308.52s - 317.19s] Try to find a better position for the plate in the dishwasher top rack, moving it around and trying different positions in the rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander, saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #91 | Time: 317.78s (05:17) | PICK: saucepan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [317.26s - 318.72s] With my right hand, pick up the saucepan from the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [saucepan]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #92 | Time: 322.55s (05:22) | DROP: saucepan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [321.07s - 322.72s] With my right hand, put down the saucepan on the kitchen top above the dishwasher.
+  [322.35s - 324.21s] Pick up the spatula from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, spatula, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #93 | Time: 323.65s (05:23) | PICK: spatula
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [322.35s - 324.21s] Pick up the spatula from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #94 | Time: 325.80s (05:25) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [324.31s - 326.27s] With my right hand, pick up the dishwasher brush from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher brush, spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #95 | Time: 331.88s (05:31) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [331.72s - 332.16s] Drop the dishwasher brush in the sink with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #96 | Time: 332.51s (05:32) | PICK: sponge
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [332.26s - 332.81s] With my right hand, pick up a sponge from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spatula, sponge]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #97 | Time: 338.61s (05:38) | DROP: sponge
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [338.49s - 339.03s] Put the sponge down on the sink with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #98 | Time: 339.05s (05:39) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [338.89s - 339.67s] With my right hand, pick up the dishwasher brush from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher brush, spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #99 | Time: 342.05s (05:42) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [341.63s - 342.14s] With my right hand, put the dishwasher brush in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #100 | Time: 344.59s (05:44) | PICK: knife
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [344.10s - 344.67s] With my right hand, pick up the knife from the dishwasher cutlery tray located at the bottom left corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [knife, spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #101 | Time: 356.42s (05:56) | DROP: spatula
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [355.75s - 356.52s] With my left hand, place the spatula on the dishwasher top rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [knife]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #102 | Time: 357.17s (05:57) | DROP: knife
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [356.83s - 357.64s] With my right hand, place the knife in the dishwasher cutlery tray located at the bottom left corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.002: [saucepan]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #103 | Time: 358.73s (05:58) | PICK: saucepan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [358.58s - 359.32s] With my right hand, pick up the saucepan from the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [saucepan]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #104 | Time: 358.88s (05:58) | PICK: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [358.58s - 359.32s] With my right hand, pick up the saucepan from the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2, saucepan]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #105 | Time: 363.98s (06:03) | DROP: saucepan
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [360.80s - 364.26s] With my right hand, place the saucepan on the dishwasher top rack, turning the handle until it fits properly in the rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #106 | Time: 364.77s (06:04) | PICK: spatula
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [364.65s - 365.26s] With my right hand, pick up the spatula from the dishwasher top rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2, spatula]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #107 | Time: 365.90s (06:05) | DROP: spatula
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [365.13s - 366.20s] With my right hand, put the spatula on another part of the dishwasher top rack where it will be better washed.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plate2]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #108 | Time: 368.95s (06:08) | DROP: plate2
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [368.03s - 369.47s] Put the plate on the dishwasher top rack using both hands, sliding it between the bowls and the saucepan.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [inner part of plastic colander, metal colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #109 | Time: 372.69s (06:12) | PICK: metal colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [372.61s - 373.28s] Pick up the metal colander from the kitchen top above the dishwasher with my right hand. Inside the metal colander there is the inner part of the plastic colander.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [metal colander]
+  P03_counter.001: [inner part of plastic colander, plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #110 | Time: 373.76s (06:13) | PICK: inner part of plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [373.28s - 374.42s] With my left hand, pick up the inner part of the plastic colander from the metal colander.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [inner part of plastic colander, metal colander]
+  P03_counter.001: [plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #111 | Time: 379.32s (06:19) | DROP: metal colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [377.52s - 379.88s] With my right hand, grab the frying pan from the dishwasher bottom rack, I initially wanted to put the inner part of the plastic colander, which I'm holding in my left hand, underneath the pan but I changed my mind as there isn't enough room.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [inner part of plastic colander]
+  P03_counter.001: [plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, knife, metal colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #112 | Time: 383.80s (06:23) | DROP: inner part of plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [379.98s - 384.50s] Place the inner part of the plastic colander on the bottom right corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.001: [plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #113 | Time: 387.85s (06:27) | PICK: plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [387.64s - 388.55s] With my right hand, pick up the outer part of the plastic colander from the kitchen top above the dishwasher.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #114 | Time: 389.32s (06:29) | DROP: plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, dishwasher brush, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #115 | Time: 396.06s (06:36) | PICK: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [392.94s - 396.56s] With my right hand, pick up the dishwasher brush from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher brush]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #116 | Time: 399.11s (06:39) | DROP: dishwasher brush
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [398.12s - 399.41s] Place the dishwasher brush in the dishwasher cutlery tray located on the bottom left corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #117 | Time: 406.01s (06:46) | PICK: inner part of plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [405.72s - 407.38s] With my right hand, pick up the inner part of the plastic colander from the bottom right corner of the dishwasher bottom rack.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [inner part of plastic colander]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #118 | Time: 406.89s (06:46) | DROP: inner part of plastic colander
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [405.72s - 407.38s] With my right hand, pick up the inner part of the plastic colander from the bottom right corner of the dishwasher bottom rack.
+  [406.72s - 407.55s] Put the inner part of the plastic colander on the opposite corner, on the top left of the dishwasher bottom rack using my right hand. I move the inner part of the plastic colander there because there it will be washed better.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #119 | Time: 418.25s (06:58) | PICK: cloth
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [417.10s - 418.67s] With my left hand, pick up the cloth from the kitchen top next to the hob.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [cloth]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #120 | Time: 422.05s (07:02) | DROP: cloth
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [421.54s - 422.53s] With my left hand, drop the cloth on the kitchen top next to the hob.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #121 | Time: 430.49s (07:10) | PICK: dishwasher tablet
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [423.00s - 430.73s] Pick up the dishwasher tablet from the box located on the bottom shelf of the cupboard under the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher tablet]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #122 | Time: 434.31s (07:14) | PICK: dishwasher tablet
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [432.81s - 435.97s] There is already a tablet inside the dishwasher tablet tray. In the previous cycle the dishwasher tablet tray didn't open so the tablet is still there. I won't put a new tablet in the tray and instead I will flip the tablet in the tray so that it is not stuck on the tray hoping that it will open this time.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [dishwasher tablet]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #123 | Time: 434.91s (07:14) | DROP: dishwasher tablet
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [432.81s - 435.97s] There is already a tablet inside the dishwasher tablet tray. In the previous cycle the dishwasher tablet tray didn't open so the tablet is still there. I won't put a new tablet in the tray and instead I will flip the tablet in the tray so that it is not stuck on the tray hoping that it will open this time.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #124 | Time: 436.96s (07:16) | DROP: dishwasher tablet
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [436.03s - 437.41s] Put the dishwasher tablet back in the box, located on the bottom shelf of the cupboard under the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #125 | Time: 444.44s (07:24) | PICK: orange cloth
+High-Level Activity: Clear the table, load and start the dishwasher
+Active Narrations:
+  [442.83s - 444.82s] With my right hand, pick up the orange cloth hanging from the top above the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #126 | Time: 474.27s (07:54) | DROP: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [473.95s - 474.53s] Put the orange cloth on the sink with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #127 | Time: 476.98s (07:56) | PICK: kitchen paper roll
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [476.67s - 478.86s] Get the kitchen paper by pulling the kitchen paper from its roll, then tearing the paper to detach it from the roll.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_washingmachine.001: [one tissue]
+
+Event #128 | Time: 478.44s (07:58) | PICK: one tissue
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [476.67s - 478.86s] Get the kitchen paper by pulling the kitchen paper from its roll, then tearing the paper to detach it from the roll.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [kitchen paper roll, one tissue]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #129 | Time: 478.68s (07:58) | DROP: kitchen paper roll
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [476.67s - 478.86s] Get the kitchen paper by pulling the kitchen paper from its roll, then tearing the paper to detach it from the roll.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #130 | Time: 498.61s (08:18) | DROP: one tissue
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [498.53s - 498.79s] With my right hand, throw the kitchen paper into the general waste bin.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_counter.007: [cloth]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #131 | Time: 502.06s (08:22) | PICK: cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [501.99s - 502.37s] With my right hand, pick up the cloth from the kitchen top next to the hob.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #132 | Time: 508.96s (08:28) | DROP: cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [507.67s - 509.11s] Hang the cloth on the cupboard under the sink with my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #133 | Time: 509.77s (08:29) | PICK: wooden spoon
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [509.60s - 510.15s] With my left hand, pick up the wooden spoon from the sink.
+  [509.63s - 510.38s] With my right hand, turn on the tap.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [wooden spoon]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #134 | Time: 511.05s (08:31) | PICK: sponge
+High-Level Activity: Clean and put stuff away
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [sponge, wooden spoon]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #135 | Time: 521.42s (08:41) | DROP: sponge
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [521.14s - 521.62s] With my right hand, drop the sponge in the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [wooden spoon]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #136 | Time: 533.86s (08:53) | DROP: wooden spoon
+High-Level Activity: Clean and put stuff away
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #137 | Time: 534.07s (08:54) | PICK: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [534.03s - 534.43s] With my left hand, pick up the orange cloth from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #138 | Time: 540.40s (09:00) | DROP: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [539.60s - 540.45s] With my right hand, drop the orange cloth on the kitchen top above the washing machine.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.005: [recipe card]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #139 | Time: 541.21s (09:01) | PICK: recipe card
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [540.50s - 541.81s] With my right hand, pick up the recipe card from the kitchen top next to the orange cloth.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [recipe card]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, orange cloth, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #140 | Time: 546.40s (09:06) | PICK: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [546.30s - 546.85s] With my right hand, pick up the orange cloth from the kitchen top above the washing machine.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth, recipe card]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #141 | Time: 547.35s (09:07) | DROP: recipe card
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [546.76s - 547.61s] With my left hand, put down the recipe card on the kitchen top next to the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid, recipe card]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #142 | Time: 552.98s (09:12) | PICK: recipe card
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [552.01s - 553.55s] With my left hand, pick up the now clean recipe card from the kitchen top next to the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth, recipe card]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #143 | Time: 556.87s (09:16) | DROP: recipe card
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [556.68s - 556.98s] With my left hand, put the recipe card on the high table next to the fridge.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [cupboard, hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #144 | Time: 581.31s (09:41) | PICK: cupboard
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [580.86s - 581.53s] Unfold the orange cloth and shake it briefly above the sink using my left hand. I do this to drop the food residue that I gathered with the orange cloth as I prepare to continue wiping the countertop with the cloth.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [cupboard, orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #145 | Time: 591.57s (09:51) | DROP: cupboard
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [591.01s - 591.79s] With my right hand, put the cleaner product on the top shelf of the cupboard under the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #146 | Time: 594.09s (09:54) | PICK: sponge
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [593.44s - 594.22s] With my right hand, pick up the sponge from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth, sponge]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #147 | Time: 596.99s (09:56) | DROP: sponge
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [594.16s - 597.11s] Rinse the sponge under the running water, squeezing it with my right hand as I rinse it to remove dirt from the sponge.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #148 | Time: 675.67s (11:15) | DROP: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [675.30s - 676.09s] Flip the orange cloth with my right hand so that I can continue wiping the hob with the clean side of the cloth.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_hob.001: [orange cloth]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #149 | Time: 676.06s (11:16) | PICK: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [675.30s - 676.09s] Flip the orange cloth with my right hand so that I can continue wiping the hob with the clean side of the cloth.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #150 | Time: 677.99s (11:17) | DROP: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [677.70s - 680.66s] Wipe the kitchen top next to the hob with the orange cloth. I wipe the kitchen top for a second time to rinse the cleaning product off of the kitchen top.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_counter.006: [orange cloth]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #151 | Time: 678.40s (11:18) | PICK: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [677.70s - 680.66s] Wipe the kitchen top next to the hob with the orange cloth. I wipe the kitchen top for a second time to rinse the cleaning product off of the kitchen top.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [hand wash bottle, soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #152 | Time: 692.40s (11:32) | PICK: hand wash bottle
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [692.21s - 692.81s] With my left hand, pick up the hand wash from the kitchen top next to the sink so that it is out of the way as I continue cleaning the kitchen top around the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [hand wash bottle, orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+
+Event #153 | Time: 693.28s (11:33) | DROP: hand wash bottle
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [692.77s - 693.37s] With my left hand, put the hand wash bottle on the window sill next to the washing up liquid bottle.
+  [692.87s - 693.33s] With my left hand, put down the soap bar tray next to the microwave oven on the kitchen top next to the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [soap, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #154 | Time: 694.10s (11:34) | PICK: soap
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [693.43s - 694.16s] Wipe now the kitchen top around the sink using the orange cloth I'm holding in my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth, soap]
+  P03_bin.001: [one tissue]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #155 | Time: 696.63s (11:36) | DROP: soap
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [696.21s - 698.10s] Wipe the edge of the sink with the orange cloth I'm holding in my right hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #156 | Time: 733.36s (12:13) | PICK: sponge
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [732.69s - 733.56s] With my left hand, pick up the sponge from the small rack attached inside the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth, sponge]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #157 | Time: 743.42s (12:23) | DROP: sponge
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [743.15s - 743.77s] With my left hand, put the sponge in the now washed  small rack attached inside the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [orange cloth]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #158 | Time: 758.73s (12:38) | DROP: orange cloth
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [758.25s - 759.09s] Hang the orange cloth on the tap above the sink to air dry the cloth.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #159 | Time: 760.46s (12:40) | PICK: strainer
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [759.00s - 762.10s] Shake my left hand above the sink to remove more water from my hand.
+  [759.79s - 761.07s] With my left hand, pick up the strainer from the sink.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [strainer]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [orange cloth, sponge, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #160 | Time: 773.14s (12:53) | DROP: strainer
+High-Level Activity: Clean and put stuff away
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, food container lid, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #161 | Time: 783.49s (13:03) | PICK: food container lid
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [779.69s - 783.97s] Pick up the food container lid from the left hand side of the table.
+  [782.00s - 792.20s] Close the food container, pressing down the lid on the container. I also lift a rubber tab at the top of the lid to let air out of the container. Then pushing down the rubber tab back to the lid to create a vacuum in the food container, which will fully seal the container and will prevent it from opening.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [food container lid]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #162 | Time: 803.60s (13:23) | DROP: food container lid
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [802.13s - 804.11s] With my left hand, place the food container in the middle shelf of the fridge next to the bowl containing the grapes.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #163 | Time: 806.44s (13:26) | PICK: red glass
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [804.72s - 806.44s] With my right hand, pick up the red glass from the left hand side of the table. I pick the glass up so that it's no longer standing on the tea towel, which I'm about to pick up from the table.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [red glass]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #164 | Time: 807.41s (13:27) | DROP: red glass
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [806.50s - 807.71s] With my right hand, put the red glass down at the top of the table next to the green glass.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass, tea towel, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #165 | Time: 808.42s (13:28) | PICK: tea towel
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [807.74s - 810.57s] Fold the tea towel on the right hand side of the table using both hands.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid]
+  Human: [tea towel]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #166 | Time: 824.52s (13:44) | DROP: tea towel
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [823.88s - 825.04s] Place the folded tea towel on the top shelf of the bottom cupboard with my left hand.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid, tea towel]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass, tea towel2]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #167 | Time: 827.13s (13:47) | PICK: tea towel2
+High-Level Activity: Clean and put stuff away
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid, tea towel]
+  Human: [tea towel2]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass]
+  P03_windowsill.002: [hand wash bottle]
+
+Event #168 | Time: 841.13s (14:01) | DROP: tea towel2
+High-Level Activity: Clean and put stuff away
+Active Narrations:
+  [840.25s - 842.16s] With my left hand, put the folded tea towel on the top shelf of the bottom cupboard.
+--------------------------------------------------------------------------------
+  Free Space: [plastic lid, tea towel]
+  P03_bin.001: [one tissue]
+  P03_counter.003: [soap]
+  P03_counter.004: [kitchen paper roll]
+  P03_cupboard.002: [cloth, cupboard, dishwasher tablet]
+  P03_cupboard.010: [tea towel2]
+  P03_dishwasher.001: [bowl2, bowl3, dishwasher brush, dishwasher tablet, fork, fork2, frying pan, inner part of plastic colander, knife, metal colander, plastic colander, plate, plate2, plate3, plate4, plate5, plate6, potato masher, saucepan, small bowl, spatula, spoon]
+  P03_drawer.005: [sweet's cardboard box]
+  P03_fridge.001: [bowl, food container lid]
+  P03_sink.001: [orange cloth, sponge, strainer, wooden spoon]
+  P03_table.001: [recipe card]
+  P03_table.002: [chair, food container, plastic divider, red glass]
+  P03_windowsill.002: [hand wash bottle]
