@@ -10,19 +10,39 @@ import ollama
 from utils import seconds_to_minutes_seconds
 import unicodedata
 import re
+from datetime import datetime
 import pdb
 
+
+MODEL_NAME = "gpt-oss:20b"
+NUM_TRIES = 3
+MAX_NUM_PREDICT = 400
+TEMPERATURE = 0.8
 
 parser = argparse.ArgumentParser(description='Label object usage during time periods.')
 parser.add_argument('--video_id', type=str, required=False,
                     help='Video ID to construct prompt_info file path (e.g., P01-20240202-171220)')
+parser.add_argument('--model_name', type=str, required=False, default=MODEL_NAME,
+                    help='Model name to use (e.g., gpt-oss:20b)')
+parser.add_argument('--temperature', type=float, required=False, default=TEMPERATURE,
+                    help='Temperature to use (e.g., 0.8)')
+parser.add_argument('--max_num_predict', type=int, required=False, default=MAX_NUM_PREDICT,
+                    help='Maximum number of predictions to use (e.g., 400)')
+parser.add_argument('--num_tries', type=int, required=False, default=NUM_TRIES,
+                    help='Number of tries to use (e.g., 3)')
 args = parser.parse_args()
 
-VERBOSE = False
-MODEL_NAME = "gpt-oss:20b"
+VERBOSE = True
+
+def count_tokens(s):
+    """Calculate number of tokens in system_prompt and prompt"""
+    # Basic whitespace tokenizer as a fallback
+    if not isinstance(s, str):
+        s = str(s)
+    return len(s.split())
 
 
-def ensure_ollama_model_loaded(model_name=MODEL_NAME):
+def ensure_ollama_model_loaded(model_name):
     """Ensure the specified ollama model is loaded."""
     try:
         models = ollama.list().get("models", [])
@@ -137,7 +157,7 @@ def generate_system_prompt():
     Returns:
         System prompt string
     """
-    system_prompt = """You are an expert in analyzing kitchen activities to determine if an object is being used during a specific time period. Your task is to determine whether a given object is being used during a specified time period.
+    system_prompt = """You are an expert in analyzing kitchen activities to determine if an object is being used during a specific time period. Your task is to determine whether a given object is being used during a specified time period, along with a clear explanation of your reasoning.
     
 You will be given a history of events that occurred during the time period. The events include:
     - High-level activity
@@ -146,17 +166,15 @@ You will be given a history of events that occurred during the time period. The 
     - Atomic actions such as picking up and placing down
 
 An object is considered 'being used' if it is contributing to the high-level activity, either by actively being held by the person or passively performing a function as part of the high-level activity.
-You must use Chain of Thought (CoT) reasoning to analyze the evidence step-by-step before providing your final answer. Think through the following questions:
+Analyze the evidence step-by-step before providing your final answer, and provide a clear explanation of your reasoning. Think through the following questions:
     1. If the object is in the person's hand during this period, is the person using this object to perform the high-level activity? Otherwise, it is not being used.
     2. If the object is not in the person's hand during this period, is the object meaningfully contributing to the task being performed? Otherwise, it is not being used.
 
-Respond in JSON format with the following structure:
+Provide your analysis using Chain of Thought reasoning, and respond with the following JSON structure:""" + """
 {
   'is_used': true/false,
   'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
-}
-
-Be thorough in your reasoning and provide clear evidence from the event history."""
+}"""
     
     return normalize_text(system_prompt)
 
@@ -165,7 +183,7 @@ def generate_user_prompt_example_active():
     example_a1 = {
         "prompt": """Determine if the object "right glove" is being used during the time period between 02:57 (177.84s) and 02:58 (178.20s).
 
-Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
 
 Event History:
 Time: 02:57 (177.84s)
@@ -184,14 +202,14 @@ Human atomic action: put down `right glove` to `sink.001`
 """,
     "response": {
         "is_used": False,
-        "explanation": "The object `right glove` is briefly touched by the person during the time period, but is not being used to perform the high-level activity of preparing candy floss. Hence, it is not being used."
+        "explanation": "Step-by-step Chain of Thought reasoning: The object `right glove` is briefly touched by the person during the time period, but is not being used to perform the high-level activity of preparing candy floss. Hence, it is not being used.",
     }
     }
 
     example_a2 = {
         "prompt": """Determine if the object "plate" is being used during the time period between 00:54 (54.69s) and 00:59 (59.63s).
 
-Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
 
 Event History:
 Time: 00:54 (54.69s)
@@ -234,7 +252,7 @@ Human atomic action: put down `plate` to `counter.002`
 """,
     "response": {
         "is_used": True,
-        "explanation": "The object `plate` is in the person's hand while the person is piling meat pies. The plate is meaningfully contributing to the high-level activity of piling the meat pies. Hence, it is being used.",
+        "explanation": "Step-by-step Chain of Thought reasoning: The object `plate` is in the person's hand while the person is piling meat pies. The plate is meaningfully contributing to the high-level activity of piling the meat pies. Hence, it is being used.",
     }
     }
 
@@ -245,7 +263,7 @@ def generate_user_prompt_example_passive():
     example_p1 = {
         "prompt": """Determine if the object "kettle" is being used during the time period from 03:38 (218.07s) to 04:28 (268.78s).
 
-Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
 
 Event History:
 Time: 03:38 (218.07s)
@@ -407,14 +425,14 @@ Human atomic action: pick up `kettle` from `counter.003`
 """,
     "response": {
         "is_used": True,
-        "explanation": "The object `kettle` is not in the person's hand between 218.07s and 268.78s. However, the user is currently preparing the mug to brew tea, and the kettle is likely boiling water for the tea. Hence, it is being used."
+        "explanation": "Step-by-step Chain of Thought reasoning: The object `kettle` is not in the person's hand between 218.07s and 268.78s. However, the user is currently preparing the mug to brew tea, and the kettle is likely boiling water for the tea. Hence, it is being used.",
     }
     }
 
     example_p2 = {
         "prompt": """Determine if the object "fork" is being used during the time period between 00:00 (0.00s) and 00:33 (33.57s).
 
-Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
 
 Event History:
 Time: 00:04 (4.61s)
@@ -495,7 +513,7 @@ Human atomic action: pick up `fork` from `counter.002`
 """,
     "response": {
         "is_used": False,
-        "explanation": "The object `fork` is not in the person's hand between 4.61s and 33.57s. The activity until 33.57s is about piling meat pies, and none of the action narrations mention before 00:33s or after 00:04s mention using the fork. Hence, it is not being used."
+        "explanation": "Step-by-step Chain of Thought reasoning: The object `fork` is not in the person's hand between 4.61s and 33.57s. The activity until 33.57s is about piling meat pies, and none of the action narrations mention before 00:33s or after 00:04s mention using the fork. Hence, it is not being used.",
     }
     }
 
@@ -523,12 +541,12 @@ def generate_user_prompt(entry):
 
     prompt = f"""Determine if the object '{object_name}' is being used during the time period between {time_start_str} ({time_start:.2f}s) and {time_end_str} ({time_end:.2f}s).
 
-Use Chain of Thought reasoning to analyze the event history below step-by-step before providing your final answer.
+Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
 
 Event History:
 {formatted_history}
 
-Provide your analysis using Chain of Thought reasoning, and then respond in JSON format with the following structure:""" + """
+Respond with the following JSON structure:""" + """
 {
   'is_used': true/false,
   'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
@@ -537,7 +555,7 @@ Provide your analysis using Chain of Thought reasoning, and then respond in JSON
     return normalize_text(prompt)
 
 
-def call_ollama_object_usage(system_prompt, prompt, examples, model_name=MODEL_NAME):
+def call_ollama_object_usage(system_prompt, prompt, examples, model_args):
     """
     Call Ollama to determine if an object is being used.
     
@@ -562,12 +580,29 @@ Response: {{
 """
     prompt = f"""{normalize_text(examples_prompt)}\n\n{normalize_text(prompt)}"""
     success = False
-    response_text = None
-    while not success:
+    response_raw = None
+    num_attempts = 0
+    while not success and num_attempts < model_args["num_tries"]:
+        num_attempts += 1
         # Call Ollama
         try:
+
+            system_tokens = count_tokens(system_prompt)
+            prompt_tokens = count_tokens(prompt)
+            verbose_print(f"System prompt tokens: {system_tokens}")
+            verbose_print(f"User prompt tokens: {prompt_tokens}")
+            # pdb.set_trace()
+
+            json_schema = {
+                "type": "object",
+                "properties": {
+                    "is_used": {"type": "boolean"},
+                    "explanation": {"type": "string"}
+                },
+                "required": ["is_used", "explanation"]
+            }
             response = ollama.chat(
-                model=model_name,
+                model=model_args["model_name"],
                 messages=[
                     {
                         'role': 'system',
@@ -578,31 +613,41 @@ Response: {{
                         'content': prompt
                     }
                 ],
-                format="json",
-                options={"temperature": 0.0},
+                format=json_schema,
+                options={"temperature": model_args["temperature"], "num_predict": model_args["max_num_predict"], "num_ctx": 150000},
             )
             # Extract the response content
-            response_text = normalize_text(response['message']['content'].strip())
-            verbose_print(f"--------------------------------\nResponse:\n<{response_text}>")
+            response_raw = normalize_text(response['message']['content'])
+            verbose_print(f"--------------------------------\nResponse:\n<{response_raw}>")
             
             # Parse JSON
-            response_json = json.loads(response_text)
+            response_json = json.loads(response_raw)
             if "explanation" in response_json and "is_used" in response_json:
                 success = True
-                return response_json, response_text
+                return response_json, response_raw
             else:
-                print(f"Warning: Missing explanation or is_used in LLM response: <{response_text}>")
+                print(f"Warning: Missing explanation or is_used in LLM response (attempt {num_attempts}/{args.num_tries}): <{response_raw}>")
+                if num_attempts >= args.num_tries:
+                    break
                 continue
 
         except json.JSONDecodeError as e:
-            print(f"Error parsing JSON response: {e}")
-            if response_text is not None:
-                print(f"Response was: {response_text}")
+            print(f"Error parsing JSON response (attempt {num_attempts}/{args.num_tries}): {e}")
+            if response_raw is not None:
+                print(f"Response was: <{response_raw}>")
+            if num_attempts >= args.num_tries:
+                break
             continue  # Retry instead of returning
 
         except Exception as e:
-            print(f"Error calling Ollama: {e}")
+            print(f"Error calling Ollama (attempt {num_attempts}/{args.num_tries}): {e}")
+            if num_attempts >= args.num_tries:
+                break
             continue  # Retry instead of returning
+    
+    # If we exhausted all tries without success, return empty values
+    print(f"Failed to get valid response after {args.num_tries} attempts. Returning empty response.")
+    return {}, response_raw
 
 
 def main():
@@ -612,6 +657,21 @@ def main():
     else:
         parser.error("Arg --video_id must be provided")
     
+    ## Print args
+    print(f"Args: {args}")
+    print(f"Video ID: {args.video_id}")
+    print(f"Model name: {args.model_name}")
+    print(f"Temperature: {args.temperature}")
+    print(f"Max number of predictions: {args.max_num_predict}")
+    print(f"Number of tries: {args.num_tries}")
+
+    model_args = {
+        "model_name": args.model_name,
+        "temperature": float(args.temperature),
+        "max_num_predict": int(args.max_num_predict),
+        "num_tries": int(args.num_tries),
+    }
+    
     if not os.path.exists(prompt_info_path):
         print(f"Error: File not found: {prompt_info_path}")
         return
@@ -619,7 +679,7 @@ def main():
     print(f"Processing prompt info file: {prompt_info_path}")
     
     # Ensure the model is loaded
-    ensure_ollama_model_loaded(MODEL_NAME)
+    ensure_ollama_model_loaded(args.model_name)
     
     # Load prompt info
     with open(prompt_info_path, 'r', encoding='utf-8') as f:
@@ -628,11 +688,13 @@ def main():
     print(f"Found {len(prompt_info)} entries to process")
     
     # Determine output file path
-    output_dir = "outputs/object_usage_labels"
+    datetime_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_dir = f"outputs/object_usage_labels_model-{args.model_name}_temp-{int(100*args.temperature)}_numPredict-{args.max_num_predict}_tries-{args.num_tries}"
     os.makedirs(output_dir, exist_ok=True)
-    output_filename = os.path.join(output_dir, f"object_usage_labels_diffExamples_{args.video_id}.jsonl")
+    output_filename = os.path.join(output_dir, f"object_usage_labels_{args.video_id}.jsonl")
     
     # Load already processed entries to avoid reprocessing
+    ## Entry is processed if it has an LLM response JSON with explanation and is_used, and is_used is a boolean.
     processed_entries = set()
     if os.path.exists(output_filename):
         print(f"Loading existing entries from {output_filename}")
@@ -643,21 +705,19 @@ def main():
                     continue
                 try:
                     existing_entry = json.loads(line)
-                    if not existing_entry.get('llm_response_text'):
-                        verbose_print(f"Warning: Skipping entry {existing_entry.get('object_name')} ({existing_entry.get('time_start')}s - {existing_entry.get('time_end')}s) - no LLM response text")
-                        continue
-                    if "explanation" not in existing_entry.get('llm_response_json') or "is_used" not in existing_entry.get('llm_response_json'):
-                        verbose_print(f"Warning: Skipping entry {existing_entry.get('object_name')} ({existing_entry.get('time_start')}s - {existing_entry.get('time_end')}s) - missing explanation or is_used in LLM response")
-                        continue
-                    # Create a unique key from object_name, time_start, and time_end
-                    key = (existing_entry.get('object_name'), 
-                           existing_entry.get('time_start'), 
-                           existing_entry.get('time_end'))
-                    processed_entries.add(key)
+                    if "llm_response_json" in existing_entry:
+                        llm_response_json = existing_entry['llm_response_json']
+                        if "explanation" in llm_response_json and "is_used" in llm_response_json:
+                            if isinstance(llm_response_json['is_used'], bool):
+                                # Create a unique key from object_name, time_start, and time_end
+                                key = (existing_entry.get('object_name'), 
+                                    existing_entry.get('time_start'), 
+                                    existing_entry.get('time_end'))
+                                processed_entries.add(key)
                 except json.JSONDecodeError as e:
                     print(f"Warning: Skipping invalid JSON line in existing file: {e}")
         print(f"Found {len(processed_entries)} already processed entries")
-    
+
     system_prompt = generate_system_prompt()
     verbose_print(f"System prompt:\n<{system_prompt}>")
     
@@ -690,7 +750,9 @@ def main():
         verbose_print(f"User prompt:\n<{user_prompt}>\n\n--------------------------------")
         
         # Call ollama
-        llm_response_json, llm_response_text = call_ollama_object_usage(system_prompt, user_prompt, examples)
+        llm_response_json, llm_response_raw = call_ollama_object_usage(
+            system_prompt, user_prompt, examples, model_args=model_args,
+        )
         llm_response_text = json.dumps(llm_response_json, ensure_ascii=False)
         verbose_print(f"LLM response text:\n<{llm_response_text}>")
         
@@ -699,12 +761,14 @@ def main():
             "object_name": object_name,
             "time_start": time_start,
             "segment_category": entry['segment_category'],
+            "llm_response_raw": llm_response_raw,
             "llm_response_json": llm_response_json,
             "llm_response_text": llm_response_text,
             "time_end": time_end,
             "system_prompt": system_prompt,
             "user_prompt": user_prompt,
             "examples": examples,
+            "datetime_str": datetime_str,
         }
         
         # Write to JSONL file

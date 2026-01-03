@@ -5,6 +5,8 @@ logs/*.err
 outputs/object_crops/
 outputs/linked_objects_llm_*
 outputs/object_usage_labels_*
+outputs/prompts/*
+outputs/scene_graphs/*
 
 ## VS Code settings and temporary files
 .vscode/

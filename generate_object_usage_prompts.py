@@ -94,10 +94,20 @@ def main():
     with open(f"outputs/scene_graphs/scene_graphs_{video_id}.jsonl", "r") as f:
         scene_graphs = [json.loads(line) for line in f]
 
+    output_filename = f"outputs/prompts/prompt_info_{video_id}.json"
+    if os.path.exists(output_filename):
+        ## Delete the file
+        os.remove(output_filename)
+        print(f"Deleted existing file: {output_filename}")
+
     prompt_info = []
+    MAX_SEGMENT_LENGTH = 120  # 2 minutes in seconds
     for assoc_id, assoc_data in object_movement_dict[video_id].items():
 
         object_name = assoc_data['name']
+        if "skipped" in object_name:
+            print(f"Skipping object: {object_name}")
+            continue
         timesteps = [0] + [scene_graph['time'] for scene_graph in scene_graphs if scene_graph["object_name"] == object_name] + [scene_graphs[-1]["time"]]
 
         ## Print event history for consecutive timesteps
@@ -105,15 +115,40 @@ def main():
         for i in range(len(timesteps) - 1):
             timestep_1 = timesteps[i]
             timestep_2 = timesteps[i + 1]
-            scene_graphs_between_timesteps = [scene_graph for scene_graph in scene_graphs if scene_graph['time'] >= timestep_1 and scene_graph['time'] <= timestep_2]
-            result = _extract_event_history(scene_graphs_between_timesteps, mask_info_dict[video_id], object_name)
-            result["time_start"] = timestep_1
-            result["time_end"] = timestep_2
-            result["segment_category"] = segment_categories[i%2]
-            prompt_info.append(result)
+            segment_length = timestep_2 - timestep_1
+
+            # Split segment if it's longer than MAX_SEGMENT_LENGTH
+            if segment_length <= MAX_SEGMENT_LENGTH:
+                # Segment is short enough, process as is
+                scene_graphs_between_timesteps = [scene_graph for scene_graph in scene_graphs if scene_graph['time'] >= timestep_1 and scene_graph['time'] <= timestep_2]
+                result = _extract_event_history(scene_graphs_between_timesteps, mask_info_dict[video_id], object_name)
+                result["time_start"] = timestep_1
+                result["time_end"] = timestep_2
+                result["segment_category"] = segment_categories[i%2]
+                # print(result["time_start"], result["time_end"], object_name)
+                prompt_info.append(result)
+            else:
+                # Split segment into chunks of MAX_SEGMENT_LENGTH
+                num_splits = int(segment_length / MAX_SEGMENT_LENGTH) + (1 if segment_length % MAX_SEGMENT_LENGTH > 0 else 0)
+                merge_last_chunk = False
+                for split_idx in range(num_splits):
+                    split_start = timestep_1 + split_idx * MAX_SEGMENT_LENGTH
+                    split_end = min(timestep_1 + (split_idx + 1) * MAX_SEGMENT_LENGTH, timestep_2)
+                    if timestep_2 - split_end < MAX_SEGMENT_LENGTH//2: ## If the last chunk is less than half of the MAX_SEGMENT_LENGTH, merge it with the previous chunk
+                        split_end = timestep_2
+                        merge_last_chunk = True
+                    scene_graphs_between_timesteps = [scene_graph for scene_graph in scene_graphs if scene_graph['time'] >= split_start and scene_graph['time'] <= split_end]
+                    result = _extract_event_history(scene_graphs_between_timesteps, mask_info_dict[video_id], object_name)
+                    result["time_start"] = split_start
+                    result["time_end"] = split_end
+                    result["segment_category"] = segment_categories[i%2]
+                    # print(result["time_start"], result["time_end"], object_name)
+                    prompt_info.append(result)
+                    if merge_last_chunk:
+                        break
 
     os.makedirs("outputs/prompts", exist_ok=True)
-    with open(f"outputs/prompts/prompt_info_{video_id}.json", "w") as f:
+    with open(output_filename, "w") as f:
         json.dump(prompt_info, f, indent=1)
 
 
