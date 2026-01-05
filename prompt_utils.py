@@ -65,6 +65,7 @@ def _extract_event_history(scene_graphs, mask_info_dict, query_object_name, long
         "event_history": [],
     }
 
+    # import pdb; pdb.set_trace()
     for scene_graph in scene_graphs:
         if scene_graph["action"] == "INITIAL":
             continue
@@ -87,11 +88,13 @@ def _extract_event_history(scene_graphs, mask_info_dict, query_object_name, long
         ## Get state before the action
         event['objects_in_hand'] = set(scene_graph['scene_graph'].get("Human"))
         if scene_graph['action'] == "PICK":
+            ## Pick up: remove object from hand, add to fixture
             event['objects_in_hand'] = event['objects_in_hand'].difference(set([scene_graph['object_name']]))
-            event['nearby_objects_fixture'] = set(scene_graph['scene_graph'].get(fixture_name)).difference(set([scene_graph['object_name']])) if fixture_name in scene_graph["scene_graph"] else set()
-        elif scene_graph['action'] == "DROP":
-            event['objects_in_hand'] = event['objects_in_hand'].union(set([scene_graph['object_name']]))
             event['nearby_objects_fixture'] = set(scene_graph['scene_graph'].get(fixture_name)).union(set([scene_graph['object_name']])) if fixture_name in scene_graph["scene_graph"] else set()
+        elif scene_graph['action'] == "DROP":
+            ## Drop: add object to hand, remove from fixture
+            event['objects_in_hand'] = event['objects_in_hand'].union(set([scene_graph['object_name']]))
+            event['nearby_objects_fixture'] = set(scene_graph['scene_graph'].get(fixture_name)).difference(set([scene_graph['object_name']])) if fixture_name in scene_graph["scene_graph"] else set()
         else:
             raise ValueError(f"Invalid action: {scene_graph['action']}")
         event['nearby_objects_fixture'] = list(event['nearby_objects_fixture'])
@@ -103,7 +106,7 @@ def _extract_event_history(scene_graphs, mask_info_dict, query_object_name, long
             human_and_free_space = {v: scene_graph['scene_graph'][v] for v in ["Human", "Free Space"] if v in scene_graph['scene_graph']}
             fixture_name_dict = {v: v.split("_")[1] if "_" in v else v for v in sorted(scene_graph['scene_graph']) if v not in ["Human", "Free Space"]}
             event['full_scene_graph'] = {**human_and_free_space, **{v_name: scene_graph['scene_graph'][v] for v, v_name in fixture_name_dict.items()}}
-            result['event_history'].append(event)
+        result['event_history'].append(event)
     return result
 
 
@@ -137,7 +140,7 @@ def generate_prompts_for_video(video_id, max_segment_length=120, long=False):
 
     prompt_info = []
     for assoc_id, assoc_data in object_movement_dict[video_id].items():
-
+        # import pdb; pdb.set_trace()
         object_name = assoc_data['name']
         if "skipped" in object_name:
             print(f"Skipping object: {object_name}")
@@ -205,19 +208,40 @@ def _recover_scene_graph_before_action(scene_graph, action, object_name, fixture
         # To get graph before the action, PICK: remove object from Human, add to 'fixture'
         if action == "PICK":
             assert 'Human' in pre_action_graph, f"Human not in scene graph: {pre_action_graph}"
-            assert object_name in pre_action_graph['Human'], f"Object {object_name} not in Human scene graph: {pre_action_graph}"   
+            if object_name not in pre_action_graph['Human']:
+                # print(f"Object {object_name} not in Human scene graph: {pre_action_graph}")
+                # import pdb; pdb.set_trace()
+                assert object_name in pre_action_graph['Human'], f"Object {object_name} not in Human scene graph: {pre_action_graph}"   
             pre_action_graph['Human'].remove(object_name)
-            assert fixture in pre_action_graph, f"Fixture {fixture} not in scene graph: {pre_action_graph}"
-            assert object_name not in pre_action_graph[fixture], f"Object {object_name} already in fixture {fixture} scene graph: {pre_action_graph}"
-            pre_action_graph[fixture].append(object_name)
+
+            if fixture != "unknown":
+                assert fixture in pre_action_graph, f"Fixture {fixture} not in scene graph: {pre_action_graph}"
+                assert object_name not in pre_action_graph[fixture], f"Object {object_name} already in fixture {fixture} scene graph: {pre_action_graph}"
+
+            if fixture not in pre_action_graph:
+                pre_action_graph[fixture] = []
+            if object_name not in pre_action_graph[fixture]:
+                pre_action_graph[fixture].append(object_name)
+
         # To get graph before the action, DROP: remove from 'fixture', add to 'Human'
         elif action == "DROP":
-            assert fixture in pre_action_graph, f"Fixture {fixture} not in scene graph: {pre_action_graph}"
-            assert object_name in pre_action_graph[fixture], f"Object {object_name} not in fixture {fixture} scene graph: {pre_action_graph}"
-            pre_action_graph[fixture].remove(object_name)
+            if fixture != "unknown":
+                assert fixture in pre_action_graph, f"Fixture {fixture} not in scene graph: {pre_action_graph}"
+                assert object_name in pre_action_graph[fixture], f"Object {object_name} not in fixture {fixture} scene graph: {pre_action_graph}"
+
+            if fixture not in pre_action_graph:
+                pre_action_graph[fixture] = []
+            if object_name in pre_action_graph[fixture]:
+                pre_action_graph[fixture].remove(object_name)
+
             assert 'Human' in pre_action_graph, f"Human not in scene graph: {pre_action_graph}"
-            assert object_name not in pre_action_graph['Human'], f"Object {object_name} already in Human scene graph: {pre_action_graph}"
+
+            if object_name in pre_action_graph['Human']:
+                # print(f"Object {object_name} already in Human scene graph: {pre_action_graph}")
+                # import pdb; pdb.set_trace()
+                assert object_name in pre_action_graph['Human'], f"Object {object_name} not in Human scene graph: {pre_action_graph}"
             pre_action_graph['Human'].append(object_name)
+
     return pre_action_graph
 
 
@@ -244,6 +268,7 @@ def format_event_history(event_history, show_empty: bool = False):
                 for narration in narrations:
                     event_lines.append(f"  - {narration}")
         
+        # import pdb; pdb.set_trace()
         # If full scene graph is available (long mode), use it instead of just fixture-specific objects
         if event.get('full_scene_graph'):
             # INSERT_YOUR_CODE

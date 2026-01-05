@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=link_actions_to_objects_llm
-#SBATCH --partition=overcap
+#SBATCH --partition=rail-lab
 #SBATCH --ntasks=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=32
@@ -77,7 +77,10 @@ sed -n "${START_LINE},${END_LINE}p" "$VIDEO_IDS_FILE" | cat | while IFS= read -r
     [ -z "$video_id" ] && continue
     
     echo "Processing video_id: $video_id"
-    CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH --long"
+    ## Long mode
+    # CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH --long"
+    ## Short mode
+    CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH"
     echo $CMD
     eval $CMD
     

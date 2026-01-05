@@ -43,7 +43,7 @@ parser.add_argument('--long', action='store_true',
                     help='Include full scene graph in prompts instead of just objects at specific fixture')
 args = parser.parse_args()
 
-VERBOSE = True
+VERBOSE = False
 
 if args.long:
     from incontext_examples.examples_objectUsage_long import PASSIVE_KETTLE_LONG, PASSIVE_FORK_LONG, ACTIVE_RIGHTGLOVE_LONG, ACTIVE_PLATE_LONG
