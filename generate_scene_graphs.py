@@ -4,23 +4,11 @@ import pickle
 import pandas as pd
 import argparse
 from utils import generate_time_wise_scene_graphs, seconds_to_minutes_seconds
+from prompt_utils import format_scene_graph
 
 parser = argparse.ArgumentParser(description='Generate time-wise scene graphs for a video.')
 parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
 args = parser.parse_args()
-
-
-def format_scene_graph(scene_graph: dict) -> str:
-    """Format a scene graph dictionary into a human-readable string."""
-    lines = []
-    # Sort nodes for consistent output
-    sorted_nodes = sorted(scene_graph.keys())
-    for node in sorted_nodes:
-        objects = scene_graph[node]
-        if objects:  # Only show nodes with objects
-            objects_str = ", ".join(sorted(objects))
-            lines.append(f"  {node}: [{objects_str}]")
-    return "\n".join(lines)
 
 
 def get_participant_id(video_id: str) -> str:

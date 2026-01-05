@@ -25,6 +25,7 @@ MODEL_NAME="gpt-oss:20b"
 TEMPERATURE=0.8
 MAX_NUM_PREDICT=2000
 NUM_TRIES=3
+MAX_SEGMENT_LENGTH=30
 
 # Which quarter of the file to process (1, 2, 3, or 4)
 # Quarter 1: 0% - 25%
@@ -71,12 +72,12 @@ esac
 echo "Processing quarter $QUARTER: lines $START_LINE to $END_LINE (out of $TOTAL_LINES total lines)"
 
 # Extract the quarter and reverse it
-sed -n "${START_LINE},${END_LINE}p" "$VIDEO_IDS_FILE" | tac | while IFS= read -r video_id || [ -n "$video_id" ]; do
+sed -n "${START_LINE},${END_LINE}p" "$VIDEO_IDS_FILE" | cat | while IFS= read -r video_id || [ -n "$video_id" ]; do
     # Skip empty lines
     [ -z "$video_id" ] && continue
     
     echo "Processing video_id: $video_id"
-    CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u generate_object_usage_prompts.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES"
+    CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH --long"
     echo $CMD
     eval $CMD
     
