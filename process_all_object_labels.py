@@ -8,9 +8,15 @@ import argparse
 from utils import extract_touches_from_track, seconds_to_minutes_seconds, return_event_history_sorted
 import pdb
 
-parser = argparse.ArgumentParser(description='Process a video by its ID.')
-parser.add_argument('--video_id', required=True, type=str, help='ID of the video')
+parser = argparse.ArgumentParser()
+parser.add_argument("--video_id", required=True, help="Video ID to process")
+parser.add_argument(
+    "--object_usage_labels_folder",
+    default="outputs/object_usage_labels",
+    help="Folder containing object usage labels jsonl files"
+)
 args = parser.parse_args()
+
 
 BAR_WIDTH = 0.5
 VERBOSE = True
@@ -122,7 +128,7 @@ def main():
         action_narrations_all = pickle.load(f)
 
     # Read object usage labels from jsonl file
-    object_usage_labels_path = f"outputs/object_usage_labels/object_usage_labels_diffExamples_{args.video_id}.jsonl"
+    object_usage_labels_path = f"{args.object_usage_labels_folder}/object_usage_labels_{args.video_id}.jsonl"
     if not os.path.exists(object_usage_labels_path):
         raise FileNotFoundError(f"Object usage labels file not found: {object_usage_labels_path}")
     
