@@ -137,7 +137,9 @@ def process_video(video_id, video_path, scene_graph_path, assoc_info_path, mask_
         assoc_info = json.load(f)
     with open(mask_info_path, 'r') as f:
         mask_info = json.load(f)
-        
+
+    os.makedirs(output_dir, exist_ok=True)
+
     # 1. Identify and save stationary objects
     stationary = get_stationary_objects(scene_graph_path, assoc_info, video_id)
     stationary_file = os.path.join(output_dir, f"stationary_objects_{video_id}.txt")
@@ -354,7 +356,7 @@ if __name__ == "__main__":
     parser.add_argument("--scene_graph_dir", type=str, default="outputs")
     parser.add_argument("--assoc_info", type=str, default="scene-and-object-movements/assoc_info.json")
     parser.add_argument("--mask_info", type=str, default="scene-and-object-movements/mask_info.json")
-    parser.add_argument("--output_dir", type=str, default="outputs")
+    parser.add_argument("--output_dir", type=str, default="outputs/dense_annotations")
     parser.add_argument("--frame_interval", type=int, default=1, 
                         help="Annotate every Nth frame (default: 1, annotates all frames)")
     parser.add_argument("--video_scale_factor", type=float, default=1.0,
