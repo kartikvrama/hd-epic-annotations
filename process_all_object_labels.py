@@ -127,22 +127,6 @@ def main():
     with open("narrations-and-action-segments/HD_EPIC_Narrations.pkl", "rb") as f:
         action_narrations_all = pickle.load(f)
 
-    # Read object usage labels from jsonl file
-    object_usage_labels_path = f"{args.object_usage_labels_folder}/object_usage_labels_{args.video_id}.jsonl"
-    if not os.path.exists(object_usage_labels_path):
-        raise FileNotFoundError(f"Object usage labels file not found: {object_usage_labels_path}")
-    
-    with open(object_usage_labels_path, "r") as f:
-        object_usage_labels = [json.loads(line) for line in f]
-
-    # Read scene graphs from jsonl file
-    scene_graphs_path = f"outputs/scene_graphs/scene_graphs_{args.video_id}.jsonl"
-    if not os.path.exists(scene_graphs_path):
-        raise FileNotFoundError(f"Scene graphs file not found: {scene_graphs_path}")
-    
-    with open(scene_graphs_path, "r") as f:
-        scene_graphs = [json.loads(line) for line in f]
-
     object_movements = object_movements_all[args.video_id]
     ## Sort object movements by start timestamp
     sorted_keys = sorted(object_movements.keys(), key=lambda elem: object_movements[elem]["tracks"][0]["time_segment"][0])
@@ -154,11 +138,6 @@ def main():
 
     os.makedirs("plots", exist_ok=True)
 
-    try:    
-        object_labels_array = combine_object_labels_from_usage_labels(object_usage_labels, scene_graphs, mask_fixtures)
-    except Exception as e:
-        print(f"Error returning inuse segments per object: {e}")
-        pdb.set_trace()
 
     fig, ax = plt.subplots(figsize=(25, 15))
     all_object_labels = list(
@@ -170,7 +149,33 @@ def main():
         plot_object_touches(
             track_sequence=association_data["tracks"], axis=ax, y_position=all_object_labels.index(association_data["name"])
         )
-    plot_object_usage_segments(object_labels_array, ax, all_object_labels)
+
+    # Read object usage labels from jsonl file
+    object_usage_labels_path = f"{args.object_usage_labels_folder}/object_usage_labels_{args.video_id}.jsonl"
+    if os.path.exists(object_usage_labels_path):
+        print(f"Reading object usage labels from {object_usage_labels_path}")
+
+        with open(object_usage_labels_path, "r") as f:
+            object_usage_labels = [json.loads(line) for line in f]
+
+        # Read scene graphs from jsonl file
+        scene_graphs_path = f"outputs/scene_graphs/scene_graphs_{args.video_id}.jsonl"
+        if not os.path.exists(scene_graphs_path):
+            raise FileNotFoundError(f"Scene graphs file not found: {scene_graphs_path}")
+        
+        with open(scene_graphs_path, "r") as f:
+            scene_graphs = [json.loads(line) for line in f]
+
+        try:    
+            object_labels_array = combine_object_labels_from_usage_labels(object_usage_labels, scene_graphs, mask_fixtures)
+        except Exception as e:
+            print(f"Error returning inuse segments per object: {e}")
+            pdb.set_trace()
+
+        plot_object_usage_segments(object_labels_array, ax, all_object_labels)
+
+    else:
+        print(f"No object usage labels found for video_id: {args.video_id}")
 
     ax.set_xlabel("Time (minutes:seconds)")
     video_end_time = action_narrations.iloc[-1]["end_timestamp"]
@@ -188,7 +193,7 @@ def main():
     fig.tight_layout()
     ## turn on grid
     ax.grid(True)
-    fig.savefig(f"plots/object_touches_usage_{args.video_id}.png")
+    fig.savefig(f"plots/object_labels_combined_{args.video_id}.png")
 
 
 if __name__ == "__main__":
