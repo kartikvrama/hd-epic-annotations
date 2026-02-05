@@ -1,0 +1,3942 @@
+{
+ "P07-20240529-131737": [
+  [
+   0,
+   592.417,
+   "passive",
+   "tea towel"
+  ],
+  [
+   592.417,
+   599.39406,
+   "active",
+   "tea towel"
+  ],
+  [
+   599.39406,
+   607.9,
+   "passive",
+   "tea towel"
+  ],
+  [
+   0,
+   490.818,
+   "passive",
+   "chopping board"
+  ],
+  [
+   490.818,
+   491.82858,
+   "active",
+   "chopping board"
+  ],
+  [
+   491.82858,
+   607.9,
+   "passive",
+   "chopping board"
+  ],
+  [
+   0,
+   487.885,
+   "passive",
+   "lettuce2"
+  ],
+  [
+   487.885,
+   490.43464,
+   "active",
+   "lettuce2"
+  ],
+  [
+   490.43464,
+   491.95465,
+   "passive",
+   "lettuce2"
+  ],
+  [
+   491.95465,
+   542.61379,
+   "active",
+   "lettuce2"
+  ],
+  [
+   542.61379,
+   607.9,
+   "passive",
+   "lettuce2"
+  ],
+  [
+   0,
+   485.029,
+   "passive",
+   "lettuce1"
+  ],
+  [
+   485.029,
+   487.33575,
+   "active",
+   "lettuce1"
+  ],
+  [
+   487.33575,
+   607.9,
+   "passive",
+   "lettuce1"
+  ],
+  [
+   0,
+   420.962,
+   "passive",
+   "wooden spoon"
+  ],
+  [
+   420.962,
+   467.91709,
+   "active",
+   "wooden spoon"
+  ],
+  [
+   467.91709,
+   607.9,
+   "passive",
+   "wooden spoon"
+  ],
+  [
+   0,
+   420.099,
+   "passive",
+   "wooden spatula"
+  ],
+  [
+   420.099,
+   420.53665,
+   "active",
+   "wooden spatula"
+  ],
+  [
+   420.53665,
+   607.9,
+   "passive",
+   "wooden spatula"
+  ],
+  [
+   0,
+   389.778,
+   "passive",
+   "lid of spice jar4"
+  ],
+  [
+   389.778,
+   390.31589,
+   "active",
+   "lid of spice jar4"
+  ],
+  [
+   390.31589,
+   400.956,
+   "passive",
+   "lid of spice jar4"
+  ],
+  [
+   400.956,
+   405.22858,
+   "active",
+   "lid of spice jar4"
+  ],
+  [
+   405.22858,
+   607.9,
+   "passive",
+   "lid of spice jar4"
+  ],
+  [
+   0,
+   368.959,
+   "passive",
+   "lid of spice jar3"
+  ],
+  [
+   368.959,
+   369.22606,
+   "active",
+   "lid of spice jar3"
+  ],
+  [
+   369.22606,
+   378.124,
+   "passive",
+   "lid of spice jar3"
+  ],
+  [
+   378.124,
+   383.44961,
+   "active",
+   "lid of spice jar3"
+  ],
+  [
+   383.44961,
+   607.9,
+   "passive",
+   "lid of spice jar3"
+  ],
+  [
+   0,
+   355.886,
+   "passive",
+   "lid of spice jar5"
+  ],
+  [
+   355.886,
+   356.39177,
+   "active",
+   "lid of spice jar5"
+  ],
+  [
+   356.39177,
+   363.90742,
+   "passive",
+   "lid of spice jar5"
+  ],
+  [
+   363.90742,
+   366.94589,
+   "active",
+   "lid of spice jar5"
+  ],
+  [
+   366.94589,
+   607.9,
+   "passive",
+   "lid of spice jar5"
+  ],
+  [
+   0,
+   336.079,
+   "passive",
+   "lid of spice jar1"
+  ],
+  [
+   336.079,
+   336.49077,
+   "active",
+   "lid of spice jar1"
+  ],
+  [
+   336.49077,
+   349.40253,
+   "passive",
+   "lid of spice jar1"
+  ],
+  [
+   349.40253,
+   353.13275,
+   "active",
+   "lid of spice jar1"
+  ],
+  [
+   353.13275,
+   607.9,
+   "passive",
+   "lid of spice jar1"
+  ],
+  [
+   0,
+   332.02144,
+   "passive",
+   "spice jar5"
+  ],
+  [
+   332.02144,
+   334.00465,
+   "active",
+   "spice jar5"
+  ],
+  [
+   334.00465,
+   353.93023,
+   "passive",
+   "spice jar5"
+  ],
+  [
+   353.93023,
+   363.44946,
+   "active",
+   "spice jar5"
+  ],
+  [
+   363.44946,
+   405.61,
+   "passive",
+   "spice jar5"
+  ],
+  [
+   405.61,
+   408.79631,
+   "active",
+   "spice jar5"
+  ],
+  [
+   408.79631,
+   409.902,
+   "passive",
+   "spice jar5"
+  ],
+  [
+   409.902,
+   417.69477,
+   "active",
+   "spice jar5"
+  ],
+  [
+   417.69477,
+   607.9,
+   "passive",
+   "spice jar5"
+  ],
+  [
+   0,
+   322.869,
+   "passive",
+   "spice jar4"
+  ],
+  [
+   322.869,
+   334.74077,
+   "active",
+   "spice jar4"
+  ],
+  [
+   334.74077,
+   387.879,
+   "passive",
+   "spice jar4"
+  ],
+  [
+   387.879,
+   405.78121,
+   "active",
+   "spice jar4"
+  ],
+  [
+   405.78121,
+   409.778,
+   "passive",
+   "spice jar4"
+  ],
+  [
+   409.778,
+   416.06977,
+   "active",
+   "spice jar4"
+  ],
+  [
+   416.06977,
+   607.9,
+   "passive",
+   "spice jar4"
+  ],
+  [
+   0,
+   310.588,
+   "passive",
+   "spice jar3"
+  ],
+  [
+   310.588,
+   334.85841,
+   "active",
+   "spice jar3"
+  ],
+  [
+   334.85841,
+   367.518,
+   "passive",
+   "spice jar3"
+  ],
+  [
+   367.518,
+   383.86628,
+   "active",
+   "spice jar3"
+  ],
+  [
+   383.86628,
+   408.57069,
+   "passive",
+   "spice jar3"
+  ],
+  [
+   408.57069,
+   417.76977,
+   "active",
+   "spice jar3"
+  ],
+  [
+   417.76977,
+   607.9,
+   "passive",
+   "spice jar3"
+  ],
+  [
+   0,
+   297.31831,
+   "passive",
+   "spice jar2"
+  ],
+  [
+   297.31831,
+   298.84956,
+   "active",
+   "spice jar2"
+  ],
+  [
+   298.84956,
+   607.9,
+   "passive",
+   "spice jar2"
+  ],
+  [
+   0,
+   296.153,
+   "passive",
+   "spice jar1"
+  ],
+  [
+   296.153,
+   348.65253,
+   "active",
+   "spice jar1"
+  ],
+  [
+   348.65253,
+   349.786,
+   "passive",
+   "spice jar1"
+  ],
+  [
+   349.786,
+   353.14177,
+   "active",
+   "spice jar1"
+  ],
+  [
+   353.14177,
+   409.822,
+   "passive",
+   "spice jar1"
+  ],
+  [
+   409.822,
+   415.03643,
+   "active",
+   "spice jar1"
+  ],
+  [
+   415.03643,
+   607.9,
+   "passive",
+   "spice jar1"
+  ],
+  [
+   0,
+   259.47093,
+   "passive",
+   "olive oil cap"
+  ],
+  [
+   259.47093,
+   259.75664,
+   "active",
+   "olive oil cap"
+  ],
+  [
+   259.75664,
+   607.9,
+   "passive",
+   "olive oil cap"
+  ],
+  [
+   0,
+   251.978,
+   "passive",
+   "bottle of olive oil"
+  ],
+  [
+   251.978,
+   253.9843,
+   "active",
+   "bottle of olive oil"
+  ],
+  [
+   253.9843,
+   256.643,
+   "passive",
+   "bottle of olive oil"
+  ],
+  [
+   256.643,
+   270.36379,
+   "active",
+   "bottle of olive oil"
+  ],
+  [
+   270.36379,
+   607.9,
+   "passive",
+   "bottle of olive oil"
+  ],
+  [
+   0,
+   249.761,
+   "passive",
+   "measuring spoons"
+  ],
+  [
+   249.761,
+   276.21608,
+   "active",
+   "measuring spoons"
+  ],
+  [
+   276.21608,
+   336.781,
+   "passive",
+   "measuring spoons"
+  ],
+  [
+   336.781,
+   400.20478,
+   "active",
+   "measuring spoons"
+  ],
+  [
+   400.20478,
+   607.9,
+   "passive",
+   "measuring spoons"
+  ],
+  [
+   0,
+   243.613,
+   "passive",
+   "piece of paper"
+  ],
+  [
+   243.613,
+   246.77144,
+   "active",
+   "piece of paper"
+  ],
+  [
+   246.77144,
+   607.9,
+   "passive",
+   "piece of paper"
+  ],
+  [
+   0,
+   131.966,
+   "passive",
+   "piece of kitchen roll"
+  ],
+  [
+   131.966,
+   135.326,
+   "active",
+   "piece of kitchen roll"
+  ],
+  [
+   135.326,
+   185.518,
+   "passive",
+   "piece of kitchen roll"
+  ],
+  [
+   185.518,
+   197.34956,
+   "active",
+   "piece of kitchen roll"
+  ],
+  [
+   197.34956,
+   236.2843,
+   "passive",
+   "piece of kitchen roll"
+  ],
+  [
+   236.2843,
+   241.8843,
+   "active",
+   "piece of kitchen roll"
+  ],
+  [
+   241.8843,
+   607.9,
+   "passive",
+   "piece of kitchen roll"
+  ],
+  [
+   0,
+   129.474,
+   "passive",
+   "kitchen roll"
+  ],
+  [
+   129.474,
+   134.69215,
+   "active",
+   "kitchen roll"
+  ],
+  [
+   134.69215,
+   607.9,
+   "passive",
+   "kitchen roll"
+  ],
+  [
+   0,
+   122.143,
+   "passive",
+   "rectangular tray"
+  ],
+  [
+   122.143,
+   126.27965,
+   "active",
+   "rectangular tray"
+  ],
+  [
+   126.27965,
+   276.95,
+   "passive",
+   "rectangular tray"
+  ],
+  [
+   276.95,
+   280.18194,
+   "active",
+   "rectangular tray"
+  ],
+  [
+   280.18194,
+   452.029,
+   "passive",
+   "rectangular tray"
+  ],
+  [
+   452.029,
+   456.24317,
+   "active",
+   "rectangular tray"
+  ],
+  [
+   456.24317,
+   464.617,
+   "passive",
+   "rectangular tray"
+  ],
+  [
+   464.617,
+   470.96075,
+   "active",
+   "rectangular tray"
+  ],
+  [
+   470.96075,
+   607.9,
+   "passive",
+   "rectangular tray"
+  ],
+  [
+   0,
+   121.484,
+   "passive",
+   "circular tray"
+  ],
+  [
+   121.484,
+   123.54215,
+   "active",
+   "circular tray"
+  ],
+  [
+   123.54215,
+   607.9,
+   "passive",
+   "circular tray"
+  ],
+  [
+   0,
+   68.504,
+   "passive",
+   "colander"
+  ],
+  [
+   68.504,
+   72.69138,
+   "active",
+   "colander"
+  ],
+  [
+   72.69138,
+   89.152,
+   "passive",
+   "colander"
+  ],
+  [
+   89.152,
+   114.00846,
+   "active",
+   "colander"
+  ],
+  [
+   114.00846,
+   127.05465,
+   "passive",
+   "colander"
+  ],
+  [
+   127.05465,
+   128.11715,
+   "active",
+   "colander"
+  ],
+  [
+   128.11715,
+   136.17965,
+   "passive",
+   "colander"
+  ],
+  [
+   136.17965,
+   142.59215,
+   "active",
+   "colander"
+  ],
+  [
+   142.59215,
+   551.71,
+   "passive",
+   "colander"
+  ],
+  [
+   551.71,
+   554.68572,
+   "active",
+   "colander"
+  ],
+  [
+   554.68572,
+   558.941,
+   "passive",
+   "colander"
+  ],
+  [
+   558.941,
+   563.48879,
+   "active",
+   "colander"
+  ],
+  [
+   563.48879,
+   581.477,
+   "passive",
+   "colander"
+  ],
+  [
+   581.477,
+   590.94961,
+   "active",
+   "colander"
+  ],
+  [
+   590.94961,
+   607.9,
+   "passive",
+   "colander"
+  ],
+  [
+   0,
+   68.374,
+   "passive",
+   "saucepan lid"
+  ],
+  [
+   68.374,
+   69.90622,
+   "active",
+   "saucepan lid"
+  ],
+  [
+   69.90622,
+   607.9,
+   "passive",
+   "saucepan lid"
+  ],
+  [
+   0,
+   43.47456,
+   "passive",
+   "chopstick"
+  ],
+  [
+   43.47456,
+   46.03101,
+   "active",
+   "chopstick"
+  ],
+  [
+   46.03101,
+   607.9,
+   "passive",
+   "chopstick"
+  ],
+  [
+   0,
+   43.45894,
+   "passive",
+   "can opener"
+  ],
+  [
+   43.45894,
+   64.64177,
+   "active",
+   "can opener"
+  ],
+  [
+   64.64177,
+   607.9,
+   "passive",
+   "can opener"
+  ],
+  [
+   0,
+   32.313,
+   "passive",
+   "phone"
+  ],
+  [
+   32.313,
+   37.21715,
+   "active",
+   "phone"
+  ],
+  [
+   37.21715,
+   607.9,
+   "passive",
+   "phone"
+  ],
+  [
+   0,
+   24.276,
+   "passive",
+   "cheese"
+  ],
+  [
+   24.276,
+   27.42478,
+   "active",
+   "cheese"
+  ],
+  [
+   27.42478,
+   27.819,
+   "passive",
+   "cheese"
+  ],
+  [
+   27.819,
+   28.50216,
+   "active",
+   "cheese"
+  ],
+  [
+   28.50216,
+   607.9,
+   "passive",
+   "cheese"
+  ],
+  [
+   0,
+   22.422,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   22.422,
+   23.18194,
+   "active",
+   "cherry tomatoes"
+  ],
+  [
+   23.18194,
+   27.707,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   27.707,
+   28.49054,
+   "active",
+   "cherry tomatoes"
+  ],
+  [
+   28.49054,
+   607.9,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   0,
+   18.436,
+   "passive",
+   "honey"
+  ],
+  [
+   18.436,
+   20.24128,
+   "active",
+   "honey"
+  ],
+  [
+   20.24128,
+   29.00345,
+   "passive",
+   "honey"
+  ],
+  [
+   29.00345,
+   29.36456,
+   "active",
+   "honey"
+  ],
+  [
+   29.36456,
+   607.9,
+   "passive",
+   "honey"
+  ],
+  [
+   0,
+   16.713,
+   "passive",
+   "plastic package of lettuce"
+  ],
+  [
+   16.713,
+   17.50517,
+   "active",
+   "plastic package of lettuce"
+  ],
+  [
+   17.50517,
+   27.748,
+   "passive",
+   "plastic package of lettuce"
+  ],
+  [
+   27.748,
+   28.48472,
+   "active",
+   "plastic package of lettuce"
+  ],
+  [
+   28.48472,
+   478.273,
+   "passive",
+   "plastic package of lettuce"
+  ],
+  [
+   478.273,
+   490.14825,
+   "active",
+   "plastic package of lettuce"
+  ],
+  [
+   490.14825,
+   607.9,
+   "passive",
+   "plastic package of lettuce"
+  ],
+  [
+   0,
+   14.922,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   14.922,
+   15.85187,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   15.85187,
+   28.90159,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   28.90159,
+   29.3553,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   29.3553,
+   607.9,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   0,
+   12.76,
+   "passive",
+   "can of chickpeas"
+  ],
+  [
+   12.76,
+   13.75404,
+   "active",
+   "can of chickpeas"
+  ],
+  [
+   13.75404,
+   29.942,
+   "passive",
+   "can of chickpeas"
+  ],
+  [
+   29.942,
+   44.84956,
+   "active",
+   "can of chickpeas"
+  ],
+  [
+   44.84956,
+   46.9,
+   "passive",
+   "can of chickpeas"
+  ],
+  [
+   46.9,
+   47.33394,
+   "active",
+   "can of chickpeas"
+  ],
+  [
+   47.33394,
+   74.627,
+   "passive",
+   "can of chickpeas"
+  ],
+  [
+   74.627,
+   89.18372,
+   "active",
+   "can of chickpeas"
+  ],
+  [
+   89.18372,
+   114.659,
+   "passive",
+   "can of chickpeas"
+  ],
+  [
+   114.659,
+   119.07965,
+   "active",
+   "can of chickpeas"
+  ],
+  [
+   119.07965,
+   607.9,
+   "passive",
+   "can of chickpeas"
+  ],
+  [
+   0,
+   10.802,
+   "passive",
+   "tote bag"
+  ],
+  [
+   10.802,
+   26.35784,
+   "active",
+   "tote bag"
+  ],
+  [
+   26.35784,
+   607.9,
+   "passive",
+   "tote bag"
+  ]
+ ],
+ "P07-20240529-134410": [
+  [
+   0,
+   983.22,
+   "passive",
+   "bottle of dishwashing liquid"
+  ],
+  [
+   983.22,
+   985.9186,
+   "active",
+   "bottle of dishwashing liquid"
+  ],
+  [
+   985.9186,
+   1064.033333,
+   "passive",
+   "bottle of dishwashing liquid"
+  ],
+  [
+   0,
+   798.709,
+   "passive",
+   "spoon"
+  ],
+  [
+   798.709,
+   868.42151,
+   "active",
+   "spoon"
+  ],
+  [
+   868.42151,
+   933.937,
+   "passive",
+   "spoon"
+  ],
+  [
+   933.937,
+   934.78488,
+   "active",
+   "spoon"
+  ],
+  [
+   934.78488,
+   939.702,
+   "passive",
+   "spoon"
+  ],
+  [
+   939.702,
+   940.37312,
+   "active",
+   "spoon"
+  ],
+  [
+   940.37312,
+   1064.033333,
+   "passive",
+   "spoon"
+  ],
+  [
+   0,
+   715.855,
+   "passive",
+   "trash"
+  ],
+  [
+   715.855,
+   723.1186,
+   "active",
+   "trash"
+  ],
+  [
+   723.1186,
+   1064.033333,
+   "passive",
+   "trash"
+  ],
+  [
+   0,
+   700.195,
+   "passive",
+   "end of cucumber"
+  ],
+  [
+   700.195,
+   723.1186,
+   "active",
+   "end of cucumber"
+  ],
+  [
+   723.1186,
+   1064.033333,
+   "passive",
+   "end of cucumber"
+  ],
+  [
+   0,
+   674.721,
+   "passive",
+   "olive oil bottle"
+  ],
+  [
+   674.721,
+   678.89922,
+   "active",
+   "olive oil bottle"
+  ],
+  [
+   678.89922,
+   1064.033333,
+   "passive",
+   "olive oil bottle"
+  ],
+  [
+   0,
+   673.717,
+   "passive",
+   "top of olive oil bottle"
+  ],
+  [
+   673.717,
+   678.87145,
+   "active",
+   "top of olive oil bottle"
+  ],
+  [
+   678.87145,
+   1064.033333,
+   "passive",
+   "top of olive oil bottle"
+  ],
+  [
+   0,
+   616.89825,
+   "passive",
+   "scrubbing brush"
+  ],
+  [
+   616.89825,
+   628.89825,
+   "active",
+   "scrubbing brush"
+  ],
+  [
+   628.89825,
+   637.192,
+   "passive",
+   "scrubbing brush"
+  ],
+  [
+   637.192,
+   638.46075,
+   "active",
+   "scrubbing brush"
+  ],
+  [
+   638.46075,
+   1064.033333,
+   "passive",
+   "scrubbing brush"
+  ],
+  [
+   0,
+   549.151,
+   "passive",
+   "blue cheese piece"
+  ],
+  [
+   549.151,
+   550.151,
+   "active",
+   "blue cheese piece"
+  ],
+  [
+   550.151,
+   563.071,
+   "passive",
+   "blue cheese piece"
+  ],
+  [
+   563.071,
+   599.48038,
+   "active",
+   "blue cheese piece"
+  ],
+  [
+   599.48038,
+   1064.033333,
+   "passive",
+   "blue cheese piece"
+  ],
+  [
+   0,
+   540.085,
+   "passive",
+   "folded piece of kitchen paper"
+  ],
+  [
+   540.085,
+   543.05717,
+   "active",
+   "folded piece of kitchen paper"
+  ],
+  [
+   543.05717,
+   755.233,
+   "passive",
+   "folded piece of kitchen paper"
+  ],
+  [
+   755.233,
+   771.78811,
+   "active",
+   "folded piece of kitchen paper"
+  ],
+  [
+   771.78811,
+   1064.033333,
+   "passive",
+   "folded piece of kitchen paper"
+  ],
+  [
+   0,
+   536.525,
+   "passive",
+   "plastic packaging"
+  ],
+  [
+   536.525,
+   538.00846,
+   "active",
+   "plastic packaging"
+  ],
+  [
+   538.00846,
+   559.833,
+   "passive",
+   "plastic packaging"
+  ],
+  [
+   559.833,
+   561.82413,
+   "active",
+   "plastic packaging"
+  ],
+  [
+   561.82413,
+   682.729,
+   "passive",
+   "plastic packaging"
+  ],
+  [
+   682.729,
+   686.58472,
+   "active",
+   "plastic packaging"
+  ],
+  [
+   686.58472,
+   726.319,
+   "passive",
+   "plastic packaging"
+  ],
+  [
+   726.319,
+   734.2686,
+   "active",
+   "plastic packaging"
+  ],
+  [
+   734.2686,
+   736.297,
+   "passive",
+   "plastic packaging"
+  ],
+  [
+   736.297,
+   744.0686,
+   "active",
+   "plastic packaging"
+  ],
+  [
+   744.0686,
+   1064.033333,
+   "passive",
+   "plastic packaging"
+  ],
+  [
+   0,
+   516.78,
+   "passive",
+   "blue cheese"
+  ],
+  [
+   516.78,
+   538.23573,
+   "active",
+   "blue cheese"
+  ],
+  [
+   538.23573,
+   544.715,
+   "passive",
+   "blue cheese"
+  ],
+  [
+   544.715,
+   549.18217,
+   "active",
+   "blue cheese"
+  ],
+  [
+   549.18217,
+   1064.033333,
+   "passive",
+   "blue cheese"
+  ],
+  [
+   0,
+   501.308,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   501.308,
+   504.73692,
+   "active",
+   "tea towel2"
+  ],
+  [
+   504.73692,
+   641.163,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   641.163,
+   648.77325,
+   "active",
+   "tea towel2"
+  ],
+  [
+   648.77325,
+   773.52,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   773.52,
+   795.8686,
+   "active",
+   "tea towel2"
+  ],
+  [
+   795.8686,
+   803.55,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   803.55,
+   807.9186,
+   "active",
+   "tea towel2"
+  ],
+  [
+   807.9186,
+   817.219,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   817.219,
+   867.29651,
+   "active",
+   "tea towel2"
+  ],
+  [
+   867.29651,
+   951.519,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   951.519,
+   990.1686,
+   "active",
+   "tea towel2"
+  ],
+  [
+   990.1686,
+   1064.033333,
+   "passive",
+   "tea towel2"
+  ],
+  [
+   0,
+   434.327,
+   "passive",
+   "olive7"
+  ],
+  [
+   434.327,
+   434.85935,
+   "active",
+   "olive7"
+  ],
+  [
+   434.85935,
+   1064.033333,
+   "passive",
+   "olive7"
+  ],
+  [
+   0,
+   432.239,
+   "passive",
+   "olives6"
+  ],
+  [
+   432.239,
+   432.71512,
+   "active",
+   "olives6"
+  ],
+  [
+   432.71512,
+   1064.033333,
+   "passive",
+   "olives6"
+  ],
+  [
+   0,
+   429.227,
+   "passive",
+   "olive5"
+  ],
+  [
+   429.227,
+   429.53242,
+   "active",
+   "olive5"
+  ],
+  [
+   429.53242,
+   1064.033333,
+   "passive",
+   "olive5"
+  ],
+  [
+   0,
+   428.265,
+   "passive",
+   "olive4"
+  ],
+  [
+   428.265,
+   428.90742,
+   "active",
+   "olive4"
+  ],
+  [
+   428.90742,
+   1064.033333,
+   "passive",
+   "olive4"
+  ],
+  [
+   0,
+   427.569,
+   "passive",
+   "olive3"
+  ],
+  [
+   427.569,
+   427.84012,
+   "active",
+   "olive3"
+  ],
+  [
+   427.84012,
+   1064.033333,
+   "passive",
+   "olive3"
+  ],
+  [
+   0,
+   425.055,
+   "passive",
+   "olive2"
+  ],
+  [
+   425.055,
+   427.03118,
+   "active",
+   "olive2"
+  ],
+  [
+   427.03118,
+   1064.033333,
+   "passive",
+   "olive2"
+  ],
+  [
+   0,
+   424.051,
+   "passive",
+   "olive"
+  ],
+  [
+   424.051,
+   424.32664,
+   "active",
+   "olive"
+  ],
+  [
+   424.32664,
+   1064.033333,
+   "passive",
+   "olive"
+  ],
+  [
+   0,
+   407.423,
+   "passive",
+   "lid of jar"
+  ],
+  [
+   407.423,
+   408.01906,
+   "active",
+   "lid of jar"
+  ],
+  [
+   408.01906,
+   1064.033333,
+   "passive",
+   "lid of jar"
+  ],
+  [
+   0,
+   404.882,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   404.882,
+   407.86628,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   407.86628,
+   408.581,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   408.581,
+   416.5885,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   416.5885,
+   436.662,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   436.662,
+   448.64177,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   448.64177,
+   747.654,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   747.654,
+   752.1186,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   752.1186,
+   479.34,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   479.34,
+   480.50775,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   480.50775,
+   713.749,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   713.749,
+   715.2186,
+   "active",
+   "glass jar of olives"
+  ],
+  [
+   715.2186,
+   1064.033333,
+   "passive",
+   "glass jar of olives"
+  ],
+  [
+   0,
+   312.369,
+   "passive",
+   "cucumber"
+  ],
+  [
+   312.369,
+   326.94913,
+   "active",
+   "cucumber"
+  ],
+  [
+   326.94913,
+   328.115,
+   "passive",
+   "cucumber"
+  ],
+  [
+   328.115,
+   329.19913,
+   "active",
+   "cucumber"
+  ],
+  [
+   329.19913,
+   373.339,
+   "passive",
+   "cucumber"
+  ],
+  [
+   373.339,
+   378.72384,
+   "active",
+   "cucumber"
+  ],
+  [
+   378.72384,
+   331.15,
+   "passive",
+   "cucumber"
+  ],
+  [
+   331.15,
+   353.60538,
+   "active",
+   "cucumber"
+  ],
+  [
+   353.60538,
+   379.004,
+   "passive",
+   "cucumber"
+  ],
+  [
+   379.004,
+   394.2655,
+   "active",
+   "cucumber"
+  ],
+  [
+   394.2655,
+   705.018,
+   "passive",
+   "cucumber"
+  ],
+  [
+   705.018,
+   713.2686,
+   "active",
+   "cucumber"
+  ],
+  [
+   713.2686,
+   1064.033333,
+   "passive",
+   "cucumber"
+  ],
+  [
+   0,
+   293.336,
+   "passive",
+   "pen"
+  ],
+  [
+   293.336,
+   299.58953,
+   "active",
+   "pen"
+  ],
+  [
+   299.58953,
+   397.024,
+   "passive",
+   "pen"
+  ],
+  [
+   397.024,
+   402.27325,
+   "active",
+   "pen"
+  ],
+  [
+   402.27325,
+   485.388,
+   "passive",
+   "pen"
+  ],
+  [
+   485.388,
+   495.96608,
+   "active",
+   "pen"
+  ],
+  [
+   495.96608,
+   553.58,
+   "passive",
+   "pen"
+  ],
+  [
+   553.58,
+   559.22384,
+   "active",
+   "pen"
+  ],
+  [
+   559.22384,
+   1064.033333,
+   "passive",
+   "pen"
+  ],
+  [
+   0,
+   282.447,
+   "passive",
+   "tomatoes"
+  ],
+  [
+   282.447,
+   283.64059,
+   "active",
+   "tomatoes"
+  ],
+  [
+   283.64059,
+   284.451,
+   "passive",
+   "tomatoes"
+  ],
+  [
+   284.451,
+   285.63538,
+   "active",
+   "tomatoes"
+  ],
+  [
+   285.63538,
+   1064.033333,
+   "passive",
+   "tomatoes"
+  ],
+  [
+   0,
+   238.866,
+   "passive",
+   "knife"
+  ],
+  [
+   238.866,
+   281.56105,
+   "active",
+   "knife"
+  ],
+  [
+   281.56105,
+   319.9,
+   "passive",
+   "knife"
+  ],
+  [
+   319.9,
+   321.91755,
+   "active",
+   "knife"
+  ],
+  [
+   321.91755,
+   326.816,
+   "passive",
+   "knife"
+  ],
+  [
+   326.816,
+   354.29288,
+   "active",
+   "knife"
+  ],
+  [
+   354.29288,
+   377.492,
+   "passive",
+   "knife"
+  ],
+  [
+   377.492,
+   392.30717,
+   "active",
+   "knife"
+  ],
+  [
+   392.30717,
+   408.327,
+   "passive",
+   "knife"
+  ],
+  [
+   408.327,
+   416.25517,
+   "active",
+   "knife"
+  ],
+  [
+   416.25517,
+   437.39,
+   "passive",
+   "knife"
+  ],
+  [
+   437.39,
+   449.661,
+   "active",
+   "knife"
+  ],
+  [
+   449.661,
+   518.949,
+   "passive",
+   "knife"
+  ],
+  [
+   518.949,
+   521.37209,
+   "active",
+   "knife"
+  ],
+  [
+   521.37209,
+   527.261,
+   "passive",
+   "knife"
+  ],
+  [
+   527.261,
+   529.53118,
+   "active",
+   "knife"
+  ],
+  [
+   529.53118,
+   544.175,
+   "passive",
+   "knife"
+  ],
+  [
+   544.175,
+   548.59884,
+   "active",
+   "knife"
+  ],
+  [
+   548.59884,
+   992.015,
+   "passive",
+   "knife"
+  ],
+  [
+   992.015,
+   992.9186,
+   "active",
+   "knife"
+  ],
+  [
+   992.9186,
+   1064.033333,
+   "passive",
+   "knife"
+  ],
+  [
+   0,
+   199.909,
+   "passive",
+   "another empty packaging"
+  ],
+  [
+   199.909,
+   200.86016,
+   "active",
+   "another empty packaging"
+  ],
+  [
+   200.86016,
+   680.055,
+   "passive",
+   "another empty packaging"
+  ],
+  [
+   680.055,
+   694.37043,
+   "active",
+   "another empty packaging"
+  ],
+  [
+   694.37043,
+   1064.033333,
+   "passive",
+   "another empty packaging"
+  ],
+  [
+   0,
+   198.654,
+   "passive",
+   "cardboard packaging"
+  ],
+  [
+   198.654,
+   200.847,
+   "active",
+   "cardboard packaging"
+  ],
+  [
+   200.847,
+   680.315,
+   "passive",
+   "cardboard packaging"
+  ],
+  [
+   680.315,
+   681.45478,
+   "active",
+   "cardboard packaging"
+  ],
+  [
+   681.45478,
+   703.268,
+   "passive",
+   "cardboard packaging"
+  ],
+  [
+   703.268,
+   705.4686,
+   "active",
+   "cardboard packaging"
+  ],
+  [
+   705.4686,
+   1064.033333,
+   "passive",
+   "cardboard packaging"
+  ],
+  [
+   0,
+   192.335,
+   "passive",
+   "last cherry tomatoes"
+  ],
+  [
+   192.335,
+   193.80205,
+   "active",
+   "last cherry tomatoes"
+  ],
+  [
+   193.80205,
+   1064.033333,
+   "passive",
+   "last cherry tomatoes"
+  ],
+  [
+   0,
+   190.654,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   190.654,
+   192.48062,
+   "active",
+   "cherry tomatoes"
+  ],
+  [
+   192.48062,
+   196.135,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   196.135,
+   197.433,
+   "active",
+   "cherry tomatoes"
+  ],
+  [
+   197.433,
+   198.224,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   198.224,
+   198.46542,
+   "active",
+   "cherry tomatoes"
+  ],
+  [
+   198.46542,
+   1064.033333,
+   "passive",
+   "cherry tomatoes"
+  ],
+  [
+   0,
+   189.589,
+   "passive",
+   "tomato stalk3"
+  ],
+  [
+   189.589,
+   190.27824,
+   "active",
+   "tomato stalk3"
+  ],
+  [
+   190.27824,
+   199.072,
+   "passive",
+   "tomato stalk3"
+  ],
+  [
+   199.072,
+   199.54437,
+   "active",
+   "tomato stalk3"
+  ],
+  [
+   199.54437,
+   201.426,
+   "passive",
+   "tomato stalk3"
+  ],
+  [
+   201.426,
+   201.82069,
+   "active",
+   "tomato stalk3"
+  ],
+  [
+   201.82069,
+   1064.033333,
+   "passive",
+   "tomato stalk3"
+  ],
+  [
+   0,
+   187.996,
+   "passive",
+   "tomato stalk2"
+  ],
+  [
+   187.996,
+   189.23062,
+   "active",
+   "tomato stalk2"
+  ],
+  [
+   189.23062,
+   1064.033333,
+   "passive",
+   "tomato stalk2"
+  ],
+  [
+   0,
+   186.837,
+   "passive",
+   "tomato"
+  ],
+  [
+   186.837,
+   187.31395,
+   "active",
+   "tomato"
+  ],
+  [
+   187.31395,
+   1064.033333,
+   "passive",
+   "tomato"
+  ],
+  [
+   0,
+   185.901,
+   "passive",
+   "tomato stalk"
+  ],
+  [
+   185.901,
+   187.55205,
+   "active",
+   "tomato stalk"
+  ],
+  [
+   187.55205,
+   1064.033333,
+   "passive",
+   "tomato stalk"
+  ],
+  [
+   0,
+   180.798,
+   "passive",
+   "another packet of cherry tomatoes"
+  ],
+  [
+   180.798,
+   185.57586,
+   "active",
+   "another packet of cherry tomatoes"
+  ],
+  [
+   185.57586,
+   1064.033333,
+   "passive",
+   "another packet of cherry tomatoes"
+  ],
+  [
+   0,
+   179.793,
+   "passive",
+   "packets of cherry tomatoes"
+  ],
+  [
+   179.793,
+   184.44491,
+   "active",
+   "packets of cherry tomatoes"
+  ],
+  [
+   184.44491,
+   201.979,
+   "passive",
+   "packets of cherry tomatoes"
+  ],
+  [
+   201.979,
+   210.32241,
+   "active",
+   "packets of cherry tomatoes"
+  ],
+  [
+   210.32241,
+   210.079,
+   "passive",
+   "packets of cherry tomatoes"
+  ],
+  [
+   210.079,
+   210.33384,
+   "active",
+   "packets of cherry tomatoes"
+  ],
+  [
+   210.33384,
+   236.424,
+   "passive",
+   "packets of cherry tomatoes"
+  ],
+  [
+   236.424,
+   237.47757,
+   "active",
+   "packets of cherry tomatoes"
+  ],
+  [
+   237.47757,
+   687.367,
+   "passive",
+   "packets of cherry tomatoes"
+  ],
+  [
+   687.367,
+   692.44186,
+   "active",
+   "packets of cherry tomatoes"
+  ],
+  [
+   692.44186,
+   1064.033333,
+   "passive",
+   "packets of cherry tomatoes"
+  ],
+  [
+   0,
+   166.854,
+   "passive",
+   "metal silver bowl"
+  ],
+  [
+   166.854,
+   171.71869,
+   "active",
+   "metal silver bowl"
+  ],
+  [
+   171.71869,
+   175.981,
+   "passive",
+   "metal silver bowl"
+  ],
+  [
+   175.981,
+   176.70877,
+   "active",
+   "metal silver bowl"
+  ],
+  [
+   176.70877,
+   671.17287,
+   "passive",
+   "metal silver bowl"
+  ],
+  [
+   671.17287,
+   672.09367,
+   "active",
+   "metal silver bowl"
+  ],
+  [
+   672.09367,
+   994.166,
+   "passive",
+   "metal silver bowl"
+  ],
+  [
+   994.166,
+   1054.94767,
+   "active",
+   "metal silver bowl"
+  ],
+  [
+   1054.94767,
+   1064.033333,
+   "passive",
+   "metal silver bowl"
+  ],
+  [
+   0,
+   159.824,
+   "passive",
+   "stool"
+  ],
+  [
+   159.824,
+   165.10331,
+   "active",
+   "stool"
+  ],
+  [
+   165.10331,
+   1064.033333,
+   "passive",
+   "stool"
+  ],
+  [
+   0,
+   143.995,
+   "passive",
+   "paper"
+  ],
+  [
+   143.995,
+   144.28488,
+   "active",
+   "paper"
+  ],
+  [
+   144.28488,
+   1064.033333,
+   "passive",
+   "paper"
+  ],
+  [
+   0,
+   136.52118,
+   "passive",
+   "empty package"
+  ],
+  [
+   136.52118,
+   136.72654,
+   "active",
+   "empty package"
+  ],
+  [
+   136.72654,
+   680.681,
+   "passive",
+   "empty package"
+  ],
+  [
+   680.681,
+   694.47757,
+   "active",
+   "empty package"
+  ],
+  [
+   694.47757,
+   1064.033333,
+   "passive",
+   "empty package"
+  ],
+  [
+   0,
+   79.907,
+   "passive",
+   "lettuce leaves"
+  ],
+  [
+   79.907,
+   81.52325,
+   "active",
+   "lettuce leaves"
+  ],
+  [
+   81.52325,
+   81.731,
+   "passive",
+   "lettuce leaves"
+  ],
+  [
+   81.731,
+   86.21075,
+   "active",
+   "lettuce leaves"
+  ],
+  [
+   86.21075,
+   1064.033333,
+   "passive",
+   "lettuce leaves"
+  ],
+  [
+   0,
+   66.22965,
+   "passive",
+   "phone"
+  ],
+  [
+   66.22965,
+   71.30465,
+   "active",
+   "phone"
+  ],
+  [
+   71.30465,
+   1064.033333,
+   "passive",
+   "phone"
+  ],
+  [
+   0,
+   54.743,
+   "passive",
+   "plate"
+  ],
+  [
+   54.743,
+   59.01715,
+   "active",
+   "plate"
+  ],
+  [
+   59.01715,
+   172.277,
+   "passive",
+   "plate"
+  ],
+  [
+   172.277,
+   175.45877,
+   "active",
+   "plate"
+  ],
+  [
+   175.45877,
+   302.45,
+   "passive",
+   "plate"
+  ],
+  [
+   302.45,
+   306.12287,
+   "active",
+   "plate"
+  ],
+  [
+   306.12287,
+   360.761,
+   "passive",
+   "plate"
+  ],
+  [
+   360.761,
+   362.63663,
+   "active",
+   "plate"
+  ],
+  [
+   362.63663,
+   417.1,
+   "passive",
+   "plate"
+  ],
+  [
+   417.1,
+   421.53118,
+   "active",
+   "plate"
+  ],
+  [
+   421.53118,
+   481.438,
+   "passive",
+   "plate"
+  ],
+  [
+   481.438,
+   484.59108,
+   "active",
+   "plate"
+  ],
+  [
+   484.59108,
+   703.255,
+   "passive",
+   "plate"
+  ],
+  [
+   703.255,
+   704.5686,
+   "active",
+   "plate"
+  ],
+  [
+   704.5686,
+   755.811,
+   "passive",
+   "plate"
+  ],
+  [
+   755.811,
+   762.26034,
+   "active",
+   "plate"
+  ],
+  [
+   762.26034,
+   810.632,
+   "passive",
+   "plate"
+  ],
+  [
+   810.632,
+   811.4686,
+   "active",
+   "plate"
+  ],
+  [
+   811.4686,
+   921.883,
+   "passive",
+   "plate"
+  ],
+  [
+   921.883,
+   922.73953,
+   "active",
+   "plate"
+  ],
+  [
+   922.73953,
+   933.918,
+   "passive",
+   "plate"
+  ],
+  [
+   933.918,
+   935.461,
+   "active",
+   "plate"
+  ],
+  [
+   935.461,
+   992.143,
+   "passive",
+   "plate"
+  ],
+  [
+   992.143,
+   993.5186,
+   "active",
+   "plate"
+  ],
+  [
+   993.5186,
+   1059.064,
+   "passive",
+   "plate"
+  ],
+  [
+   1059.064,
+   1064.01805,
+   "active",
+   "plate"
+  ],
+  [
+   1064.01805,
+   1064.033333,
+   "passive",
+   "plate"
+  ],
+  [
+   0,
+   46.15465,
+   "passive",
+   "digital weighing scale"
+  ],
+  [
+   46.15465,
+   49.57413,
+   "active",
+   "digital weighing scale"
+  ],
+  [
+   49.57413,
+   421.987,
+   "passive",
+   "digital weighing scale"
+  ],
+  [
+   421.987,
+   422.78118,
+   "active",
+   "digital weighing scale"
+  ],
+  [
+   422.78118,
+   923.494,
+   "passive",
+   "digital weighing scale"
+  ],
+  [
+   923.494,
+   926.39644,
+   "active",
+   "digital weighing scale"
+  ],
+  [
+   926.39644,
+   1064.033333,
+   "passive",
+   "digital weighing scale"
+  ],
+  [
+   0,
+   41.996,
+   "passive",
+   "colander"
+  ],
+  [
+   41.996,
+   43.07413,
+   "active",
+   "colander"
+  ],
+  [
+   43.07413,
+   219.113,
+   "passive",
+   "colander"
+  ],
+  [
+   219.113,
+   236.50716,
+   "active",
+   "colander"
+  ],
+  [
+   236.50716,
+   655.7843,
+   "passive",
+   "colander"
+  ],
+  [
+   655.7843,
+   655.9593,
+   "active",
+   "colander"
+  ],
+  [
+   655.9593,
+   671.287,
+   "passive",
+   "colander"
+  ],
+  [
+   671.287,
+   673.73256,
+   "active",
+   "colander"
+  ],
+  [
+   673.73256,
+   929.341,
+   "passive",
+   "colander"
+  ],
+  [
+   929.341,
+   930.75846,
+   "active",
+   "colander"
+  ],
+  [
+   930.75846,
+   977.73,
+   "passive",
+   "colander"
+  ],
+  [
+   977.73,
+   980.01329,
+   "active",
+   "colander"
+  ],
+  [
+   980.01329,
+   1064.033333,
+   "passive",
+   "colander"
+  ],
+  [
+   0,
+   16.337,
+   "passive",
+   "baking tray"
+  ],
+  [
+   16.337,
+   17.19525,
+   "active",
+   "baking tray"
+  ],
+  [
+   17.19525,
+   29.467,
+   "passive",
+   "baking tray"
+  ],
+  [
+   29.467,
+   30.19525,
+   "active",
+   "baking tray"
+  ],
+  [
+   30.19525,
+   780.763,
+   "passive",
+   "baking tray"
+  ],
+  [
+   780.763,
+   794.89922,
+   "active",
+   "baking tray"
+  ],
+  [
+   794.89922,
+   953.48,
+   "passive",
+   "baking tray"
+  ],
+  [
+   953.48,
+   978.799,
+   "active",
+   "baking tray"
+  ],
+  [
+   978.799,
+   1064.033333,
+   "passive",
+   "baking tray"
+  ],
+  [
+   0,
+   11.083,
+   "passive",
+   "tea towel"
+  ],
+  [
+   11.083,
+   34.3593,
+   "active",
+   "tea towel"
+  ],
+  [
+   34.3593,
+   1064.033333,
+   "passive",
+   "tea towel"
+  ],
+  [
+   0,
+   4.693,
+   "passive",
+   "wooden spoon"
+  ],
+  [
+   4.693,
+   39.7843,
+   "active",
+   "wooden spoon"
+  ],
+  [
+   39.7843,
+   649.653,
+   "passive",
+   "wooden spoon"
+  ],
+  [
+   649.653,
+   670.6062,
+   "active",
+   "wooden spoon"
+  ],
+  [
+   670.6062,
+   993.547,
+   "passive",
+   "wooden spoon"
+  ],
+  [
+   993.547,
+   1053.86434,
+   "active",
+   "wooden spoon"
+  ],
+  [
+   1053.86434,
+   1064.033333,
+   "passive",
+   "wooden spoon"
+  ],
+  [
+   0,
+   86.912,
+   "passive",
+   "Track 10 (skipped)"
+  ],
+  [
+   86.912,
+   91.3686,
+   "active",
+   "Track 10 (skipped)"
+  ],
+  [
+   91.3686,
+   1064.033333,
+   "passive",
+   "Track 10 (skipped)"
+  ],
+  [
+   0,
+   86.992,
+   "passive",
+   "Track 11 (skipped)"
+  ],
+  [
+   86.992,
+   91.5186,
+   "active",
+   "Track 11 (skipped)"
+  ],
+  [
+   91.5186,
+   1064.033333,
+   "passive",
+   "Track 11 (skipped)"
+  ],
+  [
+   0,
+   92.329,
+   "passive",
+   "Track 12 (skipped)"
+  ],
+  [
+   92.329,
+   97.23792,
+   "active",
+   "Track 12 (skipped)"
+  ],
+  [
+   97.23792,
+   1064.033333,
+   "passive",
+   "Track 12 (skipped)"
+  ],
+  [
+   0,
+   92.654,
+   "passive",
+   "Track 13 (skipped)"
+  ],
+  [
+   92.654,
+   97.21869,
+   "active",
+   "Track 13 (skipped)"
+  ],
+  [
+   97.21869,
+   1064.033333,
+   "passive",
+   "Track 13 (skipped)"
+  ],
+  [
+   0,
+   93.241,
+   "passive",
+   "Track 14 (skipped)"
+  ],
+  [
+   93.241,
+   97.19946,
+   "active",
+   "Track 14 (skipped)"
+  ],
+  [
+   97.19946,
+   1064.033333,
+   "passive",
+   "Track 14 (skipped)"
+  ],
+  [
+   0,
+   98.191,
+   "passive",
+   "Track 15 (skipped)"
+  ],
+  [
+   98.191,
+   106.87254,
+   "active",
+   "Track 15 (skipped)"
+  ],
+  [
+   106.87254,
+   1064.033333,
+   "passive",
+   "Track 15 (skipped)"
+  ],
+  [
+   0,
+   98.19946,
+   "passive",
+   "Track 16 (skipped)"
+  ],
+  [
+   98.19946,
+   106.87254,
+   "active",
+   "Track 16 (skipped)"
+  ],
+  [
+   106.87254,
+   1064.033333,
+   "passive",
+   "Track 16 (skipped)"
+  ],
+  [
+   0,
+   99.512,
+   "passive",
+   "Track 17 (skipped)"
+  ],
+  [
+   99.512,
+   106.85331,
+   "active",
+   "Track 17 (skipped)"
+  ],
+  [
+   106.85331,
+   1064.033333,
+   "passive",
+   "Track 17 (skipped)"
+  ],
+  [
+   0,
+   107.935,
+   "passive",
+   "Track 18 (skipped)"
+  ],
+  [
+   107.935,
+   117.50716,
+   "active",
+   "Track 18 (skipped)"
+  ],
+  [
+   117.50716,
+   1064.033333,
+   "passive",
+   "Track 18 (skipped)"
+  ],
+  [
+   0,
+   118.84,
+   "passive",
+   "Track 19 (skipped)"
+  ],
+  [
+   118.84,
+   130.60538,
+   "active",
+   "Track 19 (skipped)"
+  ],
+  [
+   130.60538,
+   1064.033333,
+   "passive",
+   "Track 19 (skipped)"
+  ],
+  [
+   0,
+   132.179,
+   "passive",
+   "Track 20 (skipped)"
+  ],
+  [
+   132.179,
+   135.41788,
+   "active",
+   "Track 20 (skipped)"
+  ],
+  [
+   135.41788,
+   1064.033333,
+   "passive",
+   "Track 20 (skipped)"
+  ],
+  [
+   0,
+   136.569,
+   "passive",
+   "Track 22 (skipped)"
+  ],
+  [
+   136.569,
+   137.10841,
+   "active",
+   "Track 22 (skipped)"
+  ],
+  [
+   137.10841,
+   1064.033333,
+   "passive",
+   "Track 22 (skipped)"
+  ],
+  [
+   0,
+   137.971,
+   "passive",
+   "Track 23 (skipped)"
+  ],
+  [
+   137.971,
+   139.5643,
+   "active",
+   "Track 23 (skipped)"
+  ],
+  [
+   139.5643,
+   1064.033333,
+   "passive",
+   "Track 23 (skipped)"
+  ],
+  [
+   0,
+   143.504,
+   "passive",
+   "Track 24 (skipped)"
+  ],
+  [
+   143.504,
+   150.02018,
+   "active",
+   "Track 24 (skipped)"
+  ],
+  [
+   150.02018,
+   1064.033333,
+   "passive",
+   "Track 24 (skipped)"
+  ],
+  [
+   0,
+   188.918,
+   "passive",
+   "Track 35 (skipped)"
+  ],
+  [
+   188.918,
+   189.56395,
+   "active",
+   "Track 35 (skipped)"
+  ],
+  [
+   189.56395,
+   1064.033333,
+   "passive",
+   "Track 35 (skipped)"
+  ],
+  [
+   0,
+   192.904,
+   "passive",
+   "Track 39 (skipped)"
+  ],
+  [
+   192.904,
+   193.81395,
+   "active",
+   "Track 39 (skipped)"
+  ],
+  [
+   193.81395,
+   1064.033333,
+   "passive",
+   "Track 39 (skipped)"
+  ],
+  [
+   0,
+   192.944,
+   "passive",
+   "Track 40 (skipped)"
+  ],
+  [
+   192.944,
+   193.81395,
+   "active",
+   "Track 40 (skipped)"
+  ],
+  [
+   193.81395,
+   1064.033333,
+   "passive",
+   "Track 40 (skipped)"
+  ],
+  [
+   0,
+   193.685,
+   "passive",
+   "Track 41 (skipped)"
+  ],
+  [
+   193.685,
+   194.75443,
+   "active",
+   "Track 41 (skipped)"
+  ],
+  [
+   194.75443,
+   1064.033333,
+   "passive",
+   "Track 41 (skipped)"
+  ],
+  [
+   0,
+   201.682,
+   "passive",
+   "Track 48 (skipped)"
+  ],
+  [
+   201.682,
+   201.86456,
+   "active",
+   "Track 48 (skipped)"
+  ],
+  [
+   201.86456,
+   1064.033333,
+   "passive",
+   "Track 48 (skipped)"
+  ],
+  [
+   0,
+   210.836,
+   "passive",
+   "Track 51 (skipped)"
+  ],
+  [
+   210.836,
+   218.9062,
+   "active",
+   "Track 51 (skipped)"
+  ],
+  [
+   218.9062,
+   1064.033333,
+   "passive",
+   "Track 51 (skipped)"
+  ],
+  [
+   0,
+   210.926,
+   "passive",
+   "Track 52 (skipped)"
+  ],
+  [
+   210.926,
+   218.87287,
+   "active",
+   "Track 52 (skipped)"
+  ],
+  [
+   218.87287,
+   1064.033333,
+   "passive",
+   "Track 52 (skipped)"
+  ],
+  [
+   0,
+   212.105,
+   "passive",
+   "Track 53 (skipped)"
+  ],
+  [
+   212.105,
+   218.92287,
+   "active",
+   "Track 53 (skipped)"
+  ],
+  [
+   218.92287,
+   1064.033333,
+   "passive",
+   "Track 53 (skipped)"
+  ],
+  [
+   0,
+   213.514,
+   "passive",
+   "Track 54 (skipped)"
+  ],
+  [
+   213.514,
+   218.9062,
+   "active",
+   "Track 54 (skipped)"
+  ],
+  [
+   218.9062,
+   1064.033333,
+   "passive",
+   "Track 54 (skipped)"
+  ],
+  [
+   0,
+   215.677,
+   "passive",
+   "Track 55 (skipped)"
+  ],
+  [
+   215.677,
+   218.92287,
+   "active",
+   "Track 55 (skipped)"
+  ],
+  [
+   218.92287,
+   1064.033333,
+   "passive",
+   "Track 55 (skipped)"
+  ],
+  [
+   0,
+   217.65,
+   "passive",
+   "Track 56 (skipped)"
+  ],
+  [
+   217.65,
+   218.88953,
+   "active",
+   "Track 56 (skipped)"
+  ],
+  [
+   218.88953,
+   1064.033333,
+   "passive",
+   "Track 56 (skipped)"
+  ],
+  [
+   0,
+   240.301,
+   "passive",
+   "Track 60 (skipped)"
+  ],
+  [
+   240.301,
+   242.44186,
+   "active",
+   "Track 60 (skipped)"
+  ],
+  [
+   242.44186,
+   1064.033333,
+   "passive",
+   "Track 60 (skipped)"
+  ],
+  [
+   0,
+   243.717,
+   "passive",
+   "Track 61 (skipped)"
+  ],
+  [
+   243.717,
+   246.83472,
+   "active",
+   "Track 61 (skipped)"
+  ],
+  [
+   246.83472,
+   1064.033333,
+   "passive",
+   "Track 61 (skipped)"
+  ],
+  [
+   0,
+   244.347,
+   "passive",
+   "Track 62 (skipped)"
+  ],
+  [
+   244.347,
+   245.58472,
+   "active",
+   "Track 62 (skipped)"
+  ],
+  [
+   245.58472,
+   1064.033333,
+   "passive",
+   "Track 62 (skipped)"
+  ],
+  [
+   0,
+   247.408,
+   "passive",
+   "Track 63 (skipped)"
+  ],
+  [
+   247.408,
+   249.299,
+   "active",
+   "Track 63 (skipped)"
+  ],
+  [
+   249.299,
+   1064.033333,
+   "passive",
+   "Track 63 (skipped)"
+  ],
+  [
+   0,
+   250.163,
+   "passive",
+   "Track 64 (skipped)"
+  ],
+  [
+   250.163,
+   251.65615,
+   "active",
+   "Track 64 (skipped)"
+  ],
+  [
+   251.65615,
+   1064.033333,
+   "passive",
+   "Track 64 (skipped)"
+  ],
+  [
+   0,
+   252.539,
+   "passive",
+   "Track 65 (skipped)"
+  ],
+  [
+   252.539,
+   253.76329,
+   "active",
+   "Track 65 (skipped)"
+  ],
+  [
+   253.76329,
+   1064.033333,
+   "passive",
+   "Track 65 (skipped)"
+  ],
+  [
+   0,
+   254.593,
+   "passive",
+   "Track 66 (skipped)"
+  ],
+  [
+   254.593,
+   255.87043,
+   "active",
+   "Track 66 (skipped)"
+  ],
+  [
+   255.87043,
+   1064.033333,
+   "passive",
+   "Track 66 (skipped)"
+  ],
+  [
+   0,
+   256.558,
+   "passive",
+   "Track 67 (skipped)"
+  ],
+  [
+   256.558,
+   258.15615,
+   "active",
+   "Track 67 (skipped)"
+  ],
+  [
+   258.15615,
+   1064.033333,
+   "passive",
+   "Track 67 (skipped)"
+  ],
+  [
+   0,
+   258.955,
+   "passive",
+   "Track 68 (skipped)"
+  ],
+  [
+   258.955,
+   260.26329,
+   "active",
+   "Track 68 (skipped)"
+  ],
+  [
+   260.26329,
+   1064.033333,
+   "passive",
+   "Track 68 (skipped)"
+  ],
+  [
+   0,
+   261.183,
+   "passive",
+   "Track 69 (skipped)"
+  ],
+  [
+   261.183,
+   262.69186,
+   "active",
+   "Track 69 (skipped)"
+  ],
+  [
+   262.69186,
+   1064.033333,
+   "passive",
+   "Track 69 (skipped)"
+  ],
+  [
+   0,
+   263.369,
+   "passive",
+   "Track 70 (skipped)"
+  ],
+  [
+   263.369,
+   265.01329,
+   "active",
+   "Track 70 (skipped)"
+  ],
+  [
+   265.01329,
+   1064.033333,
+   "passive",
+   "Track 70 (skipped)"
+  ],
+  [
+   0,
+   265.859,
+   "passive",
+   "Track 71 (skipped)"
+  ],
+  [
+   265.859,
+   267.40615,
+   "active",
+   "Track 71 (skipped)"
+  ],
+  [
+   267.40615,
+   1064.033333,
+   "passive",
+   "Track 71 (skipped)"
+  ],
+  [
+   0,
+   267.992,
+   "passive",
+   "Track 72 (skipped)"
+  ],
+  [
+   267.992,
+   269.549,
+   "active",
+   "Track 72 (skipped)"
+  ],
+  [
+   269.549,
+   1064.033333,
+   "passive",
+   "Track 72 (skipped)"
+  ],
+  [
+   0,
+   270.882,
+   "passive",
+   "Track 73 (skipped)"
+  ],
+  [
+   270.882,
+   273.08472,
+   "active",
+   "Track 73 (skipped)"
+  ],
+  [
+   273.08472,
+   1064.033333,
+   "passive",
+   "Track 73 (skipped)"
+  ],
+  [
+   0,
+   273.514,
+   "passive",
+   "Track 74 (skipped)"
+  ],
+  [
+   273.514,
+   276.47384,
+   "active",
+   "Track 74 (skipped)"
+  ],
+  [
+   276.47384,
+   1064.033333,
+   "passive",
+   "Track 74 (skipped)"
+  ],
+  [
+   0,
+   278.14,
+   "passive",
+   "Track 75 (skipped)"
+  ],
+  [
+   278.14,
+   279.80717,
+   "active",
+   "Track 75 (skipped)"
+  ],
+  [
+   279.80717,
+   1064.033333,
+   "passive",
+   "Track 75 (skipped)"
+  ],
+  [
+   0,
+   280.2,
+   "passive",
+   "Track 76 (skipped)"
+  ],
+  [
+   280.2,
+   281.80717,
+   "active",
+   "Track 76 (skipped)"
+  ],
+  [
+   281.80717,
+   1064.033333,
+   "passive",
+   "Track 76 (skipped)"
+  ],
+  [
+   0,
+   286.09,
+   "passive",
+   "Track 79 (skipped)"
+  ],
+  [
+   286.09,
+   286.58776,
+   "active",
+   "Track 79 (skipped)"
+  ],
+  [
+   286.58776,
+   1064.033333,
+   "passive",
+   "Track 79 (skipped)"
+  ],
+  [
+   0,
+   286.223,
+   "passive",
+   "Track 80 (skipped)"
+  ],
+  [
+   286.223,
+   286.71872,
+   "active",
+   "Track 80 (skipped)"
+  ],
+  [
+   286.71872,
+   1064.033333,
+   "passive",
+   "Track 80 (skipped)"
+  ],
+  [
+   0,
+   449.678,
+   "passive",
+   "Track 108 (skipped)"
+  ],
+  [
+   449.678,
+   451.71869,
+   "active",
+   "Track 108 (skipped)"
+  ],
+  [
+   451.71869,
+   1064.033333,
+   "passive",
+   "Track 108 (skipped)"
+  ],
+  [
+   0,
+   449.964,
+   "passive",
+   "Track 109 (skipped)"
+  ],
+  [
+   449.964,
+   453.54562,
+   "active",
+   "Track 109 (skipped)"
+  ],
+  [
+   453.54562,
+   1064.033333,
+   "passive",
+   "Track 109 (skipped)"
+  ],
+  [
+   0,
+   454.201,
+   "passive",
+   "Track 110 (skipped)"
+  ],
+  [
+   454.201,
+   457.48792,
+   "active",
+   "Track 110 (skipped)"
+  ],
+  [
+   457.48792,
+   1064.033333,
+   "passive",
+   "Track 110 (skipped)"
+  ],
+  [
+   0,
+   458.344,
+   "passive",
+   "Track 111 (skipped)"
+  ],
+  [
+   458.344,
+   459.25716,
+   "active",
+   "Track 111 (skipped)"
+  ],
+  [
+   459.25716,
+   1064.033333,
+   "passive",
+   "Track 111 (skipped)"
+  ],
+  [
+   0,
+   458.424,
+   "passive",
+   "Track 112 (skipped)"
+  ],
+  [
+   458.424,
+   460.73792,
+   "active",
+   "Track 112 (skipped)"
+  ],
+  [
+   460.73792,
+   1064.033333,
+   "passive",
+   "Track 112 (skipped)"
+  ],
+  [
+   0,
+   461.529,
+   "passive",
+   "Track 113 (skipped)"
+  ],
+  [
+   461.529,
+   463.161,
+   "active",
+   "Track 113 (skipped)"
+  ],
+  [
+   463.161,
+   1064.033333,
+   "passive",
+   "Track 113 (skipped)"
+  ],
+  [
+   0,
+   461.63,
+   "passive",
+   "Track 114 (skipped)"
+  ],
+  [
+   461.63,
+   463.19946,
+   "active",
+   "Track 114 (skipped)"
+  ],
+  [
+   463.19946,
+   1064.033333,
+   "passive",
+   "Track 114 (skipped)"
+  ],
+  [
+   0,
+   463.965,
+   "passive",
+   "Track 115 (skipped)"
+  ],
+  [
+   463.965,
+   465.79562,
+   "active",
+   "Track 115 (skipped)"
+  ],
+  [
+   465.79562,
+   1064.033333,
+   "passive",
+   "Track 115 (skipped)"
+  ],
+  [
+   0,
+   464.005,
+   "passive",
+   "Track 116 (skipped)"
+  ],
+  [
+   464.005,
+   468.34108,
+   "active",
+   "Track 116 (skipped)"
+  ],
+  [
+   468.34108,
+   1064.033333,
+   "passive",
+   "Track 116 (skipped)"
+  ],
+  [
+   0,
+   469.194,
+   "passive",
+   "Track 117 (skipped)"
+  ],
+  [
+   469.194,
+   470.19525,
+   "active",
+   "Track 117 (skipped)"
+  ],
+  [
+   470.19525,
+   1064.033333,
+   "passive",
+   "Track 117 (skipped)"
+  ],
+  [
+   0,
+   471.36192,
+   "passive",
+   "Track 118 (skipped)"
+  ],
+  [
+   471.36192,
+   473.40358,
+   "active",
+   "Track 118 (skipped)"
+  ],
+  [
+   473.40358,
+   1064.033333,
+   "passive",
+   "Track 118 (skipped)"
+  ],
+  [
+   0,
+   471.873,
+   "passive",
+   "Track 119 (skipped)"
+  ],
+  [
+   471.873,
+   473.38275,
+   "active",
+   "Track 119 (skipped)"
+  ],
+  [
+   473.38275,
+   1064.033333,
+   "passive",
+   "Track 119 (skipped)"
+  ],
+  [
+   0,
+   473.811,
+   "passive",
+   "Track 120 (skipped)"
+  ],
+  [
+   473.811,
+   474.61192,
+   "active",
+   "Track 120 (skipped)"
+  ],
+  [
+   474.61192,
+   1064.033333,
+   "passive",
+   "Track 120 (skipped)"
+  ],
+  [
+   0,
+   475.277,
+   "passive",
+   "Track 121 (skipped)"
+  ],
+  [
+   475.277,
+   477.73692,
+   "active",
+   "Track 121 (skipped)"
+  ],
+  [
+   477.73692,
+   1064.033333,
+   "passive",
+   "Track 121 (skipped)"
+  ],
+  [
+   0,
+   475.948,
+   "passive",
+   "Track 122 (skipped)"
+  ],
+  [
+   475.948,
+   477.79942,
+   "active",
+   "Track 122 (skipped)"
+  ],
+  [
+   477.79942,
+   1064.033333,
+   "passive",
+   "Track 122 (skipped)"
+  ],
+  [
+   0,
+   1056.899,
+   "passive",
+   "Track 184 (skipped)"
+  ],
+  [
+   1056.899,
+   1058.64963,
+   "active",
+   "Track 184 (skipped)"
+  ],
+  [
+   1058.64963,
+   1064.033333,
+   "passive",
+   "Track 184 (skipped)"
+  ]
+ ]
+}
