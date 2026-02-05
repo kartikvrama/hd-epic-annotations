@@ -5,10 +5,49 @@ This is useful for generating new examples for the prompt system.
 """
 
 import os
+import sys
 import json
 import argparse
-from prompt_utils import generate_prompts_for_video
-from label_object_usage_llm import generate_user_prompt
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from prompt_utils import generate_prompts_for_video, normalize_text, format_event_history, seconds_to_minutes_seconds
+import pdb
+
+
+def generate_user_prompt(entry, show_empty: bool = False):
+    """
+    Generate the user prompt for a specific entry.
+    
+    Args:
+        entry: Dictionary containing object_name, time_start, time_end, and event_history
+        
+    Returns:
+        User prompt string
+    """
+    object_name = entry['object_name']
+    time_start = float(entry['time_start'])
+    time_end = float(entry['time_end'])
+    event_history = entry['event_history']
+    
+    time_start_str = seconds_to_minutes_seconds(time_start)
+    time_end_str = seconds_to_minutes_seconds(time_end)
+    
+    formatted_history = format_event_history(event_history, show_empty=show_empty)
+
+    prompt = f"""Determine if the object '{object_name}' is being used during the time period between {time_start_str} ({time_start:.2f}s) and {time_end_str} ({time_end:.2f}s).
+
+Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
+
+Event History:
+{formatted_history}
+
+Respond with the following JSON structure:""" + """
+{
+  'is_used': true/false,
+  'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
+}"""
+    
+    return normalize_text(prompt)
+
 
 
 def main():
@@ -50,7 +89,8 @@ def main():
         segment_category = entry['segment_category']
         
         print(f"Processing entry {idx + 1}/{len(prompt_info)}: {object_name} ({time_start:.2f}s - {time_end:.2f}s) [{segment_category}]")
-        
+        pdb.set_trace()
+
         user_prompt = generate_user_prompt(entry, show_empty=show_empty)
         
         prompt_entry = {
