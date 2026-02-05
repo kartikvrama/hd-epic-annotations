@@ -8,6 +8,7 @@ outputs/object_usage_labels_*
 outputs/prompts/*
 outputs/scene_graphs/*
 _*.json
+images/
 
 ## VS Code settings and temporary files
 .vscode/
