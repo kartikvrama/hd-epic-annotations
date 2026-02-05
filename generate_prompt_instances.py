@@ -150,7 +150,7 @@ def main():
         
         all_prompts.append(prompt_entry)
 
-    with open(f"outputs/prompts/prompt_dict{args.video_id}_max_segment_length_{args.max_segment_length}{long_suffix}.json", "w") as f:
+    with open(f"outputs/prompts/prompt_dict_{args.video_id}_max_segment_length_{args.max_segment_length}{long_suffix}.json", "w") as f:
         json.dump(all_prompts, f, indent=1)
 
     # Save all sampled frames in all_frame_nums in the images folder, resized to 360x480
