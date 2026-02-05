@@ -1,4 +1,5 @@
 import os
+import glob
 import json
 import pickle
 import matplotlib.pyplot as plt
@@ -47,74 +48,17 @@ def plot_object_usage_segments(object_labels_array, axis, all_object_labels):
     for object_label in object_labels_array:
         if object_label["object_name"] not in all_object_labels:
             continue
-        if object_label.get("is_used") is None:
-            print(f"WARNING: Object {object_label['object_name']} has invalid usage label between {object_label['time_start']} and {object_label['time_end']}")
-            # pdb.set_trace()
-            continue
-        elif object_label["is_used"] == False: ## Skip if object was not used
-            continue
         y_position = all_object_labels.index(object_label["object_name"])
-        verbose_print(f"Object {object_label['object_name']} used between {object_label['time_start']} and {object_label['time_end']}")
-        axis.fill_betweenx(
-            [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
-            object_label["time_start"],
-            object_label["time_end"],
-            color="red",
-            alpha=0.3,
-        )
-
-
-def combine_object_labels_from_usage_labels(object_usage_labels: [dict], scene_graphs: [dict], mask_fixtures: dict) -> dict:
-    """
-    Process object_usage_labels jsonl entries to create object_labels_array.
-    Includes all entries regardless of is_used status.
-    Uses scene graphs instead of event_history to extract mask_frame_ids.
-    """
-    object_labels_array = []
-    
-    for i, usage_label in enumerate(object_usage_labels):
-        if i % 10 == 0:
-            print(f"[Getting inuse segments] Processing usage label {i} of {len(object_usage_labels)}")
-        
-        object_name = usage_label["object_name"]
-        start_timestamp = usage_label["time_start"]
-        end_timestamp = usage_label["time_end"]
-        
-        # Filter scene graphs for this object and time range
-        scene_graphs_trimmed = [
-            sg for sg in scene_graphs
-            if sg.get("object_name") == object_name
-            and sg.get("time") is not None
-            and start_timestamp <= sg["time"] <= end_timestamp
-            and sg.get("action") != "INITIAL"  # Skip INITIAL entries
-        ]
-        
-        mask_frame_ids = []
-        for scene_graph in scene_graphs_trimmed:
-            mask_id = scene_graph.get("mask_id")
-            if mask_id is None:
-                continue
-            
-            frame_number = mask_fixtures[mask_id]["frame_number"] if mask_id in mask_fixtures else None
-            mask_bbox = mask_fixtures[mask_id]["bbox"] if mask_id in mask_fixtures else None
-            mask_frame_ids.append({
-                "time": scene_graph["time"],
-                "action_type": scene_graph["action"],
-                "mask_id": mask_id,
-                "frame_number": frame_number,
-                "mask_bbox": mask_bbox,
-            })
-        
-        object_labels_array.append({
-            "object_name": object_name,
-            "time_start": start_timestamp,
-            "time_end": end_timestamp,
-            "is_used": usage_label.get("llm_response_json", {}).get("is_used", None),
-            "_explanation": usage_label.get("llm_response_json").get("explanation"),
-            "mask_frame_ids": mask_frame_ids,
-        })
-    
-    return object_labels_array
+        usage_label = object_label["annotation"].lower()
+        if usage_label == "used":
+            verbose_print(f"Object {object_label['object_name']} used between {object_label['time_start']} and {object_label['time_end']}")
+            axis.fill_betweenx(
+                [y_position - BAR_WIDTH/2, y_position + BAR_WIDTH/2],
+                object_label["time_start"],
+                object_label["time_end"],
+                color="red",
+                alpha=0.3,
+            )
 
 
 def main():
@@ -151,28 +95,14 @@ def main():
         )
 
     # Read object usage labels from jsonl file
-    object_usage_labels_path = f"{args.object_usage_labels_folder}/object_usage_labels_{args.video_id}.jsonl"
-    if os.path.exists(object_usage_labels_path):
-        print(f"Reading object usage labels from {object_usage_labels_path}")
-
-        with open(object_usage_labels_path, "r") as f:
-            object_usage_labels = [json.loads(line) for line in f]
-
-        # Read scene graphs from jsonl file
-        scene_graphs_path = f"outputs/scene_graphs/scene_graphs_{args.video_id}.jsonl"
-        if not os.path.exists(scene_graphs_path):
-            raise FileNotFoundError(f"Scene graphs file not found: {scene_graphs_path}")
-        
-        with open(scene_graphs_path, "r") as f:
-            scene_graphs = [json.loads(line) for line in f]
-
-        try:    
-            object_labels_array = combine_object_labels_from_usage_labels(object_usage_labels, scene_graphs, mask_fixtures)
-        except Exception as e:
-            print(f"Error returning inuse segments per object: {e}")
-            pdb.set_trace()
-
-        plot_object_usage_segments(object_labels_array, ax, all_object_labels)
+    usage_dir = "manual_usage_annotations"
+    annotation_files = glob.glob(os.path.join(usage_dir, "usage_labels_manual-FILE*.json"))
+    if annotation_files:
+        label_filepath = max(annotation_files, key=os.path.getmtime)
+        with open(label_filepath, "r") as f:
+            object_usage_annotations = json.load(f)
+        if args.video_id in object_usage_annotations:
+            plot_object_usage_segments(object_usage_annotations[args.video_id]["labels"], ax, all_object_labels)
 
     else:
         print(f"No object usage labels found for video_id: {args.video_id}")

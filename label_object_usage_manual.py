@@ -18,10 +18,11 @@ with open(annotation_filepath, "r") as f:
 
 label_filepath = f"manual_usage_annotations/usage_labels_manual-FILE{timestamp_annotation}.json"
 object_usage_annotations = {}
-if os.path.exists(label_filepath):
-    print(f"Loading existing object usage annotations from {label_filepath}")
-    with open(label_filepath, "r") as f:
-        object_usage_annotations = json.load(f)
+## TODO: Resume does not work after allowing custom end time.
+# if os.path.exists(label_filepath):
+#     print(f"Loading existing object usage annotations from {label_filepath}")
+#     with open(label_filepath, "r") as f:
+#         object_usage_annotations = json.load(f)
 
 video_ids = list(annotation_segments.keys())
 
@@ -42,9 +43,9 @@ for video_id in video_ids:
     for segment in time_segments:
         ## Skip if object annotation already exists
         ## TODO: Resume does not work after allowing custom end time.
-        if any(annotation["object_name"] == segment[3] and annotation["time_start"] == floor(segment[0]) and annotation["time_end"] == ceil(segment[1]) for annotation in object_usage_annotations[video_id]["labels"]):
-            print(f"Object {segment[3]} already annotated between {seconds_to_minutes_seconds(segment[0])} and {seconds_to_minutes_seconds(segment[1])}, skipping...")
-            continue
+        # if any(annotation["object_name"] == segment[3] and annotation["time_start"] == floor(segment[0]) and annotation["time_end"] == ceil(segment[1]) for annotation in object_usage_annotations[video_id]["labels"]):
+        #     print(f"Object {segment[3]} already annotated between {seconds_to_minutes_seconds(segment[0])} and {seconds_to_minutes_seconds(segment[1])}, skipping...")
+        #     continue
         if segment[3].startswith("Track"):
             continue
         if segment[3] in object_usage_annotations[video_id]["objects_ignore"]:
@@ -96,6 +97,8 @@ for video_id in video_ids:
                 )
                 time_segments.append(new_segment)
                 ## TODO: Update annotation segments file as well
+            else:
+                end_time_custom = segment_end
         if annotation == "i":
             object_usage_annotations[video_id]["objects_ignore"].append(segment[3])
             continue

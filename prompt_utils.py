@@ -2,9 +2,8 @@ import os
 import json
 import unicodedata
 import re
-from utils import seconds_to_minutes_seconds
 from copy import deepcopy
-
+from utils import seconds_to_minutes_seconds
 
 def format_scene_graph(scene_graph: dict, show_empty: bool = False) -> str:
     """Format a scene graph dictionary into a human-readable string."""

@@ -869,13 +869,13 @@
    {
     "object_name": "lettuce1",
     "time_start": 524,
-    "time_end": "",
+    "time_end": 608,
     "annotation": "used"
    },
    {
     "object_name": "chopping board",
     "time_start": 550,
-    "time_end": "",
+    "time_end": 608,
     "annotation": "not used"
    }
   ]
