@@ -11,17 +11,18 @@
 #SBATCH --exclude=xaea-12
 
 cd /coc/flash5/kvr6/repos
-./ollama/bin/ollama serve&
+OLLAMA_MODELS=/coc/flash5/kvr6/repos/ollama_models ./ollama/bin/ollama serve&
 export PYTHONPATH=/coc/flash5/kvr6/containers/envs/llmEnv/bin/python
 cd /coc/flash5/kvr6/repos/hd-epic-annotations
 
 # Read video IDs from file and loop over them
 # VIDEO_IDS_FILE="video_ids_long.txt"
 # VIDEO_IDS_FILE="video_ids_short.txt"
-VIDEO_IDS_FILE="video_ids_twentyExamples.txt"
+# VIDEO_IDS_FILE="video_ids_twentyExamples.txt"
+VIDEO_IDS_FILE="video_ids_P07.txt"
 
-MODEL_NAME="gpt-oss:20b"
-# MODEL_NAME="qwen3:30b"
+# MODEL_NAME="qwen3-vl:8b"
+MODEL_NAME="qwen3-vl:30b"
 TEMPERATURE=0.8
 MAX_NUM_PREDICT=2000
 NUM_TRIES=3
@@ -80,7 +81,7 @@ sed -n "${START_LINE},${END_LINE}p" "$VIDEO_IDS_FILE" | cat | while IFS= read -r
     ## Long mode
     # CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH --long"
     ## Short mode
-    CMD="$PYTHONPATH -u generate_scene_graphs.py --video_id $video_id; $PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH"
+    CMD="$PYTHONPATH -u label_object_usage_llm.py --video_id $video_id --model_name $MODEL_NAME --temperature $TEMPERATURE --max_num_predict $MAX_NUM_PREDICT --num_tries $NUM_TRIES --max_segment_length $MAX_SEGMENT_LENGTH"
     echo $CMD
     eval $CMD
     

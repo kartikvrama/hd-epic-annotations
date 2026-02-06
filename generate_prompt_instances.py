@@ -14,44 +14,9 @@ from prompt_utils import generate_prompts_for_video, normalize_text, format_even
 import pandas as pd
 import pdb
 from math import floor, ceil
+from tqdm import tqdm
 
-
-def generate_user_prompt(entry, show_empty: bool = False):
-    """
-    Generate the user prompt for a specific entry.
-    
-    Args:
-        entry: Dictionary containing object_name, time_start, time_end, and event_history
-        
-    Returns:
-        User prompt string
-    """
-    object_name = entry['object_name']
-    time_start = float(entry['time_start'])
-    time_end = float(entry['time_end'])
-    event_history = entry['event_history']
-    
-    time_start_str = seconds_to_minutes_seconds(time_start)
-    time_end_str = seconds_to_minutes_seconds(time_end)
-    
-    formatted_history = format_event_history(event_history, show_empty=show_empty)
-
-    prompt = f"""Determine if the object '{object_name}' is being used during the time period between {time_start_str} ({time_start:.2f}s) and {time_end_str} ({time_end:.2f}s).
-
-Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
-
-Event History:
-{formatted_history}
-
-Respond with the following JSON structure:""" + """
-{
-  'is_used': true/false,
-  'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
-}"""
-    
-    return normalize_text(prompt)
-
-
+bool_long = True
 
 def main():
     parser = argparse.ArgumentParser(description='Save all user prompts for a video ID')
@@ -61,8 +26,6 @@ def main():
                         help='Maximum segment length in seconds (default: 120)')
     parser.add_argument('--video_path', type=str, default=None,
                         help='Path to the video file (default: None)')
-    parser.add_argument('--long', action='store_true',
-                        help='Use long mode prompts (with full scene graph)')
     parser.add_argument('--output_file', type=str, default=None,
                         help='Output file path (default: outputs/prompts/user_prompts_{video_id}.json)')
     args = parser.parse_args()
@@ -71,10 +34,10 @@ def main():
         parser.error("Arg --video_id must be provided")
     
     # Always generate prompts (will delete old file if it exists)
-    print(f"Generating prompts for video_id: {args.video_id} with max_segment_length: {args.max_segment_length}, long: {args.long}")
-    long_suffix = "_long" if args.long else ""
+    print(f"Generating prompts for video_id: {args.video_id} with max_segment_length: {args.max_segment_length}, long: {bool_long}")
+    long_suffix = "_long" if bool_long else ""
     prompt_info_path = f"outputs/prompts/prompt_info_{args.video_id}_max_segment_length_{args.max_segment_length}{long_suffix}.json"
-    generate_prompts_for_video(args.video_id, args.max_segment_length, long=args.long)
+    generate_prompts_for_video(args.video_id, args.max_segment_length, long=bool_long)
     print(f"Generated prompts saved to: {prompt_info_path}")
 
     # Load narrations
@@ -97,7 +60,7 @@ def main():
     
     print(f"Found {len(prompt_info)} entries to process")
     
-    show_empty = True if args.long else False
+    show_empty = True if bool_long else False
 
     # Filter narrations for this video
     video_narrations = narrations_df[
@@ -155,7 +118,7 @@ def main():
 
     # Save all sampled frames in all_frame_nums in the images folder, resized to 360x480
     os.makedirs(images_dir, exist_ok=True)
-    for frame_num in sorted(set(all_frame_nums)):
+    for frame_num in tqdm(sorted(set(all_frame_nums))):
         cap.set(cv2.CAP_PROP_POS_FRAMES, frame_num)
         ret, frame = cap.read()
         if not ret:

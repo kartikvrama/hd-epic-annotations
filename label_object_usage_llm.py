@@ -28,7 +28,10 @@ MAX_SEGMENT_LENGTH = 120
 
 parser = argparse.ArgumentParser(description='Label object usage during time periods.')
 parser.add_argument('--video_id', type=str, required=False,
-                    help='Video ID to construct prompt_info file path (e.g., P01-20240202-171220)')
+                    help='Video ID for output path (e.g., P01-20240202-171220); derived from --prompt_file if omitted')
+parser.add_argument('--prompt_file', type=str, required=False, help='Path to prompt dict JSON')
+parser.add_argument('--no_images', action='store_true',
+                    help='Do not attach images to the prompt (text-only)')
 parser.add_argument('--model_name', type=str, required=False, default=MODEL_NAME,
                     help='Model name to use (e.g., gpt-oss:20b)')
 parser.add_argument('--temperature', type=float, required=False, default=TEMPERATURE,
@@ -39,24 +42,15 @@ parser.add_argument('--num_tries', type=int, required=False, default=NUM_TRIES,
                     help='Number of tries to use (e.g., 3)')
 parser.add_argument('--max_segment_length', type=int, required=False, default=MAX_SEGMENT_LENGTH,
                     help='Maximum segment length in seconds for prompt generation (default: 120)')
-parser.add_argument('--long', action='store_true',
-                    help='Include full scene graph in prompts instead of just objects at specific fixture')
 args = parser.parse_args()
 
 VERBOSE = False
 
-if args.long:
-    from incontext_examples.examples_objectUsage_long import PASSIVE_KETTLE_LONG, PASSIVE_FORK_LONG, ACTIVE_RIGHTGLOVE_LONG, ACTIVE_PLATE_LONG
-    LLM_EXAMPLE_PROMPTS = {
-        "passive": [PASSIVE_KETTLE_LONG, PASSIVE_FORK_LONG],
-        "active": [ACTIVE_RIGHTGLOVE_LONG, ACTIVE_PLATE_LONG],
-    }
-else:
-    from incontext_examples.examples_objectUsage_short import PASSIVE_KETTLE_SHORT, PASSIVE_FORK_SHORT, ACTIVE_RIGHTGLOVE_SHORT, ACTIVE_PLATE_SHORT
-    LLM_EXAMPLE_PROMPTS = {
-        "passive": [PASSIVE_KETTLE_SHORT, PASSIVE_FORK_SHORT],
-        "active": [ACTIVE_RIGHTGLOVE_SHORT, ACTIVE_PLATE_SHORT],
-    }
+# Default few-shot examples per segment_category (empty = no examples). Can be extended with prompt/response dicts.
+LLM_EXAMPLE_PROMPTS = {
+    "passive": [],
+    "active": [],
+}
 
 
 def count_tokens(s):
@@ -101,26 +95,31 @@ def generate_system_prompt():
     Returns:
         System prompt string
     """
-    system_prompt = """You are an expert in analyzing kitchen activities to determine if an object is being used during a specific time period. Your task is to determine whether a given object is being used during a specified time period, along with a clear explanation of your reasoning.
-    
-You will be given a history of events that occurred during the time period. The events include:
-    - High-level activity
-    - Low-level action narrations
-    - Current object locations (e.g., in the person's hand, on the countertop, etc.)
-    - Atomic actions such as picking up and placing down
+    system_instruction = """
+You are an expert Video Understanding Agent specialized in recognizing human-object interaction in kitchen environments. Your task is to annotate whether a specific object is **Functionally In Use** during a provided time window.
 
-An object is considered 'being used' if it is contributing to the high-level activity, either by actively being held by the person or passively performing a function as part of the high-level activity.
-Analyze the evidence step-by-step before providing your final answer, and provide a clear explanation of your reasoning. Think through the following questions:
-    1. If the object is in the person's hand during this period, is the person using this object to perform the high-level activity? Otherwise, it is not being used.
-    2. If the object is not in the person's hand during this period, is the object meaningfully contributing to the task being performed? Otherwise, it is not being used.
+**Definition of 'Functionally In Use':**
+An object is 'used' if it fulfills one of the following:
+1. Active Functional Interaction: The user is manipulating the object to perform a meaningful action (e.g., cutting with a knife, flipping with a spatula, eating from a fork).
+2. Passive Functional State: The object is currently fulfilling a function without human contact (e.g., a kettle boiling water, a bowl holding chopped ingredients, a pan searing meat on the stove).
 
-Provide your analysis using Chain of Thought reasoning, and respond with the following JSON structure:""" + """
+**Exclusion Criteria (The object is NOT in use if):**
+- Idle/Background: The object is visible but stationary and not serving any functional purpose.
+- Aborted Interaction: The user touches or grabs the object but releases it without performing an action.
+- Interim Holding: The user is holding the object briefly to perform a task with another object (e.g., grabbing an object from the front of the shelf to reach another object behind it).
+- Maintenance/Inspecting: The user is holding the object to clean it or inspect its contents.
+
+
+
+**Output Format:**
+Provide your analysis using Chain of Thought reasoning, and respond with the following JSON structure:
 {
-  'is_used': true/false,
-  'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
-}"""
-    
-    return normalize_text(system_prompt)
+  'is_used': boolean,
+  'prediction_confidence': 'high/medium/low',
+  'prediction_explanation': 'string'
+}
+"""
+    return normalize_text(system_instruction)
 
 
 def generate_user_prompt(entry, show_empty: bool = False):
@@ -133,41 +132,40 @@ def generate_user_prompt(entry, show_empty: bool = False):
     Returns:
         User prompt string
     """
-    object_name = entry['object_name']
+    target_object = entry['object_name']
     time_start = float(entry['time_start'])
     time_end = float(entry['time_end'])
-    event_history = entry['event_history']
-    
+
     time_start_str = seconds_to_minutes_seconds(time_start)
     time_end_str = seconds_to_minutes_seconds(time_end)
+
+    action_narrations = entry['action_narrations']
+    ## Support both list-of-dicts (prompt_dict: {narration, start_timestamp, end_timestamp}) and list-of-strings
+    narration_texts = [
+        (n.get('narration', n) if isinstance(n, dict) else n) for n in action_narrations
+    ]
+    action_narrations_str = "\n".join([f"  - {t}" for t in narration_texts])
     
-    formatted_history = format_event_history(event_history, show_empty=show_empty)
+    prompt = f"""
+Please analyze the following data:
+**Target Object:** {target_object}
+**Time Period:** {time_start_str} - {time_end_str}
+**Action Narrations:** {action_narrations_str}
+"""
 
-    prompt = f"""Determine if the object '{object_name}' is being used during the time period between {time_start_str} ({time_start:.2f}s) and {time_end_str} ({time_end:.2f}s).
-
-Analyze the event history before providing your final answer using step-by-step Chain of Thought reasoning.
-
-Event History:
-{formatted_history}
-
-Respond with the following JSON structure:""" + """
-{
-  'is_used': true/false,
-  'explanation': 'Step-by-step Chain of Thought reasoning explaining your decision...'
-}"""
-    
     return normalize_text(prompt)
 
 
-def call_ollama_object_usage(system_prompt, prompt, examples, model_args):
+def call_ollama_object_usage(system_prompt, prompt, examples, model_args, image_paths=None):
     """
     Call Ollama to determine if an object is being used.
-    
+
     Args:
         system_prompt: System prompt
         prompt: User prompt
-        model_name: Model name
-        examples: Examples
+        examples: Few-shot examples (list of dicts with 'prompt' and 'response')
+        model_args: Dict with model_name, temperature, max_num_predict, num_tries
+        image_paths: Optional list of image file paths to attach to the user message (for vision models)
     Returns:
         Response JSON dict, Response text
     """
@@ -205,6 +203,9 @@ Response: {{
                 },
                 "required": ["is_used", "explanation"]
             }
+            user_message = {'role': 'user', 'content': prompt}
+            if image_paths:
+                user_message['images'] = image_paths
             response = ollama.chat(
                 model=model_args["model_name"],
                 messages=[
@@ -212,10 +213,7 @@ Response: {{
                         'role': 'system',
                         'content': system_prompt
                     },
-                    {
-                        'role': 'user',
-                        'content': prompt
-                    }
+                    user_message
                 ],
                 format=json_schema,
                 options={"temperature": model_args["temperature"], "num_predict": model_args["max_num_predict"], "num_ctx": 150000},
@@ -254,23 +252,44 @@ Response: {{
     return {}, response_raw
 
 
+def _video_id_from_prompt_file(prompt_file):
+    """Derive video_id from prompt_dict filename, e.g. prompt_dict_P07-20240529-131737_max_segment_length_30_long.json -> P07-20240529-131737"""
+    basename = os.path.basename(prompt_file)
+    if basename.startswith("prompt_dict_") and "_max_segment_length_" in basename:
+        rest = basename[len("prompt_dict_"):]
+        video_id = rest.split("_max_segment_length_")[0]
+        return video_id
+    return None
+
+
 def main():
-    # Determine input file path
-    if args.video_id:
-        long_suffix = "_long" if args.long else ""
-        prompt_info_path = f"outputs/prompts/prompt_info_{args.video_id}_max_segment_length_{args.max_segment_length}{long_suffix}.json"
+    # Resolve input file path: --prompt_file takes precedence; else build from --video_id
+    if args.prompt_file:
+        prompt_dict_path = os.path.abspath(args.prompt_file)
+        if not os.path.isfile(prompt_dict_path):
+            parser.error(f"Prompt file not found: {prompt_dict_path}")
+        video_id = args.video_id or _video_id_from_prompt_file(prompt_dict_path)
+        if not video_id:
+            parser.error("Could not derive video_id from --prompt_file; provide --video_id")
+    elif args.video_id:
+        long_suffix = "_long"
+        prompt_dict_path = f"outputs/prompts/prompt_dict_{args.video_id}_max_segment_length_{args.max_segment_length}{long_suffix}.json"
+        if not os.path.isfile(prompt_dict_path):
+            parser.error(f"Prompt file not found: {prompt_dict_path}. Use --prompt_file to specify path.")
+        video_id = args.video_id
     else:
-        parser.error("Arg --video_id must be provided")
-    
+        parser.error("Provide either --prompt_file or --video_id")
+
     ## Print args
     print(f"Args: {args}")
-    print(f"Video ID: {args.video_id}")
+    print(f"Prompt file: {prompt_dict_path}")
+    print(f"Video ID: {video_id}")
     print(f"Model name: {args.model_name}")
     print(f"Temperature: {args.temperature}")
     print(f"Max number of predictions: {args.max_num_predict}")
     print(f"Number of tries: {args.num_tries}")
     print(f"Max segment length: {args.max_segment_length}")
-    print(f"Long mode (full scene graph): {args.long}")
+    print(f"Include images: {not args.no_images}")
 
     model_args = {
         "model_name": args.model_name,
@@ -278,70 +297,41 @@ def main():
         "max_num_predict": int(args.max_num_predict),
         "num_tries": int(args.num_tries),
     }
-    
-    # Always generate prompts (will delete old file if it exists)
-    print(f"Generating prompts for video_id: {args.video_id} with max_segment_length: {args.max_segment_length}, long: {args.long}")
-    generate_prompts_for_video(args.video_id, args.max_segment_length, long=args.long)
-    print(f"Generated prompts saved to: {prompt_info_path}")
-    
-    print(f"Processing prompt info file: {prompt_info_path}")
-    
+
+    with open(prompt_dict_path, "r", encoding="utf-8") as f:
+        prompt_info = json.load(f)
+
+    if not isinstance(prompt_info, list):
+        parser.error("Prompt file must contain a JSON array of entries")
+
     # Ensure the model is loaded
     ensure_ollama_model_loaded(args.model_name)
-    
-    # Load prompt info
-    with open(prompt_info_path, 'r', encoding='utf-8') as f:
-        prompt_info = json.load(f)
-    
-    print(f"Found {len(prompt_info)} entries to process")
-    
+
     # Determine output file path
     datetime_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-    long_suffix = "_long" if args.long else ""
+    long_suffix = "_long"
     output_dir = f"outputs/object_usage_labels_model-{args.model_name}_max-segment-length-{args.max_segment_length}{long_suffix}_temp-{int(100*args.temperature)}_numPredict-{args.max_num_predict}_tries-{args.num_tries}"
     os.makedirs(output_dir, exist_ok=True)
-    output_filename = os.path.join(output_dir, f"object_usage_labels_{args.video_id}.jsonl")
-    
-    # Load already processed entries to avoid reprocessing
-    ## Entry is processed if it has an LLM response JSON with explanation and is_used, and is_used is a boolean.
+    output_filename = os.path.join(output_dir, f"object_usage_labels_{video_id}.jsonl")
+
+    # Resume logic: load already processed entries (optional, currently disabled)
     processed_entries = set()
-    if os.path.exists(output_filename):
-        print(f"Loading existing entries from {output_filename}")
-        with open(output_filename, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                try:
-                    existing_entry = json.loads(line)
-                    if "llm_response_json" in existing_entry:
-                        llm_response_json = existing_entry['llm_response_json']
-                        if "explanation" in llm_response_json and "is_used" in llm_response_json:
-                            if isinstance(llm_response_json['is_used'], bool):
-                                # Create a unique key from object_name, time_start, and time_end
-                                key = (existing_entry.get('object_name'), 
-                                    existing_entry.get('time_start'), 
-                                    existing_entry.get('time_end'))
-                                processed_entries.add(key)
-                except json.JSONDecodeError as e:
-                    print(f"Warning: Skipping invalid JSON line in existing file: {e}")
-        print(f"Found {len(processed_entries)} already processed entries")
 
     system_prompt = generate_system_prompt()
     verbose_print(f"System prompt:\n<{system_prompt}>")
-    
 
-    show_empty = True if args.long else False
+    show_empty = True
 
     # Process each entry
     skipped_count = 0
     for idx, entry in enumerate(prompt_info):
-        object_name = entry['object_name']
-        time_start = entry['time_start']
-        time_end = entry['time_end']
-        
-        # Generate system prompt
-        examples = LLM_EXAMPLE_PROMPTS[entry['segment_category']]
+        object_name = entry["object_name"]
+        time_start = entry["time_start"]
+        time_end = entry["time_end"]
+
+        # Examples for few-shot (by segment_category)
+        segment_category = entry.get("segment_category", "passive")
+        examples = LLM_EXAMPLE_PROMPTS.get(segment_category, LLM_EXAMPLE_PROMPTS["passive"])
 
         # Check if this entry has already been processed
         entry_key = (object_name, time_start, time_end)
@@ -349,16 +339,33 @@ def main():
             skipped_count += 1
             print(f"Skipping entry {idx + 1}/{len(prompt_info)}: {object_name} ({time_start:.2f}s - {time_end:.2f}s) - already processed")
             continue
-        
+
         print(f"Processing entry {idx + 1}/{len(prompt_info)}: {object_name} ({time_start:.2f}s - {time_end:.2f}s)")
-        
+
+        # Resolve image paths for this entry (prompt_dict may have image_filepaths)
+        image_paths = []
+        if not args.no_images and entry.get("image_filepaths"):
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            for p in entry["image_filepaths"]:
+                if os.path.isabs(p) and os.path.isfile(p):
+                    image_paths.append(p)
+                elif os.path.isfile(p):
+                    image_paths.append(os.path.abspath(p))
+                else:
+                    candidate = os.path.join(script_dir, p)
+                    if os.path.isfile(candidate):
+                        image_paths.append(candidate)
+            if image_paths:
+                verbose_print(f"Attaching {len(image_paths)} images to prompt")
+
         # Generate prompts
         user_prompt = generate_user_prompt(entry, show_empty=show_empty)
         verbose_print(f"User prompt:\n<{user_prompt}>\n\n--------------------------------")
-        
-        # Call ollama
+
+        # Call ollama (with optional images for vision models)
         llm_response_json, llm_response_raw = call_ollama_object_usage(
             system_prompt, user_prompt, examples, model_args=model_args,
+            image_paths=image_paths if image_paths else None,
         )
         llm_response_text = json.dumps(llm_response_json, ensure_ascii=False)
         verbose_print(f"LLM response text:\n<{llm_response_text}>")
@@ -367,7 +374,7 @@ def main():
         output_entry = {
             "object_name": object_name,
             "time_start": time_start,
-            "segment_category": entry['segment_category'],
+            "segment_category": segment_category,
             "llm_response_raw": llm_response_raw,
             "llm_response_json": llm_response_json,
             "llm_response_text": llm_response_text,
