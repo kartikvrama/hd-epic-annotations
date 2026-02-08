@@ -199,9 +199,10 @@ Response: {{
                 "type": "object",
                 "properties": {
                     "is_used": {"type": "boolean"},
-                    "explanation": {"type": "string"}
+                    "explanation": {"type": "string"},
+                    "prediction_confidence": {"type": "string"}
                 },
-                "required": ["is_used", "explanation"]
+                "required": ["is_used", "explanation", "prediction_confidence"]
             }
             user_message = {'role': 'user', 'content': prompt}
             if image_paths:

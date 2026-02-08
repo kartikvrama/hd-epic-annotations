@@ -11,11 +11,6 @@ import pdb
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--video_id", required=True, help="Video ID to process")
-parser.add_argument(
-    "--object_usage_labels_folder",
-    default="outputs/object_usage_labels",
-    help="Folder containing object usage labels jsonl files"
-)
 args = parser.parse_args()
 
 
@@ -49,7 +44,17 @@ def plot_object_usage_segments(object_labels_array, axis, all_object_labels):
         if object_label["object_name"] not in all_object_labels:
             continue
         y_position = all_object_labels.index(object_label["object_name"])
-        usage_label = object_label["annotation"].lower()
+        if "llm_response_json" in object_label:
+            llm_response = object_label.get("llm_response_json", {})
+            if llm_response.get("is_used", False):
+                usage_label = "used"
+            else:
+                usage_label = "not used"
+        elif "annotation" in object_label:
+            usage_label = object_label["annotation"].lower()
+        else:
+            print(f"Unknown usage label for object {object_label['object_name']} between {object_label['time_start']} and {object_label['time_end']}")
+
         if usage_label == "used":
             verbose_print(f"Object {object_label['object_name']} used between {object_label['time_start']} and {object_label['time_end']}")
             axis.fill_betweenx(
@@ -95,14 +100,25 @@ def main():
         )
 
     # Read object usage labels from jsonl file
-    usage_dir = "manual_usage_annotations"
-    annotation_files = glob.glob(os.path.join(usage_dir, "usage_labels_manual-FILE*.json"))
-    if annotation_files:
-        label_filepath = max(annotation_files, key=os.path.getmtime)
-        with open(label_filepath, "r") as f:
-            object_usage_annotations = json.load(f)
-        if args.video_id in object_usage_annotations:
-            plot_object_usage_segments(object_usage_annotations[args.video_id]["labels"], ax, all_object_labels)
+
+    # ## Manual annotations
+    # usage_dir = "manual_usage_annotations"
+    # annotation_files = glob.glob(os.path.join(usage_dir, "usage_labels_manual-FILE*.json"))
+    # if annotation_files:
+    #     label_filepath = max(annotation_files, key=os.path.getmtime)
+    #     with open(label_filepath, "r") as f:
+    #         object_usage_annotations = json.load(f)
+    #     if args.video_id in object_usage_annotations:
+    #         plot_object_usage_segments(object_usage_annotations[args.video_id]["labels"], ax, all_object_labels)
+
+    ## LLM annotations
+    usage_dir = "outputs/object_usage_labels_model-qwen3-vl:30b_max-segment-length-30_long_temp-80_numPredict-2000_tries-3"
+    filename = f"object_usage_labels_{args.video_id}.jsonl"
+    filepath = os.path.join(usage_dir, filename)
+    if os.path.exists(filepath):
+        with open(filepath, "r") as f:
+            object_usage_annotations = [json.loads(line) for line in f]
+        plot_object_usage_segments(object_usage_annotations, ax, all_object_labels)
 
     else:
         print(f"No object usage labels found for video_id: {args.video_id}")
